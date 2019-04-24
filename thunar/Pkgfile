@@ -1,0 +1,38 @@
+# Description:	thunar for xfce4 desktop
+# URL:		https://xfce.org
+# Maintainer:	jolupa <jolupameister(at)gmail(dot)com>
+# Depends on:	libxfce4ui exo libpng gtk3 glib
+# Optional:	libexif dbus-glib gconf libnotify startup-notification freetype libjpeg libxfce4-panel xfconf
+
+name=thunar
+version=1.8.4
+release=1
+source=(http://archive.xfce.org/src/xfce/$name/${version%.*}/Thunar-$version.tar.bz2)
+
+build() {
+  cd Thunar-$version
+  ./configure \
+    --prefix=/usr \
+    --sysconfdir=/etc \
+    --datadir=/usr/share \
+    --sbindir=/usr/bin \
+    --libexecdir=/usr/lib \
+    --localstatedir=/var \
+    --disable-static \
+    --enable-gio-unix \
+    --enable-notifications \
+    --enable-gtk-doc=no \
+    --disable-gtk-debug \
+    --mandir=/usr/share/man \
+    --disable-nls \
+    --enable-gtk-doc-html=no \
+    --disable-debug
+ make
+
+ make DESTDIR=$PKG install
+
+ rm -r $PKG/usr/share/gtk-doc
+ rm -r $PKG/usr/lib/systemd
+ rm -r $PKG/usr/share/doc
+
+}

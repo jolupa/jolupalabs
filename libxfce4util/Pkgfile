@@ -1,0 +1,32 @@
+# Description:	libxfce4util for xfce4 desktop
+# URL:		https://xfce.org
+# Maintainer:	jolupa <jolupameister(at)gmail(dot)com>
+# Depends on:	glib
+
+name=libxfce4util
+version=4.13.2
+release=1
+source=(http://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+  cd $name-$version
+  ./configure \
+    --prefix=/usr \
+    --sysconfdir=/etc \
+    --datadir=/usr/share \
+    --sbindir=/usr/bin \
+    --libexecdir=/usr/lib \
+    --localstatedir=/var \
+    --disable-static \
+    --disable-gtk-doc \
+    --disable-gtk-debug \
+    --mandir=/usr/share/man \
+    --disable-nls \
+    --disable-gtk-doc-html \
+    --disable-debug \
+make
+
+make DESTDIR=$PKG install
+
+rm -r $PKG/usr/share/gtk-doc
+}

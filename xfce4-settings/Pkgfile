@@ -1,0 +1,35 @@
+# Description:	xfce4 settings for xfce4 desktop
+# URL:		https://xfce.org
+# Maintainer:	jolupa <jolupameister(at)gmail(dot)com>
+# Depends on:	libxfce4ui exo xfconf dbus-glib xorg-libxi xorg-libxrandr
+# Optional:	xorg-libxcursor libnotify
+
+name=xfce4-settings
+version=4.13.5
+release=1
+source=(http://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+  cd $name-$version
+  ./configure \
+    --prefix=/usr \
+    --sysconfdir=/etc \
+    --datadir=/usr/share \
+    --sbindir=/usr/bin \
+    --libexecdir=/usr/lib \
+    --localstatedir=/var \
+    --disable-static \
+    --enable-gio-unix \
+    --enable-notifications \
+    --disable-gtk-debug \
+    --mandir=/usr/share/man \
+    --disable-nls \
+    --enable-gtk-doc-html=no \
+    --disable-debug
+ make
+
+ make DESTDIR=$PKG install
+
+ #rm -r $PKG/usr/share/gtk-doc
+
+}
