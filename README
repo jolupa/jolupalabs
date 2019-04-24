@@ -1,8 +1,17 @@
-#########################
-# Install Repo for CRUX #
-#      Instruction      #
-#########################
+#############################################
+#                                           #
+#           Install Repo for CRUX           #
+#                Instruction                #
+#                                           #
+#############################################
 
 # wget --no-ch https://raw.githubusercontent.com/jolupa/jolupalabs/master/jolupalabs.httpup
 # mv jolupalabs.* /etc/ports
 # ports -u jolupalabs
+
+#############################################
+#                                           #
+#           Any question contac:            #
+#     jolupameister(at)gmail(dot)com        #
+#                                           #
+#############################################
