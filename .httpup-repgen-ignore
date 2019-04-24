@@ -1,0 +1,15 @@
+\.git
+\.svn$
+\.tar\.gz$
+\.tgz
+\tar.xz$
+\.partial$
+\.tar\.bz2$
+\.zip
+(^\/)CVS(/\$)
+.*~$
+sync.sh
+\.gif
+\.gem$
+index.html
+jolupalabs.*$
