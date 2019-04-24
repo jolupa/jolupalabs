@@ -3,6 +3,6 @@
 #      Instruction      #
 #########################
 
-# wget --no-ch https://raw.githubusercontent.com/jolupa/jolupalabs/master/jolupalabs.{httpup,pub}
+# wget --no-ch https://raw.githubusercontent.com/jolupa/jolupalabs/master/jolupalabs.httpup
 # mv jolupalabs.* /etc/ports
 # ports -u jolupalabs
