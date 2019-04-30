@@ -1,10 +1,10 @@
-# Description:	Application library for the Xfce desktop environment
+# Description:	Automatic management of removable drives and media for Thunar
 # URL:		https://www.xfce.org
 # Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
-# Depends on:	libxfce4util gtk3 p5-uri libxfce4ui
+# Depends on:	thunar exo glib gtk3 libgudev libxfce4ui libxfce4util xfconf
 
-name=exo
-version=0.12.4
+name=thunar-volman
+version=0.9.1
 release=1
 source=()
 

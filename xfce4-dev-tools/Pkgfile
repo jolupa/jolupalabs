@@ -1,10 +1,10 @@
-# Description:	Application library for the Xfce desktop environment
+# Description:	Xfce4 Development tools
 # URL:		https://www.xfce.org
 # Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
-# Depends on:	libxfce4util gtk3 p5-uri libxfce4ui
+# Depends on:	autoconf automake intltool pkgconfig
 
-name=exo
-version=0.12.4
+name=xfce4-dev-tools
+version=4.12.0
 release=1
 source=()
 
@@ -22,8 +22,8 @@ build() {
 	--libexecdir=/usr/lib \
 	--localstatedir=/var \
 	--disable-static \
-	--disable-gtk-docs \
-	--disable-gtk-2
+	--disable-gtk-docs
+	
 	make
 
 	make DESTDIR=$PKG install

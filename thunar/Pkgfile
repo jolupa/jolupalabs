@@ -1,38 +1,30 @@
-# Description:	thunar for xfce4 desktop
-# URL:		https://xfce.org
-# Maintainer:	jolupa <jolupameister(at)gmail(dot)com>
-# Depends on:	libxfce4ui exo libpng gtk3 glib
-# Optional:	libexif dbus-glib gconf libnotify startup-notification freetype libjpeg libxfce4-panel xfconf
+# Description:	Modern, gast and easy-to-use file manager for Xfce
+# URL:		https://www.xfce.org
+# Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
+# Depends on:	libxfce4ui exo libpng gtk3 glib libexif dbus-glib libnotify startup-notification freetype libjpeg-turbo xfce4-panel xfconf
 
 name=thunar
 version=1.8.4
 release=1
-source=(http://archive.xfce.org/src/xfce/$name/${version%.*}/Thunar-$version.tar.bz2)
+source=()
 
 build() {
-  cd Thunar-$version
-  ./configure \
-    --prefix=/usr \
-    --sysconfdir=/etc \
-    --datadir=/usr/share \
-    --sbindir=/usr/bin \
-    --libexecdir=/usr/lib \
-    --localstatedir=/var \
-    --disable-static \
-    --enable-gio-unix \
-    --enable-notifications \
-    --enable-gtk-doc=no \
-    --disable-gtk-debug \
-    --mandir=/usr/share/man \
-    --disable-nls \
-    --enable-gtk-doc-html=no \
-    --disable-debug
- make
+	if cd "$name-$version" 2> /dev/null; then
+		git pull
+	else
+		git clone https://git.xfce.org/xfce/$name/ "$name-$version"
+		cd "$name-$version"
+	fi
+	
+	./autogen.sh \
+	--prefix=/usr \
+	--sysconfdir=/etc \
+	--libexecdir=/usr/lib \
+	--localstatedir=/var \
+	--disable-static \
+	--disable-gtk-docs \
+	--disable-gtk-2
+	make
 
- make DESTDIR=$PKG install
-
- rm -r $PKG/usr/share/gtk-doc
- rm -r $PKG/usr/lib/systemd
- rm -r $PKG/usr/share/doc
-
+	make DESTDIR=$PKG install
 }

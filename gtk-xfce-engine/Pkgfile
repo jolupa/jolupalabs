@@ -1,12 +1,12 @@
-# Description:	Xfce's window maanger
+# Description:	Gtk engine
 # URL:		https://www.xfce.org
 # Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
 # Depends on:	gtk3
 
-name=xfwm4
-version=4.13.1
+name=gtk-xfce-engine
+version=3.2.0
 release=1
-source=(https://archive.xfce.org/src/xfce/$name/4.13/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/xfce/$name/3.2/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version
@@ -19,13 +19,7 @@ build() {
 	--disable-static \
 	--disable-gtk-docs \
 	--disable-gtk-2 \
-	--enable-notification \
-	--enable-xpresent \
-	--enable-epoxy \
-	--enable-statup-notification \
-	--enable-xsync \
-	--enable-render \
-	--enable-compositor
+	--enable-notification
 	make
 
 	make DESTDIR=$PKG install

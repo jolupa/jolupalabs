@@ -1,6 +1,1 @@
-#
-# /etc/ports/jolupalabs.httpup: jolupalabs ports
-#
-
-ROOT_DIR=/usr/ports/jolupalabs
-URL=https://raw.githubusercontent.com/jolupa/jolupalabs/master/
+Generating repository for directory '.'
