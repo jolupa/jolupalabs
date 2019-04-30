@@ -5,11 +5,13 @@ d:garcon
 d:tumbler
 d:exo
 d:xfce4-appfinder
+d:greybird-xfce
 d:xfconf
 d:xfce4-session
 d:xfwm4
 d:xfce4-dev-tools
 d:libxfce4ui
+d:mousepad
 d:xfce4-settings
 d:libxfce4util
 d:xfdesktop
@@ -38,6 +40,9 @@ f:afc31364acef5e1f28d0b33436164a18:exo/Pkgfile
 f:f68a7fa175c912bd62e4bc010685bdc5:xfce4-appfinder/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xfce4-appfinder/.md5sum
 f:241d8888369262391fc33baa9f13b6d7:xfce4-appfinder/Pkgfile
+f:7b38b41dd13133dcf83c60744ea68fab:greybird-xfce/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:greybird-xfce/.md5sum
+f:5cf9959371af29db2b93d6bb99c3a9b4:greybird-xfce/Pkgfile
 f:7fa8755a7c27c1f2e3f322c90d1ef2e6:xfconf/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xfconf/.md5sum
 f:d83fa7412d6cb2283e922f88d856d89f:xfconf/Pkgfile
@@ -53,6 +58,9 @@ f:ce8b7d8ca0825e834e4f82f9a8f71f24:xfce4-dev-tools/Pkgfile
 f:0c973cb3e20285d3f1e0c8c008d6a6a9:libxfce4ui/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:libxfce4ui/.md5sum
 f:1960991ee28011f9564c8eb5a3b83cb4:libxfce4ui/Pkgfile
+f:78e45fd2ff4caab27dfdc8c06299c2b7:mousepad/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:mousepad/.md5sum
+f:bab3b647318774951265702dd750cc1e:mousepad/Pkgfile
 f:6a5e90972c8ccbfefee1e23666fb8f29:xfce4-settings/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xfce4-settings/.md5sum
 f:65442f8ee6e11f90b556e29ca1833ff8:xfce4-settings/Pkgfile
