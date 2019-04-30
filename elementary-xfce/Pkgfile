@@ -1,0 +1,24 @@
+# Description:	Elementary Xfce theme by Shimmer Project
+# URL:		https://shimmerproject.org
+# Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
+# Depends on:	optipng gtk3
+
+name=elementary-xfce
+version=git
+release=1
+source=()
+
+build() {
+	if cd "$name-$version" 2> /dev/null; then
+		git pull
+	else
+		git clone https://github.com/shimmerproject/elementary-xfce.git "$name-$version"
+		cd "$name-$version"
+	fi
+	
+	./configure \
+	--prefix=/usr
+	
+	make
+	make DESTDIR=$PKG install
+}

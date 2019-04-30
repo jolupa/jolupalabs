@@ -1,0 +1,30 @@
+# Description:	A modern terminal emulator
+# URL:		https://www.xfce.org
+# Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
+# Depends on:	vte3
+
+name=xfce4-terminal
+version=0.8.7.4
+release=1
+source=()
+
+build() {
+	if cd "$name-$version" 2> /dev/null; then
+		git pull
+	else
+		git clone https://git.xfce.org/apps/$name/ "$name-$version"
+		cd "$name-$version"
+	fi
+	
+	./autogen.sh \
+	--prefix=/usr \
+	--sysconfdir=/etc \
+	--libexecdir=/usr/lib \
+	--localstatedir=/var \
+	--disable-static \
+	--disable-gtk-docs
+	
+	make
+
+	make DESTDIR=$PKG install
+}
