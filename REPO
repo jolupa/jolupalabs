@@ -18,6 +18,7 @@ d:xfdesktop
 d:xfce4-panel
 d:xfce4-terminal
 d:elementary-xfce
+d:qogir-theme
 f:5451feb8492c456f3fe93e843b299a60:README
 f:6256b3b29e40dfcd91b4c48fbb2438ee:thunar-volman/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:thunar-volman/.md5sum
@@ -79,3 +80,6 @@ f:afd87d3f71520227562623964a9d6b32:xfce4-terminal/Pkgfile
 f:4c2d3918b9386cdc5186598708808a65:elementary-xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:elementary-xfce/.md5sum
 f:b8d9e69a0e6d9bbcf73dba56de522644:elementary-xfce/Pkgfile
+f:719179595ffa6984ce3df97777287a5a:qogir-theme/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:qogir-theme/.md5sum
+f:577b58e598ebc5c71a7a72085a691cb8:qogir-theme/Pkgfile
