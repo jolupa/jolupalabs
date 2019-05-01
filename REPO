@@ -1,3 +1,4 @@
+d:xfce4-polkit
 d:thunar-volman
 d:gtk-xfce-engine
 d:thunar
@@ -20,6 +21,9 @@ d:xfce4-terminal
 d:elementary-xfce
 d:qogir-theme
 f:5451feb8492c456f3fe93e843b299a60:README
+f:17970006fb29a22e66c7d8677dcddb44:xfce4-polkit/.footprint
+f:7a14db4203944d5306a3e3c8d1d0b911:xfce4-polkit/.md5sum
+f:e133392b1410c1c0af879784cbf98fb0:xfce4-polkit/Pkgfile
 f:6256b3b29e40dfcd91b4c48fbb2438ee:thunar-volman/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:thunar-volman/.md5sum
 f:ad023134b71bf49e9a8714e0291c125b:thunar-volman/Pkgfile

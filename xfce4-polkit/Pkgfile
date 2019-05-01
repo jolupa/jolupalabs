@@ -1,0 +1,25 @@
+# Description:	A simple policyKit authentication agent for Xfce DE
+# URL:		https://github.com/ncopa/xfce-polkit
+# Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
+# Depends on:	gtk3 polkit
+
+name=xfce-polkit
+version=0.3
+release=1
+source=(https://github.com/ncopa/xfce-polkit/releases/download/v0.3/xfce-polkit-0.3.tar.gz)
+
+build() {
+	
+	cd $name-$version
+	aclocal
+	autoconf
+	automake --add-missing
+	./configure \
+	--prefix=/usr \
+	--sysconfdir=/etc \
+	--localstatedir=/var \
+	--libexecdir=/usr/lib/$name
+
+	make
+	make DESTDIR=$PKG install	
+}
