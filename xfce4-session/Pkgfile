@@ -5,7 +5,7 @@
 
 name=xfce4-session
 version=4.13.1
-release=1
+release=2
 source=()
 
 build() {
@@ -18,12 +18,17 @@ build() {
 	
 	./autogen.sh \
 	--prefix=/usr \
+	--sbindir=/usr/bin \
 	--sysconfdir=/etc \
-	--libexecdir=/usr/lib \
+	--libdir=/usr/lib/$name \
+	--libexecdir=/usr/lib/$name \
 	--localstatedir=/var \
 	--disable-static \
-	--disable-gtk-docs \
-	--disable-gtk-2
+	--enable-polkit \
+	--disable-debug \
+	--disable-legacy-sm \
+	--with-x \
+	--with-backend=linux
 	make
 
 	make DESTDIR=$PKG install
