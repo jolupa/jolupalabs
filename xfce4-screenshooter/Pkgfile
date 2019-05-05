@@ -1,10 +1,10 @@
-# Description:	Freedesktop.org compliant menu library
+# Description:	An application to take screenhoots
 # URL:		https://www.xfce.org
 # Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
-# Depends on:	glib libxfce4util
+# Depends on:	xfce4-panel libxfce4util libxfce4ui libsoup
 
-name=garcon
-version=0.6.2
+name=xfce4-screenshooter
+version=1.9.5
 release=1
 source=()
 
@@ -12,18 +12,18 @@ build() {
 	if cd "$name-$version" 2> /dev/null; then
 		git pull
 	else
-		git clone https://git.xfce.org/xfce/$name/ "$name-$version"
+		git clone https://git.xfce.org/apps/$name/  "$name-$version"
 		cd "$name-$version"
 	fi
-
+	
 	./autogen.sh \
 	--prefix=/usr \
 	--sysconfdir=/etc \
 	--libexecdir=/usr/lib \
 	--localstatedir=/var \
 	--disable-static \
-	--disable-gtk-docs
-	
+	--disable-gtk-docs \
+	--disable-gtk-2
 	make
 
 	make DESTDIR=$PKG install

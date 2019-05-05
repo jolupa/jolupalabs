@@ -20,7 +20,7 @@ build() {
 	--prefix=/usr \
 	--sbindir=/usr/bin \
 	--sysconfdir=/etc \
-	--libdir=/usr/lib/$name \
+	--libdir=/usr/lib \
 	--libexecdir=/usr/lib/$name \
 	--localstatedir=/var \
 	--disable-static \
