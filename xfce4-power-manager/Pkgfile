@@ -1,0 +1,33 @@
+# Description:	Power Manager for Xfce
+# URL:		https://www.xfce.org
+# Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
+# Depends on:	gtk-3 glib dbus libxfce4ui libxfce4util libnotify xfconf xfce4-panel xorg-xrandr dpms upower polkit consolekit pm-utils
+
+name=xfce4-power-manager
+version=1.6.1
+release=1
+source=()
+
+build() {
+	if cd "$name-$version" 2> /dev/null; then
+		git pull
+	else
+		git clone https://git.xfce.org/xfce/$name/ "$name-$version"
+		cd "$name-$version"
+	fi
+	
+	./autogen.sh \
+	--prefix=/usr \
+	--bindir=/usr/bin \
+	--sbindir=/usr/sbin \
+	--libexecdir=/usr/lib/ \
+	--sysconfdir=/etc \
+	--localstatedir=/var \
+	--enable-shared \
+	--disable-network-manager \
+	--disable-systemd	
+	
+	make
+
+	make DESTDIR=$PKG install
+}
