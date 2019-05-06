@@ -1,32 +1,37 @@
-# Description:	Xfce's window maanger
+# Description:	Xfce's desktop manager
 # URL:		https://www.xfce.org
 # Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
-# Depends on:	gtk3
+# Depends on:	libxfce4util xfconf libwnck-gtk3 exo thunar garcon libnotify
 
 name=xfwm4
 version=4.13.1
-release=1
-source=(https://archive.xfce.org/src/xfce/$name/4.13/$name-$version.tar.bz2)
+release=2
+source=()
 
 build() {
-	cd $name-$version
+	if cd "$name-$version" 2> /dev/null; then
+		git pull
+	else
+		git clone https://git.xfce.org/xfce/$name/ "$name-$version"
+		cd "$name-$version"
+	fi
 	
-	./configure \
+	./autogen.sh \
 	--prefix=/usr \
+	--sbindir=/usr/sbin \
+	--libexecdir=/usr/lib/$name \
 	--sysconfdir=/etc \
-	--libexecdir=/usr/lib \
 	--localstatedir=/var \
-	--disable-static \
-	--disable-gtk-docs \
-	--disable-gtk-2 \
-	--enable-notification \
-	--enable-xpresent \
+	--libdir=/usr/lib \
+	--includedir=/usr/include \
+	--libdir=/usr/lib \
+	--enable-shared \
 	--enable-epoxy \
-	--enable-statup-notification \
 	--enable-xsync \
-	--enable-render \
-	--enable-compositor
-	make
+	--enable-xpresent \
+	--enable-compositor \
+	--disable-debug \
+	--with-x
 
 	make DESTDIR=$PKG install
 }
