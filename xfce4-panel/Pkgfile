@@ -5,7 +5,7 @@
 
 name=xfce4-panel
 version=4.13.4
-release=1
+release=2
 source=()
 
 build() {
@@ -18,12 +18,17 @@ build() {
 	
 	./autogen.sh \
 	--prefix=/usr \
+	--sbindir=/usr/sbin \
+	--libexecdir=/usr/lib/$name \
 	--sysconfdir=/etc \
-	--libexecdir=/usr/lib \
 	--localstatedir=/var \
-	--disable-static \
-	--disable-gtk-docs \
-	--disable-gtk-2
+	--libdir=/usr/lib \
+	--enable-shared \
+	--disable-gtk2 \
+	--enable-gio-unix \
+	--enable-vala=auto \
+	--disable-debug
+
 	make
 
 	make DESTDIR=$PKG install
