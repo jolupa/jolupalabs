@@ -18,15 +18,11 @@ build() {
 	
 	./autogen.sh \
 	--prefix=/usr \
-	--sbindir=/usr/sbin \
 	--libexecdir=/usr/lib/$name \
-	--sysconfdir=/etc \
-	--localstatedir=/var \
-	--libdir=/usr/lib \
-	--enable-shared \
 	--disable-gtk2 \
 	--enable-gio-unix \
 	--enable-vala=auto \
+	--enable-introspection=auto \
 	--disable-debug
 
 	make

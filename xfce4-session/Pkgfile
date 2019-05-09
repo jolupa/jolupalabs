@@ -18,17 +18,11 @@ build() {
 	
 	./autogen.sh \
 	--prefix=/usr \
-	--sbindir=/usr/bin \
-	--sysconfdir=/etc \
-	--libdir=/usr/lib \
 	--libexecdir=/usr/lib/$name \
-	--localstatedir=/var \
-	--disable-static \
 	--enable-polkit \
 	--disable-debug \
 	--disable-legacy-sm \
-	--with-x \
-	--with-backend=linux
+	--with-x
 	make
 
 	make DESTDIR=$PKG install

@@ -1,4 +1,4 @@
-# Description:	Xfce's desktop manager
+# Description:	Xfce's window manager
 # URL:		https://www.xfce.org
 # Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
 # Depends on:	libxfce4util xfconf libwnck-gtk3 exo thunar garcon libnotify
@@ -18,16 +18,11 @@ build() {
 	
 	./autogen.sh \
 	--prefix=/usr \
-	--sbindir=/usr/sbin \
 	--libexecdir=/usr/lib/$name \
-	--sysconfdir=/etc \
-	--localstatedir=/var \
-	--libdir=/usr/lib \
-	--includedir=/usr/include \
-	--libdir=/usr/lib \
 	--enable-shared \
-	--enable-epoxy \
 	--enable-xsync \
+	--enable-render \
+	--enable-randr \
 	--enable-xpresent \
 	--enable-compositor \
 	--disable-debug \

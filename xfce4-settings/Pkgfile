@@ -1,7 +1,7 @@
 # Description:	Xfce's configuration system
 # URL:		https://www.xfce.org
 # Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
-# Depends on:	libxfce4ui exo xfconf dbus-glib libwnck-gtk3 xorg-libxi xorg-libxrandr xorg-libxcursor libnotify
+# Depends on:	libxfce4ui exo xfconf dbus-glib libwnck-gtk3 xorg-libxi xorg-libxrandr xorg-libxcursor libnotify libxklavier
 
 name=xfce4-settings
 version=4.13.5
@@ -18,12 +18,19 @@ build() {
 	
 	./autogen.sh \
 	--prefix=/usr \
-	--sysconfdir=/etc \
-	--libexecdir=/usr/lib \
+	--libexecdir=/usr/lib/$name \
 	--localstatedir=/var \
-	--disable-static \
 	--disable-gtk-docs \
+	--enable-upower-glib \
+	--enable-libnotify \
+	--enable-colord \
+	--enable-gio-unix \
+	--enable-xcursor \
+	--enable-libxklavier \
+	--enable-pluggable-dialogs \
+	--enable-sound-settings \
 	--disable-gtk-2
+	
 	make
 
 	make DESTDIR=$PKG install

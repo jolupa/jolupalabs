@@ -1,4 +1,4 @@
-# Description:	Modern, gast and easy-to-use file manager for Xfce
+# Description:	Modern, fast and easy-to-use file manager for Xfce
 # URL:		https://www.xfce.org
 # Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
 # Depends on:	libxfce4ui exo libpng gtk3 glib libexif dbus-glib libnotify startup-notification freetype libjpeg-turbo xfce4-panel xfconf
@@ -18,10 +18,9 @@ build() {
 	
 	./autogen.sh \
 	--prefix=/usr \
-	--sysconfdir=/etc \
-	--libexecdir=/usr/lib \
-	--localstatedir=/var \
-	--disable-static \
+	--libexecdir=/usr/lib/$name \
+	--enable-gio-unix \
+	--enable-gudev \
 	--disable-gtk-docs \
 	--disable-gtk-2
 	make

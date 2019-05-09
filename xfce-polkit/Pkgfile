@@ -15,11 +15,10 @@ build() {
 	autoconf
 	automake --add-missing
 	./configure \
-	--prefix=/usr \
-	--sysconfdir=/etc \
-	--localstatedir=/var \
-	--libexecdir=/usr/lib/$name
+	  --prefix=/usr \
+	  --libexecdir=/usr/lib/$name
 
 	make
+
 	make DESTDIR=$PKG install	
 }

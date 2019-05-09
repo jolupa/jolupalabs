@@ -19,10 +19,9 @@ build() {
 	./autogen.sh \
 	--prefix=/usr \
 	--sysconfdir=/etc \
-	--libexecdir=/usr/lib \
-	--localstatedir=/var \
-	--disable-static \
-	--disable-gtk-docs
+	--libexecdir=/usr/lib/$name \
+	--enable-introspection=auto \
+	--enable-vala=auto 
 	
 	make
 

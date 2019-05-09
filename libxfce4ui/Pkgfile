@@ -18,11 +18,12 @@ build() {
 	
 	./autogen.sh \
 	--prefix=/usr \
-	--sysconfdir=/etc \
-	--libexecdir=/usr/lib \
-	--localstatedir=/var \
+	--libexecdir=/usr/lib/$name \
 	--disable-static \
-	--disable-gtk-docs
+	--disable-gtk-2 \
+	--enable-introspection=auto \
+	--enable-vala=auto \
+	--enable-gladeui2 
 	
 	make
 

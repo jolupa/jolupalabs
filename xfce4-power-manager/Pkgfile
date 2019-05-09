@@ -18,14 +18,12 @@ build() {
 	
 	./autogen.sh \
 	--prefix=/usr \
-	--bindir=/usr/bin \
-	--sbindir=/usr/sbin \
-	--libexecdir=/usr/lib/ \
-	--sysconfdir=/etc \
-	--localstatedir=/var \
-	--enable-shared \
+	--libexecdir=/usr/lib/$name \
 	--disable-network-manager \
-	--disable-systemd	
+	--disable-systemd	\
+	--enable-xfce4panel \
+	--disable-debug \
+	--with-x
 	
 	make
 

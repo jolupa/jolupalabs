@@ -17,13 +17,12 @@ build() {
 	fi
 	
 	./autogen.sh \
-	--prefix=/usr \
-	--sysconfdir=/etc \
-	--libexecdir=/usr/lib \
-	--localstatedir=/var \
-	--disable-static \
-	--disable-gtk-docs \
-	--disable-gtk-2 
+	  --prefix=/usr \
+	  --libexecdir=/usr/lib/$name \
+	  --disable-static \
+	  --disable-gtk-docs \
+	  --disable-gtk-2
+	
 	make
 
 	make DESTDIR=$PKG install

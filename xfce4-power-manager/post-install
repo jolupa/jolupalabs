@@ -1,0 +1,6 @@
+# !/bin/sh
+# Post install file for Xfce power manager
+
+gtk-update-icon-cache /usr/share/icons/hicolor
+
+# End post install file

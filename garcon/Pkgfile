@@ -18,10 +18,9 @@ build() {
 
 	./autogen.sh \
 	--prefix=/usr \
-	--sysconfdir=/etc \
-	--libexecdir=/usr/lib \
-	--localstatedir=/var \
-	--disable-static \
+	--libexecdir=/usr/lib/$name \
+	--enable-libxfce4ui \
+	--disable-gtk2 \
 	--disable-gtk-docs
 	
 	make

@@ -1,0 +1,7 @@
+# !/bin/sh
+# Thunar post instalation file
+#
+
+gtk-update-icon-cache /usr/share/icons/hicolor 
+
+# End post instalation file

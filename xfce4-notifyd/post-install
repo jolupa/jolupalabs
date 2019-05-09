@@ -1,0 +1,6 @@
+# !/bin/sh
+# Post install file for Xfce Notifications
+
+gtk-update-icons-cache /usr/share/icons/hicolor
+
+# End post install file

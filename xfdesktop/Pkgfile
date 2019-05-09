@@ -18,13 +18,12 @@ build() {
 	
 	./autogen.sh \
 	--prefix=/usr \
-	--sbindir=/usr/sbin \
 	--libexecdir=/usr/lib/$name \
-	--sysconfdir=/etc \
-	--localstatedir=/var \
-	--libdir=/usr/lib \
-	--enable-shared \
-	--disable-debug
+	--disable-debug \
+	--enable-thunarx \
+	--with-x
+	
+	make
 
 	make DESTDIR=$PKG install
 }

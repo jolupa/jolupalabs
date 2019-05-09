@@ -12,14 +12,13 @@ build() {
 	cd $name-$version
 	
 	./configure \
-	--prefix=/usr \
-	--sysconfdir=/etc \
-	--libexecdir=/usr/lib \
-	--localstatedir=/var \
-	--disable-static \
-	--disable-gtk-docs \
-	--disable-gtk-2 \
-	--enable-notification
+	  --prefix=/usr \
+	  --libexecdir=/usr/lib/$name \
+	  --disable-gtk-docs \
+	  --disable-gtk-2 \
+	  --disable-debug \
+	  --enable-notification
+	
 	make
 
 	make DESTDIR=$PKG install

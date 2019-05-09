@@ -6,7 +6,7 @@
 name=mousepad
 version=0.4.1
 release=1
-source=()
+source=(post-install)
 
 build() {
 	if cd "$name-$version" 2> /dev/null; then
@@ -18,12 +18,14 @@ build() {
 	
 	./autogen.sh \
 	--prefix=/usr \
-	--sysconfdir=/etc \
-	--libexecdir=/usr/lib \
-	--localstatedir=/var \
+	--libexecdir=/usr/lib/$name \
 	--disable-static \
 	--disable-gtk-docs \
-	--disable-gtk-2
+	--enable-gtk3 \
+	--enable-dbus \
+	--enable-keyfile-settings \
+	--disable-schemas-compile
+
 	make
 
 	make DESTDIR=$PKG install

@@ -18,10 +18,8 @@ build() {
 	
 	./autogen.sh \
 	--prefix=/usr \
-	--sysconfdir=/etc \
-	--libexecdir=/usr/lib \
-	--localstatedir=/var \
-	--disable-static \
+	--libexecdir=/usr/lib/$name \
+	--disable-debug \
 	--disable-gtk-docs
 	
 	make
