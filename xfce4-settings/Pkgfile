@@ -5,7 +5,7 @@
 
 name=xfce4-settings
 version=4.13.5
-release=1
+release=2
 source=()
 
 build() {

@@ -5,7 +5,7 @@
 
 name=xfce-polkit
 version=0.3
-release=1
+release=2
 source=(https://github.com/ncopa/xfce-polkit/releases/download/v0.3/xfce-polkit-0.3.tar.gz)
 
 build() {

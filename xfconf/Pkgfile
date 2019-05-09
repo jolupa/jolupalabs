@@ -5,7 +5,7 @@
 
 name=xfconf
 version=4.13.6
-release=1
+release=2
 source=()
 
 build() {

@@ -5,7 +5,7 @@
 
 name=garcon
 version=0.6.2
-release=1
+release=2
 source=()
 
 build() {
