@@ -5,7 +5,7 @@
 #                                           #
 #############################################
 
-# wget --no-ch https://raw.githubusercontent.com/jolupa/jolupalabs/master/jolupalabs.httpup
+# wget --no-ch https://raw.githubusercontent.com/jolupa/jolupalabs/master/jolupalabs.{httpup,pub}
 # mv jolupalabs.* /etc/ports
 # ports -u jolupalabs
 # add the -> line to /etc/prt-get.conf
