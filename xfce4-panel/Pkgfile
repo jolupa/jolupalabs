@@ -22,7 +22,7 @@ build() {
 	--disable-gtk2 \
 	--enable-gio-unix \
 	--enable-vala=auto \
-	--enable-introspection=auto \
+	--enable-introspection=no \
 	--disable-debug
 
 	make
