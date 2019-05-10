@@ -130,7 +130,6 @@ f:89cd45035eeea8e8938338a22d769421:xfdesktop/post-install
 f:702c22800f07677432b1282e4a210b44:xfdesktop/Pkgfile
 f:5a5dea152536ed498041f8b93d00082b:xfdesktop/.signature
 f:7838e26143e494ca399fae5fe49f6f75:xfce4-panel/.footprint
-f:d41d8cd98f00b204e9800998ecf8427e:xfce4-panel/.md5sum
 f:553e068666f56f75029a376c1dfcb0de:xfce4-panel/post-install
 f:68087c6ca433cd7ae659abe631e1acab:xfce4-panel/Pkgfile
 f:10c4204339e07892712cf742f6d0fe0c:xfce4-panel/.signature
