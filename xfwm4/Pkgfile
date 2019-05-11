@@ -4,19 +4,15 @@
 # Depends on:	libxfce4util xfconf libwnck-gtk3 exo thunar garcon libnotify
 
 name=xfwm4
-version=4.13.1
-release=2
-source=()
+version=4.12.0
+release=1
+source=(https://archive.xfce.org/xfce/4.12/src/$name-$version.tar.bz2)
 
 build() {
-	if cd "$name-$version" 2> /dev/null; then
-		git pull
-	else
-		git clone https://git.xfce.org/xfce/$name/ "$name-$version"
-		cd "$name-$version"
-	fi
+
+	cd $name-$version
 	
-	./autogen.sh \
+	./configure \
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
 	--enable-shared \
@@ -27,6 +23,8 @@ build() {
 	--enable-compositor \
 	--disable-debug \
 	--with-x
+
+	make
 
 	make DESTDIR=$PKG install
 }

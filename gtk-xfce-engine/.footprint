@@ -37,9 +37,6 @@ drwxr-xr-x	root/root	usr/share/themes/Xfce-dawn/gtk-2.0/
 drwxr-xr-x	root/root	usr/share/themes/Xfce-dusk/
 drwxr-xr-x	root/root	usr/share/themes/Xfce-dusk/gtk-2.0/
 -rw-r--r--	root/root	usr/share/themes/Xfce-dusk/gtk-2.0/gtkrc
-drwxr-xr-x	root/root	usr/share/themes/Xfce-flat/
-drwxr-xr-x	root/root	usr/share/themes/Xfce-flat/gtk-2.0/
--rw-r--r--	root/root	usr/share/themes/Xfce-flat/gtk-2.0/gtkrc
 drwxr-xr-x	root/root	usr/share/themes/Xfce-kde2/
 drwxr-xr-x	root/root	usr/share/themes/Xfce-kde2/gtk-2.0/
 -rw-r--r--	root/root	usr/share/themes/Xfce-kde2/gtk-2.0/gtkrc

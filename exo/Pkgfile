@@ -4,26 +4,24 @@
 # Depends on:	libxfce4util gtk3 p5-uri libxfce4ui
 
 name=exo
-version=0.12.5
-release=2
-source=()
+version=0.10.3
+release=1
+source=(https://archive.xfce.org/xfce/4.12/src/$name-$version.tar.bz2)
 
 build() {
-	if cd "$name-$version" 2> /dev/null; then
-		git pull
-	else
-		git clone https://git.xfce.org/xfce/$name/ "$name-$version"
-	fi
 	
-	cd "$name-$version"
-	./autogen.sh \
+	cd $name-$version
+
+	./configure \
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
 	--disable-gtk-docs \
-	--disable-gtk-2
+	--disable-gtk2 \
+	--enable-gtk3
 
 	make
 
 	make DESTDIR=$PKG install
 
+	rm -r $PKG/usr/share/gtk-doc
 }

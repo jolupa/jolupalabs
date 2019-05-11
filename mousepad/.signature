@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWS2s2A6qhkC6jQmpZtcDXWGIRmyoUl67IL0GlIvpmfoQPeJ/PMrB++wnaFwrJgh2yNjwNtReqMt80zNqMLqrmvCwCv4lOt9vgU=
-SHA256 (Pkgfile) = 55dfe4e958ddd56511a88c815e4c233497a1d8f7781e32d9e6bd4de5f268a663
-SHA256 (.footprint) = 2e1e0dcb78bfea12b35ed52c5d01ec4b5091e0347dd8d823ccf44875e51a433d
-SHA256 (post-install) = 53c7ce1ded4b83594ab8a4f364d21a6b6bda13e093ff2193d1b0437555580adf
+RWS2s2A6qhkC6pUMv9J+bQVsN6P+4YsqPTSvSh6hLjagQXMM2hV+Q9VkPea9wGgacM1y8BYH2AoI1/k1aqjteW74DKH21xseOgk=
+SHA256 (Pkgfile) = 027570be44084608b73f1a1add8afcb8a46d36ee2f1a0c9f102fea8d3d94b56d
+SHA256 (.footprint) = f8e01e8094d137d563d484829819e7ef5b4072058848e0e4725f0cfb84d12a2a
+SHA256 (mousepad-0.4.1.tar.bz2) = 39a7379b929d964665299c385b2cf705e32e8760698ccc34f91c990bb733518b

@@ -1,31 +1,28 @@
-# Description:	Widgets library for the Xfce desktop environment
+# Description:	Graphic widgets helpers for Xfce
 # URL:		https://www.xfce.org
 # Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
-# Depends on:	libxfce4util gtk3 xfconf startup-notification libglade
+# Depends on:	libxfce4util gtk3 xfconf startup-notification gladeui
 
 name=libxfce4ui
-version=4.13.4
-release=2
-source=()
+version=4.12.0
+release=1
+source=(http://archive.xfce.org/xfce/${version%.*}/src/$name-$version.tar.bz2)
 
 build() {
-	if cd "$name-$version" 2> /dev/null; then
-		git pull
-	else
-		git clone https://git.xfce.org/xfce/$name/ "$name-$version"
-		cd "$name-$version"
-	fi
+
+  cd $name-$version
 	
-	./autogen.sh \
+	./configure \
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
-	--disable-static \
-	--disable-gtk-2 \
-	--enable-introspection=auto \
-	--enable-vala=auto \
-	--enable-gladeui2 
+	--enable-gtk3 \
+	--disable-gtk2 \
+	--enable-gladeui \
+	--disable-gtk-docs
 	
 	make
 
 	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/gtk-doc
 }

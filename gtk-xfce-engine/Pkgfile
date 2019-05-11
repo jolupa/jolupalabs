@@ -4,20 +4,20 @@
 # Depends on:	gtk3
 
 name=gtk-xfce-engine
-version=3.2.0
-release=2
-source=(https://archive.xfce.org/src/xfce/$name/3.2/$name-$version.tar.bz2)
+version=2.10.0
+release=1
+source=(http://archive.xfce.org/xfce/4.12/src/$name-$version.tar.bz2)
 
 build() {
+
 	cd $name-$version
 	
 	./configure \
-	  --prefix=/usr \
-	  --libexecdir=/usr/lib/$name \
-	  --disable-gtk-docs \
-	  --disable-gtk-2 \
-	  --disable-debug \
-	  --enable-notification
+	--prefix=/usr \
+	--libexecdir=/usr/lib/$name \
+	--disable-static \
+	--enable-gtk3 \
+	--disable-gtk2
 	
 	make
 

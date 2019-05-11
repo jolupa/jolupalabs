@@ -5,18 +5,14 @@
 
 name=mousepad
 version=0.4.1
-release=2
-source=(post-install)
+release=1
+source=(https://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.bz2)
 
 build() {
-	if cd "$name-$version" 2> /dev/null; then
-		git pull
-	else
-		git clone https://git.xfce.org/apps/$name/ "$name-$version"
-		cd "$name-$version"
-	fi
+
+	cd $name-$version
 	
-	./autogen.sh \
+	./configure \
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
 	--disable-static \

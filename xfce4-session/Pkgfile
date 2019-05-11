@@ -4,25 +4,22 @@
 # Depends on:	libxfce4ui p5-xml-parser libwnck-gtk3 dbus-glib
 
 name=xfce4-session
-version=4.13.1
-release=2
-source=()
+version=4.12.0
+release=1
+source=(https://archive.xfce.org/xfce/4.12/src/$name-$version.tar.bz2)
 
 build() {
-	if cd "$name-$version" 2> /dev/null; then
-		git pull
-	else
-		git clone https://git.xfce.org/xfce/$name/ "$name-$version"
-		cd "$name-$version"
-	fi
+
+	cd $name-$version
 	
-	./autogen.sh \
+	./configure \
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
 	--enable-polkit \
 	--disable-debug \
 	--disable-legacy-sm \
 	--with-x
+
 	make
 
 	make DESTDIR=$PKG install

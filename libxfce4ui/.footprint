@@ -46,8 +46,6 @@ drwxr-xr-x	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/xfce-spawn.h
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/xfce-titled-dialog.h
 drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/girepository-1.0/
--rw-r--r--	root/root	usr/lib/girepository-1.0/libxfce4ui-2.0.typelib
 -rwxr-xr-x	root/root	usr/lib/libxfce4kbd-private-2.la
 lrwxrwxrwx	root/root	usr/lib/libxfce4kbd-private-2.so -> libxfce4kbd-private-2.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libxfce4kbd-private-2.so.0 -> libxfce4kbd-private-2.so.0.0.0
@@ -72,8 +70,6 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/xfce4-about.desktop
-drwxr-xr-x	root/root	usr/share/gir-1.0/
--rw-r--r--	root/root	usr/share/gir-1.0/libxfce4ui-2.0.gir
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/
@@ -89,9 +85,6 @@ drwxr-xr-x	root/root	usr/share/locale/ar/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/ast/
 drwxr-xr-x	root/root	usr/share/locale/ast/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/ast/LC_MESSAGES/libxfce4ui.mo
-drwxr-xr-x	root/root	usr/share/locale/be/
-drwxr-xr-x	root/root	usr/share/locale/be/LC_MESSAGES/
--rw-r--r--	root/root	usr/share/locale/be/LC_MESSAGES/libxfce4ui.mo
 drwxr-xr-x	root/root	usr/share/locale/bg/
 drwxr-xr-x	root/root	usr/share/locale/bg/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/libxfce4ui.mo
@@ -104,9 +97,6 @@ drwxr-xr-x	root/root	usr/share/locale/ca/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/cs/
 drwxr-xr-x	root/root	usr/share/locale/cs/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/cs/LC_MESSAGES/libxfce4ui.mo
-drwxr-xr-x	root/root	usr/share/locale/cy/
-drwxr-xr-x	root/root	usr/share/locale/cy/LC_MESSAGES/
--rw-r--r--	root/root	usr/share/locale/cy/LC_MESSAGES/libxfce4ui.mo
 drwxr-xr-x	root/root	usr/share/locale/da/
 drwxr-xr-x	root/root	usr/share/locale/da/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/da/LC_MESSAGES/libxfce4ui.mo
@@ -212,9 +202,6 @@ drwxr-xr-x	root/root	usr/share/locale/sk/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/sl/
 drwxr-xr-x	root/root	usr/share/locale/sl/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/sl/LC_MESSAGES/libxfce4ui.mo
-drwxr-xr-x	root/root	usr/share/locale/sq/
-drwxr-xr-x	root/root	usr/share/locale/sq/LC_MESSAGES/
--rw-r--r--	root/root	usr/share/locale/sq/LC_MESSAGES/libxfce4ui.mo
 drwxr-xr-x	root/root	usr/share/locale/sr/
 drwxr-xr-x	root/root	usr/share/locale/sr/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/sr/LC_MESSAGES/libxfce4ui.mo
@@ -254,7 +241,3 @@ drwxr-xr-x	root/root	usr/share/locale/zh_HK/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/zh_TW/
 drwxr-xr-x	root/root	usr/share/locale/zh_TW/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/zh_TW/LC_MESSAGES/libxfce4ui.mo
-drwxr-xr-x	root/root	usr/share/vala/
-drwxr-xr-x	root/root	usr/share/vala/vapi/
--rw-r--r--	root/root	usr/share/vala/vapi/libxfce4ui-2.deps
--rw-r--r--	root/root	usr/share/vala/vapi/libxfce4ui-2.vapi

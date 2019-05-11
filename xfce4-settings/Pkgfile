@@ -4,32 +4,27 @@
 # Depends on:	libxfce4ui exo xfconf dbus-glib libwnck-gtk3 xorg-libxi xorg-libxrandr xorg-libxcursor libnotify libxklavier
 
 name=xfce4-settings
-version=4.13.5
-release=2
-source=()
+version=4.12.0
+release=1
+source=(https://archive.xfce.org/xfce/4.12/src/$name-$version.tar.bz2)
 
 build() {
-	if cd "$name-$version" 2> /dev/null; then
-		git pull
-	else
-		git clone https://git.xfce.org/xfce/$name/ "$name-$version"
-		cd "$name-$version"
-	fi
+
+	cd $name-$version
 	
-	./autogen.sh \
+	./configure \
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
-	--localstatedir=/var \
 	--disable-gtk-docs \
 	--enable-upower-glib \
 	--enable-libnotify \
-	--enable-colord \
 	--enable-gio-unix \
 	--enable-xcursor \
 	--enable-libxklavier \
 	--enable-pluggable-dialogs \
 	--enable-sound-settings \
-	--disable-gtk-2
+	--disable-gtk2 \
+	--enable-gtk3
 	
 	make
 

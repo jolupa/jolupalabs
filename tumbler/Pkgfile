@@ -4,24 +4,21 @@
 # Depends on:	dbus-glib glib gdk-pixbuf freetype libjpeg-turbo 
 
 name=tumbler
-version=0.2.3
-release=2
-source=()
+version=0.1.31
+release=1
+source=(https://archive.xfce.org/xfce/4.12/src/$name-$version.tar.bz2)
 
 build() {
-	if cd "$name-$version" 2> /dev/null; then
-		git pull
-	else
-		git clone https://git.xfce.org/xfce/$name/ "$name-$version"
-		cd "$name-$version"
-	fi
-	
-	./autogen.sh \
+
+	cd $name-$version
+
+	./configure \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
 	  --disable-static \
 	  --disable-gtk-docs \
-	  --disable-gtk-2
+	  --disable-gtk2 \
+	  --enable-gtk3
 	
 	make
 
