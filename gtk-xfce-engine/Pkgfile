@@ -15,7 +15,8 @@ build() {
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
 	  --disable-gtk-docs \
-	  --disable-gtk-2 \
+          --enable-gtk3
+	  --disable-gtk2 \
 	  --disable-debug \
 	  --enable-notification
 	
