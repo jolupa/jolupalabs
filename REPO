@@ -63,11 +63,11 @@ f:f68a7fa175c912bd62e4bc010685bdc5:xfce4-appfinder/.footprint
 f:416710f0428e95aa2f82465eec6d7362:xfce4-appfinder/.md5sum
 f:a2323136732a74b5364d5c3b79fe59cc:xfce4-appfinder/Pkgfile
 f:66eac314ae72e5f7cd3a76e5ecf5d451:xfce4-appfinder/.signature
-f:3b32e0b9d072375dff53086d19d1afb9:xfce4-power-manager/.footprint
+f:82009357efe3d2f9be6e007ab1e4ae34:xfce4-power-manager/.footprint
 f:a36db1f77cd10591eebe21a2a1384857:xfce4-power-manager/.md5sum
 f:feabb7500e1a111b11b0360c7d68ed98:xfce4-power-manager/post-install
 f:49c8c5cf12efeb1839cd96980d49b906:xfce4-power-manager/Pkgfile
-f:fbb264475b24a30812316e2575c30b38:xfce4-power-manager/.signature
+f:38519245039a9666b3ddddfd36b7b58f:xfce4-power-manager/.signature
 f:a2ff05c6cc6fdf9547926bb5dc35fd42:xfce4-notifyd/.footprint
 f:f05983a96da4d0b7839eebfa497ad2ba:xfce4-notifyd/.md5sum
 f:d786651b6d14a5c35ec0943e4335e688:xfce4-notifyd/post-install
