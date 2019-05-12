@@ -25,8 +25,11 @@ d:xfce4-panel
 d:xfce4-terminal
 d:elementary-xfce
 d:qogir-theme
+f:6454480f0f8bb90bb1d7ee59602e0761:xfce4-screenshooter/.footprint
+f:9064110f5f70fa63408411300ce62d44:xfce4-screenshooter/.md5sum
 f:d2c71d4bbc381d6733f64f11b6970a2f:xfce4-screenshooter/post-install
-f:1782f690e25d0c2f0d2f1ca64d7d9974:xfce4-screenshooter/Pkgfile
+f:8c123a3d20322dcd5f48cd35fbad60eb:xfce4-screenshooter/Pkgfile
+f:3cd1e07796fc8c45b1065811bb909699:xfce4-screenshooter/.signature
 f:fb95d5144e26922d56074b2f2e3c72fd:README
 f:254d2167197b12a2efab8814b786f9f8:thunar-volman/.footprint
 f:df5722fa12e6bea6cfd7ceb1aacf8a87:thunar-volman/.md5sum
