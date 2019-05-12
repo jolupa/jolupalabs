@@ -13,4 +13,5 @@ sync.sh
 \.gem$
 index.html
 jolupalabs.*$
-neofetch
+geary
+gmime

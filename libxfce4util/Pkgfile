@@ -4,15 +4,15 @@
 # Depends on:	glib
 
 name=libxfce4util
-version=4.12.1
+version=4.13.2
 release=1
-source=(http://archive.xfce.org/xfce/${version%.*}/src/$name-$version.tar.bz2)
+source=(http://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
 
   cd $name-$version
 	
-	./configure \
+	./autogen.sh \
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
 	--enable-introspection=auto \
@@ -21,6 +21,4 @@ build() {
 	make
 
 	make DESTDIR=$PKG install
-	
-	rm -r $PKG/usr/share/gtk-doc
 }

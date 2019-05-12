@@ -4,15 +4,15 @@
 # Depends on:	dbus-glib glib gdk-pixbuf freetype libjpeg-turbo 
 
 name=tumbler
-version=0.1.31
+version=0.2.3
 release=1
-source=(https://archive.xfce.org/xfce/4.12/src/$name-$version.tar.bz2)
+source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
 
 	cd $name-$version
 
-	./configure \
+	./autogen.sh \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
 	  --disable-static \

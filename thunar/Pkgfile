@@ -4,25 +4,25 @@
 # Depends on:	libxfce4ui exo libpng gtk3 glib libexif dbus-glib libnotify startup-notification freetype libjpeg-turbo xfce4-panel xfconf
 
 name=thunar
-version=1.6.6
+version=1.8.4
 release=1
-source=(https://archive.xfce.org/xfce/4.12/src/Thunar-$version.tar.bz2)
+source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
 
-	cd Thunar-$version
+	cd $name-$version
 	
-	./configure \
+	./autogen.sh \
 	--prefix=/usr \
-	--libexecdir=/usr/lib/$name \
 	--enable-gio-unix \
 	--enable-gudev \
 	--disable-gtk-docs \
 	--disable-gtk2 \
-	--enable-gtk3
+	--enable-gtk3 \
+	--enable-instrospection=no
 
 	make
 
 	make DESTDIR=$PKG install
-
+	
 }

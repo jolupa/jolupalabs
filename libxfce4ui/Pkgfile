@@ -4,25 +4,23 @@
 # Depends on:	libxfce4util gtk3 xfconf startup-notification gladeui
 
 name=libxfce4ui
-version=4.12.0
+version=4.13.4
 release=1
-source=(http://archive.xfce.org/xfce/${version%.*}/src/$name-$version.tar.bz2)
+source=(http://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
 
   cd $name-$version
 	
-	./configure \
+	./autogen.sh \
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
-	--enable-gtk3 \
 	--disable-gtk2 \
-	--enable-gladeui \
+	--enable-gtk3 \
+	--enable-introspection=no \
 	--disable-gtk-docs
 	
 	make
 
 	make DESTDIR=$PKG install
-
-	rm -r $PKG/usr/share/gtk-doc
 }

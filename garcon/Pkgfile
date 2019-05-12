@@ -4,15 +4,15 @@
 # Depends on:	glib libxfce4util
 
 name=garcon
-version=0.4.0
+version=0.6.2
 release=1
-source=(https://archive.xfce.org/xfce/4.12/src/$name-$version.tar.bz2)
+source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
 	
 	cd $name-$version
 
-	./configure \
+	./autogen.sh \
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
 	--enable-libxfce4ui \
@@ -23,6 +23,4 @@ build() {
 	make
 
 	make DESTDIR=$PKG install
-
-	rm -r $PKG/usr/share/gtk-doc
 }

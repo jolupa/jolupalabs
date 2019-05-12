@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWS2s2A6qhkC6h0KthUwRe8Ce9guPr83qxY9BwOkOOCypd+L/TeiI9z7MmP23Sv9wqaz9zyTpgZ2rcLwJ4oURkE2cevRcqUfDwk=
-SHA256 (Pkgfile) = 64a3b306556ad6172334c05a9312fe131c306ecc35aa62ce02beb4bf308cb3d8
-SHA256 (.footprint) = 5c540a82da06986308034f21d911628c4582d376bc1dca6146ab64d186e44b77
-SHA256 (xfwm4-4.12.0.tar.bz2) = 29f4cbe2869ae32a6775877ed6bfc4ded7000f013ff7eb70b2639c49f415cc3a
+RWS2s2A6qhkC6h6G5/mM4wYexqn55Ur52hlWtk0vxd1gtQMPPqo0btSUwFn7Ef+50aQNifcT7VieQwKwKyWg/y0jQNwrn0D8dgs=
+SHA256 (Pkgfile) = f3f931b848ee3aa66d7e65107f419a77b8cb742b4dc7bdf63e03b767fe80d4b3
+SHA256 (.footprint) = 647c90aa5083613bfcf69cabf92658d3463d01f89c9b573b4a098d132e0cca49
+SHA256 (xfwm4-4.13.1.tar.gz) = 484d9fb57c5179ee8f16978ecc2907bd2a978d6062346a3ccb548d0d3d18cf2d

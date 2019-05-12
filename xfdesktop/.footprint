@@ -60,6 +60,9 @@ drwxr-xr-x	root/root	usr/share/locale/el/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/en_AU/
 drwxr-xr-x	root/root	usr/share/locale/en_AU/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/en_AU/LC_MESSAGES/xfdesktop.mo
+drwxr-xr-x	root/root	usr/share/locale/en_CA/
+drwxr-xr-x	root/root	usr/share/locale/en_CA/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/en_CA/LC_MESSAGES/xfdesktop.mo
 drwxr-xr-x	root/root	usr/share/locale/en_GB/
 drwxr-xr-x	root/root	usr/share/locale/en_GB/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/en_GB/LC_MESSAGES/xfdesktop.mo
@@ -126,6 +129,9 @@ drwxr-xr-x	root/root	usr/share/locale/ms/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/nb/
 drwxr-xr-x	root/root	usr/share/locale/nb/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/nb/LC_MESSAGES/xfdesktop.mo
+drwxr-xr-x	root/root	usr/share/locale/ne/
+drwxr-xr-x	root/root	usr/share/locale/ne/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ne/LC_MESSAGES/xfdesktop.mo
 drwxr-xr-x	root/root	usr/share/locale/nl/
 drwxr-xr-x	root/root	usr/share/locale/nl/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/nl/LC_MESSAGES/xfdesktop.mo

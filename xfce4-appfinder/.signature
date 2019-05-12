@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWS2s2A6qhkC6rVaLGZMFeqwJ6u/6LzX1MT7dPwY+7r9HmRMabzFkhzZ0ryP1RmYBmXfbX2kBtQ1RvpRxCazL8q5U3z0aEK8kgY=
-SHA256 (Pkgfile) = 56e2a38d0bf0393c5c715fdb2278947816cd63ae356180906bf7638f6cbf53cd
-SHA256 (.footprint) = 76f486cb302364f3e99247bc8036f33607558bf5aff6cb18cfbc52187ed1ab7a
-SHA256 (xfce4-appfinder-4.12.0.tar.bz2) = 2ad4a58019a76a6b64a816050db25f96854917c2f2e89d6a9df6c18e6c84c567
+RWS2s2A6qhkC6qhGQ51dfmETlmOZ89Y5VeYTvMX8xLxGj1TN6ySOIkYKQHMLWFrCc4XYygd6VzJZW+u6fjqh7Tv1P7nDkmbjig8=
+SHA256 (Pkgfile) = 064c7773cb35d4df90078eed4e082a4f4f86ebee04119f2dcb66da5f22cd54df
+SHA256 (.footprint) = 79771b595320378caa028ac9662ec488e9231ab8985cf5ee34de2a058ea3d419
+SHA256 (xfce4-appfinder-4.13.2.tar.gz) = 21a0ebdd92170e80e735f21f57b25f3f8421816c12e96dc820e3f9da99f6b46c

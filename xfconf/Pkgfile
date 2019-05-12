@@ -4,15 +4,15 @@
 # Depends on:	libxfce4uti dbus-glib
 
 name=xfconf
-version=4.12.0
+version=4.13.6
 release=1
-source=(http://archive.xfce.org/xfce/${version%.*}/src/$name-$version.tar.bz2)
+source=(http://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
 
   cd $name-$version
 	
-	./configure \
+	./autogen.sh \
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
 	--disable-gtk-docs
@@ -20,6 +20,4 @@ build() {
 	make
 
 	make DESTDIR=$PKG install
-	
-	rm -r $PKG/usr/share/gtk-doc
 }

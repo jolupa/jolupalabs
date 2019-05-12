@@ -5,25 +5,21 @@
 
 name=xfce4-notifyd
 version=0.4.4
-release=2
-source=()
+release=1
+source=(https://archive.xfce.org/src/apps/xfce4-notifyd/${version%.*}/$name-$version.tar.bz2)
 
 build() {
-	if cd "$name-$version" 2> /dev/null; then
-		git pull
-	else
-		git clone https://git.xfce.org/apps/$name/  "$name-$version"
-		cd "$name-$version"
-	fi
-	
-	./autogen.sh \
+
+  cd $name-$version
+
+	./configure \
 	--prefix=/usr \
-	--sysconfdir=/etc \
-	--libexecdir=/usr/lib \
-	--localstatedir=/var \
+	--libexecdir=/usr/lib/$name \
 	--disable-static \
 	--disable-gtk-docs \
-	--disable-gtk-2
+	--disable-gtk2 \
+	--enable-gtk3
+	
 	make
 
 	make DESTDIR=$PKG install

@@ -4,8 +4,8 @@
 # Depends on:	libxfce4ui exo garcon libwnck-gtk3 startup-notification
 
 name=xfce4-panel
-version=4.12.2
-release=2
+version=4.13.4
+release=1
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -17,9 +17,9 @@ build() {
 	--libexecdir=/usr/lib/$name \
 	--disable-gtk2 \
 	--enable-gtrk3 \
+	--enable-introspection=no \
 	--enable-gio-unix \
 	--enable-vala=auto \
-	--enable-introspection=no \
 	--disable-debug
 
 	make

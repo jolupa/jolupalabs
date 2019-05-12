@@ -4,15 +4,15 @@
 # Depends on:	gtk-3 glib dbus libxfce4ui libxfce4util libnotify xfconf xfce4-panel xorg-xrandr dpms upower polkit consolekit pm-utils
 
 name=xfce4-power-manager
-version=1.4.3
+version=1.6.1
 release=1
-source=(https://archive.xfce.org/xfce/4.12/src/$name-$version.tar.bz2)
+source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
 
 	cd $name-$version
 
-	./configure \
+	./autogen.sh \
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
 	--disable-network-manager \

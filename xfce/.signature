@@ -1,3 +1,4 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWS2s2A6qhkC6hX2uRDpXdivYBdAZ+ncDY36ZFjq2iVIy5GigcG+z4L4UC+3jGREklRLChUqrN87YHfX8Dip5g/aryGm4YArMQo=
-SHA256 (Pkgfile) = 37bf55aabc3a0c9020da8c5efc87b00556bc830230b65f36552f27d4098624a5
+RWS2s2A6qhkC6mpRcrJp8OLy2HugP6stC7f9XSaie9xNRcNm+bIhQ0hSkXIXIrdvbIF/smMkhhXvnM/nH9lZsJG05koglGJ9XQ0=
+SHA256 (Pkgfile) = d6233fc96b5d77b51a68f1403a0875f741ac3b67c73d1ee3046261ff810e2e5a
+SHA256 (.footprint) = bb1a0668db68bfe3d2ffc3ff46da7887e1e96e4cc973e42fcb49d89ba97d8724

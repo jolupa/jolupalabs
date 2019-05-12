@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWS2s2A6qhkC6kCYzZLpqk8/z1KotiB2rq8CkGR7GlPUT+NJEC0Di3hVo9GQk0e359/aru6CiedscXUo6JB2XsMlV9i7QDod4Q4=
-SHA256 (Pkgfile) = 3ae0f7db10c11744d6eb307a06e153c964bb195b2f999d16cc64783d8ca79e15
-SHA256 (.footprint) = cd83f32bab3b84966ea90933933446a52cb0e55659ebe35b23af83650971d866
-SHA256 (gtk-xfce-engine-2.10.0.tar.bz2) = c1c3b301bd2f2eecf9bb0500d88d96c04ba37bf44d3971f951f4d3d0bbb41967
+RWS2s2A6qhkC6hXGL8GS92ksMTGD8Qzk9iXkteM5nx5E0tCe0cZXoMiZPStZf/Bu1zHYXYigV9xS4Y9ZWy8JFWc63+uzhFihsQk=
+SHA256 (Pkgfile) = c2a8adc90fd24fe821112a182e3d3cbbb63c89012aa03e549bd7f19d3de1d55e
+SHA256 (.footprint) = 32a7e5a98015b144f92c0ef8a1055a640c0d85cd4ae2401c05b59bb95b4b7fcd
+SHA256 (gtk-xfce-engine-3.2.0.tar.gz) = 5ec2b18c41ec1db17441e131999a6858675d5eac88abece4df6d182930d66713
