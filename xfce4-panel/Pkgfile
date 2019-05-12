@@ -15,7 +15,7 @@ build() {
 	./autogen.sh \
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
-	--disable-gtk2 \
+	--enable-gtk2 \
 	--enable-gtrk3 \
 	--enable-introspection=no \
 	--enable-gio-unix \
