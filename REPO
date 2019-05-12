@@ -17,6 +17,7 @@ d:xfce-polkit
 d:xfce4-dev-tools
 d:libxfce4ui
 d:mousepad
+d:xdg-user-dirs
 d:xfce4-settings
 d:libxfce4util
 d:xfdesktop
@@ -96,6 +97,10 @@ f:8f62809f276e448852035e65321b795b:mousepad/.footprint
 f:47250b7b8b1b906a056d680d5f40c35c:mousepad/.md5sum
 f:602815fe6a923a2695ef09516a7afc14:mousepad/Pkgfile
 f:447c005fe84c688b431ba702b583be56:mousepad/.signature
+f:1a24dfb9cebbb583914b1b7b2742ad87:xdg-user-dirs/.footprint
+f:0b6605854b16c1825c0e0a73a0b48ecf:xdg-user-dirs/.md5sum
+f:56b9a62ae7bc866db6254cf049127256:xdg-user-dirs/Pkgfile
+f:3a040426cb8b1d6cc3260dc6d89c02b6:xdg-user-dirs/.signature
 f:e33a066ac08b49fd7fc9ec1dfc34bfce:xfce4-settings/.footprint
 f:fa71039c1bd207ecb5c021c0576e85c9:xfce4-settings/.md5sum
 f:bf20a7b7432571e4a3433b7b7cbe8f9a:xfce4-settings/post-install
@@ -110,11 +115,11 @@ f:769a94fb478a74e79c275de4b806c71e:xfdesktop/.md5sum
 f:89cd45035eeea8e8938338a22d769421:xfdesktop/post-install
 f:62761d3834da8e5ab0a3efa00d1562b5:xfdesktop/Pkgfile
 f:b0a890c22ce22b78a89b6617165e1d85:xfdesktop/.signature
-f:794181919ada9078ec141abbf66d42e7:xfce4-panel/.footprint
+f:414c244fc5a6e866bd2f61b960f69c6c:xfce4-panel/.footprint
 f:2c8d33d647dca23482d325d4d87f7c84:xfce4-panel/.md5sum
 f:553e068666f56f75029a376c1dfcb0de:xfce4-panel/post-install
-f:5aed48b19e5cfbc681a2ceb705be96ff:xfce4-panel/Pkgfile
-f:2a9d234283c12c4dda367f4b8e3ccf00:xfce4-panel/.signature
+f:7e4d9de2251844e8bf6e0c796efb458b:xfce4-panel/Pkgfile
+f:8c5a40f73f70a4345398d0d1edbeab5c:xfce4-panel/.signature
 f:72090c04e375ff30db42d4adf6c75329:xfce4-terminal/.footprint
 f:9a0fae35416530e6bbdb2c3f24e9fb9c:xfce4-terminal/.md5sum
 f:2be5baeaa4219ee6d63c974bf3c71a1c:xfce4-terminal/Pkgfile

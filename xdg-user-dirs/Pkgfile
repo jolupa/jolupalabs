@@ -1,0 +1,24 @@
+# Description: Manage user directories
+# URL: https://www.freedesktop.org/wiki/Software/xdg-user-dirs/
+# Maintainer: jolupa <jolupameister (at) gmail (dot) [com]
+# Depends on: 
+
+name=xdg-user-dirs
+version=0.17
+release=1
+source=(http://user-dirs.freedesktop.org/releases/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	./autogen.sh \
+	  --prefix=/usr \
+	  --libexecdir=/usr/lib/$name \
+	  --disable-rpath \
+	  --disable-documentation
+  
+  make
+  
+  make DESTDIR=$PKG install
+  
+}

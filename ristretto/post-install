@@ -1,6 +1,0 @@
-# !/bin/sh
-# Post Install Xfce exo
-
-gtk-update-icon-cache /usr/share/icons/hicolor
-
-# End post install file
