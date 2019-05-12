@@ -132,4 +132,7 @@ f:d41d8cd98f00b204e9800998ecf8427e:elementary-xfce/.md5sum
 f:d32da0466f4fd368b618467678d3b611:elementary-xfce/post-install
 f:1c8b0f038ed1f66cae6587452289d0e7:elementary-xfce/Pkgfile
 f:8efa50797d9adb7195e84e24893534be:elementary-xfce/.signature
+f:719179595ffa6984ce3df97777287a5a:qogir-theme/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:qogir-theme/.md5sum
 f:62e20a5127ed5404270fe5e47dd15e08:qogir-theme/Pkgfile
+f:816c705bc237c40838b4c7c4f7e279cd:qogir-theme/.signature
