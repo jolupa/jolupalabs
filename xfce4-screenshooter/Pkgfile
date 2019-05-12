@@ -6,15 +6,11 @@
 name=xfce4-screenshooter
 version=1.9.5
 release=2
-source=()
+source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz)
 
 build() {
-	if cd "$name-$version" 2> /dev/null; then
-		git pull
-	else
-		git clone https://git.xfce.org/apps/$name/  "$name-$version"
-		cd "$name-$version"
-	fi
+
+  cd $name-$version
 	
 	./autogen.sh \
 	--prefix=/usr \
@@ -22,6 +18,7 @@ build() {
 	--disable-static \
 	--disable-gtk-docs \
 	--disable-gtk-2 \
+	--enable-gtk3 \
 	--with-x
 	
 	make
