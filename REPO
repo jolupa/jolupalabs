@@ -68,7 +68,10 @@ f:fbb264475b24a30812316e2575c30b38:xfce4-power-manager/.signature
 f:c1757d2e82d9f7bb462e6642756db1e2:xfce4-notifyd/.md5sum
 f:38681222b769c4ee7f1196294925e259:xfce4-notifyd/post-install
 f:0b3b0fca8b17a261ec422628ddc95a93:xfce4-notifyd/Pkgfile
+f:7b38b41dd13133dcf83c60744ea68fab:greybird-xfce/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:greybird-xfce/.md5sum
 f:196c8540337703e4a4129e6a4c64b764:greybird-xfce/Pkgfile
+f:b54fa2326b70559e8767240fa8b97263:greybird-xfce/.signature
 f:16a70a94361282f92f22f4d83f363289:xfconf/.footprint
 f:8ddc9f5a37be710c20cf32c823308948:xfconf/.md5sum
 f:df202dc09ebbf5b34d3267392fa2b89d:xfconf/Pkgfile
@@ -124,6 +127,9 @@ f:72090c04e375ff30db42d4adf6c75329:xfce4-terminal/.footprint
 f:9a0fae35416530e6bbdb2c3f24e9fb9c:xfce4-terminal/.md5sum
 f:2be5baeaa4219ee6d63c974bf3c71a1c:xfce4-terminal/Pkgfile
 f:8da084b26c18a358ab808e1cbb80cece:xfce4-terminal/.signature
+f:4c2d3918b9386cdc5186598708808a65:elementary-xfce/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:elementary-xfce/.md5sum
 f:d32da0466f4fd368b618467678d3b611:elementary-xfce/post-install
 f:1c8b0f038ed1f66cae6587452289d0e7:elementary-xfce/Pkgfile
+f:8efa50797d9adb7195e84e24893534be:elementary-xfce/.signature
 f:62e20a5127ed5404270fe5e47dd15e08:qogir-theme/Pkgfile
