@@ -65,9 +65,11 @@ f:a36db1f77cd10591eebe21a2a1384857:xfce4-power-manager/.md5sum
 f:feabb7500e1a111b11b0360c7d68ed98:xfce4-power-manager/post-install
 f:49c8c5cf12efeb1839cd96980d49b906:xfce4-power-manager/Pkgfile
 f:fbb264475b24a30812316e2575c30b38:xfce4-power-manager/.signature
-f:c1757d2e82d9f7bb462e6642756db1e2:xfce4-notifyd/.md5sum
+f:a2ff05c6cc6fdf9547926bb5dc35fd42:xfce4-notifyd/.footprint
+f:f05983a96da4d0b7839eebfa497ad2ba:xfce4-notifyd/.md5sum
 f:38681222b769c4ee7f1196294925e259:xfce4-notifyd/post-install
-f:0b3b0fca8b17a261ec422628ddc95a93:xfce4-notifyd/Pkgfile
+f:befd923de5bb4b5c49e1ba3ed9e7790b:xfce4-notifyd/Pkgfile
+f:2a87846745b220e883327335dcef8b87:xfce4-notifyd/.signature
 f:7b38b41dd13133dcf83c60744ea68fab:greybird-xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:greybird-xfce/.md5sum
 f:196c8540337703e4a4129e6a4c64b764:greybird-xfce/Pkgfile
