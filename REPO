@@ -28,8 +28,11 @@ d:qogir-theme
 f:d2c71d4bbc381d6733f64f11b6970a2f:xfce4-screenshooter/post-install
 f:1782f690e25d0c2f0d2f1ca64d7d9974:xfce4-screenshooter/Pkgfile
 f:fb95d5144e26922d56074b2f2e3c72fd:README
+f:254d2167197b12a2efab8814b786f9f8:thunar-volman/.footprint
+f:df5722fa12e6bea6cfd7ceb1aacf8a87:thunar-volman/.md5sum
 f:f6f599f405eecaaa0a734fe071b4a759:thunar-volman/post-install
-f:887dd942a19deb6895bfe3897b634939:thunar-volman/Pkgfile
+f:8fdd6220a85cc20239e6df3b87b5a248:thunar-volman/Pkgfile
+f:edf3684b8b3a0390abfa8a70bdffbb94:thunar-volman/.signature
 f:1611967318257fde58e39c21545889f5:gtk-xfce-engine/.footprint
 f:c7ef57e7547143b78e68e3ef7ad01f04:gtk-xfce-engine/.md5sum
 f:27733ad72d278efce9e18df48e8b90a6:gtk-xfce-engine/Pkgfile
