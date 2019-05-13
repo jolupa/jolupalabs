@@ -1,0 +1,7 @@
+#!/bin/sh
+#Post install file for Whisker menu
+#
+
+gtk-update-icon-cache /usr/share/hicolor
+
+#End post install file
