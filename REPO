@@ -5,6 +5,7 @@ d:thunar
 d:xfce
 d:garcon
 d:tumbler
+d:obinslab-starter
 d:exo
 d:xfce4-appfinder
 d:xfce4-whiskermenu-plugin
@@ -58,6 +59,12 @@ f:795685ea4d24a1f2f6881b55fff09023:tumbler/.footprint
 f:c7d86d6f0d746c78951248d1d7c5e023:tumbler/.md5sum
 f:b26ea0da406cb8287dd01b7439beee2d:tumbler/Pkgfile
 f:da3344f91cf0d70c441c425039e3a99a:tumbler/.signature
+f:4d55a4d16b83debf4c3cfd74de07f68f:obinslab-starter/.footprint
+f:82daecc1f46544ebc583377571f0f1e6:obinslab-starter/10-annepro.rules
+f:5745961a379ddf676c7a940c45690372:obinslab-starter/.md5sum
+f:f93ac9fedc59f6b82dec9ca72c154566:obinslab-starter/post-install
+f:6d0ce56b996a0d0d97abd081b95a18fe:obinslab-starter/Pkgfile
+f:8569b09294aeda2dd79b8f40de1fd82a:obinslab-starter/.signature
 f:7395d1e1289aa38d62e5fc4e50c026c6:exo/.footprint
 f:81e28bbd8aabf69da7344494b3922720:exo/.md5sum
 f:a21ba3587412df0dbd761075ab026d4a:exo/post-install
@@ -85,13 +92,13 @@ f:2a87846745b220e883327335dcef8b87:xfce4-notifyd/.signature
 f:7b38b41dd13133dcf83c60744ea68fab:greybird-xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:greybird-xfce/.md5sum
 f:196c8540337703e4a4129e6a4c64b764:greybird-xfce/Pkgfile
-f:b54fa2326b70559e8767240fa8b97263:greybird-xfce/.signature
+f:0662687e9e9f0777b55362116de2807a:greybird-xfce/.signature
 f:16a70a94361282f92f22f4d83f363289:xfconf/.footprint
 f:8ddc9f5a37be710c20cf32c823308948:xfconf/.md5sum
 f:df202dc09ebbf5b34d3267392fa2b89d:xfconf/Pkgfile
 f:3979b1132951bdb50ef42692ec77f78a:xfconf/.signature
 f:b7a2452ec8de14f8d2b797d5f609b081:xfce4-session/.footprint
-f:9cc88a77598fb2d5f93d622a47ab16fe:xfce4-session/.md5sum
+f:af3390c3e4d3089493f9d24fcb7ffe42:xfce4-session/.md5sum
 f:2b41eefdf26f22d2591bf33cc15c56d8:xfce4-session/post-install
 f:15b576d05648d98b52a42667e8d2b2d8:xfce4-session/Pkgfile
 f:81268ab83491b730c5ba1dac0de55c55:xfce4-session/.signature
