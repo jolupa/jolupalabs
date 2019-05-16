@@ -1,0 +1,9 @@
+# !/bin/sh
+#Obinslab Starter post install file
+#
+
+gtk-update-icon-cache /usr/share/icons/hicolor
+
+sudo /sbin/udevadm control --reload
+
+#

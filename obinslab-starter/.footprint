@@ -1,0 +1,109 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/udev/
+drwxr-xr-x	root/root	etc/udev/rules.d/
+-rwxr-xr-x	root/root	etc/udev/rules.d/10-annepro.rules
+drwxr-xr-x	root/root	opt/
+drwxrwxr-x	root/root	opt/Obinslab Starter/
+-rw-rw-r--	root/root	opt/Obinslab Starter/blink_image_resources_200_percent.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/content_resources_200_percent.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/content_shell.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/icudtl.dat
+-rwxr-xr-x	root/root	opt/Obinslab Starter/libffmpeg.so
+-rwxr-xr-x	root/root	opt/Obinslab Starter/libnode.so
+drwxrwxr-x	root/root	opt/Obinslab Starter/locales/
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/am.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/ar.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/bg.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/bn.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/ca.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/cs.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/da.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/de.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/el.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/en-GB.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/en-US.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/es-419.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/es.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/et.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/fa.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/fake-bidi.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/fi.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/fil.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/fr.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/gu.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/he.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/hi.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/hr.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/hu.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/id.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/it.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/ja.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/kn.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/ko.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/lt.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/lv.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/ml.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/mr.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/ms.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/nb.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/nl.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/pl.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/pt-BR.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/pt-PT.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/ro.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/ru.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/sk.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/sl.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/sr.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/sv.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/sw.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/ta.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/te.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/th.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/tr.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/uk.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/vi.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/zh-CN.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/locales/zh-TW.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/natives_blob.bin
+-rwxr-xr-x	root/root	opt/Obinslab Starter/obinslab-starter
+drwxrwxr-x	root/root	opt/Obinslab Starter/resources/
+-rw-rw-r--	root/root	opt/Obinslab Starter/resources/app.asar
+-rw-rw-r--	root/root	opt/Obinslab Starter/resources/electron.asar
+-rw-r--r--	root/root	opt/Obinslab Starter/resources/example.db
+drwxrwxr-x	root/root	opt/Obinslab Starter/resources/icons/
+-rw-rw-r--	root/root	opt/Obinslab Starter/resources/icons/tray-darwin.png
+-rw-rw-r--	root/root	opt/Obinslab Starter/resources/icons/tray-darwin@2x.png
+-rw-rw-r--	root/root	opt/Obinslab Starter/resources/icons/tray.png
+drwxrwxr-x	root/root	opt/Obinslab Starter/resources/locales/
+-rw-r--r--	root/root	opt/Obinslab Starter/resources/locales/de.yml
+-rw-r--r--	root/root	opt/Obinslab Starter/resources/locales/en.yml
+-rw-r--r--	root/root	opt/Obinslab Starter/resources/locales/es.yml
+-rw-r--r--	root/root	opt/Obinslab Starter/resources/locales/fr.yml
+-rw-r--r--	root/root	opt/Obinslab Starter/resources/locales/locales.json
+-rw-r--r--	root/root	opt/Obinslab Starter/resources/locales/ms.yml
+-rw-r--r--	root/root	opt/Obinslab Starter/resources/locales/nl.yml
+-rw-r--r--	root/root	opt/Obinslab Starter/resources/locales/vi.yml
+-rw-r--r--	root/root	opt/Obinslab Starter/resources/locales/zh-CN.yml
+drwxrwxr-x	root/root	opt/Obinslab Starter/resources/user-manual/
+-rw-r--r--	root/root	opt/Obinslab Starter/resources/user-manual/AnnePro2_UserManual_en.pdf
+-rw-r--r--	root/root	opt/Obinslab Starter/resources/user-manual/AnnePro2_UserManual_es.pdf
+-rw-r--r--	root/root	opt/Obinslab Starter/resources/user-manual/AnnePro2_UserManual_zh.pdf
+-rw-rw-r--	root/root	opt/Obinslab Starter/ui_resources_200_percent.pak
+-rw-rw-r--	root/root	opt/Obinslab Starter/v8_context_snapshot.bin
+-rw-rw-r--	root/root	opt/Obinslab Starter/views_resources_200_percent.pak
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-rw-r--	root/root	usr/share/applications/obinslab-starter.desktop
+drwxr-xr-x	root/root	usr/share/icons/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/1024x1024/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/1024x1024/apps/
+-rw-rw-r--	root/root	usr/share/icons/hicolor/1024x1024/apps/obinslab-starter.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/apps/
+-rw-rw-r--	root/root	usr/share/icons/hicolor/256x256/apps/obinslab-starter.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/512x512/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/512x512/apps/
+-rw-rw-r--	root/root	usr/share/icons/hicolor/512x512/apps/obinslab-starter.png
