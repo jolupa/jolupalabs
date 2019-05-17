@@ -6,12 +6,13 @@
 name=xfce4-session
 version=4.13.1
 release=1
-source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
+source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz https://git.xfce.org/xfce/xfce4-session/snapshot/xfce4-session-0a915310582803296fbfb075e1ea1c045b20bfcc.tar.gz)
 
 build() {
-
-	cd $name-$version
-	
+  cd xfce4-session-0a915310582803296fbfb075e1ea1c045b20bfcc
+  cp -r * ../$name-$version
+	cd ../$name-$version
+  	
 	./autogen.sh \
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
