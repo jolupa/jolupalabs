@@ -1,6 +1,6 @@
 # Description:	Xfce's application launcher and finder
 # URL:		https://www.xfce.org
-# Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
+# Maintainer:	 jolupa, jolupameister at gmail dot com
 # Depends on:	libxfce4util xfconf libwnck-gtk3 exo thunar garcon libnotify
 
 name=xfce4-appfinder

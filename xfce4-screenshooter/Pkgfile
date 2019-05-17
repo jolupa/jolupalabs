@@ -1,6 +1,6 @@
 # Description:	An application to take screenhoots
 # URL:		https://www.xfce.org
-# Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
+# Maintainer: jolupa, jolupameister at gmail dot com
 # Depends on:	xfce4-panel libxfce4util libxfce4ui libsoup
 
 name=xfce4-screenshooter

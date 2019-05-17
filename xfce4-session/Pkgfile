@@ -1,6 +1,6 @@
 # Description:	Xfce's session manager
 # URL:		https://www.xfce.org
-# Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
+# Maintainer:	 jolupa, jolupameister at gmail dot com
 # Depends on:	libxfce4ui p5-xml-parser libwnck-gtk3 dbus-glib
 
 name=xfce4-session

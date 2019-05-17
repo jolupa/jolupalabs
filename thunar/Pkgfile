@@ -1,6 +1,6 @@
 # Description:	Modern, fast and easy-to-use file manager for Xfce
 # URL:		https://www.xfce.org
-# Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
+# Maintainer:	 jolupa, jolupameister at gmail dot com
 # Depends on:	libxfce4ui exo libpng gtk3 glib libexif dbus-glib libnotify startup-notification freetype libjpeg-turbo xfce4-panel xfconf
 
 name=thunar

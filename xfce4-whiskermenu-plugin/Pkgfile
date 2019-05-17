@@ -1,6 +1,6 @@
 # Description: Plugin menu
 # URL: https://git.xfce.org/panel-plugins/xfce4-whiskermenu-plugin/about/
-# Maintainer: jolupa <jolupameister(at)gmail[dot](com)>
+# Maintainer: jolupa, jolupameister at gmail dot com
 # Depends on: gtk3 exo garcon xfce4-panel libxfce4ui libxfce4util
 
 name=xfce4-whiskermenu-plugin

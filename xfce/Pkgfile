@@ -1,6 +1,6 @@
 # Description: Xfce Desktop meta-port
 # URL:  https://www.xfce.org
-# Maintainer: jolupa, jolupameister (at) gmail dot (com)
+# Maintainer: jolupa, jolupameister at gmail dot com
 # Depends on: xfce4-dev-tools libxfce4util xfconf libxfce4ui garcon exo xfce4-panel thunar xfce4-settings xfce4-session xfwm4 xfdesktop xfce4-appfinder gtk-xfce-engine-2 tumbler
 
 name=xfce

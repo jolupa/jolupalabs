@@ -1,6 +1,6 @@
 # Description:	Gtk engine
 # URL:		https://www.xfce.org
-# Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
+# Maintainer:	jolupa, jolupameister at gmail dot com
 # Depends on:	gtk3
 
 name=gtk-xfce-engine

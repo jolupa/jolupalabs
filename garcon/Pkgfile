@@ -1,6 +1,6 @@
 # Description:	Freedesktop.org compliant menu library
 # URL:		https://www.xfce.org
-# Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
+# Maintainer:	jolupa, jolupameister at gmail dot com
 # Depends on:	glib libxfce4util
 
 name=garcon

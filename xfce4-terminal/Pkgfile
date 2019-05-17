@@ -1,6 +1,6 @@
 # Description:	A modern terminal emulator
 # URL:		https://www.xfce.org
-# Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
+# Maintainer:	 jolupa, jolupameister at gmail dot com
 # Depends on:	vte3
 
 name=xfce4-terminal

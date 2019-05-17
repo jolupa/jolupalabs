@@ -1,6 +1,6 @@
 # Description:	D-Bus based configuration storage system
 # URL:		https://www.xfce.org
-# Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
+# Maintainer:	 jolupa, jolupameister at gmail dot com
 # Depends on:	libxfce4uti dbus-glib
 
 name=xfconf

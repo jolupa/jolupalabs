@@ -1,6 +1,6 @@
 # Description:	Automatic management of removable drives and media for Thunar
 # URL:		https://www.xfce.org
-# Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
+# Maintainer:	 jolupa, jolupameister at gmail dot com
 # Depends on:	thunar exo glib gtk3 libgudev libxfce4ui libxfce4util xfconf
 
 name=thunar-volman

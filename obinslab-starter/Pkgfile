@@ -1,6 +1,6 @@
 # Description:	Control your AnnePro Keyboad
 # URL:		https://en.obins.net
-# Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
+# Maintainer: jolupa, jolupameister at gmail dot com
 # Depends on:	gtk xorg-libxscrnsaver xorg-libxtst libxkbcommon nss
 
 name=obinslab-starter

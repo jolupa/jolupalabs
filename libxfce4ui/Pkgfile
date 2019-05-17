@@ -1,6 +1,6 @@
 # Description:	Graphic widgets helpers for Xfce
 # URL:		https://www.xfce.org
-# Maintainer:	jolupa <jolupameister(at)gmail[dot](com)
+# Maintainer:	 jolupa, jolupameister at gmail dot com
 # Depends on:	libxfce4util gtk3 xfconf startup-notification gladeui
 
 name=libxfce4ui
