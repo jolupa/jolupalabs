@@ -126,6 +126,7 @@ f:e57d773140c8dfc749e8e0d73586657c:xfce4-session/Pkgfile
 f:c5e36641cf6bbad254a5a3f224fd1061:xfce4-session/.signature
 f:1a9dc8d7e3a1660a9b8a1b52ffa7d760:thunar-vcs-plugin/.footprint
 f:c3fbadfdfc8f77279a9713a64f63364e:thunar-vcs-plugin/.md5sum
+f:a948291e643aa9261fa71f8adf664520:thunar-vcs-plugin/post-install
 f:9b8cb32cce54b81ee523505ae9fa2ee9:thunar-vcs-plugin/Pkgfile
 f:bc84bf80e5a525d5f8074d2d4060ed03:thunar-vcs-plugin/.signature
 f:e6c3edff5c07a37218fa215058ab6e56:xfwm4/.footprint
