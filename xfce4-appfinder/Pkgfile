@@ -4,7 +4,7 @@
 # Depends on:	libxfce4util xfconf libwnck-gtk3 exo thunar garcon libnotify
 
 name=xfce4-appfinder
-version=4.13.2
+version=4.13.3
 release=1
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 

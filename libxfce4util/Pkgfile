@@ -4,7 +4,7 @@
 # Depends on:	glib
 
 name=libxfce4util
-version=4.13.2
+version=4.13.3
 release=1
 source=(http://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 

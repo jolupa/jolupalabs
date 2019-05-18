@@ -4,7 +4,7 @@
 # Depends on:	dbus-glib glib gdk-pixbuf freetype libjpeg-turbo 
 
 name=tumbler
-version=0.2.3
+version=0.2.4
 release=1
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 

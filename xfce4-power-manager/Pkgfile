@@ -4,7 +4,7 @@
 # Depends on:	gtk-3 glib dbus libxfce4ui libxfce4util libnotify xfconf xfce4-panel xorg-xrandr dpms upower polkit consolekit pm-utils
 
 name=xfce4-power-manager
-version=1.6.1
+version=1.6.2
 release=1
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 

@@ -4,19 +4,15 @@
 # Depends on:	gtk3 libsassc
 
 name=qogir-theme
-version=git
-release=2
-source=()
+version=2019-05-03
+release=1
+source=(https://github.com/vinceliuice/Qogir-theme/archive/$version.tar.gz)
 
 build() {
-	if cd "$name-$version" 2> /dev/null; then
-		git pull
-	else
-		git clone https://github.com/vinceliuice/Qogir-theme.git "$name-$version"
-		cd "$name-$version"
-	fi
+
+  cd Qogir-theme-$version
 	
 	mkdir -p $PKG/usr/share/themes
 	./Install \
-	-d $PKG/usr/share/themes
+	  -d $PKG/usr/share/themes
 }

@@ -1,0 +1,26 @@
+From 9cf55328af1985e7096eb8d2efed28d35ae7f0c1 Mon Sep 17 00:00:00 2001
+From: Igor <f2404@yandex.ru>
+Date: Mon, 13 May 2019 11:23:10 -0400
+Subject: Drop support of Unicode encodings other than UTF-8
+
+Fixes bug #15377
+---
+ terminal/terminal-encoding-action.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/terminal/terminal-encoding-action.c b/terminal/terminal-encoding-action.c
+index f0725b8..ace14f8 100644
+--- a/terminal/terminal-encoding-action.c
++++ b/terminal/terminal-encoding-action.c
+@@ -133,7 +133,7 @@ static const gchar *terminal_encodings_charsets[][8] =
+   /* Georgian */
+   { "GEORGIAN-PS", NULL },
+   /* Unicode */
+-  { "UTF-8", "UTF-16", "UTF-7", "UCS-2", NULL },
++  { "UTF-8", NULL },
+   /* Other */
+   { "IBM874", "TSCII", NULL },
+ };
+-- 
+cgit v1.2.1
+
