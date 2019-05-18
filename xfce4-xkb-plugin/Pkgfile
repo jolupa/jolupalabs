@@ -1,0 +1,25 @@
+# Description: XKB layout switching panel plug-in for the Xfce desktop environment	
+
+# URL: https://git.xfce.org/panel-plugins/xfce4-xkb-plugin/
+# Maintainer: jolupa, jolupameister at gmail dot com
+# Depends on: xfce4-panel
+
+name=xfce4-xkb-plugin
+version=0.8.1
+release=1
+source=(https://git.xfce.org/panel-plugins/$name/snapshot/$name-$version.tar.gz)
+
+build() {
+
+  cd $name-$version
+  
+  ./autogen.sh \
+    --prefix=/usr \
+    --libexecdir=/usr/lib/$name \
+    --disable-debug \
+    --with-x
+  
+  make
+  make DESTDIR=$PKG install
+
+}

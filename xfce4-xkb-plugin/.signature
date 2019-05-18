@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/jolupalabs.pub
+RWR9MnXh90yDEMUZiPHEmM0K7Tbb+XHh3iYFuhlOqF/mq7IDfENPCCD1n8nhM4qnOFw3zIsWgH5ot3f4MPjM61XztrOkInCzbwA=
+SHA256 (Pkgfile) = 5b32829a410ffb9625826f806ca6ce7425a9bce48e92b4ff71692ea8b6381065
+SHA256 (.footprint) = de3d9b0ca49946d995d674cc93b050c817263560be0cde33b76668f88036e242
+SHA256 (xfce4-xkb-plugin-0.8.1.tar.gz) = 7dbc37026d62d2cdada61a49999bae1f2adb7109749eee0ac203e2506a2be04d
