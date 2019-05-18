@@ -4,6 +4,7 @@ d:gtk-xfce-engine
 d:thunar
 d:xfce
 d:garcon
+d:xfce4-xkb-plugin
 d:libdbusmenu
 d:tumbler
 d:obinslab-starter
@@ -58,6 +59,10 @@ f:e1ce2ea675c7f2943d06a53350574115:garcon/.footprint
 f:355ac4a1513cea23cbeecb653a21139c:garcon/.md5sum
 f:2980a3d4108a1508c0aefc1949812535:garcon/Pkgfile
 f:791c8537baa60c35168264e620e1dc9c:garcon/.signature
+f:ec1afb59e7d306a50bc0e424c9108e53:xfce4-xkb-plugin/.footprint
+f:71915a63c9686cc896665410f24641c0:xfce4-xkb-plugin/.md5sum
+f:ee6c92e15e0b0743e3256c2f17dfa7aa:xfce4-xkb-plugin/Pkgfile
+f:788c6cf40e9c8b33f5c643fe0aec240b:xfce4-xkb-plugin/.signature
 f:5cba583a6b5beeabeba43afe3b7ec955:libdbusmenu/.footprint
 f:87359d402092712aaef738af0248777e:libdbusmenu/.md5sum
 f:96f6edfbf874c3d33983820c21ebc084:libdbusmenu/Pkgfile
