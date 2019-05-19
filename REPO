@@ -21,6 +21,7 @@ d:xfconf
 d:xfce4-session
 d:thunar-vcs-plugin
 d:xfwm4
+d:polkit
 d:xfce-polkit
 d:xfce4-dev-tools
 d:libxfce4ui
@@ -139,6 +140,11 @@ f:f3a0940e9279d591a63ae459860976c7:xfwm4/.md5sum
 f:89241096299ccb829933dfa257c4dddc:xfwm4/post-install
 f:efa24f07fbfb1874042c61e8fe3fc984:xfwm4/Pkgfile
 f:8f800becd6d1de560032a91a71b6776e:xfwm4/.signature
+f:6ba4825b0440cff7c419d69581fa3fb5:polkit/.footprint
+f:1a56edd0030f4ac0cd06e0d6257499cc:polkit/polkit-1
+f:96da42f5801bd2dabba12fe48178056b:polkit/.md5sum
+f:0292a99f8df93dbb8e67814e375c8247:polkit/Pkgfile
+f:4e669cfddf478e68d0aed8b8875b460a:polkit/.signature
 f:f294dd95f37f4f9558775429ee6738a1:xfce-polkit/Pkgfile
 f:db3869d1b5cd8222c235fe1052b95547:xfce4-dev-tools/.footprint
 f:0eb0c9d1f2146f0d16bfc9656765376b:xfce4-dev-tools/.md5sum
@@ -181,11 +187,11 @@ f:29c4f0bf82e4be3cfb205568513b9559:xfce4-terminal/drop-unicode-encodings.patch
 f:2fc531556cf039ee8d0a22f1527809be:xfce4-terminal/.md5sum
 f:e01bc97ef79f882d2a454676fc2ab3be:xfce4-terminal/Pkgfile
 f:ecd8e4159f16fc60ac2abb914056d9ab:xfce4-terminal/.signature
-f:4c2d3918b9386cdc5186598708808a65:elementary-xfce/.footprint
+f:6a5072b0ab8da7ace86a8888e14cc0db:elementary-xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:elementary-xfce/.md5sum
 f:d32da0466f4fd368b618467678d3b611:elementary-xfce/post-install
-f:d3ef21a8ba16255b5da07db7cb182d38:elementary-xfce/Pkgfile
-f:8efa50797d9adb7195e84e24893534be:elementary-xfce/.signature
+f:66cfd775d3fe37a1ff15c20ebb88f010:elementary-xfce/Pkgfile
+f:af7885666dbf08f18e76559f1038775f:elementary-xfce/.signature
 f:719179595ffa6984ce3df97777287a5a:qogir-theme/.footprint
 f:e5556afb4a4ee51e40db901f00872321:qogir-theme/.md5sum
 f:41459da25852116f58804039cdd5349e:qogir-theme/Pkgfile
