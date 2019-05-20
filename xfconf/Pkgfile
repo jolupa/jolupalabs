@@ -4,7 +4,7 @@
 # Depends on:	libxfce4uti dbus-glib
 
 name=xfconf
-version=4.13.6
+version=4.13.7
 release=1
 source=(http://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
@@ -20,4 +20,7 @@ build() {
 	make
 
 	make DESTDIR=$PKG install
+	
+	#rm -r $PKG/usr/share/locale
+	
 }

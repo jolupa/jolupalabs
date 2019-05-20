@@ -4,8 +4,8 @@
 # Depends on:	libxfce4ui p5-xml-parser libwnck-gtk3 dbus-glib
 
 name=xfce4-session
-version=4.13.1
-release=2
+version=4.13.2
+release=1
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz https://git.xfce.org/xfce/xfce4-session/snapshot/xfce4-session-0a915310582803296fbfb075e1ea1c045b20bfcc.tar.gz)
 
 build() {
