@@ -5,7 +5,7 @@
 
 name=garcon
 version=0.6.2
-release=1
+release=2
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -23,4 +23,7 @@ build() {
 	make
 
 	make DESTDIR=$PKG install
+	
+	#rm -r $PKG/usr/share/locale
+	
 }

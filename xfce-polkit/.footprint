@@ -1,0 +1,8 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/xdg/
+drwxr-xr-x	root/root	usr/etc/xdg/autostart/
+-rw-r--r--	root/root	usr/etc/xdg/autostart/xfce-polkit.desktop
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/xfce-polkit/
+-rwxr-xr-x	root/root	usr/lib/xfce-polkit/xfce-polkit

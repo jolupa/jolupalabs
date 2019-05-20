@@ -5,7 +5,7 @@
 
 name=xfce4-power-manager
 version=1.6.2
-release=2
+release=3
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {

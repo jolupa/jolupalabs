@@ -5,7 +5,7 @@
 
 name=qogir-theme
 version=2019-05-03
-release=1
+release=2
 source=(https://github.com/vinceliuice/Qogir-theme/archive/$version.tar.gz)
 
 build() {
@@ -15,4 +15,6 @@ build() {
 	mkdir -p $PKG/usr/share/themes
 	./Install \
 	  -d $PKG/usr/share/themes
+  
+  rm -r $PKG/usr/share/themes/Qogir{-dark,-light,-win-dark,-win-light,-win}/{AUTHORS,COPYING}
 }

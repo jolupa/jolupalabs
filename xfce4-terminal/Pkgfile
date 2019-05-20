@@ -5,7 +5,7 @@
 
 name=xfce4-terminal
 version=0.8.7.4
-release=2
+release=3
 source=(https://archive.xfce.org/src/apps/$name/0.8/$name-$version.tar.bz2 drop-unicode-encodings.patch)
 
 build() {
@@ -23,4 +23,7 @@ build() {
 	make
 
 	make DESTDIR=$PKG install
+	
+	#rm -r $PKG/usr/share/locale
+	
 }

@@ -2,8 +2,6 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/themes/
 drwxr-xr-x	root/root	usr/share/themes/Qogir-dark/
--rw-r--r--	root/root	usr/share/themes/Qogir-dark/AUTHORS
--rw-r--r--	root/root	usr/share/themes/Qogir-dark/COPYING
 drwxr-xr-x	root/root	usr/share/themes/Qogir-dark/cinnamon/
 drwxr-xr-x	root/root	usr/share/themes/Qogir-dark/cinnamon/assets/
 drwxr-xr-x	root/root	usr/share/themes/Qogir-dark/cinnamon/assets/checkbox/
@@ -760,8 +758,6 @@ drwxr-xr-x	root/root	usr/share/themes/Qogir-dark/xfwm4/
 -rw-r--r--	root/root	usr/share/themes/Qogir-dark/xfwm4/top-right-active.png
 -rw-r--r--	root/root	usr/share/themes/Qogir-dark/xfwm4/top-right-inactive.png
 drwxr-xr-x	root/root	usr/share/themes/Qogir-light/
--rw-r--r--	root/root	usr/share/themes/Qogir-light/AUTHORS
--rw-r--r--	root/root	usr/share/themes/Qogir-light/COPYING
 drwxr-xr-x	root/root	usr/share/themes/Qogir-light/cinnamon/
 drwxr-xr-x	root/root	usr/share/themes/Qogir-light/cinnamon/assets/
 drwxr-xr-x	root/root	usr/share/themes/Qogir-light/cinnamon/assets/checkbox/
@@ -1520,8 +1516,6 @@ drwxr-xr-x	root/root	usr/share/themes/Qogir-light/xfwm4/
 -rw-r--r--	root/root	usr/share/themes/Qogir-light/xfwm4/top-right-active.png
 -rw-r--r--	root/root	usr/share/themes/Qogir-light/xfwm4/top-right-inactive.png
 drwxr-xr-x	root/root	usr/share/themes/Qogir-win-dark/
--rw-r--r--	root/root	usr/share/themes/Qogir-win-dark/AUTHORS
--rw-r--r--	root/root	usr/share/themes/Qogir-win-dark/COPYING
 drwxr-xr-x	root/root	usr/share/themes/Qogir-win-dark/cinnamon/
 drwxr-xr-x	root/root	usr/share/themes/Qogir-win-dark/cinnamon/assets/
 drwxr-xr-x	root/root	usr/share/themes/Qogir-win-dark/cinnamon/assets/checkbox/
@@ -2278,8 +2272,6 @@ drwxr-xr-x	root/root	usr/share/themes/Qogir-win-dark/xfwm4/
 -rw-r--r--	root/root	usr/share/themes/Qogir-win-dark/xfwm4/top-right-active.png
 -rw-r--r--	root/root	usr/share/themes/Qogir-win-dark/xfwm4/top-right-inactive.png
 drwxr-xr-x	root/root	usr/share/themes/Qogir-win-light/
--rw-r--r--	root/root	usr/share/themes/Qogir-win-light/AUTHORS
--rw-r--r--	root/root	usr/share/themes/Qogir-win-light/COPYING
 drwxr-xr-x	root/root	usr/share/themes/Qogir-win-light/cinnamon/
 drwxr-xr-x	root/root	usr/share/themes/Qogir-win-light/cinnamon/assets/
 drwxr-xr-x	root/root	usr/share/themes/Qogir-win-light/cinnamon/assets/checkbox/
@@ -3038,8 +3030,6 @@ drwxr-xr-x	root/root	usr/share/themes/Qogir-win-light/xfwm4/
 -rw-r--r--	root/root	usr/share/themes/Qogir-win-light/xfwm4/top-right-active.png
 -rw-r--r--	root/root	usr/share/themes/Qogir-win-light/xfwm4/top-right-inactive.png
 drwxr-xr-x	root/root	usr/share/themes/Qogir-win/
--rw-r--r--	root/root	usr/share/themes/Qogir-win/AUTHORS
--rw-r--r--	root/root	usr/share/themes/Qogir-win/COPYING
 drwxr-xr-x	root/root	usr/share/themes/Qogir-win/cinnamon/
 drwxr-xr-x	root/root	usr/share/themes/Qogir-win/cinnamon/assets/
 drwxr-xr-x	root/root	usr/share/themes/Qogir-win/cinnamon/assets/checkbox/

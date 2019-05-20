@@ -14,7 +14,13 @@ prtdir /usr/ports/contrib
 
 #############################################
 #                                           #
+# All the builds have the locales included  #
+#     If you don't want locales please      #
+#    uncomment the "rm" line in Pkgfile     #
+#                                           #
+#############################################
+#                                           #
 #          Any question contact:            #
-#     jolupameister(at)gmail(dot)com        #
+#     jolupameister at gmail dot com        #
 #                                           #
 #############################################

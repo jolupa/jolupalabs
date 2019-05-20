@@ -5,7 +5,7 @@
 
 name=greybird-xfce
 version=git
-release=2
+release=3
 source=()
 
 build() {
@@ -21,4 +21,7 @@ build() {
 	
 	make
 	make DESTDIR=$PKG install
+	
+	rm $PKG/usr/share/themes/gtk-3.0/README
+	
 }

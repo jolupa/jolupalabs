@@ -5,7 +5,7 @@
 
 name=xfwm4
 version=4.13.1
-release=1
+release=2
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -13,18 +13,20 @@ build() {
 	cd $name-$version
 	
 	./autogen.sh \
-	--prefix=/usr \
-	--libexecdir=/usr/lib/$name \
-	--enable-shared \
-	--enable-xsync \
-	--enable-render \
-	--enable-randr \
-	--enable-xpresent \
-	--enable-compositor \
-	--disable-debug \
-	--with-x
+	  --prefix=/usr \
+	  --libexecdir=/usr/lib/$name \
+	  --enable-shared \
+	  --enable-xsync \
+	  --enable-render \
+	  --enable-randr \
+	  --enable-xpresent \
+	  --enable-compositor \
+	  --disable-debug \
+	  --with-x
 
 	make
-
-	make DESTDIR=$PKG install
+  make DESTDIR=$PKG install
+  
+  #rm -r $PKG/usr/share/locale
+  rm $PKG/usr/share/themes/{Daloa,Default-hdpi,Default-xhdpi,Kokodi,Moheli}/xfwm4/README
 }

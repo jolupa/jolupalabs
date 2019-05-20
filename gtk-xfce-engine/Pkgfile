@@ -5,7 +5,7 @@
 
 name=gtk-xfce-engine
 version=3.2.0
-release=1
+release=2
 source=(https://git.xfce.org/archive/$name/snapshot/$name-$version.tar.gz)
 
 build() {

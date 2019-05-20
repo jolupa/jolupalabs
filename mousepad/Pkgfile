@@ -5,7 +5,7 @@
 
 name=mousepad
 version=0.4.1
-release=1
+release=3
 source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -19,10 +19,12 @@ build() {
 	--disable-gtk-docs \
 	--enable-gtk3 \
 	--enable-dbus \
-	--enable-keyfile-settings \
-	--disable-schemas-compile
+	--enable-keyfile-settings
 
 	make
 
 	make DESTDIR=$PKG install
+	
+	#rm -r $PKG/usr/share/locale
+	
 }

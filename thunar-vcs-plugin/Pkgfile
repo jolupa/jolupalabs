@@ -5,7 +5,7 @@
 
 name=thunar-vcs-plugin
 version=0.2.0
-release=1
+release=2
 source=(https://git.xfce.org/thunar-plugins/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -20,5 +20,7 @@ build() {
   
   make
   make DESTDIR=$PKG install
+  
+  #rm -r $PKG/usr/share/locale
   
 }
