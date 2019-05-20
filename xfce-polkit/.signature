@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWR9MnXh90yDEOUTXdRyvge6A0TRNMADop6w7xCwTL8MPzby4Wwu4z9TvgMHkQeEx0J8xzOgAahlqpqFss4FQMotMBRl1e908QE=
+RWR9MnXh90yDEHTsdqSpTgSKm330SyZNv/G4V3QP4DI0fzJBAjdRObIMaShYpNXR64KSxsDq8wLUGQFH8Uvf8gmpEcZ40wQvKAg=
+SHA256 (Pkgfile) = 913977de6ca9f61458c0945dffba9ff4d0ab3f5faaaede2d1210b4a37b4f37a9
+SHA256 (.footprint) = 55355d8582d54d4b38e6df628a576633b1f5fdec43d92ca2c83ce6d6d0e02dab
+SHA256 (xfce-polkit-0.3.tar.gz) = 564e566a83c2dd5fc2199481deb56842797fefbe985d4e55219bacbeb573f23a

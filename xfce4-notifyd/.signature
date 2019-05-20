@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWS2s2A6qhkC6pJELtRHDnWIj8yvYaAg3AigjXURgORDrPJTIgEiMIuwyWXmodrE9Vlv10Wpks+XOgYRcQvqUMqqmQ/bN+emvAU=
-SHA256 (Pkgfile) = 8a57a4edc6839e2e25ab73a1aabf316f6802973e665c1a2da2fabaaf7ef19c65
+RWR9MnXh90yDEDqB7NHIEcxIhyyO6CSRbFufg56ZR/aGf+Ga95QWOedsxM7HFj3VYRLNS3ih3YLKZmJpFNYxhtpTOaTj4OTdxAc=
+SHA256 (Pkgfile) = 10c517812785ddfa68189859cde60e77d3b0e1ae86232034e0da2ca6d9485c32
 SHA256 (.footprint) = bf661593ef837dcd365c410fca727f7462fe8362515b5f4402bc5ac5c30589a2
 SHA256 (xfce4-notifyd-0.4.4.tar.gz) = fb8bf9d0a1507a37ae65d3eff88200388b6ab74395b56b1a15a0b99c06375cf8

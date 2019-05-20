@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWR9MnXh90yDEOUTXdRyvge6A0TRNMADop6w7xCwTL8MPzby4Wwu4z9TvgMHkQeEx0J8xzOgAahlqpqFss4FQMotMBRl1e908QE=
+RWR9MnXh90yDELR/LdQUAfxao4HwqVPrsbBlI/cYMCCTJE5p7wLjYJSavIaDk/veasIzVGKcR7zDmzUHbhlNBMu9/bT2HPncDAc=
+SHA256 (Pkgfile) = 9dedfb83cbec2e567a4be4a903a827433900b84d01b0203a39b6eef927f1f7cb
+SHA256 (.footprint) = 2d2a53b37423c0edac1d5ceaf739fb88783740538c52f4ed932e423ce05277bb
+SHA256 (libindicator-0.5.0.tar.gz) = f05f5e329d55d32000606b9d75d1b2b722b682e440cf7e325440811836554622
