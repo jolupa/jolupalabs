@@ -13,3 +13,4 @@ sync.sh
 \.gem$
 index.html
 jolupalabs.*$
+xfce4-mixer
