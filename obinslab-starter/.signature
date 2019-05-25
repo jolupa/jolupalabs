@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWR9MnXh90yDEOciEJelHbEICtn8wJrt8FakIBE0oD+vVBOo0P1barQ3MeEBozg/ay+j8TFAHaakAgr2OeyCSMX1AVk1dJS3XAM=
+RWR9MnXh90yDEMasN31RxGhMopuTWY0poJGC8RHa58iff/yWdNcUMMtaoaupi31pmgygqdDu+tsD+ePpgdOvnLAunOcdOGBgKwE=
 SHA256 (Pkgfile) = d71e40906eba15c0ef3c1b095d2f63ff6593ac5d0ce27fe0792bd8fc0b8ff49e
 SHA256 (.footprint) = 35cd6cedb51a4b1c4201b5798d9009b783bbfafab30ab21fac2bb616c9af928f
 SHA256 (ObinslabStarter_1.0.11_x64.deb) = 8e05bb0c88fce3c1c5b3fa4b5c8d008d70a66b8181b3cc9055b9e6fd15173ba0
-SHA256 (10-annepro.rules) = 3be426ffd47ddb4e730da572ea1d8ed7f73404d2ff43266a0a39364cb11453f1
+SHA256 (10-annepro.rules) = bad04d96c7a7982dc3aea45b3838bdef503c4379d4f5f31e26fc35f97f46a412
