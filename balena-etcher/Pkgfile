@@ -1,0 +1,18 @@
+# Description: Flash OS images to SD cards & USB drives, safely and easily.
+# URL: https://www.balena.io/etcher/
+# Maintainer: jolupa, jolupameister at gmail dot com
+# Depends on:
+
+name=balena-etcher
+version=1.5.41
+release=1
+source=(https://github.com/balena-io/etcher/releases/download/v$version/$name-electron_"$version"_amd64.deb)
+
+build() {
+
+  ar xf $name-electron_"$version"_amd64.deb
+  tar xf data.tar.xz -C $PKG
+  
+  rm -r $PKG/usr/share/doc
+  #rm -r $PKG/opt/BalenaEtcher/locales
+}
