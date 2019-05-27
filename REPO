@@ -1,5 +1,6 @@
 d:xfce4-screensaver
 d:xfce4-screenshooter
+d:ristretto
 d:thunar-volman
 d:gtk-xfce-engine
 d:thunar
@@ -16,6 +17,7 @@ d:libappindicator
 d:xfce4-whiskermenu-plugin
 d:xfce4-power-manager
 d:xfce4-notifyd
+d:balena-etcher
 d:greybird-xfce
 d:xfconf
 d:xfce4-session
@@ -43,6 +45,7 @@ f:d2c71d4bbc381d6733f64f11b6970a2f:xfce4-screenshooter/post-install
 f:4e4c5c5f4c3a9c79c27b7d623a3e31b4:xfce4-screenshooter/Pkgfile
 f:2fc7350eb8d243590df5990a3fef1a1a:xfce4-screenshooter/.signature
 f:0d4ff73af4f6df024f8bc1ecfc443da1:README
+f:e3234f5f99c1c08d7b370cd1295a3757:ristretto/Pkgfile
 f:254d2167197b12a2efab8814b786f9f8:thunar-volman/.footprint
 f:f6f5adce18c8ef852279399c4ef20bae:thunar-volman/.md5sum
 f:f6f599f405eecaaa0a734fe071b4a759:thunar-volman/post-install
@@ -78,11 +81,11 @@ f:c05199b8a6893d22b2b3f74dc3459792:tumbler/.md5sum
 f:1be89508e7beed80eddc75652c023620:tumbler/Pkgfile
 f:a131fdff70a35a38a8565ec098fa4db2:tumbler/.signature
 f:4d55a4d16b83debf4c3cfd74de07f68f:obinslab-starter/.footprint
-f:a3071de828ff25a693638aff4d9162cc:obinslab-starter/10-annepro.rules
-f:70a0d407c003137f19b83c29c0d729d6:obinslab-starter/.md5sum
+f:5fbf158eba57a28691473d1d43e28343:obinslab-starter/10-annepro.rules
+f:5000a409689019d1884ab830031585b1:obinslab-starter/.md5sum
 f:f93ac9fedc59f6b82dec9ca72c154566:obinslab-starter/post-install
 f:ab1dc38e16c92777b9b10c983dcdf9f4:obinslab-starter/Pkgfile
-f:eaa9c2ca19e56f52d8b955c2a54ffc67:obinslab-starter/.signature
+f:1d3e167cb435cf4fe3eec3a1ab496c76:obinslab-starter/.signature
 f:7395d1e1289aa38d62e5fc4e50c026c6:exo/.footprint
 f:81e28bbd8aabf69da7344494b3922720:exo/.md5sum
 f:a21ba3587412df0dbd761075ab026d4a:exo/post-install
@@ -116,6 +119,11 @@ f:f05983a96da4d0b7839eebfa497ad2ba:xfce4-notifyd/.md5sum
 f:d786651b6d14a5c35ec0943e4335e688:xfce4-notifyd/post-install
 f:b0759313d7f264938f1d6b91f5842478:xfce4-notifyd/Pkgfile
 f:758f11bf7f3233623e3524a5f690023f:xfce4-notifyd/.signature
+f:1c40651b7a6efad850fe760209bf3deb:balena-etcher/.footprint
+f:b11d7f6ca187a67a2fce27c8f70d752d:balena-etcher/.md5sum
+f:1232583d1ee480eed1d328679f78a50e:balena-etcher/post-install
+f:9aca0514b7fb6bb758993525e86f0df6:balena-etcher/Pkgfile
+f:88bb6be0305092783fde5fa07e5ddccf:balena-etcher/.signature
 f:7b38b41dd13133dcf83c60744ea68fab:greybird-xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:greybird-xfce/.md5sum
 f:730330b3ee683411f91f8eb17342daac:greybird-xfce/Pkgfile
