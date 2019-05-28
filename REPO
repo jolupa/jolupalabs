@@ -17,7 +17,6 @@ d:libappindicator
 d:xfce4-whiskermenu-plugin
 d:xfce4-power-manager
 d:xfce4-notifyd
-d:balena-etcher
 d:greybird-xfce
 d:xfconf
 d:xfce4-session
@@ -119,11 +118,6 @@ f:f05983a96da4d0b7839eebfa497ad2ba:xfce4-notifyd/.md5sum
 f:d786651b6d14a5c35ec0943e4335e688:xfce4-notifyd/post-install
 f:b0759313d7f264938f1d6b91f5842478:xfce4-notifyd/Pkgfile
 f:758f11bf7f3233623e3524a5f690023f:xfce4-notifyd/.signature
-f:1c40651b7a6efad850fe760209bf3deb:balena-etcher/.footprint
-f:b11d7f6ca187a67a2fce27c8f70d752d:balena-etcher/.md5sum
-f:1232583d1ee480eed1d328679f78a50e:balena-etcher/post-install
-f:9aca0514b7fb6bb758993525e86f0df6:balena-etcher/Pkgfile
-f:88bb6be0305092783fde5fa07e5ddccf:balena-etcher/.signature
 f:7b38b41dd13133dcf83c60744ea68fab:greybird-xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:greybird-xfce/.md5sum
 f:730330b3ee683411f91f8eb17342daac:greybird-xfce/Pkgfile
