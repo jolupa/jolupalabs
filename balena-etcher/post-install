@@ -1,7 +1,0 @@
-# !/bin/sh
-# Post install balena etcher
-#
-
-gtk-update-icon-cache /usr/share/icons/hicolor
-
-# End post install file
