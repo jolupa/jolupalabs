@@ -1,9 +1,9 @@
-#############################################
-#                                           #
-#           Install Repo for CRUX           #
-#                Instruction                #
-#                                           #
-#############################################
+############################################# 
+#                                           # 
+#           Install Repo for CRUX           # 
+#                Instruction                # 
+#                                           # 
+############################################# 
 
 # wget --no-ch https://raw.githubusercontent.com/jolupa/jolupalabs/master/jolupalabs.{httpup,pub}
 # mv jolupalabs.* /etc/ports
@@ -12,15 +12,15 @@
 prtdir /usr/ports/contrib
 -> prtdir /usr/ports/jolupalabs
 
-#############################################
-#                                           #
-# All the builds have the locales included  #
-#     If you don't want locales please      #
-#    uncomment the "rm" line in Pkgfile     #
-#                                           #
-#############################################
-#                                           #
-#          Any question contact:            #
-#     jolupameister at gmail dot com        #
-#                                           #
-#############################################
+############################################# 
+#                                           # 
+# All the builds have the locales included  # 
+#     If you don't want locales please      # 
+#    uncomment the "rm" line in Pkgfile     # 
+#                                           # 
+############################################# 
+#                                           # 
+#          Any question contact:            # 
+#          jlpavo at me dot com             # 
+#                                           # 
+############################################# 
