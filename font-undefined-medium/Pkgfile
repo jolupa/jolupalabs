@@ -1,0 +1,20 @@
+# Description: a free and open-source monospace typeface with 400+ characters
+# URL: https://undefined-medium.com/
+# Maintainer: jolupa, jolupameister at gmail dot com
+# Depends on: fontconfig
+
+name=font-undefined-medium
+_name=undefined-medium
+version=1.0
+release=1
+source=(https://github.com/andirueckel/$_name/archive/v$version.tar.gz)
+
+build() {
+
+  cd $_name-$version
+  
+  install -d $PKG/usr/share/fonts/{OTF,TTF}
+  install -m644 fonts/otf/*.otf $PKG/usr/share/fonts/OTF
+  install -m644 fonts/ttf/*.ttf $PKG/usr/share/fonts/TTF
+
+}
