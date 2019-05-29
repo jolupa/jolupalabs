@@ -1,0 +1,7 @@
+# !/bin/sh
+# Post install file for etcher
+#
+
+gtk-update-icon-cache /usr/share/icons/hicolor
+
+# End post install file

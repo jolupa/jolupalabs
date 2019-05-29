@@ -1,0 +1,20 @@
+# Description: Flash OS images to SD cards and usb drives
+# URL: https://etcher.io
+# Maintainer: jolupa, jolupameister at gmail dot com
+# Depends on: npm jq gtk
+
+name=balena-etcher
+_name=etcher
+version=1.5.43
+release=1
+source=(https://github.com/balena-io/$_name/releases/download/v$version/$name-electron_"$version"_amd64.deb)
+
+build() {
+  
+  ar xf $name-electron_"$version"_amd64.deb
+  tar xf data.tar.xz -C $PKG
+  
+  rm -r $PKG/usr/share/doc
+  #rm -r $PKG/opt/balenaEtcher/locales
+  
+}
