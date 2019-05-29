@@ -7,6 +7,7 @@ d:xfce
 d:garcon
 d:xfce4-xkb-plugin
 d:libdbusmenu
+d:font-undefined-medium
 d:tumbler
 d:obinslab-starter
 d:exo
@@ -74,6 +75,11 @@ f:5cba583a6b5beeabeba43afe3b7ec955:libdbusmenu/.footprint
 f:87359d402092712aaef738af0248777e:libdbusmenu/.md5sum
 f:96f6edfbf874c3d33983820c21ebc084:libdbusmenu/Pkgfile
 f:e651f080be5546dd4ef6f89a9b898fac:libdbusmenu/.signature
+f:483f9dfefb4947bb7e2d82a27c6e5f44:font-undefined-medium/.footprint
+f:88c342803a1342443894776de1e5f9a6:font-undefined-medium/.md5sum
+f:8b133fe080cca70ee99fd8a2eb15e7a9:font-undefined-medium/post-install
+f:c0a9ad430a131eca0f0ca87f74c95625:font-undefined-medium/Pkgfile
+f:8569b09294aeda2dd79b8f40de1fd82a:font-undefined-medium/.signature
 f:795685ea4d24a1f2f6881b55fff09023:tumbler/.footprint
 f:c05199b8a6893d22b2b3f74dc3459792:tumbler/.md5sum
 f:1be89508e7beed80eddc75652c023620:tumbler/Pkgfile
@@ -117,11 +123,11 @@ f:f05983a96da4d0b7839eebfa497ad2ba:xfce4-notifyd/.md5sum
 f:d786651b6d14a5c35ec0943e4335e688:xfce4-notifyd/post-install
 f:b0759313d7f264938f1d6b91f5842478:xfce4-notifyd/Pkgfile
 f:758f11bf7f3233623e3524a5f690023f:xfce4-notifyd/.signature
-f:3fc36aa26d7a36b363f8e2153c930a39:balena-etcher/.footprint
+f:98b5350ce041f0f3b15b24b02281fe6c:balena-etcher/.footprint
 f:c3bf2d16fda418f4e57983f16b6a9e02:balena-etcher/.md5sum
 f:ad55a6116c5a2fc0642748ec6d7f66b5:balena-etcher/post-install
-f:85e02bd6be68a1969f35a610199c0521:balena-etcher/Pkgfile
-f:2cd4a96169d1fb707286066aae983433:balena-etcher/.signature
+f:88390b1800c15965ba3edd1262095ef6:balena-etcher/Pkgfile
+f:8569b09294aeda2dd79b8f40de1fd82a:balena-etcher/.signature
 f:7b38b41dd13133dcf83c60744ea68fab:greybird-xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:greybird-xfce/.md5sum
 f:730330b3ee683411f91f8eb17342daac:greybird-xfce/Pkgfile
