@@ -1,7 +1,5 @@
 drwxr-xr-x	root/root	opt/
 drwxr-xr-x	root/root	opt/balenaEtcher/
--rw-r--r--	root/root	opt/balenaEtcher/LICENSE.electron.txt
--rw-r--r--	root/root	opt/balenaEtcher/LICENSES.chromium.html
 -rwxr-xr-x	root/root	opt/balenaEtcher/balena-etcher-electron
 -rw-r--r--	root/root	opt/balenaEtcher/blink_image_resources_200_percent.pak
 -rw-r--r--	root/root	opt/balenaEtcher/content_resources_200_percent.pak
@@ -75,9 +73,6 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/balena-etcher-electron.desktop
-drwxr-xr-x	root/root	usr/share/doc/
-drwxr-xr-x	root/root	usr/share/doc/balena-etcher-electron/
--rw-r--r--	root/root	usr/share/doc/balena-etcher-electron/changelog.gz
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/

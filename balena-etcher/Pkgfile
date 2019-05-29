@@ -6,7 +6,7 @@
 name=balena-etcher
 _name=etcher
 version=1.5.43
-release=1
+release=2
 source=(https://github.com/balena-io/$_name/releases/download/v$version/$name-electron_"$version"_amd64.deb)
 
 build() {
@@ -16,5 +16,7 @@ build() {
   
   rm -r $PKG/usr/share/doc
   #rm -r $PKG/opt/balenaEtcher/locales
+  rm $PKG/opt/balenaEtcher/LICENSE.electron.txt
+  rm $PKG/opt/balenaEtcher/LICENSES.chromium.html
   
 }
