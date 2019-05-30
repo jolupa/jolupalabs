@@ -1,7 +1,7 @@
 # Description: Flash OS images to SD cards and usb drives
 # URL: https://etcher.io
 # Maintainer: jolupa, jolupameister at gmail dot com
-# Depends on: npm jq gtk
+# Depends on: alsa-lib gconf gtk xorg-libxscrnsaver xorg-libxtst nss
 
 name=balena-etcher
 _name=etcher
@@ -11,8 +11,8 @@ source=(https://github.com/balena-io/$_name/releases/download/v$version/$name-el
 
 build() {
   
-  ar xf $name-electron_"$version"_amd64.deb
-  tar xf data.tar.xz -C $PKG
+  ar xvf $name-electron_"$version"_amd64.deb
+  tar xvf data.tar.xz -C $PKG
   
   rm -r $PKG/usr/share/doc
   #rm -r $PKG/opt/balenaEtcher/locales
