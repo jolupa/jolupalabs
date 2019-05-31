@@ -1,0 +1,6 @@
+# jolupalabs ports collection
+#
+# https://github.com/jolupa/jolupalabs
+
+ROOT_DIR=/usr/ports/jolupalabs
+URL=https://rau.githubusercontent.com/jolupa/jolupalabs/master
