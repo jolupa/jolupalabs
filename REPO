@@ -96,9 +96,9 @@ f:a21ba3587412df0dbd761075ab026d4a:exo/post-install
 f:1ad98ce75d7a37b50f6e4757df7ad3bb:exo/Pkgfile
 f:b909c4883a1f0969c773a1cc1babbed5:exo/.signature
 f:7e8e1e34da073bbf3a9b5bafb0416e2a:libindicator/.footprint
-f:c13fa6508278e8dee951c64cf39f62df:libindicator/.md5sum
-f:02931bb36fb88e73d4b76feba0e42058:libindicator/Pkgfile
-f:0e99dd7e6ae5477cbdf7853190cdd08b:libindicator/.signature
+f:afb597207e867ee7219396c84305a572:libindicator/.md5sum
+f:dcc9ad9abff28a49a397bbd733aca0be:libindicator/Pkgfile
+f:45812d9eec8ffeab2d5b739475f233fc:libindicator/.signature
 f:f68a7fa175c912bd62e4bc010685bdc5:xfce4-appfinder/.footprint
 f:592636aeb96d8518ff476461bbab305d:xfce4-appfinder/.md5sum
 f:9b124918c2aa6fc3995881f2a65e833b:xfce4-appfinder/Pkgfile
@@ -126,7 +126,7 @@ f:758f11bf7f3233623e3524a5f690023f:xfce4-notifyd/.signature
 f:98b5350ce041f0f3b15b24b02281fe6c:balena-etcher/.footprint
 f:c3bf2d16fda418f4e57983f16b6a9e02:balena-etcher/.md5sum
 f:ad55a6116c5a2fc0642748ec6d7f66b5:balena-etcher/post-install
-f:88390b1800c15965ba3edd1262095ef6:balena-etcher/Pkgfile
+f:eba1fdab495a68936a944b0e7d1dfe93:balena-etcher/Pkgfile
 f:8569b09294aeda2dd79b8f40de1fd82a:balena-etcher/.signature
 f:7b38b41dd13133dcf83c60744ea68fab:greybird-xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:greybird-xfce/.md5sum
