@@ -5,7 +5,7 @@
 
 name=mousepad
 version=0.4.1
-release=3
+release=4
 source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -16,7 +16,9 @@ build() {
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
 	--disable-static \
-	--disable-gtk-docs \
+	--disable-gtk-doc \
+	--disable-gtk-doc-html \
+	--disable-gtk-doc-pdf \
 	--enable-gtk3 \
 	--enable-dbus \
 	--enable-keyfile-settings

@@ -5,7 +5,7 @@
 
 name=xfce4-panel
 version=4.13.5
-release=2
+release=3
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -16,11 +16,13 @@ build() {
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
 	--disable-gtk2 \
-	--enable-gtrk3 \
 	--enable-introspection=no \
 	--enable-gio-unix \
 	--enable-vala=auto \
-	--disable-debug
+	--disable-debug \
+	--disable-gtk-doc \
+	--disable-gtk-doc-html \
+	--disable-gtk-doc-pdf
 
 	make
 

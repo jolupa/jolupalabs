@@ -16,8 +16,10 @@ build() {
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
 	--disable-static \
-	--disable-gtk-docs \
-	--disable-gtk-2 \
+	--disable-gtk-doc \
+	--disable-gtk-doc-html \
+	--disable-gtk-doc-pdf \
+	--disable-gtk2 \
 	--enable-gtk3 \
 	--with-x
 	

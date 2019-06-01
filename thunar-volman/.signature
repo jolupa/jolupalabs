@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWR9MnXh90yDEA2a30db4qRFGEQiYS6iCqhbwFIBnNIo1PJ184ynzhZaryD3J1Cj53rheBIgu+PNpkDZ/9ybeD2D9OJCTFhD9AU=
-SHA256 (Pkgfile) = c54796e0839d84203f3582f09fb9f557862292645ea05c9e40c75a105cffb9e8
-SHA256 (.footprint) = bd38afde4e6f2b79f18469afdfaf92124c11c87dccd5779d5e5109d955a2a1bc
+RWR9MnXh90yDEP/zaxec4T5XYdmGm5qY8l/4KNkvGKhK6oDR6coaDXGpvNcYhcRAbzNTmcTWbtxcswACyHDMIcqi5nz63CJs0AQ=
+SHA256 (Pkgfile) = 5b1bba48ec54f45e5afd06fb31b5eaf5c31b17e2864e77dac9aef9f0f95aafe6
+SHA256 (.footprint) = 93ebe79a175b0207f478a5a30d589e7d78dd5725839f4f1b1723c397ae727a78
 SHA256 (thunar-volman-0.9.2.tar.gz) = 0322a4f6ba491b6c83d926392a7a9cf4753faf93c488ea43849f7fd3e8480212

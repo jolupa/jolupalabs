@@ -5,24 +5,25 @@
 
 name=xfce4-session
 version=4.13.2
-release=1
-source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz https://git.xfce.org/xfce/xfce4-session/snapshot/xfce4-session-0a915310582803296fbfb075e1ea1c045b20bfcc.tar.gz)
+release=3
+source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
-  cd xfce4-session-0a915310582803296fbfb075e1ea1c045b20bfcc
-  cp -r * ../$name-$version
-	cd ../$name-$version
+
+  cd $name-$version
   	
 	./autogen.sh \
-	--prefix=/usr \
-	--libexecdir=/usr/lib/$name \
-	--enable-polkit \
-	--disable-debug \
-	--disable-legacy-sm \
-	--with-x
+	  --prefix=/usr \
+	  --libexecdir=/usr/lib/$name \
+	  --enable-polkit \
+	  --disable-debug \
+	  --disable-gtk-doc \
+	  --disable-gtk-doc-html \
+	  --disable-gtk-doc-pdf \
+	  --disable-legacy-sm \
+	  --with-x
 
 	make
-
 	make DESTDIR=$PKG install
 	
 	#rm -r $PKG/usr/share/locale

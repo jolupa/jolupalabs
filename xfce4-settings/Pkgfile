@@ -5,7 +5,7 @@
 
 name=xfce4-settings
 version=4.13.6
-release=2
+release=3
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -13,18 +13,20 @@ build() {
 	cd $name-$version
 	
 	./autogen.sh \
-	--prefix=/usr \
-	--libexecdir=/usr/lib/$name \
-	--disable-gtk-docs \
-	--enable-upower-glib \
-	--enable-libnotify \
-	--enable-gio-unix \
-	--enable-xcursor \
-	--enable-libxklavier \
-	--enable-pluggable-dialogs \
-	--enable-sound-settings \
-	--disable-gtk2 \
-	--enable-gtk3
+	  --prefix=/usr \
+	  --libexecdir=/usr/lib/$name \
+	  --disable-gtk-doc \
+	  --disable-gtk-doc-html \
+	  --disable-gtk-doc-pdf \
+	  --enable-upower-glib \
+	  --enable-libnotify \
+	  --enable-gio-unix \
+	  --enable-xcursor \
+	  --enable-libxklavier \
+	  --enable-pluggable-dialogs \
+	  --enable-sound-settings \
+	  --disable-gtk2 \
+	  --enable-gtk3
 	
 	make
 
