@@ -4,6 +4,7 @@ d:thunar-volman
 d:gtk-xfce-engine
 d:thunar
 d:xfce
+d:sound-theme-smooth
 d:garcon
 d:xfce4-xkb-plugin
 d:libdbusmenu
@@ -61,8 +62,12 @@ f:c5ea0143cbfac11a4c66b578676026f3:thunar/Pkgfile
 f:f83c68060c31c243f13b53a82caf34d6:thunar/.signature
 f:3ba05737a74069414ff2d04ae34acf6e:xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xfce/.md5sum
-f:0e7f21f2ac1da7074c32d2e50594feb1:xfce/Pkgfile
+f:5e34f6debb52537f6ce60cbc6a91af4b:xfce/Pkgfile
 f:c0a08893af250681be9ace9d09bbd4c3:xfce/.signature
+f:7cbb7c4d3d04e3c76b96961b16434c8f:sound-theme-smooth/.footprint
+f:e5a965f9c8198dec75c9378720ce20d4:sound-theme-smooth/.md5sum
+f:5b4993f025725d6b414eeca71871ac4f:sound-theme-smooth/Pkgfile
+f:8569b09294aeda2dd79b8f40de1fd82a:sound-theme-smooth/.signature
 f:e1ce2ea675c7f2943d06a53350574115:garcon/.footprint
 f:355ac4a1513cea23cbeecb653a21139c:garcon/.md5sum
 f:c77723d7cc40ad61e851950ff3ead8e7:garcon/Pkgfile
@@ -134,7 +139,7 @@ f:730330b3ee683411f91f8eb17342daac:greybird-xfce/Pkgfile
 f:f1015a46e11bcf9b5c6d23225b5df537:greybird-xfce/.signature
 f:16a70a94361282f92f22f4d83f363289:xfconf/.footprint
 f:871c8df717312368a4427f09d9bf0c3c:xfconf/.md5sum
-f:189ba06d20316f1731d0e0ad9fbad068:xfconf/Pkgfile
+f:bad46c0c69480d56ef97e27d8d76f7ca:xfconf/Pkgfile
 f:d769e58a93f5af90833cad6d11768efc:xfconf/.signature
 f:b6699b8f68179f456751f6013b113d77:xfce4-session/.footprint
 f:24298067acc6f9c2a9b452d9a956922b:xfce4-session/.md5sum
@@ -160,12 +165,12 @@ f:4c486b384782ccbbf82973af54d17471:xfce-polkit/Pkgfile
 f:2efaa20702f98b0c1180f269cf430fbb:xfce-polkit/.signature
 f:db3869d1b5cd8222c235fe1052b95547:xfce4-dev-tools/.footprint
 f:0eb0c9d1f2146f0d16bfc9656765376b:xfce4-dev-tools/.md5sum
-f:bbef34e8337c5b52b162f21fe11dabad:xfce4-dev-tools/Pkgfile
+f:b422261bb8f98387159b98ca2884b69f:xfce4-dev-tools/Pkgfile
 f:c2713a56914125330d5b251856cbd741:xfce4-dev-tools/.signature
 f:64fd470cbaf7defab367085b948e32a3:libxfce4ui/.footprint
 f:6f27a5ec3bd68515b854570bc79643e6:libxfce4ui/.md5sum
 f:308e989c47131c69bf1cbc1f8a283eef:libxfce4ui/post-install
-f:e69e7e1cae0a9ea30c4d246898555a69:libxfce4ui/Pkgfile
+f:c2b91b9a880282b439c7e8fd3d32eccc:libxfce4ui/Pkgfile
 f:291ce5252cfaf0fb4b9eda45128438fe:libxfce4ui/.signature
 f:8f62809f276e448852035e65321b795b:mousepad/.footprint
 f:47250b7b8b1b906a056d680d5f40c35c:mousepad/.md5sum

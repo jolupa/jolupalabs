@@ -1,0 +1,23 @@
+# Description: Sound theme for Xfce
+# URL: https://www.xfce-look.org/p/1187979/
+# Maintainer: jolupa, jolupameister at gmail dot com
+# Depends on: libcanberra
+
+name=sound-theme-smooth
+version=1.1
+release=1
+source=(Smooth.tar.gz)
+
+build() {
+
+  cd Smooth
+  
+  rm -r stereo/documentation
+  
+  install -dm755 $PKG/usr/share/sounds/Smooth
+  install -dm755 $PKG/usr/share/sounds/Smooth/stereo
+  
+  install -m644 index.theme $PKG/usr/share/sounds/Smooth
+  install -m644 stereo/* $PKG/usr/share/sounds/Smooth/stereo
+
+}
