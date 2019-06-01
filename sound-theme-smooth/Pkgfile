@@ -1,6 +1,6 @@
 # Description: Sound theme for Xfce
 # URL: https://www.xfce-look.org/p/1187979/
-# Maintainer: jolupa, jolupameister at gmail dot com
+# Maintainer: jolupa, jlpavon at me dot com
 # Depends on: libcanberra
 
 name=sound-theme-smooth

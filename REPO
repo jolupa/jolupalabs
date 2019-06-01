@@ -65,8 +65,9 @@ f:d41d8cd98f00b204e9800998ecf8427e:xfce/.md5sum
 f:5e34f6debb52537f6ce60cbc6a91af4b:xfce/Pkgfile
 f:c0a08893af250681be9ace9d09bbd4c3:xfce/.signature
 f:7cbb7c4d3d04e3c76b96961b16434c8f:sound-theme-smooth/.footprint
+f:32d2cdd06b1b4e479cf4299380e5cc6f:sound-theme-smooth/Smooth.tar.gz
 f:e5a965f9c8198dec75c9378720ce20d4:sound-theme-smooth/.md5sum
-f:5b4993f025725d6b414eeca71871ac4f:sound-theme-smooth/Pkgfile
+f:102a102c8d7672f3e928281363dcdc67:sound-theme-smooth/Pkgfile
 f:8569b09294aeda2dd79b8f40de1fd82a:sound-theme-smooth/.signature
 f:e1ce2ea675c7f2943d06a53350574115:garcon/.footprint
 f:355ac4a1513cea23cbeecb653a21139c:garcon/.md5sum

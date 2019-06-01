@@ -1,6 +1,5 @@
 \.git
 \.svn$
-\.tar\.gz$
 \.tgz
 \tar.xz$
 \.partial$
