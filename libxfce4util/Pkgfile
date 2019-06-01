@@ -5,7 +5,7 @@
 
 name=libxfce4util
 version=4.13.3
-release=2
+release=3
 source=(http://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -16,7 +16,10 @@ build() {
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
 	--enable-introspection=auto \
-	--enable-vala=auto 
+	--enable-vala=auto \
+	--disable-gtk-doc \
+	--disable-gtk-doc-html \
+	--disable-gtk-doc-pdf
 	
 	make
 
