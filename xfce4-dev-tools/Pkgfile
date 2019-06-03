@@ -1,7 +1,7 @@
 # Description:	Xfce4 Development tools
 # URL:		https://www.xfce.org
 # Maintainer: jolupa, jolupameister at gmail dot com
-# Depends on:	autoconf automake intltool pkgcon
+# Depends on:	autoconf automake intltool pkgconf
 
 name=xfce4-dev-tools
 version=4.12.0

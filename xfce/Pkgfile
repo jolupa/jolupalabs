@@ -1,14 +1,15 @@
 # Description: Xfce Desktop meta-port
 # URL:  https://www.xfce.org
-# Maintainer: jolupa, jolupameister at gmail dot com
-# Depends on: xfce4-dev-tools libxfce4util xfconf libxfce4ui garcon exo xfce4-panel thunar xfce4-settings xfce4-session xfwm4 xfdesktop xfce4-appfinder tumbler
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: xfce4-devtools libxfce4util xfconf libxfce4ui garcon exo xfce4-panel thunar xfce4-settings xfce4-session xfwm4 xfdesktop xfce4-appfinder tumbler
 
 name=xfce
 version=4.13
-release=1
+release=2
 source=()
 
 build() {
+  
   install -d -m 0755 $PKG/etc
   echo "Xfce $version" > $PKG/etc/xfce_version
   
