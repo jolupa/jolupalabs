@@ -1,6 +1,6 @@
 # Description:	Modern, fast and easy-to-use file manager for Xfce
 # URL:		https://www.xfce.org
-# Maintainer:	 jolupa, jolupameister at gmail dot com
+# Maintainer:	 jolupa, jlpavon at me dot com
 # Depends on:	libxfce4ui exo libpng gtk3 glib libexif dbus-glib libnotify startup-notification freetype libjpeg-turbo xfce4-panel xfconf
 
 name=thunar
@@ -13,15 +13,15 @@ build() {
 	cd $name-$version
 	
 	./autogen.sh \
-	--prefix=/usr \
-	--enable-gio-unix \
-	--enable-gudev \
-	--disable-gtk-doc \
-	--disable-gtk-doc-html \
-	--disable-gtk-doc-pdf \
-	--disable-gtk2 \
-	--enable-gtk3 \
-	--enable-instrospection=no
+	  --prefix=/usr \
+	  --enable-gio-unix \
+	  --enable-gudev \
+	  --disable-gtk-doc \
+	  --disable-gtk-doc-html \
+	  --disable-gtk-doc-pdf \
+	  --disable-gtk2 \
+	  --enable-gtk3 \
+	  --enable-instrospection=no
 
 	make
 

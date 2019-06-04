@@ -1,10 +1,10 @@
 # Description: A set of symbols and convience functions that all indicators would like to use
 # URL: https://launchpad.net/libindicator
-# Maintainer: jolupa, jolupameister at gmail dot com
+# Maintainer: jolupa, jlpavon at me dot com
 # Depends on: gtk3
 
 name=libindicator
-version=12.10.0
+version=12.10.1
 release=1
 source=(https://launchpad.net/$name/${version%.*}/$version/+download/$name-$version.tar.gz)
 
