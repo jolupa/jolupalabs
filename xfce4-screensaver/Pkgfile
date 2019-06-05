@@ -1,11 +1,11 @@
 # Description: Screensaver for Xfce
 # URL: https://git.xfce.org/apps/xfce4-screensaver/
-# Maintainer: jolupa, jolupameister at gmail dot com
+# Maintainer: jolupa, jlpavon at me dot com
 # Depends on: xorg-libxscrnsaver
 
 name=xfce4-screensaver
 version=0.1.4
-release=2
+release=3
 source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -16,9 +16,12 @@ build() {
     --prefix=/usr \
     --libexecdir=/usr/lib/$name \
     --sysconfdir=/etc \
+    --mandir=/usr/man \
     --disable-static \
     --with-mit-ext \
-    --with-console-kit
+    --with-console-kit \
+    --without-systemd \
+    --with-libgl
   
   make
   make DESTDIR=$PKG install
