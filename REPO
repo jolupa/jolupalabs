@@ -37,7 +37,6 @@ d:xfce4-terminal
 d:elementary-xfce
 d:qogir-theme
 f:235445bf8b9c5b35c0b9827680d69b27:xfce4-screensaver/.footprint
-f:a0cc24f385545ed3be997d1c533883a2:xfce4-screensaver/xfce4-screensaver#0.1.4-2.pkg.tar.gz
 f:3b94855106c43d5260217cbfcefacd0d:xfce4-screensaver/.md5sum
 f:91758ab48df983342717209fdc09e1cb:xfce4-screensaver/Pkgfile
 f:850b7853da14304a2323c9ff70245314:xfce4-screensaver/.signature
