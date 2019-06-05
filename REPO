@@ -46,8 +46,6 @@ d:xfce4-terminal
 d:elementary-xfce
 d:qogir-theme
 f:235445bf8b9c5b35c0b9827680d69b27:xfce4-screensaver/.footprint
-f:6af56f9e53c2787fac1350301a680d13:xfce4-screensaver/xfce4-screensaver-0.1.4.tar.gz
-f:87d84403c9e6bf0075bd2a11d225aff7:xfce4-screensaver/xfce4-screensaver#0.1.4-3.pkg.tar.gz
 f:a0cc24f385545ed3be997d1c533883a2:xfce4-screensaver/xfce4-screensaver#0.1.4-2.pkg.tar.gz
 f:af9606be1dec105e8fe79e368322efa5:xfce4-screensaver/xfce4-screensaver-0.1.4/NEWS
 f:91a92ec429ec184dd5971dabb52e982d:xfce4-screensaver/xfce4-screensaver-0.1.4/config.h.in
