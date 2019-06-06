@@ -1,11 +1,11 @@
 # Description:	Xfce's panel
 # URL:		https://www.xfce.org
-# Maintainer:	 jolupa, jolupameister at gmail dot com
-# Depends on:	libxfce4ui exo garcon libwnck-gtk3 startup-notification
+# Maintainer:	 jolupa, jlpavon at mel dot com
+# Depends on:	xfce4-dev-tools libxfce4ui exo garcon libwnck-gtk3 startup-notification
 
 name=xfce4-panel
 version=4.13.5
-release=3
+release=4
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -13,19 +13,18 @@ build() {
 	cd $name-$version
 
 	./autogen.sh \
-	--prefix=/usr \
-	--libexecdir=/usr/lib/$name \
-	--disable-gtk2 \
-	--enable-introspection=no \
-	--enable-gio-unix \
-	--enable-vala=auto \
-	--disable-debug \
-	--disable-gtk-doc \
-	--disable-gtk-doc-html \
-	--disable-gtk-doc-pdf
+	  --prefix=/usr \
+	  --libexecdir=/usr/lib/$name \
+	  --disable-gtk2 \
+	  --enable-introspection=no \
+	  --enable-gio-unix \
+	  --enable-vala=no \
+	  --disable-debug \
+	  --disable-gtk-doc \
+	  --disable-gtk-doc-html \
+	  --disable-gtk-doc-pdf
 
 	make
-
 	make DESTDIR=$PKG install
 	
 	#rm -r $PKG/usr/share/locale

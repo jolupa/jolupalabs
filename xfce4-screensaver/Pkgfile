@@ -1,7 +1,7 @@
 # Description: Screensaver for Xfce
 # URL: https://git.xfce.org/apps/xfce4-screensaver/
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: xorg-libxscrnsaver
+# Depends on: xfce4-dev-tools xorg-libxscrnsaver
 
 name=xfce4-screensaver
 version=0.1.4

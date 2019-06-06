@@ -1,7 +1,7 @@
 # Description:	Easily themable notification daemon with transparency effect
 # URL:		https://www.xfce.org
-# Maintainer:	 jolupa, jolupameister at gmail dot com
-# Depends on:	gtk3 glib libxfce4-util libxfce4-ui xfconf libnotify xfce4-panel
+# Maintainer:	 jolupa, jlpavon at me dot com
+# Depends on:	xfce4-dev-tools gtk3 glib libxfce4-util libxfce4-ui xfconf libnotify xfce4-panel
 
 name=xfce4-notifyd
 version=0.4.4
@@ -13,14 +13,14 @@ build() {
   cd $name-$version
 
 	./autogen.sh \
-	--prefix=/usr \
-	--libexecdir=/usr/lib/$name \
-	--disable-static \
-	--disable-gtk-doc \
-	--disable-gtk-doc-html \
-	--disable-gtk-doc-pdf \
-	--disable-gtk2 \
-	--enable-gtk3
+	  --prefix=/usr \
+	  --libexecdir=/usr/lib/$name \
+	  --disable-static \
+	  --disable-gtk-doc \
+	  --disable-gtk-doc-html \
+	  --disable-gtk-doc-pdf \
+	  --disable-gtk2 \
+	  --enable-gtk3
 	
 	make
 

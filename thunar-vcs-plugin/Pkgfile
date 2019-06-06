@@ -1,7 +1,7 @@
 # Description: Version control system for thunar
 # URL: https://git.xfce.org/thunar-plugins/thunar-vcs-plugin/
 # Maintainer: jolupa, jolupameister at gmail dot com
-# Depends on: thunar git
+# Depends on: xfce4-dev-tools thunar git
 
 name=thunar-vcs-plugin
 version=0.2.0

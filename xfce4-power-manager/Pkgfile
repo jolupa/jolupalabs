@@ -1,7 +1,7 @@
 # Description:	Power Manager for Xfce
 # URL:		https://www.xfce.org
-# Maintainer:	 jolupa, jolupameister at gmail dot com
-# Depends on:	gtk-3 glib dbus libxfce4ui libxfce4util libnotify xfconf xfce4-panel xorg-xrandr dpms upower polkit consolekit pm-utils
+# Maintainer:	 jolupa, jlpavon at me dot com
+# Depends on:	xfce4-dev-tools gtk-3 glib dbus libxfce4ui libxfce4util libnotify xfconf xfce4-panel xorg-xrandr dpms upower polkit consolekit pm-utils
 
 name=xfce4-power-manager
 version=1.6.2
