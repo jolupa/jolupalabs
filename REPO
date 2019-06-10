@@ -135,10 +135,10 @@ f:d786651b6d14a5c35ec0943e4335e688:xfce4-notifyd/post-install
 f:387a7804ee7d0a7914a84f953bc808d4:xfce4-notifyd/Pkgfile
 f:84a4bb0963d4a78757b90994bb75ccd4:xfce4-notifyd/.signature
 f:98b5350ce041f0f3b15b24b02281fe6c:balena-etcher/.footprint
-f:a7d9d8099f61db66312618877f2e092a:balena-etcher/.md5sum
+f:26daa27568878e697185b454f7ac18d2:balena-etcher/.md5sum
 f:ad55a6116c5a2fc0642748ec6d7f66b5:balena-etcher/post-install
-f:a8ab6439fc405f7eb1cbcd19a9d44ad8:balena-etcher/Pkgfile
-f:29fed0afc5b60c6f3d31697e46f31246:balena-etcher/.signature
+f:9c7ae76b31b9521e5efd9fae69cb39df:balena-etcher/Pkgfile
+f:ef7ede870e878f965a4d437256257de0:balena-etcher/.signature
 f:7b38b41dd13133dcf83c60744ea68fab:greybird-xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:greybird-xfce/.md5sum
 f:730330b3ee683411f91f8eb17342daac:greybird-xfce/Pkgfile
