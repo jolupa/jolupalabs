@@ -1,18 +1,18 @@
 # Description:	Application library for the Xfce desktop environment
 # URL:		https://www.xfce.org
 # Maintainer:	jolupa, jlpavon at me dot com
-# Depends on:	xfce4-dev-tools libxfce4util gtk3 p5-uri libxfce4ui
+# Depends on:	libxfce4util libxfce4ui gtk3 p5-uri
 
 name=exo
 version=0.12.5
-release=5
-source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
+release=6
+source=(http://archive.xfce.org/xfce/4.14pre1/src/$name-$version.tar.bz2)
 
 build() {
 	
 	cd $name-$version
 
-	./autogen.sh \
+	./configure \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
 	  --disable-gtk-doc \
@@ -25,4 +25,5 @@ build() {
   make DESTDIR=$PKG install
 	
 	#rm -r $PKG/usr/share/locale
+	rm -r $PKG/usr/share/gtk-doc
 }

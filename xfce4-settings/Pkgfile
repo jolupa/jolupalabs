@@ -1,18 +1,18 @@
 # Description:	Xfce's configuration system
 # URL:		https://www.xfce.org
 # Maintainer:	 jolupa, jlpavon at me dot com
-# Depends on:	xfce4-dev-tools libxfce4ui exo xfconf dbus-glib libwnck-gtk3 xorg-libxi xorg-libxrandr xorg-libxcursor libnotify libxklavier
+# Depends on:	libxfce4ui exo xfconf dbus-glib libwnck-gtk3 xorg-libxi xorg-libxrandr xorg-libxcursor libnotify libxklavier
 
 name=xfce4-settings
 version=4.13.6
-release=3
-source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
+release=4
+source=(http://archive.xfce.org/xfce/4.14pre1/src/$name-$version.tar.bz2)
 
 build() {
 
 	cd $name-$version
 	
-	./autogen.sh \
+	./configure \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
 	  --disable-gtk-doc \

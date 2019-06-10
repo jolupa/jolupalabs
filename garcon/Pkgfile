@@ -1,31 +1,31 @@
 # Description:	Freedesktop.org compliant menu library
 # URL:		https://www.xfce.org
 # Maintainer:	jolupa, jlpavon at me dot com
-# Depends on:	glib xfce4-dev-tools libxfce4util
+# Depends on:	glib libxfce4util
 
 name=garcon
 version=0.6.2
-release=3
-source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
+release=4
+source=(http://archive.xfce.org/xfce/4.14pre1/src/$name-$version.tar.bz2)
 
 build() {
 	
 	cd $name-$version
 
-	./autogen.sh \
-	--prefix=/usr \
-	--libexecdir=/usr/lib/$name \
-	--enable-libxfce4ui \
-	--disable-gtk2 \
-	--enable-gtk3 \
-	--disable-gtk-doc \
-	--disable-gtk-doc-html \
-	--disable-gtk-doc-pdf
+	./configure \
+	  --prefix=/usr \
+	  --libexecdir=/usr/lib/$name \
+	  --enable-libxfce4ui \
+	  --disable-gtk2 \
+	  --enable-gtk3 \
+	  --disable-gtk-doc \
+	  --disable-gtk-doc-html \
+	  --disable-gtk-doc-pdf
 	
 	make
-
 	make DESTDIR=$PKG install
 	
 	#rm -r $PKG/usr/share/locale
+	rm -r $PKG/usr/share/gtk-doc
 	
 }

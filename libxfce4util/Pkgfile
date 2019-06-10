@@ -1,29 +1,28 @@
 # Description:	Basic Utility library for Xfce
 # URL:		https://www.xfce.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on:	xfce4-dev-tools glib
+# Depends on:	glib
 
 name=libxfce4util
 version=4.13.3
-release=4
-source=(http://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
+release=5
+source=(http://archive.xfce.org/xfce/4.14pre1/src/$name-$version.tar.bz2)
 
 build() {
 
   cd $name-$version
 	
-	./autogen.sh \
+	./configure \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
-	  --enable-introspection=auto \
+	  --enable-introspection=no \
 	  --enable-vala=no \
-	  --disable-gtk-doc \
-	  --disable-gtk-doc-html \
-	  --disable-gtk-doc-pdf
+	  --enable-gtk-doc-html=no
 	
 	make
 	make DESTDIR=$PKG install
 	
 	#rm -r $PKG/usr/share/locale
+	rm -r $PKG/usr/share/gtk-doc
 	
 }

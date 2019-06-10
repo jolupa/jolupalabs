@@ -1,8 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWR9MnXh90yDEMp6Z5uNwLVGAthcGZRjr/Fa7+oddiu76+QMtliZ+5aHGyZ8VrtFhtQsrwHH1JCtcsJxvzV2II/mxGym44bGOgE=
-SHA256 (Pkgfile) = a9f1a7de7f0c98e227f83fa2c6ca1a65ce63bd945079b0d7058eb454ec6abaac
+RWR9MnXh90yDEL4TRDGlojKv0uLyAn2sgOFLuRGc1l0c5ke+c/LCMNNpND5EuV9oKnGjiT07O6/NO91ohazpxcJHNZpdQB1VVQI=
+SHA256 (Pkgfile) = e6bf8fe7ffd8b16bb66f80bbb1aa6eedb5bb91cb804384272fed087743e08014
 SHA256 (.footprint) = 69e5ae439c38478d9b0fafbdb7ef2df3869e1f56c0dea4a7715cfc0b1a467265
-SHA256 (xfwm4-4.13.2.tar.gz) = 3b410825b81af1478c5a27d93a389a0048291ca34221f60c1fd2fee2bc5d6b83
-SHA256 (patch1.patch) = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-SHA256 (patch2.patch) = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-SHA256 (patch3.patch) = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+SHA256 (xfwm4-4.13.2.tar.bz2) = 7be8a63e92077e42e6cc064a1dfdae608ab99fdc730adbd5200802dbdd86d5a9

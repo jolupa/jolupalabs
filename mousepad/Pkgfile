@@ -5,26 +5,25 @@
 
 name=mousepad
 version=0.4.1
-release=4
-source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz)
+release=5
+source=(http://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.bz2)
 
 build() {
 
 	cd $name-$version
 	
-	./autogen.sh \
-	--prefix=/usr \
-	--libexecdir=/usr/lib/$name \
-	--disable-static \
-	--disable-gtk-doc \
-	--disable-gtk-doc-html \
-	--disable-gtk-doc-pdf \
-	--enable-gtk3 \
-	--enable-dbus \
-	--enable-keyfile-settings
+	./configure \
+	  --prefix=/usr \
+	  --libexecdir=/usr/lib/$name \
+	  --disable-static \
+	  --disable-gtk-doc \
+	  --disable-gtk-doc-html \
+	  --disable-gtk-doc-pdf \
+	  --enable-gtk3 \
+	  --enable-dbus \
+	  --enable-keyfile-settings
 
 	make
-
 	make DESTDIR=$PKG install
 	
 	#rm -r $PKG/usr/share/locale
