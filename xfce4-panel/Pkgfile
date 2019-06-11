@@ -6,7 +6,7 @@
 name=xfce4-panel
 version=4.13.5
 release=5
-source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
+source=(https://git.xfce.org/panel-plugins/xfce4-calculator-plugin/snapshot/xfce4-calculator-plugin-0.7.0.tar.gz)
 
 build() {
 	

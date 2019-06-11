@@ -1,18 +1,18 @@
 # Description:	A simple text editor for Xfce
 # URL:		https://www.xfce.org
 # Maintainer: jolupa, jolupameister at gmail dot com
-# Depends on:	gtk3 glib libxfce4util gtksourceview
+# Depends on:	xfce4-dev-tools gtk3 glib libxfce4util gtksourceview
 
 name=mousepad
 version=0.4.1
 release=5
-source=(http://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.bz2)
+source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz)
 
 build() {
 
 	cd $name-$version
 	
-	./configure \
+	./autogen.sh \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
 	  --disable-static \
