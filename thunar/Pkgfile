@@ -5,14 +5,14 @@
 
 name=thunar
 version=1.8.6
-release=3
-source=(http://archive.xfce.org/xfce/4.14pre1/src/Thunar-$version.tar.bz2)
+release=5
+source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
 
-	cd Thunar-$version
+	cd $name-$version
 	
-	./configure \
+	./autogen.sh \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
 	  --enable-gio-unix \
@@ -27,7 +27,6 @@ build() {
 	make
 	make DESTDIR=$PKG install
 	
-	rm -r $PKG/usr/share/{doc,gtk-doc}
 	#rm -r $PKG/usr/share/locale
 	
 }

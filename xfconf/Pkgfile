@@ -1,18 +1,18 @@
 # Description:	D-Bus based configuration storage system
 # URL:		https://www.xfce.org
 # Maintainer:	 jolupa, jlpavon at me dot com
-# Depends on:	libxfce4util dbus-glib
+# Depends on:	libxfce4util dbus-glib gtk-doc
 
 name=xfconf
 version=4.13.7
-release=3
-source=(http://archive.xfce.org/xfce/4.14pre1/src/$name-$version.tar.bz2)
+release=5
+source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
 
   cd $name-$version
 	
-	./configure \
+	./autogen.sh \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
 	  --disable-debug
@@ -21,5 +21,4 @@ build() {
 	make DESTDIR=$PKG install
 	
 	#rm -r $PKG/usr/share/locale
-	rm -r $PKG/usr/share/gtk-doc
 }

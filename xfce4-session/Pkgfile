@@ -1,20 +1,21 @@
 # Description:	Xfce's session manager
 # URL:		https://www.xfce.org
 # Maintainer:	 jolupa, jlpavon at me dot com
-# Depends on:	libxfce4ui p5-xml-parser libwnck-gtk3 dbus-glib
+# Depends on:	libxfce4ui p5-xml-parser libwnck-gtk3 dbus-glib xorg-iceauth
 
 name=xfce4-session
 version=4.13.2
-release=4
-source=(http://archive.xfce.org/xfce/4.14pre1/src/$name-$version.tar.bz2)
+release=5
+source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
 
   cd $name-$version
   	
-	./configure \
+	./autogen.sh \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
+	  --mandir=/usr/man \
 	  --enable-polkit \
 	  --disable-debug \
 	  --disable-gtk-doc \

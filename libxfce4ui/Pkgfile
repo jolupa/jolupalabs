@@ -1,18 +1,18 @@
 # Description:	Graphic widgets helpers for Xfce
 # URL:		https://www.xfce.org
 # Maintainer:	 jolupa, jlpavon at me dot com
-# Depends on:	libxfce4util gtk3 xfconf startup-notification glade
+# Depends on:	libxfce4util gtk3 xfconf startup-notification glade gtk-doc
 
 name=libxfce4ui
 version=4.13.5
-release=4
-source=(http://archive.xfce.org/xfce/4.14pre1/src/$name-$version.tar.bz2)
+release=5
+source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
 
   cd $name-$version
 	
-	./configure \
+	./autogen.sh \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
 	  --disable-gtk2 \
@@ -26,6 +26,5 @@ build() {
 	make DESTDIR=$PKG install
 	
 	#rm -r $PKG/usr/share/locale
-	rm -r $PKG/usr/share/gtk-doc
 	
 }
