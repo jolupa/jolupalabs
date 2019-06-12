@@ -63,7 +63,7 @@ f:621aeaea1042f4e90830bccf2707d7ff:thunar/.signature
 f:3ba05737a74069414ff2d04ae34acf6e:xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xfce/.md5sum
 f:c26c563eebed680921a203a0ea5b7278:xfce/Pkgfile
-f:5e8466b13a0078611f2dcde3af537857:xfce/.signature
+f:6dd913a984c81a1ba802d8f10920f3af:xfce/.signature
 f:76801baf45606317fea3a05f86ac477d:sound-theme-smooth/README
 f:7cbb7c4d3d04e3c76b96961b16434c8f:sound-theme-smooth/.footprint
 f:32d2cdd06b1b4e479cf4299380e5cc6f:sound-theme-smooth/Smooth.tar.gz
@@ -73,7 +73,7 @@ f:75e4c809ec2f170283e30b3c8b3ae33a:sound-theme-smooth/.signature
 f:e1ce2ea675c7f2943d06a53350574115:garcon/.footprint
 f:355ac4a1513cea23cbeecb653a21139c:garcon/.md5sum
 f:4e254baf0b3e6d416f34565a02be0c92:garcon/Pkgfile
-f:61031b11aee4deff0722ed9bbf718f8a:garcon/.signature
+f:2523b1f569a23cf265ac13a039d52afb:garcon/.signature
 f:ec1afb59e7d306a50bc0e424c9108e53:xfce4-xkb-plugin/.footprint
 f:71915a63c9686cc896665410f24641c0:xfce4-xkb-plugin/.md5sum
 f:8c336133a2578d28aa4911ee3dead1bf:xfce4-xkb-plugin/Pkgfile
