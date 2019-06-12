@@ -137,8 +137,8 @@ f:9c7ae76b31b9521e5efd9fae69cb39df:balena-etcher/Pkgfile
 f:ef7ede870e878f965a4d437256257de0:balena-etcher/.signature
 f:7b38b41dd13133dcf83c60744ea68fab:greybird-xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:greybird-xfce/.md5sum
-f:730330b3ee683411f91f8eb17342daac:greybird-xfce/Pkgfile
-f:f1015a46e11bcf9b5c6d23225b5df537:greybird-xfce/.signature
+f:2f28412d2d77eb51a17c549aa5682a48:greybird-xfce/Pkgfile
+f:e2f7f118c7c156530b07927b03e990c6:greybird-xfce/.signature
 f:7fa8755a7c27c1f2e3f322c90d1ef2e6:xfconf/.footprint
 f:871c8df717312368a4427f09d9bf0c3c:xfconf/.md5sum
 f:5a509966145d37dc03015f40832dc2fb:xfconf/Pkgfile
