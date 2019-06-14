@@ -98,10 +98,11 @@ f:f93ac9fedc59f6b82dec9ca72c154566:obinslab-starter/post-install
 f:5bff0006e36e1ef82428b66080a27a87:obinslab-starter/Pkgfile
 f:cc89cf964346087bb886adee37df9373:obinslab-starter/.signature
 f:7395d1e1289aa38d62e5fc4e50c026c6:exo/.footprint
-f:81e28bbd8aabf69da7344494b3922720:exo/.md5sum
+f:63477e9a7811277a855f915c2af544d2:exo/.md5sum
+f:177c2eb187dfd7dd9d3ef45bba49ce11:exo/exo-0.12.6.tar.gz
 f:a21ba3587412df0dbd761075ab026d4a:exo/post-install
-f:4f4321074761b96a25dd7b2d69dc6bba:exo/Pkgfile
-f:d876020528d731e8c3e9b48b27d7da67:exo/.signature
+f:e55afd1dc3700542fe8f18a10a7e6351:exo/Pkgfile
+f:8cac1a8b53b3fa9af3dfdc2005f2d60d:exo/.signature
 f:7e8e1e34da073bbf3a9b5bafb0416e2a:libindicator/.footprint
 f:f6ec50a2ad94cd094d775deb10a4cb6c:libindicator/.md5sum
 f:993d05bfe8d974c33a8dbcb93b543942:libindicator/Pkgfile
