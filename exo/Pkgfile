@@ -15,6 +15,7 @@ build() {
 	./autogen.sh \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
+	  --mandir=/usr/man \
 	  --disable-gtk-doc \
 	  --disable-gtk-doc-html \
 	  --disable-gtk-doc-pdf \
