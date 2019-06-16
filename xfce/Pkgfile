@@ -1,7 +1,7 @@
 # Description: Xfce Desktop meta-port
 # URL:  https://www.xfce.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: xfce4-devel-tools libxfce4util xfconf libxfce4ui garcon exo xfce4-panel thunar xfce4-settings xfce4-session xfwm4 xfdesktop xfce4-appfinder tumbler
+# Depends on: xfce4-dev-tools libxfce4util xfconf libxfce4ui garcon exo xfce4-panel thunar xfce4-settings xfce4-session xfwm4 xfdesktop xfce4-appfinder tumbler
 
 name=xfce
 version=4.13
