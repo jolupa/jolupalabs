@@ -1,7 +1,7 @@
 # Description:	Xfce's window manager
 # URL:		https://www.xfce.org
 # Maintainer:	 jolupa, jlpavon at me dot com
-# Depends on:	libxfce4util xfconf libwnck-gtk3 exo thunar garcon libnotify
+# Depends on:	libxfce4util xfconf libwnck-gtk3 exo thunar garcon libnotify librsvg
 
 name=xfwm4
 version=4.13.2
