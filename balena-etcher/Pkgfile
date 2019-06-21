@@ -5,7 +5,7 @@
 
 name=balena-etcher
 _name=etcher
-version=1.5.46
+version=1.5.50
 release=1
 source=(https://github.com/balena-io/$_name/releases/download/v$version/$name-electron_"$version"_amd64.deb)
 
