@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWR9MnXh90yDEOo4bQcTOzFItUcISgz8pgsUmgk96AylwGepJwa09fTgHedcMnMbIyqVnMQXN0M2WXbVuMW2AyE93IjeJqRwHw8=
-SHA256 (Pkgfile) = 628a202907f567c33e5194840c56e43bc70dd7072cac26dd18120793e4d00503
-SHA256 (.footprint) = 5fa4230a2aea671d611e28fcba1abaa773f408041ba6e882cd8871208d778f5d
-SHA256 (balena-etcher-electron_1.5.46_amd64.deb) = 218a76d6e74b240366581aa8dfb73d5f6ceb2d0b60a7b7449f29f1124bb89773
