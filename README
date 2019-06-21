@@ -5,12 +5,11 @@
 #                                           # 
 ############################################# 
 
-# wget --no-ch https://raw.githubusercontent.com/jolupa/jolupalabs/master/jolupalabs.{httpup,pub}
+# wget --no-ch https://raw.githubusercontent.com/jolupa/jolupalabs/master/jolupalabs.httpup
 # mv jolupalabs.* /etc/ports
-# ports -u jolupalabs
-# add the -> line to /etc/prt-get.conf
-prtdir /usr/ports/contrib
--> prtdir /usr/ports/jolupalabs
+# add the -> to /etc/prt-get.conf
+## -> prtdir /usr/ports/jolupalabs
+# update the ports with ports -u jolupalabs
 
 ############################################# 
 #                                           # 
@@ -21,6 +20,6 @@ prtdir /usr/ports/contrib
 ############################################# 
 #                                           # 
 #          Any question contact:            # 
-#          jlpavon at me dot com             # 
+#          jlpavon at me dot com            # 
 #                                           # 
 ############################################# 
