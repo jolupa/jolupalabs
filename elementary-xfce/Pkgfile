@@ -4,24 +4,19 @@
 # Depends on:	optipng gtk3
 
 name=elementary-xfce
-version=git
-release=3
-source=()
+version=0.13.1
+release=1
+source=(https://github.com/shimmerproject/elementary-xfce/archive/v$version.tar.gz)
 
 build() {
-	if cd "$name-$version" 2> /dev/null; then
-		git pull
-	else
-		git clone https://github.com/shimmerproject/elementary-xfce.git "$name-$version"
-		cd "$name-$version"
-	fi
-	
+	cd $name-$version
+
 	./configure \
-	--prefix=/usr
+		--prefix=/usr
 	
 	make
 	make DESTDIR=$PKG install
 	
-	rm $PKG/usr/share/icons/elementary-{xfce,xfce-dark,xfce-darker,xfce-darkest}/{AUTHORS,README.md,CONTRIBUTORS}
+	rm $PKG/usr/share/icons/elementary-{xfce,xfce-dark,xfce-darker,xfce-darkest}/{AUTHORS,LICENSE,CONTRIBUTORS}
 	
 }
