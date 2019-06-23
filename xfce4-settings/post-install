@@ -3,4 +3,11 @@
 
 gtk-update-icon-cache /usr/share/icons/hicolor
 
+if [ ! -f "/usr/share/xmodmap/base.xml" ]; then
+    mkdir -p /usr/share/xmodmap
+    ln -s /usr/share/X11/xkb/rules/base.xml /usr/share/xmodmap
+else
+    echo "All files correct..."
+fi
+
 # End post install file
