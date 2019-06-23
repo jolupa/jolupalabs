@@ -43,7 +43,7 @@ f:5fbf158eba57a28691473d1d43e28343:obinslab-starter/10-annepro.rules
 f:5bff0006e36e1ef82428b66080a27a87:obinslab-starter/Pkgfile
 f:ad55a6116c5a2fc0642748ec6d7f66b5:balena-etcher/post-install
 f:98b5350ce041f0f3b15b24b02281fe6c:balena-etcher/.footprint
-f:26daa27568878e697185b454f7ac18d2:balena-etcher/.md5sum
+f:3f119bdfd1998bf097c99f007e1dc5e8:balena-etcher/.md5sum
 f:2482ab67f71364722a50e8b463580a2d:balena-etcher/Pkgfile
 f:7b38b41dd13133dcf83c60744ea68fab:greybird-xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:greybird-xfce/.md5sum
@@ -77,7 +77,7 @@ f:5a509966145d37dc03015f40832dc2fb:xfconf/Pkgfile
 f:a21ba3587412df0dbd761075ab026d4a:exo/post-install
 f:1adbbe52450ecb2a58341d810e781f8d:exo/.footprint
 f:63477e9a7811277a855f915c2af544d2:exo/.md5sum
-f:e259f0ef5b0231ad15266a41369a4489:exo/Pkgfile
+f:049d4d1079cdf8fbe44f899363f34218:exo/Pkgfile
 f:d786651b6d14a5c35ec0943e4335e688:xfce4-notifyd/post-install
 f:a2ff05c6cc6fdf9547926bb5dc35fd42:xfce4-notifyd/.footprint
 f:f05983a96da4d0b7839eebfa497ad2ba:xfce4-notifyd/.md5sum
@@ -97,7 +97,7 @@ f:a948291e643aa9261fa71f8adf664520:thunar-vcs-plugin/post-install
 f:1a9dc8d7e3a1660a9b8a1b52ffa7d760:thunar-vcs-plugin/.footprint
 f:c3fbadfdfc8f77279a9713a64f63364e:thunar-vcs-plugin/.md5sum
 f:076734874b6bcc7c883b29db104cc015:thunar-vcs-plugin/Pkgfile
-f:bf20a7b7432571e4a3433b7b7cbe8f9a:xfce4-settings/post-install
+f:cc84cb1fdd5a1744a1cff437d3968bd2:xfce4-settings/post-install
 f:54e7d3f34f7075fced6af6fe46a01908:xfce4-settings/.footprint
 f:75fa46cbde4f3be069c84b9240cc777a:xfce4-settings/.md5sum
 f:f55397adac02cbfea51231c88d92df41:xfce4-settings/Pkgfile
@@ -118,7 +118,7 @@ f:2c771387d835e0e178ec944c8e6e5e28:elementary-xfce/.md5sum
 f:c1ecead7b956e1c163791d6351346bec:elementary-xfce/Pkgfile
 f:3ba05737a74069414ff2d04ae34acf6e:xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xfce/.md5sum
-f:d72c6bfc831bc398883b41032972883b:xfce/Pkgfile
+f:371c611447187f807c1693c5026e7ba6:xfce/Pkgfile
 f:d2c71d4bbc381d6733f64f11b6970a2f:xfce4-screenshooter/post-install
 f:6454480f0f8bb90bb1d7ee59602e0761:xfce4-screenshooter/.footprint
 f:9064110f5f70fa63408411300ce62d44:xfce4-screenshooter/.md5sum
@@ -129,7 +129,7 @@ f:6f27a5ec3bd68515b854570bc79643e6:libxfce4ui/.md5sum
 f:de0047e6cc65bede8d19d3f44b3b508a:libxfce4ui/Pkgfile
 f:553e068666f56f75029a376c1dfcb0de:xfce4-panel/post-install
 f:834f769d37cff974e47bc92776f5ef9b:xfce4-panel/.footprint
-f:27bae656d23d77f0785aabc655e21417:xfce4-panel/.md5sum
+f:5831fe86eefeb3b7b4ffb391653bfd41:xfce4-panel/.md5sum
 f:4184918b7194ae69cca920d0bfe1955e:xfce4-panel/Pkgfile
 f:0d2d2da661905551854a93fbd5c97fad:libappindicator/.footprint
 f:41ed7535ef384e3c1b26dc10bdbaae8f:libappindicator/.md5sum
@@ -159,11 +159,11 @@ f:ba91da9182e638bc86d16eeabb8ae6c4:xfce4-power-manager/.md5sum
 f:3d233367f10e6721e818dcef7e8376a9:xfce4-power-manager/Pkgfile
 f:cdd4d5658d2310ab506465f4c6060f29:mousepad/post-install
 f:8f62809f276e448852035e65321b795b:mousepad/.footprint
-f:c35bb0c4d43c3b8e4c95a3d6e6ffe9c9:mousepad/.md5sum
+f:47250b7b8b1b906a056d680d5f40c35c:mousepad/.md5sum
 f:6a8fae354a6bd36158261d0e2cf6f427:mousepad/Pkgfile
 f:664234ec591c771ab2d0b7ea392fa046:xfce4-calculator-plugin/post-install
 f:e9f3131a76934d418cca253940d9ff0a:xfce4-calculator-plugin/.footprint
-f:4d40e3d066a7447e96f47c00ff2fd984:xfce4-calculator-plugin/.md5sum
+f:5831fe86eefeb3b7b4ffb391653bfd41:xfce4-calculator-plugin/.md5sum
 f:a8901d859e1be0372c63db20a7c309d9:xfce4-calculator-plugin/Pkgfile
 f:1a24dfb9cebbb583914b1b7b2742ad87:xdg-user-dirs/.footprint
 f:0b6605854b16c1825c0e0a73a0b48ecf:xdg-user-dirs/.md5sum
@@ -175,4 +175,4 @@ f:8b133fe080cca70ee99fd8a2eb15e7a9:font-undefined-medium/post-install
 f:483f9dfefb4947bb7e2d82a27c6e5f44:font-undefined-medium/.footprint
 f:88c342803a1342443894776de1e5f9a6:font-undefined-medium/.md5sum
 f:c0a9ad430a131eca0f0ca87f74c95625:font-undefined-medium/Pkgfile
-f:7d6d0c0cd294303ce84982d1de7c10b0:README
+f:374bb39b303d52df0cd654ecca55ca30:README
