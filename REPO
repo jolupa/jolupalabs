@@ -21,6 +21,7 @@ d:xfdesktop
 d:xfwm4
 d:elementary-xfce
 d:xfce
+d:xfce4-pulseaudio-plugin
 d:xfce4-screenshooter
 d:libxfce4ui
 d:xfce4-panel
@@ -64,7 +65,7 @@ f:7a14db4203944d5306a3e3c8d1d0b911:xfce-polkit/.md5sum
 f:4c486b384782ccbbf82973af54d17471:xfce-polkit/Pkgfile
 f:db3869d1b5cd8222c235fe1052b95547:xfce4-dev-tools/.footprint
 f:0eb0c9d1f2146f0d16bfc9656765376b:xfce4-dev-tools/.md5sum
-f:aa3115fc1b4b2614698df2fa2e0742cf:xfce4-dev-tools/Pkgfile
+f:145c06c1ba1dfddab94a9427e2eb2294:xfce4-dev-tools/Pkgfile
 f:5cba583a6b5beeabeba43afe3b7ec955:libdbusmenu/.footprint
 f:87359d402092712aaef738af0248777e:libdbusmenu/.md5sum
 f:96f6edfbf874c3d33983820c21ebc084:libdbusmenu/Pkgfile
@@ -119,6 +120,9 @@ f:c1ecead7b956e1c163791d6351346bec:elementary-xfce/Pkgfile
 f:3ba05737a74069414ff2d04ae34acf6e:xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xfce/.md5sum
 f:371c611447187f807c1693c5026e7ba6:xfce/Pkgfile
+f:ae9ef1b36053416f8ef5dc3fd5888008:xfce4-pulseaudio-plugin/.footprint
+f:b40627a170b8d28b7b894882774048a5:xfce4-pulseaudio-plugin/.md5sum
+f:2ab0cdbf79a04f730eec1ee92c8de00f:xfce4-pulseaudio-plugin/Pkgfile
 f:d2c71d4bbc381d6733f64f11b6970a2f:xfce4-screenshooter/post-install
 f:6454480f0f8bb90bb1d7ee59602e0761:xfce4-screenshooter/.footprint
 f:9064110f5f70fa63408411300ce62d44:xfce4-screenshooter/.md5sum
