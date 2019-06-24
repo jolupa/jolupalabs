@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/WoPW4MehEW09kojfnxj/cOXQYlc2vYMZ0OkQ6iaMX5lSfVyYbtWNpAUkANAOzyDEHOhLIS7WlEyqDPlLrHbOgs=
+SHA256 (Pkgfile) = 52e15bb8deef617b0c034be673f392b2a8bbe24603d4332c77013f443c6d42ad
+SHA256 (.footprint) = 13bd98cda11996ac1175c063a94f9a8a70ce58cd9d746a6ed295d41f9eaa9b0b
+SHA256 (vim-8.1.1390.tar.gz) = a0a7b835757229ab543e396a70dad33e6e735520c5461e4721c4c9950bb805ad
