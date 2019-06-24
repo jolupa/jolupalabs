@@ -23,6 +23,7 @@ d:elementary-xfce
 d:xfce
 d:xfce4-pulseaudio-plugin
 d:xfce4-screenshooter
+d:gvim-gtk3
 d:libxfce4ui
 d:xfce4-panel
 d:libappindicator
@@ -127,6 +128,10 @@ f:d2c71d4bbc381d6733f64f11b6970a2f:xfce4-screenshooter/post-install
 f:6454480f0f8bb90bb1d7ee59602e0761:xfce4-screenshooter/.footprint
 f:9064110f5f70fa63408411300ce62d44:xfce4-screenshooter/.md5sum
 f:65c1c243597c18f867823895d00fbaf3:xfce4-screenshooter/Pkgfile
+f:e4450471d8f780c8d109b9c6c3e7acc6:gvim-gtk3/.footprint
+f:ff831061f255b366b1ed03798beca2b7:gvim-gtk3/.md5sum
+f:07c049fc12a55806ea9c3d5127d2c46f:gvim-gtk3/Pkgfile
+f:98296a48abdcb150a9c3a396019c38de:gvim-gtk3/.signature
 f:308e989c47131c69bf1cbc1f8a283eef:libxfce4ui/post-install
 f:64fd470cbaf7defab367085b948e32a3:libxfce4ui/.footprint
 f:6f27a5ec3bd68515b854570bc79643e6:libxfce4ui/.md5sum
