@@ -5,7 +5,7 @@
 
 name=xfce4-settings
 version=4.13.6
-release=5
+release=6
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -22,9 +22,10 @@ build() {
 	  --enable-libnotify \
 	  --enable-gio-unix \
 	  --enable-xcursor \
-	  --enable-libxklavier \
+		--enable-libxklavier \
 	  --enable-pluggable-dialogs \
 	  --enable-sound-settings \
+		--x-libraries=/usr/share/X11 \
 	  --disable-gtk2 \
 	  --enable-gtk3
 	
