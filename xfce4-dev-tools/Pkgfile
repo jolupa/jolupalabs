@@ -4,8 +4,8 @@
 # Depends on: autoconf automake intltool pkg-config gtk-doc
 
 name=xfce4-dev-tools
-version=4.12.0
-release=6
+version=4.13.0
+release=1
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -15,8 +15,7 @@ build() {
 	./autogen.sh \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
-	  --disable-static \
-	  --disable-gtk-docs
+	  --disable-static
 	
 	make
 
