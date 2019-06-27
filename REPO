@@ -84,7 +84,6 @@ f:c91b858cf31e14029b80e488ea052969:tumbler/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:tumbler/.signature
 f:8db2fb51d02156cea0a028059530a235:xfconf/.footprint
 f:8578e059953115506c816b96c20fe149:xfconf/.md5sum
-f:428a93586964a2b90c35847ffab90240:xfconf/.Pkgfile.swp
 f:63226a183a87d816ad29a45eb1b46fa3:xfconf/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfconf/.signature
 f:a21ba3587412df0dbd761075ab026d4a:exo/post-install
