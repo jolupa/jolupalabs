@@ -15,3 +15,5 @@ jolupalabs.*$
 *~
 *.un~
 .gitignore
+jolupalabs.sec
+jolupalabs.pub
