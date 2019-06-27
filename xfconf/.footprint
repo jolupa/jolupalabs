@@ -11,6 +11,8 @@ drwxr-xr-x	root/root	usr/include/xfce4/xfconf-0/xfconf/
 -rw-r--r--	root/root	usr/include/xfce4/xfconf-0/xfconf/xfconf-types.h
 -rw-r--r--	root/root	usr/include/xfce4/xfconf-0/xfconf/xfconf.h
 drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/girepository-1.0/
+-rw-r--r--	root/root	usr/lib/girepository-1.0/Xfconf-0.typelib
 -rwxr-xr-x	root/root	usr/lib/libxfconf-0.la
 lrwxrwxrwx	root/root	usr/lib/libxfconf-0.so -> libxfconf-0.so.3.0.0
 lrwxrwxrwx	root/root	usr/lib/libxfconf-0.so.3 -> libxfconf-0.so.3.0.0
@@ -24,6 +26,8 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/services/
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.xfce.Xfconf.service
+drwxr-xr-x	root/root	usr/share/gir-1.0/
+-rw-r--r--	root/root	usr/share/gir-1.0/Xfconf-0.gir
 drwxr-xr-x	root/root	usr/share/locale/
 drwxr-xr-x	root/root	usr/share/locale/ar/
 drwxr-xr-x	root/root	usr/share/locale/ar/LC_MESSAGES/
@@ -88,6 +92,9 @@ drwxr-xr-x	root/root	usr/share/locale/hr/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/hu/
 drwxr-xr-x	root/root	usr/share/locale/hu/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/hu/LC_MESSAGES/xfconf.mo
+drwxr-xr-x	root/root	usr/share/locale/hy_AM/
+drwxr-xr-x	root/root	usr/share/locale/hy_AM/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/hy_AM/LC_MESSAGES/xfconf.mo
 drwxr-xr-x	root/root	usr/share/locale/id/
 drwxr-xr-x	root/root	usr/share/locale/id/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/id/LC_MESSAGES/xfconf.mo

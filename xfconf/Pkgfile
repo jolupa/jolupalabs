@@ -4,8 +4,8 @@
 # Depends on:	libxfce4util dbus-glib gtk-doc
 
 name=xfconf
-version=4.13.7
-release=5
+version=4.13.8
+release=1
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -15,7 +15,11 @@ build() {
 	./autogen.sh \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
-	  --disable-debug
+	  --disable-debug \
+		--disable-vala \
+		--disable-gtk-doc \
+		--disable-gtk-doc-pdf \
+		--disable-gtk-doc-html
 	
 	make
 	make DESTDIR=$PKG install
