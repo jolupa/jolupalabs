@@ -82,9 +82,10 @@ f:795685ea4d24a1f2f6881b55fff09023:tumbler/.footprint
 f:c05199b8a6893d22b2b3f74dc3459792:tumbler/.md5sum
 f:c91b858cf31e14029b80e488ea052969:tumbler/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:tumbler/.signature
-f:7fa8755a7c27c1f2e3f322c90d1ef2e6:xfconf/.footprint
-f:871c8df717312368a4427f09d9bf0c3c:xfconf/.md5sum
-f:5a509966145d37dc03015f40832dc2fb:xfconf/Pkgfile
+f:8db2fb51d02156cea0a028059530a235:xfconf/.footprint
+f:8578e059953115506c816b96c20fe149:xfconf/.md5sum
+f:428a93586964a2b90c35847ffab90240:xfconf/.Pkgfile.swp
+f:63226a183a87d816ad29a45eb1b46fa3:xfconf/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfconf/.signature
 f:a21ba3587412df0dbd761075ab026d4a:exo/post-install
 f:1adbbe52450ecb2a58341d810e781f8d:exo/.footprint
@@ -189,7 +190,6 @@ f:32d2cdd06b1b4e479cf4299380e5cc6f:sound-theme-smooth/Smooth.tar.gz
 f:e5a965f9c8198dec75c9378720ce20d4:sound-theme-smooth/.md5sum
 f:102a102c8d7672f3e928281363dcdc67:sound-theme-smooth/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:sound-theme-smooth/.signature
-f:76801baf45606317fea3a05f86ac477d:sound-theme-smooth/README
 f:feabb7500e1a111b11b0360c7d68ed98:xfce4-power-manager/post-install
 f:0f40b8542b2b2c8474bade7b40a2ecd4:xfce4-power-manager/.footprint
 f:ba91da9182e638bc86d16eeabb8ae6c4:xfce4-power-manager/.md5sum
@@ -218,4 +218,3 @@ f:483f9dfefb4947bb7e2d82a27c6e5f44:font-undefined-medium/.footprint
 f:88c342803a1342443894776de1e5f9a6:font-undefined-medium/.md5sum
 f:c0a9ad430a131eca0f0ca87f74c95625:font-undefined-medium/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:font-undefined-medium/.signature
-f:f44ccfabdd52103789d7e7ba066ae8d8:README
