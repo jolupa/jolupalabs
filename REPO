@@ -70,9 +70,9 @@ f:d44f5844926692eb8307f1e86068a025:xfce-polkit/.footprint
 f:7a14db4203944d5306a3e3c8d1d0b911:xfce-polkit/.md5sum
 f:4c486b384782ccbbf82973af54d17471:xfce-polkit/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce-polkit/.signature
-f:db3869d1b5cd8222c235fe1052b95547:xfce4-dev-tools/.footprint
-f:0eb0c9d1f2146f0d16bfc9656765376b:xfce4-dev-tools/.md5sum
-f:145c06c1ba1dfddab94a9427e2eb2294:xfce4-dev-tools/Pkgfile
+f:ff3aeed0a7ab0d52b5af9ce34fd34cb7:xfce4-dev-tools/.footprint
+f:46327f38a5d7b90b2496a7a6e5684533:xfce4-dev-tools/.md5sum
+f:05b770b3ff5913e10ac77e9c63a8ea0e:xfce4-dev-tools/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-dev-tools/.signature
 f:5cba583a6b5beeabeba43afe3b7ec955:libdbusmenu/.footprint
 f:87359d402092712aaef738af0248777e:libdbusmenu/.md5sum
