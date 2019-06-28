@@ -58,15 +58,15 @@ I provide two methods for installing the **Desktop Environment** Xfce.
 OTHER PACKAGES IN THIS REPO
 =====
 
-You can find other packages in this repo, here's a list.
+You can find other packages not Xfce related in this repo, here's a list.
 
 | PACKAGE NAME | VERSION | NOTES |
 |---|:---:|---|
-| Balena Etcher | 1.5.50 | Seems there's a problem with upscaling autorizathion described in this [bug](https://github.com/balena-io/etcher/issues/2567) |
+| Balena Etcher | 1.5.50 | Seems there's a problem with upscaling autoritathion described in this [bug](https://github.com/balena-io/etcher/issues/2567) |
 | Font Undefined Medium | 1.0 | |
 | Libappindicator | 12.10.0 | |
 | Libdbusmenu | 16.04.0 | |
 | Libindicator | 12.10.1 | |
-| ObinslabStarter | 1.0.11 | Software for controlling the Anne Pro 2 Mechanical Keyboard. Right now it seems there's a segmentation fault error when you exit the program and the tray icon is still visible in the tary area. If you click it the segmentation fault occurs |
+| ObinslabStarter | 1.0.11 | Software for controlling the Anne Pro 2 Mechanical Keyboard. Right now it seems there's a segmentation fault error when you exit the program and the tray icon is still visible in the tray area, if you click it the segmentation fault occurs |
 | Qogir Gtk theme | 2019-05-03 | Fantastic Flat Theme |
  
