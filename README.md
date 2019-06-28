@@ -2,7 +2,7 @@ INSTRUCTIONS INSTALLING JOLUPALABS CRUX REPO
 =====
 1. First download the necessary files:
 
-   ```$wget --no-ch https://raw.githubusercontento.com/jolupa/jolupalabs/master/jolupalabs.{httpup,pub}```
+   ```$wget --no-ch https://raw.githubusercontent.com/jolupa/jolupalabs/master/jolupalabs.{httpup,pub}```
 
 2. Move the downloaded file to the proper folder:
 
@@ -35,4 +35,10 @@ I provide two methods for installing the **Desktop Environment** Xfce.
 
    ```$sudo prt-get depinst xfce4-dev-tools libxfce4util xfconf libxfce4ui garcon exo xfce4-panel thunar thunar-volman xfce4-settings xfce4-session xfwm4 xfdesktop xfce4-appfinder tumbler xfce4-terminal xfce4-power-manager xfce4-notifyd xfce4-screenshooter mousepad xdg-user-dirs greybird-xfce elementary-xfce font-noto font-undefined-medium```
 
+3. Take a big cup of coffe or just relax...
 
+4. To launch Xfce create a *.xinitrc* file with the following content:
+   ```#!/bin/sh
+   exec ck-launch-session startxfce4```
+
+5. Enjoy this beatifull Desktop Manager!
