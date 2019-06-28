@@ -3,12 +3,14 @@ INSTRUCTIONS INSTALLING JOLUPALABS CRUX REPO
 1. First download the necessary files:
 
    ```bash
-   $wget --no-ch https://raw.githubusercontent.com/jolupa/jolupalabs/master/jolupalabs.{httpup,pub}```
+   $wget --no-ch https://raw.githubusercontent.com/jolupa/jolupalabs/master/jolupalabs.{httpup,pub}
+   ```
 
 2. Move the downloaded file to the proper folder:
 
    ```bash
-   $sudo mv jolupalabs.{httpup,pub} /etc/ports/```
+   $sudo mv jolupalabs.{httpup,pub} /etc/ports/
+   ```
 
 3. Add the ports line in yours */etc/prt-get.conf* to fetch the repo:
 
@@ -17,7 +19,8 @@ INSTRUCTIONS INSTALLING JOLUPALABS CRUX REPO
 4. Update the repo into your computer:
 
    ```bash
-   $sudo ports -u jolupalabs```
+   $sudo ports -u jolupalabs
+   ```
 
 NOTES
 =====
@@ -33,12 +36,14 @@ I provide two methods for installing the **Desktop Environment** Xfce.
 1. Just make a depinst install of the meta package:
 
    ```bash
-   $sudo prt-get depinst xfce```
+   $sudo prt-get depinst xfce
+   ```
 
 2. Install the packages in this **same order**:
 
    ```bash
-   $sudo prt-get depinst xfce4-dev-tools libxfce4util xfconf libxfce4ui garcon exo xfce4-panel thunar thunar-volman xfce4-settings xfce4-session xfwm4 xfdesktop xfce4-appfinder tumbler xfce4-terminal xfce4-power-manager xfce4-notifyd xfce4-screenshooter mousepad xdg-user-dirs greybird-xfce elementary-xfce font-noto font-undefined-medium```
+   $sudo prt-get depinst xfce4-dev-tools libxfce4util xfconf libxfce4ui garcon exo xfce4-panel thunar thunar-volman xfce4-settings xfce4-session xfwm4 xfdesktop xfce4-appfinder tumbler xfce4-terminal xfce4-power-manager xfce4-notifyd xfce4-screenshooter mousepad xdg-user-dirs greybird-xfce elementary-xfce font-noto font-undefined-medium
+   ```
 
 3. Take a big cup of coffe or just relax...
 
