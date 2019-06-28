@@ -8,7 +8,7 @@ INSTRUCTIONS INSTALLING JOLUPALABS CRUX REPO
 
    ```$sudo mv jolupalabs.{httpup,pub} /etc/ports/```
 
-3. Add the ports file in */etc/prt-get.conf* to fetch the repo:
+3. Add the ports line in yours */etc/prt-get.conf* to fetch the repo:
 
    prtdir /usr/ports/jolupalabs
 
