@@ -37,7 +37,7 @@ I provide two methods for installing the **Desktop Environment** Xfce.
 
 3. Take a big cup of coffe or just relax...
 
-4. To launch Xfce create a *.xinitrc* file with the following content:
+4. To launch Xfce create a *.xinitrc* file in your *home* directory with the following content:
    ```#!/bin/sh
    exec ck-launch-session startxfce4```
 
