@@ -54,3 +54,19 @@ I provide two methods for installing the **Desktop Environment** Xfce.
    ```
 
 5. Enjoy this beatifull Desktop Manager!
+
+OTHER PACKAGES IN THIS REPO
+=====
+
+You can find other packages in this repo, here's a list.
+
+| PACKAGE NAME | VERSION | NOTES |
+|---|:---:|---|
+| Balena Etcher | 1.5.50 | Seems there's a problem with upscaling autorizathion described in this [bug](https://github.com/balena-io/etcher/issues/2567) |
+| Font Undefined Medium | 1.0 | |
+| Libappindicator | 12.10.0 | |
+| Libdbusmenu | 16.04.0 | |
+| Libindicator | 12.10.1 | |
+| ObinslabStarter | 1.0.11 | Software for controlling the Anne Pro 2 Mechanical Keyboard |
+| Qogir Gtk theme | 2019-05-03 | Fantastic Flat Theme |
+ 
