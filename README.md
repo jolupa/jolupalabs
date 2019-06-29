@@ -62,7 +62,7 @@ You can find other packages not Xfce related in this repo, here's a list.
 
 | PACKAGE NAME | VERSION | NOTES |
 |---|:---:|---|
-| Balena Etcher | 1.5.50 | Seems there's a problem with upscaling autoritathion described in this [bug](https://github.com/balena-io/etcher/issues/2567) |
+| Balena Etcher | 1.5.51 | Seems there's a problem with upscaling autoritathion described in this [bug](https://github.com/balena-io/etcher/issues/2567) |
 | Font Undefined Medium | 1.0 | |
 | Libappindicator | 12.10.0 | |
 | Libdbusmenu | 16.04.0 | |
