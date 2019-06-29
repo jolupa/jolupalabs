@@ -45,8 +45,8 @@ f:5bff0006e36e1ef82428b66080a27a87:obinslab-starter/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:obinslab-starter/.signature
 f:ad55a6116c5a2fc0642748ec6d7f66b5:balena-etcher/post-install
 f:98b5350ce041f0f3b15b24b02281fe6c:balena-etcher/.footprint
-f:3f119bdfd1998bf097c99f007e1dc5e8:balena-etcher/.md5sum
-f:2482ab67f71364722a50e8b463580a2d:balena-etcher/Pkgfile
+f:165abfdcebaa2bad57be0cdd679a25d7:balena-etcher/.md5sum
+f:fd67e90970c0a9ae889c764568ae6a13:balena-etcher/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:balena-etcher/.signature
 f:7b38b41dd13133dcf83c60744ea68fab:greybird-xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:greybird-xfce/.md5sum
