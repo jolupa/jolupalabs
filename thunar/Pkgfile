@@ -4,8 +4,8 @@
 # Depends on:	xfce4-dev-tools libxfce4ui exo libpng gtk3 glib libexif dbus-glib libnotify startup-notification freetype libjpeg-turbo xfce4-panel xfconf
 
 name=thunar
-version=1.8.6
-release=5
+version=1.8.7
+release=1
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
