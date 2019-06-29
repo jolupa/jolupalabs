@@ -58,9 +58,9 @@ f:2fc531556cf039ee8d0a22f1527809be:xfce4-terminal/.md5sum
 f:0c0f8878fd1b415e091a62538fb255d9:xfce4-terminal/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-terminal/.signature
 f:c9a7e071049a0cd462c79fd25243994c:thunar/post-install
-f:17754cef91a62bbc3bb1b70fdb98d4aa:thunar/.footprint
-f:c38a2ca950aad0ce580ee66260efcc79:thunar/.md5sum
-f:e34a2ef5193ee0488c7674a4128bcd91:thunar/Pkgfile
+f:c00b6fa0c3a092f7056516c95b08a188:thunar/.footprint
+f:a0f3e74446b4d218c117abb62fbd26b2:thunar/.md5sum
+f:88a87319911507b8f70c75ba8fe63bf6:thunar/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:thunar/.signature
 f:914a9a43dfc3c7063fca268f2aee13d7:xfce4-appfinder/.footprint
 f:592636aeb96d8518ff476461bbab305d:xfce4-appfinder/.md5sum
