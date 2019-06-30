@@ -4,8 +4,8 @@
 # Depends on:	xfce4-dev-tools thunar exo glib gtk3 libgudev libxfce4ui libxfce4util xfconf
 
 name=thunar-volman
-version=0.9.2
-release=3
+version=0.9.3
+release=1
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
