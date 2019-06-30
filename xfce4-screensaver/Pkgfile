@@ -5,22 +5,29 @@
 
 name=xfce4-screensaver
 version=0.1.6
-release=1
-source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz)
+release=2
+source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz common_auth.patch)
 
 build() {
 
   cd $name-$version
   
+	patch -p1 -i $SRC/common_auth.patch
+
   ./autogen.sh \
     --prefix=/usr \
     --libexecdir=/usr/lib/$name \
     --sysconfdir=/etc \
+		--enable-pam \
+		--enable-authentication-scheme=pam \
+		--with-pam-prefix=/etc \
+		--with-pam-auth-type=common \
     --mandir=/usr/man \
     --disable-static \
     --with-mit-ext \
     --with-console-kit \
     --without-systemd \
+		--without-elogind \
     --with-libgl
   
   make

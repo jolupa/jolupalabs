@@ -1,0 +1,23 @@
+From 9ed7a72b483755481e3e7b8ba67f5d0226f91ef3 Mon Sep 17 00:00:00 2001
+From: Kai Kang <kai.kang@windriver.com>
+Date: Fri, 21 Jun 2019 17:16:04 +0800
+Subject: [PATCH] xfce4-screensaver.common-auth: replace @include with standard
+ systax
+
+'@include' is not a standard sysntax. Replace with 'auth include'.
+
+Signed-off-by: Kai Kang <kai.kang@windriver.com>
+---
+ data/xfce4-screensaver.common-auth | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/data/xfce4-screensaver.common-auth b/data/xfce4-screensaver.common-auth
+index a9fd9ce..3bfea70 100644
+--- a/data/xfce4-screensaver.common-auth
++++ b/data/xfce4-screensaver.common-auth
+@@ -1,2 +1,2 @@
+-@include common-auth
++auth include common-auth
+ auth optional pam_gnome_keyring.so
+-- 
+2.20.1
