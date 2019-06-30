@@ -48,6 +48,8 @@ lrwxrwxrwx	root/root	usr/lib/tumbler-1/plugins/cache/tumbler-cache-plugin.so -> 
 -rwxr-xr-x	root/root	usr/lib/tumbler-1/plugins/tumbler-jpeg-thumbnailer.so
 -rwxr-xr-x	root/root	usr/lib/tumbler-1/plugins/tumbler-pixbuf-thumbnailer.la
 -rwxr-xr-x	root/root	usr/lib/tumbler-1/plugins/tumbler-pixbuf-thumbnailer.so
+-rwxr-xr-x	root/root	usr/lib/tumbler-1/plugins/tumbler-poppler-thumbnailer.la
+-rwxr-xr-x	root/root	usr/lib/tumbler-1/plugins/tumbler-poppler-thumbnailer.so
 -rwxr-xr-x	root/root	usr/lib/tumbler-1/tumblerd
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
@@ -116,6 +118,9 @@ drwxr-xr-x	root/root	usr/share/locale/hr/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/hu/
 drwxr-xr-x	root/root	usr/share/locale/hu/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/hu/LC_MESSAGES/tumbler.mo
+drwxr-xr-x	root/root	usr/share/locale/hy_AM/
+drwxr-xr-x	root/root	usr/share/locale/hy_AM/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/hy_AM/LC_MESSAGES/tumbler.mo
 drwxr-xr-x	root/root	usr/share/locale/id/
 drwxr-xr-x	root/root	usr/share/locale/id/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/id/LC_MESSAGES/tumbler.mo
