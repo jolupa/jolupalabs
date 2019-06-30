@@ -172,9 +172,10 @@ f:0a0df20c97bf8a275dc6c256c0e22059:thunar-volman/.footprint
 f:ad2ecd6761379d454c1c802adec25ea5:thunar-volman/.md5sum
 f:b4ec08e8d94764583826af08bc2bae75:thunar-volman/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:thunar-volman/.signature
+f:de1345235613eba15ff09aab3666c643:xfce4-screensaver/common_auth.patch
 f:b5c9c26e7bf22612817e894ac23bdfc0:xfce4-screensaver/.footprint
-f:01d069d54cff18c83941e86e5199e725:xfce4-screensaver/.md5sum
-f:96a319f6191839e7a6d269ecf4c5513b:xfce4-screensaver/Pkgfile
+f:fcd4d5de1e6ecee04469c1ddc0afea00:xfce4-screensaver/.md5sum
+f:ab7bde66659e39c9e35fd76277cc2399:xfce4-screensaver/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-screensaver/.signature
 f:68c155bd0cc422aaa859ef4da2cab62a:libxfce4util/.footprint
 f:9db7e8c52b23f76d361a3c736dc65d4b:libxfce4util/.md5sum
