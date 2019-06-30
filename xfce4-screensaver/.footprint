@@ -12,8 +12,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/xfce4-screensaver-command
 -rwxr-xr-x	root/root	usr/bin/xfce4-screensaver-preferences
 drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/pkgconfig/
--rw-r--r--	root/root	usr/lib/pkgconfig/xfce4-screensaver.pc
 drwxr-xr-x	root/root	usr/lib/xfce4-screensaver/
 -rwxr-xr-x	root/root	usr/lib/xfce4-screensaver/xfce4-screensaver-dialog
 -rwxr-xr-x	root/root	usr/lib/xfce4-screensaver/xfce4-screensaver-gl-helper
