@@ -120,6 +120,9 @@ drwxr-xr-x	root/root	usr/share/locale/hr/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/hu/
 drwxr-xr-x	root/root	usr/share/locale/hu/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/hu/LC_MESSAGES/xfce4-session.mo
+drwxr-xr-x	root/root	usr/share/locale/hy_AM/
+drwxr-xr-x	root/root	usr/share/locale/hy_AM/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/hy_AM/LC_MESSAGES/xfce4-session.mo
 drwxr-xr-x	root/root	usr/share/locale/id/
 drwxr-xr-x	root/root	usr/share/locale/id/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/id/LC_MESSAGES/xfce4-session.mo
