@@ -1,0 +1,7 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/oneko
+-rwxr-xr-x	root/root	usr/bin/oneko-restore-cursor
+drwxr-xr-x	root/root	usr/man/
+drwxr-xr-x	root/root	usr/man/man1/
+-rw-r--r--	root/root	usr/man/man1/oneko.man.gz

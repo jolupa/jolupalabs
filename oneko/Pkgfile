@@ -1,0 +1,23 @@
+# Description: A cat that chases around your cursor
+# URL: http://www.daidouji.com/oneko/
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: xorg-libxext xorg-libx11 xorg-imake
+
+name=oneko
+version=1.2
+_relversion=sakura.5
+release=1
+source=(http://www.daidouji.com/$name/distfiles/$name-$version.$_relversion.tar.gz)
+
+build() {
+
+	cd $name-$version.$_relversion
+
+	xmkmf
+
+	make
+	make DESTDIR=$PKG install
+
+	mkdir -p $PKG/usr/man/man1
+
+}
