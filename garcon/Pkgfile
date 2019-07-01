@@ -4,8 +4,8 @@
 # Depends on:	xfce4-dev-tools glib libxfce4util libxfce4ui gtk-doc
 
 name=garcon
-version=0.6.2
-release=5
+version=0.6.3
+release=1
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
