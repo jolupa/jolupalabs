@@ -4,8 +4,8 @@
 # Depends on:	xfce4-dev-tools libxfce4util gtk3 xfconf startup-notification glade gtk-doc
 
 name=libxfce4ui
-version=4.13.5
-release=5
+version=4.13.6
+release=1
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
