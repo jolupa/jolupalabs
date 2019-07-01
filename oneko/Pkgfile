@@ -6,7 +6,7 @@
 name=oneko
 version=1.2
 _relversion=sakura.5
-release=1
+release=2
 source=(http://www.daidouji.com/$name/distfiles/$name-$version.$_relversion.tar.gz)
 
 build() {
@@ -17,7 +17,5 @@ build() {
 
 	make
 	make DESTDIR=$PKG install
-
-	mkdir -p $PKG/usr/man/man1
 
 }
