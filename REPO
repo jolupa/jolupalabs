@@ -1,4 +1,5 @@
 d:obinslab-starter
+d:oneko
 d:balena-etcher
 d:greybird-xfce
 d:xfce4-terminal
@@ -43,6 +44,10 @@ f:5000a409689019d1884ab830031585b1:obinslab-starter/.md5sum
 f:5fbf158eba57a28691473d1d43e28343:obinslab-starter/10-annepro.rules
 f:5bff0006e36e1ef82428b66080a27a87:obinslab-starter/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:obinslab-starter/.signature
+f:b45246d19f3c910b27831bcf03e4fe13:oneko/.footprint
+f:8d3bd05135231d0f8d61e7081d2f5348:oneko/.md5sum
+f:6a77473052e2497b1f59c291c0bc2180:oneko/Pkgfile
+f:86f5dbecfb647bd37cc952e4e6abf6c3:oneko/.signature
 f:ad55a6116c5a2fc0642748ec6d7f66b5:balena-etcher/post-install
 f:98b5350ce041f0f3b15b24b02281fe6c:balena-etcher/.footprint
 f:165abfdcebaa2bad57be0cdd679a25d7:balena-etcher/.md5sum
@@ -141,7 +146,7 @@ f:c1ecead7b956e1c163791d6351346bec:elementary-xfce/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:elementary-xfce/.signature
 f:3ba05737a74069414ff2d04ae34acf6e:xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xfce/.md5sum
-f:5300df0ae15bd5ca572e7f8b809ad45d:xfce/Pkgfile
+f:50728e240ae2e4207dd8e660a5bbbb87:xfce/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce/.signature
 f:e26434448c5f8240d4915bda87457eee:xfce4-pulseaudio-plugin/.footprint
 f:b40627a170b8d28b7b894882774048a5:xfce4-pulseaudio-plugin/.md5sum
