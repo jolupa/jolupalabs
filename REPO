@@ -57,10 +57,9 @@ f:7b38b41dd13133dcf83c60744ea68fab:greybird-xfce/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:greybird-xfce/.md5sum
 f:2f28412d2d77eb51a17c549aa5682a48:greybird-xfce/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:greybird-xfce/.signature
-f:72090c04e375ff30db42d4adf6c75329:xfce4-terminal/.footprint
-f:29c4f0bf82e4be3cfb205568513b9559:xfce4-terminal/drop-unicode-encodings.patch
-f:2fc531556cf039ee8d0a22f1527809be:xfce4-terminal/.md5sum
-f:0c0f8878fd1b415e091a62538fb255d9:xfce4-terminal/Pkgfile
+f:c9f1fc8ac2ec6611d72f3c49edd499e6:xfce4-terminal/.footprint
+f:6c9ea0ea6f3b6a74ff797e3eaf9aed11:xfce4-terminal/.md5sum
+f:8cf506efaf1afa276dab1cf70ab2468d:xfce4-terminal/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-terminal/.signature
 f:c9a7e071049a0cd462c79fd25243994c:thunar/post-install
 f:c00b6fa0c3a092f7056516c95b08a188:thunar/.footprint
