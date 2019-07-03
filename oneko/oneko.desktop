@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Oneko
+Comment=A funny cursor chaser
+Exec="/usr/bin/oneko -sakura -tofocus"
+Terminal=false
+Type=Application
+Icon=
+StartupWMClass=
+Categories=Games;
