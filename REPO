@@ -26,6 +26,7 @@ d:xfce
 d:xfce4-pulseaudio-plugin
 d:xfce4-screenshooter
 d:libxfce4ui
+d:xfce4-cpugraph-plugin
 d:xfce4-panel
 d:libappindicator
 d:thunar-volman
@@ -168,6 +169,11 @@ f:74a3cb0fa968f77b088877732957176b:libxfce4ui/.footprint
 f:635688d84acedf32388e405c48f1739b:libxfce4ui/.md5sum
 f:105f964a49b87a0a7f1861a6f32b3c1a:libxfce4ui/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:libxfce4ui/.signature
+f:748247614ffe65e57fa4b84487320ce3:xfce4-cpugraph-plugin/post-install
+f:e100bac3cf7dfe37909063382f76c014:xfce4-cpugraph-plugin/.footprint
+f:a8f7ade53009213bdb5067dc074528a7:xfce4-cpugraph-plugin/.md5sum
+f:bd7f12ecb9eeed2fedb27afebaa3ed25:xfce4-cpugraph-plugin/Pkgfile
+f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-cpugraph-plugin/.signature
 f:553e068666f56f75029a376c1dfcb0de:xfce4-panel/post-install
 f:3ce350944ccebc6d648158c46dd7353e:xfce4-panel/.footprint
 f:a6ef73dfc96d08480fea9579cfdf695a:xfce4-panel/.md5sum
