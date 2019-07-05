@@ -4,6 +4,7 @@ d:balena-etcher
 d:greybird-xfce
 d:xfce4-terminal
 d:thunar
+d:mbpfan
 d:xfce4-appfinder
 d:xfce-polkit
 d:xfce4-dev-tools
@@ -67,6 +68,11 @@ f:c00b6fa0c3a092f7056516c95b08a188:thunar/.footprint
 f:a0f3e74446b4d218c117abb62fbd26b2:thunar/.md5sum
 f:88a87319911507b8f70c75ba8fe63bf6:thunar/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:thunar/.signature
+f:0b2eb977d6f266b8362cf09161467e36:mbpfan/mbpfan
+f:4db96fb8e405ec298771d166a609b5d8:mbpfan/.footprint
+f:c57a5a36127960df163ec7700797490c:mbpfan/.md5sum
+f:58da701546ea32e01fab9c5eee258866:mbpfan/Pkgfile
+f:86f5dbecfb647bd37cc952e4e6abf6c3:mbpfan/.signature
 f:72397cab6ba8ce4a92ddfb65dc0b768b:xfce4-appfinder/.footprint
 f:811a825313773731f703776aceae5d28:xfce4-appfinder/.md5sum
 f:e3d490682a342f13e68def53c7114ddb:xfce4-appfinder/Pkgfile
