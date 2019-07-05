@@ -1,0 +1,25 @@
+# Description: A simple daemon to control fan speed in all MacBooks/MacBooksPro
+# URL: https://github.com/dgraziotin/mbpfan
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on:
+
+name=mbpfan
+version=2.1.1
+release=1
+source=(https://github.com/dgraziotin/$name/archive/v$version.tar.gz mbpfan)
+
+build() {
+
+	cd $name-$version
+
+	make
+	make DESTDIR=$PKG install
+
+	install -d $PKG/etc/rc.d
+	install -m 644 $SRC/mbpfan $PKG/etc/rc.d/
+	chmod +x $PKG/etc/rc.d/mbpfan
+
+	rm -r $PKG/lib
+	rm -r $PKG/usr/share/doc
+
+}
