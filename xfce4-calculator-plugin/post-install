@@ -1,9 +1,0 @@
-#
-# !/bin/sh
-# 
-# Post install file for xfce4 calculator plugin
-#
-
-gtk-update-icon-cache /usr/share/icons/hicolor
-
-# End post install file

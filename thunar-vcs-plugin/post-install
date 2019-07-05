@@ -1,7 +1,0 @@
-# !/bin/sh
-# Post install file for thunar vcs plugin
-#
-
-gtk-update-icon-cache /usr/share/icons/hicolor
-
-# End post install file
