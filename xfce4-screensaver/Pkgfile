@@ -22,7 +22,6 @@ build() {
 		--enable-authentication-scheme=pam \
 		--with-pam-prefix=/etc \
 		--with-pam-auth-type=common \
-    --mandir=/usr/man \
     --disable-static \
     --with-mit-ext \
     --with-console-kit \
@@ -32,7 +31,10 @@ build() {
   
   make
   make DESTDIR=$PKG install
-  
+
+	install -d $PKG/usr/etc
+	mv $PKG/etc/xdg $PKG/usr/etc/xdg
+	mv $PKG/usr/share/dbus-1 $PKG/etc  
   #rm -r $PKG/usr/share/locale
   
 }

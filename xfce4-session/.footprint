@@ -25,10 +25,6 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 drwxr-xr-x	root/root	usr/lib/xfce4/
 drwxr-xr-x	root/root	usr/lib/xfce4/session/
 -rwxr-xr-x	root/root	usr/lib/xfce4/session/xfsm-shutdown-helper
-drwxr-xr-x	root/root	usr/man/
-drwxr-xr-x	root/root	usr/man/man1/
--rw-r--r--	root/root	usr/man/man1/xfce4-session-logout.1.gz
--rw-r--r--	root/root	usr/man/man1/xfce4-session.1.gz
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/xfce-session-settings.desktop
@@ -234,6 +230,10 @@ drwxr-xr-x	root/root	usr/share/locale/zh_HK/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/zh_TW/
 drwxr-xr-x	root/root	usr/share/locale/zh_TW/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/zh_TW/LC_MESSAGES/xfce4-session.mo
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/xfce4-session-logout.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/xfce4-session.1.gz
 drwxr-xr-x	root/root	usr/share/polkit-1/
 drwxr-xr-x	root/root	usr/share/polkit-1/actions/
 -rw-r--r--	root/root	usr/share/polkit-1/actions/org.xfce.session.policy
