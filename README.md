@@ -1,7 +1,4 @@
-<p align="center">
-  <a href="https://github.com/jolupa/jolupalabs/issues" alt="contributions welcome">
-    <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square"/></a>
-</p>
+
 
 INSTRUCTIONS INSTALLING JOLUPALABS CRUX REPO
 =====
@@ -33,7 +30,7 @@ NOTES
 
 CONTACT
 =====
-If you have any question, doubt or problem regarding the ports, please feel free to contact me at jlpavon at me dot com
+If you have any question, doubt or problem regarding the ports, please feel free to contact me at jlpavon at me dot com or just open a [issue](https://github.com/jolupa/jolupalabs/issues)
 
 XFCE INSTALLATION
 =====
