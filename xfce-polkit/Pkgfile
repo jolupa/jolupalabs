@@ -5,20 +5,25 @@
 
 name=xfce-polkit
 version=0.3
-release=3
+release=4
 source=(https://github.com/ncopa/$name/releases/download/v$version/$name-$version.tar.gz)
 
 build() {
 	
 	cd $name-$version
+
 	aclocal
 	autoconf
-	automake --add-missing
+	automake \
+		--add-missing \
+		--foreign
+
 	./configure \
 	  --prefix=/usr \
-	  --libexecdir=/usr/lib/$name
+	  --libexecdir=/usr/lib/$name \
+		--sysconfdir=/etc
 
 	make
+	make DESTDIR=$PKG install
 
-	make DESTDIR=$PKG install	
 }
