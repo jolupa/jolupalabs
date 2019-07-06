@@ -22,6 +22,7 @@ d:xfwm4
 d:elementary-xfce
 d:xfce
 d:xfce4-pulseaudio-plugin
+d:xfce4-taskmanager
 d:xfce4-screenshooter
 d:libxfce4ui
 d:xfce4-panel
@@ -146,6 +147,11 @@ f:e26434448c5f8240d4915bda87457eee:xfce4-pulseaudio-plugin/.footprint
 f:b40627a170b8d28b7b894882774048a5:xfce4-pulseaudio-plugin/.md5sum
 f:2ab0cdbf79a04f730eec1ee92c8de00f:xfce4-pulseaudio-plugin/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-pulseaudio-plugin/.signature
+f:84bd098dca060e166e0db57c0f7b9e0a:xfce4-taskmanager/post-install
+f:fd346d4f2065c42bb34fa71e523138ed:xfce4-taskmanager/.footprint
+f:5c5929f743a5762d6559355e5db56565:xfce4-taskmanager/.md5sum
+f:c4d1404038aa6c766ff1c3f2ab9894c5:xfce4-taskmanager/Pkgfile
+f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-taskmanager/.signature
 f:d2c71d4bbc381d6733f64f11b6970a2f:xfce4-screenshooter/post-install
 f:6454480f0f8bb90bb1d7ee59602e0761:xfce4-screenshooter/.footprint
 f:9064110f5f70fa63408411300ce62d44:xfce4-screenshooter/.md5sum
