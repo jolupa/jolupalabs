@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="https://github.com/jolupa/jolupalabs/issues" alt="contributions welcome">
+    <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square"/></a>
+</p>
+
 INSTRUCTIONS INSTALLING JOLUPALABS CRUX REPO
 =====
 1. First download the necessary files:
