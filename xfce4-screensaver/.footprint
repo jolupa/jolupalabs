@@ -1,7 +1,4 @@
 drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/dbus-1/
-drwxr-xr-x	root/root	etc/dbus-1/services/
--rw-r--r--	root/root	etc/dbus-1/services/org.xfce.ScreenSaver.service
 drwxr-xr-x	root/root	etc/pam.d/
 -rw-r--r--	root/root	etc/pam.d/xfce4-screensaver
 drwxr-xr-x	root/root	usr/
@@ -30,6 +27,9 @@ drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/xfce-personal-slideshow.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/xfce-popsquares.desktop
 -rw-r--r--	root/root	usr/share/applications/xfce4-screensaver-preferences.desktop
+drwxr-xr-x	root/root	usr/share/dbus-1/
+drwxr-xr-x	root/root	usr/share/dbus-1/services/
+-rw-r--r--	root/root	usr/share/dbus-1/services/org.xfce.ScreenSaver.service
 drwxr-xr-x	root/root	usr/share/desktop-directories/
 -rw-r--r--	root/root	usr/share/desktop-directories/xfce4-screensaver.directory
 drwxr-xr-x	root/root	usr/share/locale/

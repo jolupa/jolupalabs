@@ -5,7 +5,7 @@
 
 name=tumbler
 version=0.2.5
-release=2
+release=3
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -25,8 +25,8 @@ build() {
 	make
 	make DESTDIR=$PKG install
 	
-	install -d $PKG/etc
-	mv $PKG/usr/share/dbus-1 $PKG/etc
+	#install -d $PKG/etc
+	#mv $PKG/usr/share/dbus-1 $PKG/etc
 	#rm -r $PKG/usr/share/locale
 	
 }
