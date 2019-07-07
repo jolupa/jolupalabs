@@ -4,20 +4,16 @@
 # Depends on:	optipng gtk3 sassc
 
 name=greybird-xfce
-version=git
-release=4
-source=()
+version=3.22.10
+release=1
+source=(https://github.com/shimmerproject/Greybird/archive/v$version.tar.gz)
 
 build() {
-	if cd "$name-$version" 2> /dev/null; then
-		git pull
-	else
-		git clone https://github.com/shimmerproject/Greybird.git "$name-$version"
-		cd "$name-$version"
-	fi
-	
+
+	cd Greybird-$version
+
 	./autogen.sh \
-	--prefix=/usr
+		--prefix=/usr
 	
 	make
 	make DESTDIR=$PKG install
