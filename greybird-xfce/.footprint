@@ -276,7 +276,6 @@ drwxr-xr-x	root/root	usr/share/themes/Greybird/gtk-2.0/assets/
 -rw-r--r--	root/root	usr/share/themes/Greybird/gtk-2.0/xfsmlogout.png
 drwxr-xr-x	root/root	usr/share/themes/Greybird/gtk-3.0/
 -rw-r--r--	root/root	usr/share/themes/Greybird/gtk-3.0/Gemfile
--rw-r--r--	root/root	usr/share/themes/Greybird/gtk-3.0/README
 -rw-r--r--	root/root	usr/share/themes/Greybird/gtk-3.0/_colors-public.scss
 -rw-r--r--	root/root	usr/share/themes/Greybird/gtk-3.0/_colors.scss
 -rw-r--r--	root/root	usr/share/themes/Greybird/gtk-3.0/_common.scss
