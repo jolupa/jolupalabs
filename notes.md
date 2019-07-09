@@ -26,7 +26,7 @@ POST INSTALLATION
 
 After rebooting with the linux kernel installed.
 
-1. Enable my REPO with the instructions on the site [jolupalabs](https://github.com/jolupa/jolupalabs) and after activating it the ```prt-get depinst broadcom-driver``` this will install the packages required.
+1. Enable my REPO with the instructions on the site [jolupalabs](https://github.com/jolupa/jolupalabs) and after activating it ```prt-get depinst broadcom-driver``` this will install the packages required.
 2. Follow instructions to create a user for pkg treatment, very handy, from [here](https://crux.nu/Wiki/PostInstallationNotes)
 3. Install all the Xfce DE and all it's dependencies with ```prt-get depinst xfce```
 4. Important to take care of [this](https://crux.nu/Wiki/TroubleshootingXKB) if X won't start.
