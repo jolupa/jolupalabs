@@ -1,0 +1,15 @@
+diff --git a/Makefile b/Makefile
+index 6e25cbf..cc4f066 100644
+--- a/Makefile
++++ b/Makefile
+@@ -14,8 +14,8 @@ all:
+ 
+ install:
+ 	mkdir -p "$(DESTDIR)$(PREFIX)/bin"
+-	install $(__NAME__) "/usr/local/bin/$(__NAME__)"
+-	install $(__NAME_C__) "/usr/local/bin/$(__NAME_C__)"
++	install $(__NAME__) "$(DESTDIR)/usr/bin/$(__NAME__)"
++	install $(__NAME_C__) "$(DESTDIR)/usr/bin/$(__NAME_C__)"
+ 	cd ./man; $(MAKE) install
+ 
+ clean:

@@ -1,0 +1,27 @@
+# Descriptionf: A healthy, bite-sized window manager written over the XLib Library
+# URL: https://github.com/JLErvin/berry
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: xorg-x11 xorg-xft sxhkd
+
+name=berry
+version=0.1.0
+release=1
+source=(https://github.com/JLErvin/$name/archive/$version.tar.gz makefile.patch berry.desktop)
+
+build() {
+
+	cd $name-$version
+
+	patch -p1 -i $SRC/makefile.patch
+
+	make
+	make DESTDIR="$PKG/" PREFIX="/usr/bin" install
+
+	mkdir -p $PKG/usr/share/man
+	mv $PKG/usr/local/man/man1 $PKG/usr/share/man
+	rm -r $PKG/usr/local
+
+	mkdir -p $PKG/usr/share/xsessions
+	install -Dm644 $SRC/berry.desktop $PKG/usr/share/xsessions/
+
+}
