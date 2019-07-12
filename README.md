@@ -65,7 +65,7 @@ You can find other packages not Xfce related in this repo, here's a list.
 | PACKAGE NAME | VERSION | NOTES |
 |---|:---:|---|
 | Balena Etcher | 1.5.51 | Seems there's a problem with upscaling autoritathion described in this [bug](https://github.com/balena-io/etcher/issues/2567) |
-| Berry | 0.1.0 | |
+| Berry | 0.1.0 | I have a black screen when launching Berry a [bug](https://github.com/JLErvin/berry/issues/10) reported to the project. |
 | B43-fwcutter | 019 | |
 | Broadcom-driver | 6.30.163.46 | |
 | Font Undefined Medium | 1.0 | |
