@@ -1,0 +1,25 @@
+# Description: A simple Mastodont client
+# URL: https://github.com/bleakgrey/tootle
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: meson vala gtk3 granite
+
+name=image-burner
+_realname=imageburner
+version=1.0.1
+release=1
+source=(https://nuget.pkg.github.com/artemanufrij/$_realname/archive/$version.tar.gz image-burner.desktop)
+
+build() {
+
+	cd $_realname-$version
+
+	meson build \
+		--prefix=/usr \
+		--libexecdir=/usr/lib/$name
+
+	DESTDIR=$PKG ninja -C build install
+
+	rm $PKG/usr/share/applications/com.github.artemanufrij.imageburner.desktop
+	cp $SRC/image-burner.desktop $PKG/usr/share/applications/
+
+}
