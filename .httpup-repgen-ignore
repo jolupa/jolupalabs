@@ -19,4 +19,5 @@ jolupalabs.*$
 jolupalabs.sec
 jolupalabs.pub
 xarchiver
-*.md
+README.md
+crux install on mac.md
