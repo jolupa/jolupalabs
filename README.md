@@ -64,13 +64,15 @@ You can find other packages not Xfce related in this repo, here's a list.
 
 | PACKAGE NAME | VERSION | NOTES |
 |---|:---:|---|
-| Balena Etcher | 1.5.51 | Seems there's a problem with upscaling autoritathion described in this [bug](https://github.com/balena-io/etcher/issues/2567) |
 | Berry | 0.1.0 | I have a black screen when launching Berry a [bug](https://github.com/JLErvin/berry/issues/10) reported to the project. |
 | B43-fwcutter | 019 | |
 | Broadcom-driver | 6.30.163.46 | |
 | Font Undefined Medium | 1.0 | |
+| Granite | 5.2.4 | |
+| Image Burner | 0.1.0 | |
 | Libappindicator | 12.10.0 | |
 | Libdbusmenu | 16.04.0 | |
+| Libgee | 0.20.1 | |
 | Libindicator | 12.10.1 | |
 | Mbpfan | 2.1.1 | Little daemon to control the fan speed of the MacBook and MacBook Pro |
 | Neofetch | 6.0.0 | |

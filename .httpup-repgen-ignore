@@ -18,6 +18,5 @@ jolupalabs.*$
 .gitignore
 jolupalabs.sec
 jolupalabs.pub
-README
-notes.md
-xarchive
+xarchiver
+*.md
