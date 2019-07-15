@@ -1,7 +1,7 @@
 # Description:	Control your AnnePro Keyboad
 # URL:		http://en.obins.net/obinslab-starter/
 # Maintainer: jolupa, jolupameister at gmail dot com
-# Depends on:	gtk xorg-libxscrnsaver xorg-libxtst libxkbcommon nss libappindicator
+# Depends on:	gtk xorg-libxscrnsaver xorg-libxtst libxkbcommon nss
 
 name=obinslab-starter
 version=1.0.11
