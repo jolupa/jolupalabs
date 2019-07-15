@@ -70,11 +70,8 @@ You can find other packages not Xfce related in this repo, here's a list.
 | Font Undefined Medium | 1.0 | |
 | Granite | 5.2.4 | |
 | Image Burner | 0.1.0 | |
-| Libappindicator | 12.10.0 | |
-| Libdbusmenu | 16.04.0 | |
 | Libgee | 0.20.1 | |
-| Libindicator | 12.10.1 | |
-| Mbpfan | 2.1.1 | Little daemon to control the fan speed of the MacBook and MacBook Pro |
+| Mbpfan | 2.1.1 | |
 | Neofetch | 6.0.0 | |
 | ObinslabStarter | 1.0.11 | Software for controlling the Anne Pro 2 Mechanical Keyboard. Right now it seems there's a segmentation fault error when you exit the program and the tray icon is still visible in the tray area, if you click it the segmentation fault occurs |
 | Oneko | 1.2.sakura.5 | |
