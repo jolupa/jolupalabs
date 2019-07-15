@@ -29,7 +29,6 @@ d:neofetch
 d:xfce4-panel
 d:thunar-volman
 d:image-burner
-d:xfce4-indicator-plugin
 d:xfce4-screensaver
 d:libxfce4util
 d:qogir-theme
@@ -187,9 +186,6 @@ f:667ba28acdb50e678b5c00ad3280ff22:image-burner/.md5sum
 f:73e21067600c3aba3426db7ad22559c1:image-burner/image-burner.desktop
 f:da4ab22ab095e90691824ce41ef757af:image-burner/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:image-burner/.signature
-f:638cd560af6c3e42f55fa0cdd102d98c:xfce4-indicator-plugin/.footprint
-f:d9daf43726ba16c0e12ae357f671c38e:xfce4-indicator-plugin/.md5sum
-f:fddd771caae4c13ec0f8b0d45387ef0c:xfce4-indicator-plugin/Pkgfile
 f:de1345235613eba15ff09aab3666c643:xfce4-screensaver/common_auth.patch
 f:a3a53508bf517e73203609a773c6e0f6:xfce4-screensaver/.footprint
 f:fcd4d5de1e6ecee04469c1ddc0afea00:xfce4-screensaver/.md5sum
