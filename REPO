@@ -9,7 +9,6 @@ d:berry
 d:xfce4-appfinder
 d:xfce-polkit
 d:xfce4-dev-tools
-d:libdbusmenu
 d:tumbler
 d:xfconf
 d:exo
@@ -17,7 +16,6 @@ d:xfce4-notifyd
 d:xfce4-session
 d:xfce4-xkb-plugin
 d:xfce4-settings
-d:libindicator
 d:xfdesktop
 d:xfwm4
 d:elementary-xfce
@@ -29,9 +27,9 @@ d:libxfce4ui
 d:broadcom-driver
 d:neofetch
 d:xfce4-panel
-d:libappindicator
 d:thunar-volman
 d:image-burner
+d:xfce4-indicator-plugin
 d:xfce4-screensaver
 d:libxfce4util
 d:qogir-theme
@@ -51,7 +49,7 @@ f:f93ac9fedc59f6b82dec9ca72c154566:obinslab-starter/post-install
 f:4d55a4d16b83debf4c3cfd74de07f68f:obinslab-starter/.footprint
 f:5000a409689019d1884ab830031585b1:obinslab-starter/.md5sum
 f:5fbf158eba57a28691473d1d43e28343:obinslab-starter/10-annepro.rules
-f:5bff0006e36e1ef82428b66080a27a87:obinslab-starter/Pkgfile
+f:6eb2b8960e542599639dd441986f141c:obinslab-starter/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:obinslab-starter/.signature
 f:b65a62fedc94bcfbf54ea07d31e2f2c4:oneko/oneko.desktop
 f:b080fe99658bf8e57723df8d71ba28e7:oneko/.footprint
@@ -95,10 +93,6 @@ f:ff3aeed0a7ab0d52b5af9ce34fd34cb7:xfce4-dev-tools/.footprint
 f:46327f38a5d7b90b2496a7a6e5684533:xfce4-dev-tools/.md5sum
 f:05b770b3ff5913e10ac77e9c63a8ea0e:xfce4-dev-tools/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-dev-tools/.signature
-f:5cba583a6b5beeabeba43afe3b7ec955:libdbusmenu/.footprint
-f:87359d402092712aaef738af0248777e:libdbusmenu/.md5sum
-f:96f6edfbf874c3d33983820c21ebc084:libdbusmenu/Pkgfile
-f:86f5dbecfb647bd37cc952e4e6abf6c3:libdbusmenu/.signature
 f:d29327dcff602f129a26b2957da67de4:tumbler/.footprint
 f:4ba3e564d6f677bce05b47a66df7129f:tumbler/.md5sum
 f:b7dfe50e8ce659c33e389c2f3178cb79:tumbler/Pkgfile
@@ -131,10 +125,6 @@ f:fbdacb66706e1a1cfd79fa7461d145b3:xfce4-settings/.footprint
 f:2199d0f289c0a3469174e9a184e289ca:xfce4-settings/.md5sum
 f:25166a3301407e8ca97a25a738e8e1ab:xfce4-settings/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-settings/.signature
-f:7e8e1e34da073bbf3a9b5bafb0416e2a:libindicator/.footprint
-f:f6ec50a2ad94cd094d775deb10a4cb6c:libindicator/.md5sum
-f:993d05bfe8d974c33a8dbcb93b543942:libindicator/Pkgfile
-f:86f5dbecfb647bd37cc952e4e6abf6c3:libindicator/.signature
 f:89cd45035eeea8e8938338a22d769421:xfdesktop/post-install
 f:552d65d930e0707017bc2e14db7e2bd4:xfdesktop/.footprint
 f:55beec5749a88286aeb73d87ee3c1632:xfdesktop/.md5sum
@@ -186,11 +176,6 @@ f:3ce350944ccebc6d648158c46dd7353e:xfce4-panel/.footprint
 f:a6ef73dfc96d08480fea9579cfdf695a:xfce4-panel/.md5sum
 f:2eb165cf687573e9d2d74b34033a1935:xfce4-panel/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-panel/.signature
-f:0d2d2da661905551854a93fbd5c97fad:libappindicator/.footprint
-f:41ed7535ef384e3c1b26dc10bdbaae8f:libappindicator/.md5sum
-f:b34070291ec36195124ed49c73e81e12:libappindicator/Pkgfile
-f:86f5dbecfb647bd37cc952e4e6abf6c3:libappindicator/.signature
-f:7fe1094eecdc9cf6ac4ab292653f3a47:libappindicator/pointer.patch
 f:f6f599f405eecaaa0a734fe071b4a759:thunar-volman/post-install
 f:0a0df20c97bf8a275dc6c256c0e22059:thunar-volman/.footprint
 f:ad2ecd6761379d454c1c802adec25ea5:thunar-volman/.md5sum
@@ -202,6 +187,9 @@ f:667ba28acdb50e678b5c00ad3280ff22:image-burner/.md5sum
 f:73e21067600c3aba3426db7ad22559c1:image-burner/image-burner.desktop
 f:da4ab22ab095e90691824ce41ef757af:image-burner/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:image-burner/.signature
+f:638cd560af6c3e42f55fa0cdd102d98c:xfce4-indicator-plugin/.footprint
+f:d9daf43726ba16c0e12ae357f671c38e:xfce4-indicator-plugin/.md5sum
+f:fddd771caae4c13ec0f8b0d45387ef0c:xfce4-indicator-plugin/Pkgfile
 f:de1345235613eba15ff09aab3666c643:xfce4-screensaver/common_auth.patch
 f:a3a53508bf517e73203609a773c6e0f6:xfce4-screensaver/.footprint
 f:fcd4d5de1e6ecee04469c1ddc0afea00:xfce4-screensaver/.md5sum
