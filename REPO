@@ -155,7 +155,7 @@ f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-pulseaudio-plugin/.signature
 f:84bd098dca060e166e0db57c0f7b9e0a:xfce4-taskmanager/post-install
 f:fd346d4f2065c42bb34fa71e523138ed:xfce4-taskmanager/.footprint
 f:5c5929f743a5762d6559355e5db56565:xfce4-taskmanager/.md5sum
-f:c4d1404038aa6c766ff1c3f2ab9894c5:xfce4-taskmanager/Pkgfile
+f:1155d409de5d9e9b1e6087d6d8b889e2:xfce4-taskmanager/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-taskmanager/.signature
 f:d2c71d4bbc381d6733f64f11b6970a2f:xfce4-screenshooter/post-install
 f:6454480f0f8bb90bb1d7ee59602e0761:xfce4-screenshooter/.footprint
@@ -202,7 +202,7 @@ f:0f662a908020c4a9ce5e10b6f2616d6b:libxfce4util/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:libxfce4util/.signature
 f:7a4f8bd2e7fc76dda1925bafc5bd24a1:qogir-theme/.footprint
 f:e5556afb4a4ee51e40db901f00872321:qogir-theme/.md5sum
-f:72bef36ec4fe48a279fefe28301699fe:qogir-theme/Pkgfile
+f:288366b6f711ce2874cbc504121b1da1:qogir-theme/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:qogir-theme/.signature
 f:7cbb7c4d3d04e3c76b96961b16434c8f:sound-theme-smooth/.footprint
 f:32d2cdd06b1b4e479cf4299380e5cc6f:sound-theme-smooth/Smooth.tar.gz
@@ -213,7 +213,7 @@ f:76801baf45606317fea3a05f86ac477d:sound-theme-smooth/README
 f:feabb7500e1a111b11b0360c7d68ed98:xfce4-power-manager/post-install
 f:94f14d4a7ee5de34d48be53540675220:xfce4-power-manager/.footprint
 f:0e8f9e5fe09fd68858dfbfcd9a7cf229:xfce4-power-manager/.md5sum
-f:cd58532b384cc720fb8ca4c4c2652dc6:xfce4-power-manager/Pkgfile
+f:03a928ff3e9667a0ed94ea8913bb1691:xfce4-power-manager/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-power-manager/.signature
 f:e64ce3eefd001e8b0a18315dd2a31aad:b43-fwcutter/.footprint
 f:57ec74a232842ce6422b68c4ee61e997:b43-fwcutter/.md5sum
