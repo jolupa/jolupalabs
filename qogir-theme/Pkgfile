@@ -1,11 +1,11 @@
 # Description:	Flat Design theme for GTK
 # URL:		https://github.com/vinceliuice/Qogir-theme
 # Maintainer:	 jolupa, jolupameister at gmail dot com
-# Depends on:	gtk3 libsassc
+# Depends on:	gtk3 libsass
 
 name=qogir-theme
 version=2019-05-03
-release=2
+release=3
 source=(https://github.com/vinceliuice/Qogir-theme/archive/$version.tar.gz)
 
 build() {
