@@ -13,6 +13,7 @@ d:tumbler
 d:xfconf
 d:exo
 d:xfce4-notifyd
+d:libxpresent
 d:xfce4-session
 d:xfce4-xkb-plugin
 d:xfce4-settings
@@ -110,6 +111,10 @@ f:b9a26ecf8aebe78344d9481de8fc52fa:xfce4-notifyd/.footprint
 f:f05983a96da4d0b7839eebfa497ad2ba:xfce4-notifyd/.md5sum
 f:9aba632e8fecf69af79113c229187670:xfce4-notifyd/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-notifyd/.signature
+f:026cb056ad77d2497e963ca840508ad4:libxpresent/.footprint
+f:14cc35afed9bceb3dd2185f3b31cfba7:libxpresent/.md5sum
+f:00809b315dc843558b5ea9087f30ca34:libxpresent/Pkgfile
+f:86f5dbecfb647bd37cc952e4e6abf6c3:libxpresent/.signature
 f:2b41eefdf26f22d2591bf33cc15c56d8:xfce4-session/post-install
 f:0ca4eb6431ecad09348c014339a6c36e:xfce4-session/.footprint
 f:9ae02f1158ee06d3dd9e2623f8a7c165:xfce4-session/.md5sum
@@ -132,7 +137,7 @@ f:86f5dbecfb647bd37cc952e4e6abf6c3:xfdesktop/.signature
 f:89241096299ccb829933dfa257c4dddc:xfwm4/post-install
 f:8ff18f252fd9bbcda11e34ccdec39997:xfwm4/.footprint
 f:1bd8ac5585cec7e992d35fb51259c2d6:xfwm4/.md5sum
-f:8589da0c818833e1927db8877922b952:xfwm4/Pkgfile
+f:48063661ec50fbbfed9ab3841badb27c:xfwm4/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfwm4/.signature
 f:d32da0466f4fd368b618467678d3b611:elementary-xfce/post-install
 f:5acd601cbf64faf12c4fe2ea99b98e74:elementary-xfce/.footprint

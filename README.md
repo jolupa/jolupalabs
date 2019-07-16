@@ -71,6 +71,7 @@ You can find other packages not Xfce related in this repo, here's a list.
 | Granite | 5.2.4 | |
 | Image Burner | 0.1.0 | |
 | Libgee | 0.20.1 | |
+| LibXpresent | 1.0.0 | |
 | Mbpfan | 2.1.1 | |
 | Neofetch | 6.0.0 | |
 | ObinslabStarter | 1.0.11 | Software for controlling the Anne Pro 2 Mechanical Keyboard. Right now it seems there's a segmentation fault error when you exit the program and the tray icon is still visible in the tray area, if you click it the segmentation fault occurs |
