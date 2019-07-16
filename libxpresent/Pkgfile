@@ -1,0 +1,24 @@
+# Description: X Present Extension C Library
+# URL: https://github.com/freedesktop/libXpresent
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: 
+
+name=libxpresent
+_realname=libXpresent
+version=1.0.0
+release=1
+source=(https://github.com/freedesktop/$_realname/archive/$_realname-$version.tar.gz)
+
+build() {
+
+	cd $_realname-$_realname-$version
+
+	./autogen.sh \
+		--prefix=/usr \
+		--libexecdir=/usr/lib/$_realname \
+		--disable-static
+
+	make
+	make DESTDIR=$PKG install
+
+}
