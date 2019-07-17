@@ -1,7 +1,7 @@
-# Description:	Basic Utility library for Xfce
-# URL:		https://www.xfce.org
-# Maintainer: jolupa, jlpavon at me dot com
-# Depends on:	xfce4-dev-tools glib
+# Description:Basic Utility library for Xfce
+# URL:https://www.xfce.org
+# Maintainer:jolupa, jlpavon at me dot com
+# Depends on:xfce4-dev-tools glib
 
 name=libxfce4util
 version=4.13.4

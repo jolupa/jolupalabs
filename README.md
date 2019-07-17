@@ -68,10 +68,13 @@ You can find other packages not Xfce related in this repo, here's a list.
 | B43-fwcutter | 019 | |
 | Broadcom-driver | 6.30.163.46 | |
 | Font Undefined Medium | 1.0 | |
+| Gnome-Common | 3.18.1 | From [TimB87](https://github.com/TimB87/crux-ports) REPO to supply mailspring dependency |
+| Gnome-Keyring | 3.28.2 | From [TimB87](https://github.com/TimB87/crux-ports) REPO to supply mailsrping dependency |
 | Granite | 5.2.4 | |
 | Image Burner | 0.1.0 | |
 | Libgee | 0.20.1 | |
 | LibXpresent | 1.0.0 | |
+| Mailspring | 1.6.3 | **IMPORTANT**: You need to register on mailspring to use the application |
 | Mbpfan | 2.1.1 | |
 | Neofetch | 6.0.0 | |
 | ObinslabStarter | 1.0.11 | Software for controlling the Anne Pro 2 Mechanical Keyboard. Right now it seems there's a segmentation fault error when you exit the program and the tray icon is still visible in the tray area, if you click it the segmentation fault occurs |

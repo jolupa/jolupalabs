@@ -1,7 +1,7 @@
-# Description:	Thumbnail service implementing the thumbnail management D-Bus specification
-# URL:		https://www.xfce.org
-# Maintainer:	 jolupa, jlpavon at me dot com
-# Depends on:	xfce4-dev-tools dbus-glib glib gdk-pixbuf freetype libjpeg-turbo 
+#Description:Thumbnail service implementing the thumbnail management D-Bus specification
+#URL:https://www.xfce.org
+#Maintainer:jolupa, jlpavon at me dot com
+#Depends on:xfce4-dev-tools dbus-glib glib gdk-pixbuf freetype libjpeg-turbo 
 
 name=tumbler
 version=0.2.5

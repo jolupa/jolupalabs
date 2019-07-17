@@ -1,7 +1,7 @@
-# Description:	Elementary Xfce theme by Shimmer Project
-# URL:		https://shimmerproject.org
-# Maintainer:	jolupa, jolupameister at gmail dot com
-# Depends on:	optipng gtk3 sassc
+# Description:Elementary Xfce theme by Shimmer Project
+# URL:https://shimmerproject.org
+# Maintainer:jolupa, jolupameister at gmail dot com
+# Depends on:optipng gtk3 sassc
 
 name=greybird-xfce
 version=3.22.10

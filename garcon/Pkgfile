@@ -1,7 +1,7 @@
-# Description:	Freedesktop.org compliant menu library
-# URL:		https://www.xfce.org
-# Maintainer:	jolupa, jlpavon at me dot com
-# Depends on:	xfce4-dev-tools glib libxfce4util libxfce4ui gtk-doc
+# Description:Freedesktop.org compliant menu library
+# URL:https://www.xfce.org
+# Maintainer:jolupa, jlpavon at me dot com
+# Depends on:xfce4-dev-tools glib libxfce4util libxfce4ui gtk-doc
 
 name=garcon
 version=0.6.3

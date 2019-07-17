@@ -1,7 +1,7 @@
-# Description:	Application library for the Xfce desktop environment
-# URL:		https://www.xfce.org
-# Maintainer:	jolupa, jlpavon at me dot com
-# Depends on:	xfce4-dev-tools libxfce4util libxfce4ui gtk3 p5-uri
+# Description:Application library for the Xfce desktop environment
+# URL:https://www.xfce.org
+# Maintainer:jolupa, jlpavon at me dot com
+# Depends on:xfce4-dev-tools libxfce4util libxfce4ui gtk3 p5-uri
 
 name=exo
 version=0.12.6

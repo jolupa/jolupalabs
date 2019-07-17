@@ -1,7 +1,7 @@
-# Description:	Modern, fast and easy-to-use file manager for Xfce
-# URL:		https://www.xfce.org
-# Maintainer:	 jolupa, jlpavon at me dot com
-# Depends on:	xfce4-dev-tools libxfce4ui exo libpng gtk3 glib libexif dbus-glib libnotify startup-notification freetype libjpeg-turbo xfce4-panel xfconf
+#Description:Modern, fast and easy-to-use file manager for Xfce
+#URL:https://www.xfce.org
+#Maintainer:jolupa, jlpavon at me dot com
+#Depends on:xfce4-dev-tools libxfce4ui exo libpng gtk3 glib libexif dbus-glib libnotify startup-notification freetype libjpeg-turbo xfce4-panel xfconf
 
 name=thunar
 version=1.8.7
