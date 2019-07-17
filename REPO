@@ -27,7 +27,6 @@ d:broadcom-driver
 d:neofetch
 d:xfce4-panel
 d:thunar-volman
-d:xarchiver
 d:image-burner
 d:xfce4-screensaver
 d:libxfce4util
@@ -148,8 +147,6 @@ f:f6f599f405eecaaa0a734fe071b4a759:thunar-volman/post-install
 f:0a0df20c97bf8a275dc6c256c0e22059:thunar-volman/.footprint
 f:8d6b4bbd17eb33d7a77257244c975339:thunar-volman/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:thunar-volman/.signature
-f:34a61dbcb15c42bcf2565e7511ab03e3:xarchiver/.footprint
-f:7e2df53fc98a21e53380a11d17d0b724:xarchiver/Pkgfile
 f:f04eaddcd4e3fcb9c16c358ea85b5dc3:image-burner/post-install
 f:0087992abca815b13cdd7b33927b8db1:image-burner/.footprint
 f:73e21067600c3aba3426db7ad22559c1:image-burner/image-burner.desktop
