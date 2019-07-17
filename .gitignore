@@ -5,3 +5,6 @@ jolupalabs.sec
 .httpup-repgen-ignore
 xarchiver
 xfce4-indicator-plugin
+gnome-*
+mailspring
+.httpup-repgen-ignore
