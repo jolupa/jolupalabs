@@ -3,3 +3,6 @@
 *.md
 mailspring
 gnome-*
+*.swp
+*~
+*.un~
