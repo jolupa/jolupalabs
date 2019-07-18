@@ -1,8 +1,6 @@
 .git*
 *.sec
 *.md
-mailspring
-gnome-*
 *.swp
 *~
 *.un~
