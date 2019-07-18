@@ -1,7 +1,7 @@
-# Description:	A simple policyKit authentication agent for Xfce DE
-# URL:		https://github.com/ncopa/xfce-polkit
+# Description: A simple policyKit authentication agent for Xfce DE
+# URL: https://github.com/ncopa/xfce-polkit
 # Maintainer: jolupa, jolupameister at gmail dot com
-# Depends on:	gtk3 polkit
+# Depends on: gtk3 polkit
 
 name=xfce-polkit
 version=0.3

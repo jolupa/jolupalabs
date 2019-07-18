@@ -1,7 +1,7 @@
-# Description:	A modern terminal emulator
-# URL:		https://www.xfce.org
-# Maintainer:	 jolupa, jlpavon at me dot com
-# Depends on:	vte3
+# Description: A modern terminal emulator
+# URL: https://www.xfce.org
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: vte3
 
 name=xfce4-terminal
 version=0.8.8
@@ -11,6 +11,8 @@ source=(https://archive.xfce.org/src/apps/$name/0.8/$name-$version.tar.bz2)
 build() {
 
 	cd $name-$version
+
+  patch -p1 -i $SRC/drop-unicode-encodings.patch
   
 	./configure \
 	  --prefix=/usr \

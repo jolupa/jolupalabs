@@ -1,7 +1,7 @@
-# Description:A simple text editor for Xfce
-# URL:https://www.xfce.org
-# Maintainer:jolupa, jolupameister at gmail dot com
-# Depends on:xfce4-dev-tools gtk3 glib libxfce4util gtksourceview
+# Description: A simple text editor for Xfce
+# URL: https://www.xfce.org
+# Maintainer: jolupa, jolupameister at gmail dot com
+# Depends on: xfce4-dev-tools gtk3 glib libxfce4util gtksourceview
 
 name=mousepad
 version=0.4.1

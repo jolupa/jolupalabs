@@ -1,7 +1,7 @@
-#Description:Pulseaudio panel plugin
-#URL:https://www.xfce.org
-#Maintainer:jolupa, jlpavon at me dot com
-#Depends on:xfce4-panel pulseaudio gtk3 exo libxfce4util libxfce4ui xfconf pavucontrol
+# Description: Pulseaudio panel plugin
+# URL: https://www.xfce.org
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: xfce4-panel pulseaudio gtk3 exo libxfce4util libxfce4ui xfconf pavucontrol
 
 name=xfce4-pulseaudio-plugin
 version=0.4.1

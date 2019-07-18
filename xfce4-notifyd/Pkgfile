@@ -1,7 +1,7 @@
-#Description:Easily themable notification daemon with transparency effect
-#URL:https://www.xfce.org
-#Maintainer:jolupa, jlpavon at me dot com
-#Depends on:xfce4-dev-tools gtk3 glib libxfce4util libxfce4ui xfconf libnotify xfce4-panel
+# Description: Easily themable notification daemon with transparency effect
+# URL: https://www.xfce.org
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: xfce4-dev-tools gtk3 glib libxfce4util libxfce4ui xfconf libnotify xfce4-panel
 
 name=xfce4-notifyd
 version=0.4.4

@@ -1,7 +1,7 @@
-# Description:Graphic widgets helpers for Xfce
-# URL:https://www.xfce.org
-# Maintainer:jolupa, jlpavon at me dot com
-# Depends on:xfce4-dev-tools libxfce4util gtk3 xfconf startup-notification glade gtk-doc
+# Description: Graphic widgets helpers for Xfce
+# URL: https://www.xfce.org
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: xfce4-dev-tools libxfce4util gtk3 xfconf startup-notification glade gtk-doc
 
 name=libxfce4ui
 version=4.13.6

@@ -1,7 +1,7 @@
-# Description:	Xfce's session manager
-# URL:		https://www.xfce.org
+# Description: Xfce's session manager
+# URL: https://www.xfce.org
 # Maintainer:	 jolupa, jlpavon at me dot com
-# Depends on:	libxfce4ui p5-xml-parser libwnck-gtk3 dbus-glib xorg-iceauth
+# Depends on: libxfce4ui p5-xml-parser libwnck-gtk3 dbus-glib xorg-iceauth
 
 name=xfce4-session
 version=4.13.3
