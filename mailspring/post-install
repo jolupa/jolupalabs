@@ -1,0 +1,7 @@
+#
+#!/bin/sh
+# Post Install file for mailspring
+
+gtk-update-icon-cache /usr/share/icons/hicolor
+
+# End post install
