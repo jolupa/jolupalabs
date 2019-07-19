@@ -1,9 +1,6 @@
-.gitignore
-*.sec
-.*.un~
-.*.~
 *.md
-.git/
-xfce4-indicator-plugin
+*.un~
+*~
+.git
+.gitignore
 xarchiver
-
