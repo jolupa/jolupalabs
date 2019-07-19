@@ -4,3 +4,6 @@
 .*.~
 *.md
 .git/
+xfce4-indicator-plugin
+xarchiver
+
