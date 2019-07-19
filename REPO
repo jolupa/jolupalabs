@@ -59,7 +59,6 @@ f:b65a62fedc94bcfbf54ea07d31e2f2c4:oneko/oneko.desktop
 f:b080fe99658bf8e57723df8d71ba28e7:oneko/.footprint
 f:2fe72fac639b3697ef6ec03ebb8cfe1a:oneko/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:oneko/.signature
-f:d40ae0dba2af6b49dd9db5611d9c6f5f:jolupalabs.pub
 f:e9f3fdcaa476fce931e1a7b46df37066:greybird-xfce/.footprint
 f:e749c282294ee19664e28708d72cb162:greybird-xfce/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:greybird-xfce/.signature
@@ -86,7 +85,6 @@ f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-appfinder/.signature
 f:d44f5844926692eb8307f1e86068a025:xfce-polkit/.footprint
 f:f3b988ded3d5454416a281276cc2b523:xfce-polkit/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce-polkit/.signature
-f:1528c6880ddd24fd88e8ac20a09b3505:jolupalabs.httpup
 f:ff3aeed0a7ab0d52b5af9ce34fd34cb7:xfce4-dev-tools/.footprint
 f:05b770b3ff5913e10ac77e9c63a8ea0e:xfce4-dev-tools/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-dev-tools/.signature
@@ -104,7 +102,6 @@ f:d786651b6d14a5c35ec0943e4335e688:xfce4-notifyd/post-install
 f:b9a26ecf8aebe78344d9481de8fc52fa:xfce4-notifyd/.footprint
 f:6f1d8c1ae50c0be46c8581b439b7d15f:xfce4-notifyd/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:xfce4-notifyd/.signature
-f:448d8c6b7247fe76d8e4d958b0bf6178:jolupalabs.sec
 f:026cb056ad77d2497e963ca840508ad4:libxpresent/.footprint
 f:00809b315dc843558b5ea9087f30ca34:libxpresent/Pkgfile
 f:86f5dbecfb647bd37cc952e4e6abf6c3:libxpresent/.signature
