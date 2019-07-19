@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWRdPtfuMX7+XPW69V0JFuSG3twfCuZsoLbucI1FPX3UN5+sQLBMEkNf47kV03Teg5OWxz4BSyj982Z0iodFWyORjx+xZ58SvAY=
+RWRdPtfuMX7+XK8nH0mESzyiwgEF1SL57hW07DIgU6wKDTsQO1YDOmi85zY3m2rkZFK2lnbEyZArDy8B7ap13D33UN1rTofkjwM=
+SHA256 (Pkgfile) = b8f2f5c4cb3adba182990d93a418df49f7783bcb54717fe901175ca491984b8a
+SHA256 (.footprint) = 59a3a39755a08df49072611d171ffb73eaa624470de60a350a3828c0b9435bf7
+SHA256 (xfce4-pulseaudio-plugin-0.4.1.tar.gz) = 33dc47f1b05e45dfc25522d79a07f656b8eed95e2853e1bdd36f59ec25457e87

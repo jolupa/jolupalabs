@@ -1,6 +1,7 @@
 # Description: Elementary Xfce theme by Shimmer Project
 # URL: https://shimmerproject.org
-# Maintainer: jolupa, jolupameister at gmail dot com
+# Packager: jolupa, jlpavon at me dot com
+# Maintainer: jolupa, jlpavon at me dot com
 # Depends on: optipng gtk3
 
 name=elementary-xfce

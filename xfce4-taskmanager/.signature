@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWRdPtfuMX7+XPW69V0JFuSG3twfCuZsoLbucI1FPX3UN5+sQLBMEkNf47kV03Teg5OWxz4BSyj982Z0iodFWyORjx+xZ58SvAY=
+RWRdPtfuMX7+XJE6Dh9G4DiF1ZAQ/OhznQhI8Az0rA0nKUsUP6qcRzN333WMuUIvMkOewgxycOGkxKMcmvqN/B75/mD6ZNKl/Qs=
+SHA256 (Pkgfile) = 01a6012e6ef380861aa65585929d4f36cdffc068b07d85d9f40c2172ae52da2e
+SHA256 (.footprint) = 81a934c17b78fc146aab2b7e6c9e945f7d21b005542fde3c42a73083f069f683
+SHA256 (xfce4-taskmanager-1.2.2.tar.gz) = e56437f53381bb509feb719236fdce7c63a6e1641e2a78370e783dab209a2e35

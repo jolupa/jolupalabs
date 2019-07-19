@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWRdPtfuMX7+XPW69V0JFuSG3twfCuZsoLbucI1FPX3UN5+sQLBMEkNf47kV03Teg5OWxz4BSyj982Z0iodFWyORjx+xZ58SvAY=
+RWRdPtfuMX7+XIppBPcoBnt0IPlen2iiD+gYcXDYpbnXYoYYHILj7wCy3Mr+p/vgeLCLmFqeoOI+0FEGjxYWv5HeUiOyQQGaaww=
+SHA256 (Pkgfile) = 6e66a61d137cdb45d4446666b33fa923360be20be922351c10cbc639d68f2d04
+SHA256 (.footprint) = 77d8c9df95a177eb154269faecc4d9ff9f7f44f7f60fd49aa27ff3af9b805629
+SHA256 (libgee-0.20.1.tar.xz) = bb2802d29a518e8c6d2992884691f06ccfcc25792a5686178575c7111fea4630

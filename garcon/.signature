@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWRdPtfuMX7+XPW69V0JFuSG3twfCuZsoLbucI1FPX3UN5+sQLBMEkNf47kV03Teg5OWxz4BSyj982Z0iodFWyORjx+xZ58SvAY=
+RWRdPtfuMX7+XDYixD35ER6vJ3ffYbDTJ5cV5gh7klKgjxgaFYYdEu252AXMUYXIFAWUR6tSVSbOl7BjYfZKcv1WY/4bw0huFwk=
+SHA256 (Pkgfile) = 49d165c3685263fc4f6d999afeffdd74c3984e05430110a9ea6307cc39629c7e
+SHA256 (.footprint) = fb51f719bbce5069ff8b570dfc83d395685b05d4aecc71b8b669fac10332880e
+SHA256 (garcon-0.6.3.tar.gz) = 4715c0c8ef917c01a8963bf35899e36bb1f3adcf25e0bf7bd19cccfd308ea1ab

@@ -1,5 +1,6 @@
 # Description: Driver for Broadcom WL cards
 # URL: http://www.lwfinger.com/b43-firmware
+# Packager: jolupa, jlpavon at me dot com
 # Maintainer: jolupa, jlpavon at me dot com
 # Depends on: b43-fwcutter
 

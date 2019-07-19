@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWRdPtfuMX7+XPW69V0JFuSG3twfCuZsoLbucI1FPX3UN5+sQLBMEkNf47kV03Teg5OWxz4BSyj982Z0iodFWyORjx+xZ58SvAY=
+RWRdPtfuMX7+XPiDZhvTz6pHnM6Bk28T4+1WI/zRodL2BwKrd1UXPGkYNSepqtaBTflFVb+Pz7CvfKHeD9h4h42BgeRGhvxk+QQ=
+SHA256 (Pkgfile) = ac1af6c59dff47a4797adcd52482c8b40cd60061f4e16d97e14ca5b025d2a064
+SHA256 (.footprint) = 50d5e8c7d14b01de49f9875e2bffdaf0034f444536a49a2c0d7a1a4c0118dc2a
+SHA256 (xdg-user-dirs-0.17.tar.gz) = 2a07052823788e8614925c5a19ef5b968d8db734fdee656699ea4f97d132418c

@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWRdPtfuMX7+XPW69V0JFuSG3twfCuZsoLbucI1FPX3UN5+sQLBMEkNf47kV03Teg5OWxz4BSyj982Z0iodFWyORjx+xZ58SvAY=
+RWRdPtfuMX7+XEQtLkSQQIg43Mte7wJicz4q0+SfF7tbhVgxUQW+meWsVoBK9zkDjWD+3HY9aeVAv6ZqqWV4OCopFOK/rjI5vwg=
+SHA256 (Pkgfile) = daf78626c1eb51168bff3be51e069f2629cd28ba8e245ac15f267809915a6302
+SHA256 (.footprint) = db1510eb8fddd393f69db1574042e03079d1af8a55f0c30f43f21a2e968e0cbc
+SHA256 (mailspring-1.6.3-amd64.deb) = 799ca5a90f4dcb9631454e8510537623db5df6fad7308c45b87661deb7db5051

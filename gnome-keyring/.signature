@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWRdPtfuMX7+XPW69V0JFuSG3twfCuZsoLbucI1FPX3UN5+sQLBMEkNf47kV03Teg5OWxz4BSyj982Z0iodFWyORjx+xZ58SvAY=
+RWRdPtfuMX7+XP7pWMfJEvGpG6K/2YrmTozht7NOeSR19VgDrSJKWm4SgTglC9iRDTNEizDWNn5K+MFhpsDta1Shk6UweaLK9gA=
+SHA256 (Pkgfile) = 83fb572e6749eabf86b96386e388036d951c40a1dd000e0c381b599eb6353f5c
+SHA256 (.footprint) = ede3b16f8cd78b029698ccabc1d5c307b1b71e7898428a235dd2d6d7afccef10
+SHA256 (gnome-keyring-3.28.2.tar.gz) = 14c7a74fc25bfaeb203dfdc905afd292096ad901451f67f2cfa546f0b2654617
