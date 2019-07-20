@@ -73,7 +73,6 @@ You can find other packages not Xfce related in this repo, here's a list.
 | Granite | 5.2.4 | |
 | Image Burner | 0.1.0 | |
 | Libgee | 0.20.1 | |
-| LibXpresent | 1.0.0 | |
 | Mailspring | 1.6.3 | **IMPORTANT**: You need to register on mailspring to use the application |
 | Mbpfan | 2.1.1 | |
 | Neofetch | 6.0.0 | |
