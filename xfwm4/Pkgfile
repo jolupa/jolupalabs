@@ -1,11 +1,11 @@
 # Description: Xfce's window manager
 # URL: https://www.xfce.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: libxfce4util xfconf libwnck-gtk3 exo thunar garcon libnotify librsvg
+# Depends on: libxfce4util xfconf libwnck-gtk3 exo thunar garcon libnotify librsvg libxpresent
 
 name=xfwm4
 version=4.13.3
-release=2
+release=3
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -21,7 +21,7 @@ build() {
 	  --enable-randr \
 	  --enable-xpresent \
 	  --enable-compositor \
-		--enable-epoxy \
+	  --enable-epoxy \
 	  --disable-debug \
 	  --with-x
 
