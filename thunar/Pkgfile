@@ -4,8 +4,8 @@
 # Depends on: xfce4-dev-tools libxfce4ui exo libpng gtk3 glib libexif dbus-glib libnotify startup-notification freetype libjpeg-turbo xfce4-panel xfconf
 
 name=thunar
-version=1.8.7
-release=3
+version=1.8.8
+release=1
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
@@ -27,8 +27,8 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	#install -d $PKG/etc
-	#mv $PKG/usr/share/dbus-1 $PKG/etc
+	mv $PKG/etc/xdg $PKG/usr/
+
 	rm -r $PKG/usr/share/doc
 	rm -r $PKG/usr/lib/systemd
 	#rm -r $PKG/usr/share/locale
