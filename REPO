@@ -122,7 +122,7 @@ f:bab447c2313641d2cac95b369b9691a9:xfdesktop/Pkgfile
 f:b85e53fd65e815fb56443e5e311de85e:xfdesktop/.signature
 f:89241096299ccb829933dfa257c4dddc:xfwm4/post-install
 f:8ff18f252fd9bbcda11e34ccdec39997:xfwm4/.footprint
-f:d7af22c59503ccdd62766770fc96fde8:xfwm4/Pkgfile
+f:af044d8db65eb6f9da694a50a7b8e3a2:xfwm4/Pkgfile
 f:054c97521e2c512cd6418f2ef404cac8:xfwm4/.signature
 f:d32da0466f4fd368b618467678d3b611:elementary-xfce/post-install
 f:5acd601cbf64faf12c4fe2ea99b98e74:elementary-xfce/.footprint
@@ -132,6 +132,7 @@ f:8ab1a8aebf81c512aa5d551b60792167:gnome-keyring/post-install
 f:4a8ba2e5a3bae2f99cb87246761a86b7:gnome-keyring/.footprint
 f:391d976bb40fc36f516199b78cc2133f:gnome-keyring/Pkgfile
 f:519fece4b94d53b1932ceee5f32d5ad8:gnome-keyring/.signature
+f:89400639d1b18d11c83729e682f4d8b4:xfce/post-install
 f:3ba05737a74069414ff2d04ae34acf6e:xfce/.footprint
 f:3547fd3205f0fb3e765ab458f9a4cf1a:xfce/Pkgfile
 f:4ea580db44801af7d49f9a48d59541bd:xfce/.signature
