@@ -1,0 +1,8 @@
+#
+#!/bin/sh
+#Post install file for Xfce desktop
+#
+
+update-desktop-database -q
+
+#End post install file for Xfce desktop
