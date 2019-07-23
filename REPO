@@ -123,7 +123,7 @@ f:b85e53fd65e815fb56443e5e311de85e:xfdesktop/.signature
 f:89241096299ccb829933dfa257c4dddc:xfwm4/post-install
 f:8ff18f252fd9bbcda11e34ccdec39997:xfwm4/.footprint
 f:af044d8db65eb6f9da694a50a7b8e3a2:xfwm4/Pkgfile
-f:054c97521e2c512cd6418f2ef404cac8:xfwm4/.signature
+f:a52f4c6c1cb6b5623293dc2e3a735167:xfwm4/.signature
 f:d32da0466f4fd368b618467678d3b611:elementary-xfce/post-install
 f:5acd601cbf64faf12c4fe2ea99b98e74:elementary-xfce/.footprint
 f:b2bdd0fe19e871ab15513400143fbf50:elementary-xfce/Pkgfile
@@ -168,8 +168,8 @@ f:0c6b4a418e290fe604bb080567c21f41:thunar-volman/.signature
 f:f04eaddcd4e3fcb9c16c358ea85b5dc3:image-burner/post-install
 f:0087992abca815b13cdd7b33927b8db1:image-burner/.footprint
 f:73e21067600c3aba3426db7ad22559c1:image-burner/image-burner.desktop
-f:da4ab22ab095e90691824ce41ef757af:image-burner/Pkgfile
-f:e654a07f6f314cc990da4b914de8b17a:image-burner/.signature
+f:7d9dbc5bdfcf378108c234dfcdefa8ef:image-burner/Pkgfile
+f:aa008e1afd36b66a092d08c60aa7ded7:image-burner/.signature
 f:35185a43d53dac5c20ded463bf28556a:mailspring/post-install
 f:5dcbcfc0acf5f9be3ffd05d272d656c2:mailspring/.footprint
 f:3de44edfa7be3fdf436fba12ca8ddaae:mailspring/Pkgfile
