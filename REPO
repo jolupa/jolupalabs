@@ -166,10 +166,10 @@ f:0a0df20c97bf8a275dc6c256c0e22059:thunar-volman/.footprint
 f:3b102006793f45f299bcca2b26bf3687:thunar-volman/Pkgfile
 f:0c6b4a418e290fe604bb080567c21f41:thunar-volman/.signature
 f:f04eaddcd4e3fcb9c16c358ea85b5dc3:image-burner/post-install
-f:0087992abca815b13cdd7b33927b8db1:image-burner/.footprint
+f:a878137fb39cb8e91b6a25204af1085c:image-burner/.footprint
 f:73e21067600c3aba3426db7ad22559c1:image-burner/image-burner.desktop
 f:f6b7caa2dfabb2cbff6abc3555fc8a2c:image-burner/Pkgfile
-f:ac3f1c38c49feffbf21496ce27f29b1a:image-burner/.signature
+f:d4e2be883fbb10caf7e1ffaf76ddfa54:image-burner/.signature
 f:35185a43d53dac5c20ded463bf28556a:mailspring/post-install
 f:5dcbcfc0acf5f9be3ffd05d272d656c2:mailspring/.footprint
 f:3de44edfa7be3fdf436fba12ca8ddaae:mailspring/Pkgfile
