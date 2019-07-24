@@ -1,4 +1,4 @@
-# Description: A simple Mastodont client
+# Description: A simple image burner like etcher
 # URL: https://github.com/artemanufrij/imageburner
 # Maintainer: jolupa, jlpavon at me dot com
 # Depends on: meson vala gtk3 granite
@@ -6,7 +6,7 @@
 name=image-burner
 _realname=imageburner
 version=1.0.1
-release=1
+release=2
 source=(https://nuget.pkg.github.com/artemanufrij/$_realname/archive/$version.tar.gz image-burner.desktop)
 
 build() {
