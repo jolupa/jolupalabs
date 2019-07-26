@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWRdPtfuMX7+XHl7BL2unCPWe2pqrsItUi5ccklSpgdwpI5r65rGQZz3XsAFqJQSkHCcFJbgLXmdI04ME/gJhCHBqwgs+hksVwg=
-SHA256 (Pkgfile) = 08c0eb55dbaed56423f212a595b000dbd0ea373a3e7ea8c011f9bfd2f6706757
+RWRdPtfuMX7+XJ/pjjlkL9XSYbmKLwRdBH1o2d6SD36mIiG51yN+Bm3t9eeqeLbEWbO57Jd84bedGZpnFd1eX6qX/f0K2uc99A4=
+SHA256 (Pkgfile) = 1438a6b21216dfc753bec1a7a4775bf0b5d5d61ab8ec24c7b503bc5a5b90db2d
 SHA256 (.footprint) = 834eb9c37c9d9246f82d439eb605dc20e4389a33013e2a533207e637f475cf3a
 SHA256 (0.1.0.tar.gz) = f6d75ea8f7dba72a45072e8b48a7751e7b644fb7bf9c09df9171b182dc21f952
 SHA256 (berry.desktop) = e1801d7429f8b0c213cb2026ab56ad3e313dcde033a3db176a94b0ef3daa75a6
