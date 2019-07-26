@@ -6,23 +6,17 @@
 
 name=berry
 version=0.1.0
-release=1
-source=(https://github.com/JLErvin/$name/archive/$version.tar.gz makefile.patch berry.desktop)
+release=2
+source=(https://github.com/JLErvin/$name/archive/$version.tar.gz berry.desktop)
 
 build() {
 
 	cd $name-$version
 
-	patch -p1 -i $SRC/makefile.patch
-
 	make
-	make DESTDIR="$PKG/" PREFIX="/usr/bin" install
 
-	mkdir -p $PKG/usr/share/man
-	mv $PKG/usr/local/man/man1 $PKG/usr/share/man
-	rm -r $PKG/usr/local
-
-	mkdir -p $PKG/usr/share/xsessions
-	install -Dm644 $SRC/berry.desktop $PKG/usr/share/xsessions/
+  install -dm 755 $PKG/usr{/bin,/share/xsessions}
+  install -m 755 {berry,berryc} $PKG/usr/bin
+  install -m 644 $SRC/berry.desktop $PKG/usr/share/xsessions
 
 }
