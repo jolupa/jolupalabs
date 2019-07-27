@@ -4,7 +4,7 @@
 # Depends on: xfce4-dev-tools libxfce4util libxfce4ui gtk3 p5-uri
 
 name=exo
-version=0.12.6
+version=0.12.7
 release=1
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
@@ -15,7 +15,6 @@ build() {
 	./autogen.sh \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
-	  --mandir=/usr/man \
 	  --disable-gtk-doc \
 	  --disable-gtk-doc-html \
 	  --disable-gtk-doc-pdf \
