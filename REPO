@@ -22,6 +22,7 @@ d:xfwm4
 d:elementary-xfce
 d:xfce
 d:xfce4-pulseaudio-plugin
+d:parole
 d:xfce4-taskmanager
 d:xfce4-screenshooter
 d:libxfce4ui
@@ -130,6 +131,9 @@ f:4ea580db44801af7d49f9a48d59541bd:xfce/.signature
 f:e26434448c5f8240d4915bda87457eee:xfce4-pulseaudio-plugin/.footprint
 f:2ab0cdbf79a04f730eec1ee92c8de00f:xfce4-pulseaudio-plugin/Pkgfile
 f:be90f52af15b0e1dfc80ecfe9fc444f1:xfce4-pulseaudio-plugin/.signature
+f:7bf3c669d729f4f67c1a1024a91abe04:parole/.footprint
+f:d5fe2d1a0534c3b080fe7de5147b5d54:parole/Pkgfile
+f:d959c846f2a058e6fd04f42962cfd15e:parole/.signature
 f:84bd098dca060e166e0db57c0f7b9e0a:xfce4-taskmanager/post-install
 f:fd346d4f2065c42bb34fa71e523138ed:xfce4-taskmanager/.footprint
 f:1155d409de5d9e9b1e6087d6d8b889e2:xfce4-taskmanager/Pkgfile
