@@ -64,7 +64,7 @@ You can find other packages not Xfce related in this repo, here's a list.
 
 | PACKAGE NAME | VERSION | NOTES |
 |---|:---:|---|
-| Berry | 0.1.0 | I have a black screen when launching Berry a [bug](https://github.com/JLErvin/berry/issues/10) reported to the project. |
+| Berry | 0.1.0 | |
 | B43-fwcutter | 019 | |
 | Broadcom-driver | 6.30.163.46 | |
 | Claws-Mail GTK3 | GIT | The Git version with Gtk3 support |
