@@ -1,0 +1,32 @@
+# Description: A Gtk+ mail client
+# URL: https://claws-mail.org
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: gtk3 glib libcanberra dbus gnupg gpgme gnutls webkitgtk libnotify libetpan
+
+name=claws-mail-gtk3
+version=git
+release=1
+source=()
+
+build() {
+
+  git clone git://git.claws-mail.org/claws.git $name
+
+  cd $name
+
+  git checkout gtk3
+
+  ./autogen.sh \
+    --prefix=/usr \
+    --disable-static \
+    --disable-networkmanager \
+    --disable-tests \
+    --disable-maintainer-mode
+
+  make
+  make DESTDIR=$PKG install
+
+  rm -r $PKG/usr/share/doc
+  #rm -r $PKG/usr/share/locale
+
+}
