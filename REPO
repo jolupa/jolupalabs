@@ -90,9 +90,9 @@ f:8db2fb51d02156cea0a028059530a235:xfconf/.footprint
 f:538e24aa1934145bec9b69a0d33794ff:xfconf/Pkgfile
 f:a6d16cf442c220109a81b7cbffc7cb90:xfconf/.signature
 f:a21ba3587412df0dbd761075ab026d4a:exo/post-install
-f:1adbbe52450ecb2a58341d810e781f8d:exo/.footprint
-f:e7e7935fcd327648084e1f6855ecf4b9:exo/Pkgfile
-f:998f5a2b260afe5f08f9b2ed77049e45:exo/.signature
+f:0c146bb9e3d4f50f45195510c38b2bf9:exo/.footprint
+f:643fde236a0c7d89de0d593ac5f3f503:exo/Pkgfile
+f:f7df96b80810bba82400c65ab1d76076:exo/.signature
 f:d786651b6d14a5c35ec0943e4335e688:xfce4-notifyd/post-install
 f:b9a26ecf8aebe78344d9481de8fc52fa:xfce4-notifyd/.footprint
 f:6f1d8c1ae50c0be46c8581b439b7d15f:xfce4-notifyd/Pkgfile
@@ -158,8 +158,8 @@ f:3b102006793f45f299bcca2b26bf3687:thunar-volman/Pkgfile
 f:0c6b4a418e290fe604bb080567c21f41:thunar-volman/.signature
 f:d0cd155245ecac7ec8755befccf7ec24:claws-mail-gtk3/post-install
 f:46679bb28a592bd6ca2a3906985c0979:claws-mail-gtk3/.footprint
-f:aa14e9ea63ea0952fac45255db84b655:claws-mail-gtk3/Pkgfile
-f:3470d6942c2fb92341e1ea9e3e25c27a:claws-mail-gtk3/.signature
+f:f7550ca0147cb32f66ed37281267b7b0:claws-mail-gtk3/Pkgfile
+f:3c858069227b176d3c48dcdca42fc9da:claws-mail-gtk3/.signature
 f:33373a9a0e6ba6552548521ee7821208:libetpan/.footprint
 f:ddb7a3789e36ff70d6db9480b0b71ab4:libetpan/Pkgfile
 f:22180fdec81fbfa031a879b759f6bf18:libetpan/.signature
