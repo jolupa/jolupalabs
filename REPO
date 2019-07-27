@@ -118,8 +118,8 @@ f:bab447c2313641d2cac95b369b9691a9:xfdesktop/Pkgfile
 f:b85e53fd65e815fb56443e5e311de85e:xfdesktop/.signature
 f:89241096299ccb829933dfa257c4dddc:xfwm4/post-install
 f:8ff18f252fd9bbcda11e34ccdec39997:xfwm4/.footprint
-f:af044d8db65eb6f9da694a50a7b8e3a2:xfwm4/Pkgfile
-f:a52f4c6c1cb6b5623293dc2e3a735167:xfwm4/.signature
+f:b58147364e171095645fc6fffa58afe3:xfwm4/Pkgfile
+f:f5880509d1aad3deca969da5ea155ac1:xfwm4/.signature
 f:d32da0466f4fd368b618467678d3b611:elementary-xfce/post-install
 f:5acd601cbf64faf12c4fe2ea99b98e74:elementary-xfce/.footprint
 f:b2bdd0fe19e871ab15513400143fbf50:elementary-xfce/Pkgfile
@@ -201,9 +201,9 @@ f:66fae34c3fcdeeab03b2abd41fb6da34:mousepad/.signature
 f:1a24dfb9cebbb583914b1b7b2742ad87:xdg-user-dirs/.footprint
 f:30129ec55cc7985d8c59e45d4a523f29:xdg-user-dirs/Pkgfile
 f:61dcfce039601e8b75842de7492fab96:xdg-user-dirs/.signature
-f:13fc5abf5dbc43fcb0353a747110b268:garcon/.footprint
-f:206c1521ca6ca7fd4afdf64581da634d:garcon/Pkgfile
-f:0d4f2631855ae284fc15daa192e65937:garcon/.signature
+f:33da30314652d59f0b26611e7f7036f8:garcon/.footprint
+f:9d74a9e2a86c492c4effd0235db89503:garcon/Pkgfile
+f:da00d04f3319ea4b0327a5832a17e348:garcon/.signature
 f:5056ff22ef45a9b61005fb0bfe765a9f:granite/post-install
 f:df04f2c62f718668db5a745e875276b7:granite/.footprint
 f:b3dd81429bd8c1b8457a9a9b250a1e15:granite/Pkgfile
