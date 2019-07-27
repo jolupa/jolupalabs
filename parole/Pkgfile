@@ -1,0 +1,22 @@
+# Description: Gstreamer based media player
+# URL: https://docs.xfce.org/apps/parole/introduction 
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: gtk3 glib libxfce4ui libxfce4util xfconf libnotify dbus gstreamer gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly
+
+name=parole
+version=1.0.3
+release=1
+source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz)
+build() {
+
+  cd $name-$version
+
+  ./autogen.sh \
+    --prefix=/usr \
+    --libexecdir=/usr/lib/$name
+
+  make
+  make DESTDIR=$PKG install
+
+  #rm -r $PKG/usr/share/locale
+}
