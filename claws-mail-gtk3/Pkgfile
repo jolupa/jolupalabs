@@ -1,11 +1,11 @@
 # Description: A Gtk+ mail client
 # URL: https://claws-mail.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: gtk3 glib libcanberra dbus gnupg gpgme gnutls webkitgtk libnotify libetpan
+# Depends on: gtk3 glib libcanberra dbus gnupg gpgme gnutls webkitgtk libnotify libetpan libido3 libindicator-gtk3
 
 name=claws-mail-gtk3
 version=git
-release=2
+release=3
 source=()
 
 build() {
