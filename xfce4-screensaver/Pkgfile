@@ -4,8 +4,8 @@
 # Depends on: xfce4-dev-tools xorg-libxscrnsaver xfconf libxfce4ui libxfce4util garcon gtk3 libxklavier exo
 
 name=xfce4-screensaver
-version=0.1.6
-release=5
+version=0.1.7
+release=1
 source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz common_auth.patch) 
 
 build() {
