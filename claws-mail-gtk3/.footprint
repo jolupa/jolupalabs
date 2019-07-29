@@ -282,6 +282,8 @@ drwxr-xr-x	root/root	usr/lib/claws-mail/plugins/
 -rw-r--r--	root/root	usr/lib/claws-mail/plugins/pgpmime.deps
 -rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/pgpmime.la
 -rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/pgpmime.so
+-rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/python.la
+-rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/python.so
 -rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/rssyl.la
 -rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/rssyl.so
 -rw-r--r--	root/root	usr/lib/claws-mail/plugins/smime.deps
