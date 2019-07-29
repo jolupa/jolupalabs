@@ -4,6 +4,6 @@
 
 gtk-update-icon-cache /usr/share/icons/hicolor
 
-sudo /sbin/udevadm control --reload
+/sbin/udevadm control --reload
 
 #

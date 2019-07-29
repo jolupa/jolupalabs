@@ -1,9 +1,11 @@
-# Description:	Control your AnnePro Keyboad
-# URL:		http://en.obins.net/obinslab-starter/
+# Description: Control your AnnePro Keyboad
+# URL: http://en.obins.net/obinslab-starter/
 # Maintainer: jolupa, jolupameister at gmail dot com
-# Depends on:	gtk xorg-libxscrnsaver xorg-libxtst libxkbcommon nss
+# Depends on: gtk xorg-libxscrnsaver xorg-libxtst libxkbcommon nss libappindicator-gtk2
 
 name=obinslab-starter
+_name=ObinsKit
+_name_install=obinskit
 version=1.0.11
 release=1
 source=(http://releases.obins.net/occ/linux/deb/ObinslabStarter_"$version"_x64.deb 10-annepro.rules)
@@ -13,8 +15,8 @@ build() {
   ar xf ObinslabStarter_"$version"_x64.deb
   tar xf data.tar.xz -C "$PKG"
   
-  mkdir -p $PKG/etc/udev/rules.d
-  install -D 10-annepro.rules $PKG/etc/udev/rules.d/
+  install -d $PKG/etc/udev/rules.d
+  cp 10-annepro.rules $PKG/etc/udev/rules.d/
   
   rm -r $PKG/usr/share/doc
   rm  $PKG/opt/Obinslab\ Starter/{LICENSE.electron.txt,LICENSES.chromium.html}

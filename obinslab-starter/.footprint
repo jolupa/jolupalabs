@@ -1,7 +1,7 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/udev/
 drwxr-xr-x	root/root	etc/udev/rules.d/
--rwxr-xr-x	root/root	etc/udev/rules.d/10-annepro.rules
+-rw-r--r--	root/root	etc/udev/rules.d/10-annepro.rules
 drwxr-xr-x	root/root	opt/
 drwxrwxr-x	root/root	opt/Obinslab Starter/
 -rw-rw-r--	root/root	opt/Obinslab Starter/blink_image_resources_200_percent.pak
