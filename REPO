@@ -22,7 +22,6 @@ d:xfwm4
 d:libdbusmenu-gtk2
 d:elementary-xfce
 d:xfce
-d:xfce4-pulseaudio-plugin
 d:parole
 d:xfce4-taskmanager
 d:xfce4-screenshooter
@@ -45,6 +44,7 @@ d:xfce4-power-manager
 d:b43-fwcutter
 d:mousepad
 d:xdg-user-dirs
+d:xfce4-alsa-plugin
 d:garcon
 d:granite
 d:font-undefined-medium
@@ -136,9 +136,6 @@ f:89400639d1b18d11c83729e682f4d8b4:xfce/post-install
 f:3ba05737a74069414ff2d04ae34acf6e:xfce/.footprint
 f:3547fd3205f0fb3e765ab458f9a4cf1a:xfce/Pkgfile
 f:4ea580db44801af7d49f9a48d59541bd:xfce/.signature
-f:e26434448c5f8240d4915bda87457eee:xfce4-pulseaudio-plugin/.footprint
-f:2ab0cdbf79a04f730eec1ee92c8de00f:xfce4-pulseaudio-plugin/Pkgfile
-f:be90f52af15b0e1dfc80ecfe9fc444f1:xfce4-pulseaudio-plugin/.signature
 f:7bf3c669d729f4f67c1a1024a91abe04:parole/.footprint
 f:d5fe2d1a0534c3b080fe7de5147b5d54:parole/Pkgfile
 f:d959c846f2a058e6fd04f42962cfd15e:parole/.signature
@@ -228,6 +225,9 @@ f:66fae34c3fcdeeab03b2abd41fb6da34:mousepad/.signature
 f:1a24dfb9cebbb583914b1b7b2742ad87:xdg-user-dirs/.footprint
 f:30129ec55cc7985d8c59e45d4a523f29:xdg-user-dirs/Pkgfile
 f:61dcfce039601e8b75842de7492fab96:xdg-user-dirs/.signature
+f:87d500c065f31a5705f4723cf64af54e:xfce4-alsa-plugin/.footprint
+f:3bf73ae95ce8ff5dde15372efb53a88e:xfce4-alsa-plugin/Pkgfile
+f:93a7401ea0b2f70676d6f2bc7cc600a5:xfce4-alsa-plugin/.signature
 f:33da30314652d59f0b26611e7f7036f8:garcon/.footprint
 f:9d74a9e2a86c492c4effd0235db89503:garcon/Pkgfile
 f:da00d04f3319ea4b0327a5832a17e348:garcon/.signature
