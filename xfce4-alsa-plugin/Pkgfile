@@ -1,0 +1,22 @@
+# Description: Simple ALSA volume control for xfce4-panel
+# URL: https://github.com/equeim/xfce4-alsa-plugin
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: vala meson alsa-lib xfce4-panel
+
+name=xfce4-alsa-plugin
+version=0.2.1
+release=1
+source=(https://github.com/equeim/$name/archive/$version.tar.gz)
+
+build() {
+
+	cd $name-$version
+
+  meson build \
+    --prefix=/usr \
+    --libexecdir=/usr/lib/$name \
+    -Dgtk3=true
+
+  DESTDIR=$PKG ninja -C build install
+
+}
