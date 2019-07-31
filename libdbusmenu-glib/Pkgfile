@@ -1,7 +1,7 @@
 # Description: Library for passing menus over DBus - Glib part
 # URL: https://launchpad.net/libdbusmenu
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: glib
+# Depends on: glib gnome-common
 
 name=libdbusmenu-glib
 version=18.10

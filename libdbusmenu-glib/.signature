@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWRdPtfuMX7+XPWJOHPdgXk0C/Wp1MCOUCscMu0l6z+q5d1X4kmDMuUdeNFVn86Hf+RPzm/SZTKcXcgdSAusVSu+87BdQOzh0QA=
-SHA256 (Pkgfile) = c093cf024edc7d74169f4a136fac07834a0e41cfa52795fd9598122858d5e291
+RWRdPtfuMX7+XLrE+Zafu94qDKu/rn4Fu6t/lraeQX4aXHvpySDS/cbfaoYZPCwSt/3tSXo1hQfN4SqRw6E38Y/XdDSermAKxAg=
+SHA256 (Pkgfile) = 1e785c4d0c06cd9ad97055e0dc93fff50694f0f451659b5255ba9e12eab44ed2
 SHA256 (.footprint) = a4848dfc7a342db1458f9948c52f69db7d84fe660559c0fd156acf282251e595
 SHA256 (libdbusmenu_18.10.20180917~bzr490+repack1.orig.tar.xz) = f670bc86ea5ae1488b2405f371ceb870ce353127578f9b0aed2862cbbc42053b
 SHA256 (0001_no-deprecated-gnome-common-macros.patch) = a65626ad3dd26a81037332d881736587929c7f8935cd34d2fc3e7f4a988d5a72
