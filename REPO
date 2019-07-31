@@ -201,8 +201,8 @@ f:88603e4e2307ffac18f182ff5e894d63:libxfce4util/Pkgfile
 f:6236347bb81d563b94ce588b5f16e1ed:libxfce4util/.signature
 f:4ef7a9590c4a1051ee19295c57edee00:libdbusmenu-glib/0001_no-deprecated-gnome-common-macros.patch
 f:f962dd96988a01f9bad00a6d36376000:libdbusmenu-glib/.footprint
-f:235e6811ea0d4afc2887cea2864eed76:libdbusmenu-glib/Pkgfile
-f:e44f1f905289888f1a78e53b44acb7c3:libdbusmenu-glib/.signature
+f:83d8bc5aa8f9e4841d90f6e69af207c0:libdbusmenu-glib/Pkgfile
+f:6c5079b74df046180f97c2fe6aaebfe0:libdbusmenu-glib/.signature
 f:7a4f8bd2e7fc76dda1925bafc5bd24a1:qogir-theme/.footprint
 f:5355a78eb12c6da7a428ff4696b4bf8b:qogir-theme/Pkgfile
 f:46183abd6ea91abb6745245dddc79bf9:qogir-theme/.signature
