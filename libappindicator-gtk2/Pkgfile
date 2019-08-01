@@ -1,39 +1,31 @@
-# Description: Allow applications to extend a menu via Ayatana indicators in Unity, KDE or Systray
+# Description: A library to allow applications to export a menu into the Unity Menu bar
 # URL: https://launchpad.net/libappindicator
-# Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: libdbusmenu-gtk2 libindicator-gtk2 pygtk
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: gtk dbusmenu-gtk2 gobject-introspection libindicator-gtk2 pygtk vala
 
 name=libappindicator-gtk2
-version=16.10
+rname=libappindicator
+version=12.10.0
 release=1
-source=(http://unrealize.co.uk/source/libappindicator-16.10.tar.gz
-0001-Glib.Timeout-fix.patch 0002-Fix-mono-nunit-pkgconfig-name.patch 0003-Fix-Mono-assemblies-directory.patch badfunction.patch conditional-py-bindings.patch disable-mono.patch gtk3.patch improved-plasma-support.patch vala-inherit.patch)
+source=(https://launchpad.net/$rname/12.10/$version/+download/$rname-$version.tar.gz)
 
 build() {
-  cd libappindicator-$version
-  # The next 3 patches shamelessly pinched from Arch
-  patch -p1 --verbose < ../0001-Glib.Timeout-fix.patch
-  patch -p1 --verbose < ../0002-Fix-mono-nunit-pkgconfig-name.patch
-  patch -p1 --verbose < ../0003-Fix-Mono-assemblies-directory.patch
 
-  # This one is also from Arch(ish), but had to be recreated best it could
-  patch -p1 --verbose < ../improved-plasma-support.patch
-
-  # Patch pinched from Gentoo
-  patch -p1 --verbose < ../conditional-py-bindings.patch
-
-  # Removed a function which had no declaration
-  patch -p1 --verbose < ../badfunction.patch
-
+  cd $rname-$version
   sed -i -e 's/ -Werror//' src/Makefile.am
   NOCONFIGURE=1 ./autogen.sh
-  export CSC='/usr/bin/mcs'
-  CXXFLAGS="$CXXFLAGS -std=c++11" \
-  ./configure --prefix=/usr \
+  export CSC=/usr/bin/mcs
+  export CXXFLAGS="$CXXFLAGS -std=c++11"
+  ./configure \
+    --prefix=/usr \
+    --sysconfdir=/etc \
     --localstatedir=/var \
     --disable-{gtk-doc-html,mono-test,static,tests} \
     --with-gtk=2
+
   make
-  make DESTDIR=$PKG -j1 install
+  make DESTDIR=$PKG install
+
+  rm -r $PKG/usr/share/gtk-doc
 
 }
