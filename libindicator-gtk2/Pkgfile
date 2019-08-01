@@ -1,28 +1,27 @@
-# Description: Set of symbols and convenience functions for Ayatana indicators (GTK+ 2 library)
+# Description: A set of symbols and convience functions that all indicators would like to use
 # URL: https://launchpad.net/libindicator
-# Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: graphite2 gtk xorg-libxdamage
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: gtk glib ido
 
 name=libindicator-gtk2
-version=16.10
+rname=libindicator
+version=12.10.1
 release=1
-source=(http://unrealize.co.uk/source/libindicator-$version.tar.gz)
+source=(https://launchpad.net/$rname/12.10/$version/+download/$rname-$version.tar.gz)
 
 build() {
-  cd libindicator-$version
-  sed -e 's/-Werror -Wno-error=deprecated-declarations//g' -i libindicator/Makefile.am
-  sed -e 's/--enable-gtk-doc//g' -i autogen.sh
-  NOCONFIGURE=1 ./autogen.sh
-  CFLAGS="-Wno-deprecated -Wno-deprecated-declarations -fPIC" \
-  CXXFLAGS="-Wno-deprecated -Wno-deprecated-declarations -fPIC" \
+
+  cd $rname-$version
+
+  export CFLAGS="$CFLAGS -Wno-deprecated-declarations"
+ 
   ./configure \
     --prefix=/usr \
-    --libexecdir=/usr/lib/libindicator \
-    --sysconfdir=/etc \
+    --libexecdir=/usr/lib/$rname \
     --disable-static \
     --with-gtk=2
-  make -j1
-  make -j1 DESTDIR=$PKG install
-  #rm -fr $PKG/usr/lib/libdummy*
-  rm -fr $PKG/usr/share/libindicator
+
+  make
+	make DESTDIR=$PKG install
+
 }
