@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/jolupalabs.pub
+RWRdPtfuMX7+XPhcGnmgtU/7q9koNUyJrnSl+oEZldFwsPhhl1k0t2shG34mFsMnZOogoV9NkgThHyzbf3y97uLhEl8CRXFergQ=
+SHA256 (Pkgfile) = 18979989985ab19278415630924f6c9f9769684ba5ce9ae61a46accfb5ddc48b
+SHA256 (.footprint) = fb7a68c7c5d339b463ae30900bbf4fbba7e770491fccebb3222cd4a8f9475035
+SHA256 (libdbusmenu-16.04.0.tar.gz) = b9cc4a2acd74509435892823607d966d424bd9ad5d0b00938f27240a1bfa878a
