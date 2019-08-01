@@ -147,7 +147,6 @@ f:6454480f0f8bb90bb1d7ee59602e0761:xfce4-screenshooter/.footprint
 f:f0302b18ac417d8024ea001c97215bcb:xfce4-screenshooter/Pkgfile
 f:f03ad76389f5011271005f619fae7fe7:xfce4-screenshooter/.signature
 f:85d027080dae9822f29042a6ac40639c:libindicator-gtk2/.footprint
-f:3eec6fbb9a75db001dc2e4bd8ada1db3:libindicator-gtk2/.Pkgfile.swo
 f:40b533289e108f4abed5d1e70b6ade81:libindicator-gtk2/Pkgfile
 f:973df062580a61e2742a7f5a8af7ebc3:libindicator-gtk2/.signature
 f:308e989c47131c69bf1cbc1f8a283eef:libxfce4ui/post-install
@@ -209,7 +208,6 @@ f:94f14d4a7ee5de34d48be53540675220:xfce4-power-manager/.footprint
 f:1e4b7ba27f50ba441718ec897a59bfff:xfce4-power-manager/Pkgfile
 f:418d1ef38f7b71ea258e7da112d678a1:xfce4-power-manager/.signature
 f:547005f58905d7093d1cfb5af1e23706:libindicator-gtk3/.footprint
-f:3eec6fbb9a75db001dc2e4bd8ada1db3:libindicator-gtk3/.Pkgfile.swo
 f:3fb4671818df9a612072cb113e2c5f40:libindicator-gtk3/Pkgfile
 f:d154a511a140dfb43acc3e251cda8621:libindicator-gtk3/.signature
 f:e64ce3eefd001e8b0a18315dd2a31aad:b43-fwcutter/.footprint
