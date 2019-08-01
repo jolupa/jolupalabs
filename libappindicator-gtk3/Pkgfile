@@ -1,0 +1,31 @@
+# Description: A library to allow applications to export a menu into the Unity Menu bar
+# URL: https://launchpad.net/libappindicator
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: gt3 dbusmenu-gtk3 gobject-introspection libindicator-gtk3 pygtk vala
+
+name=libappindicator-gtk3
+rname=libappindicator
+version=12.10.0
+release=1
+source=(https://launchpad.net/$rname/12.10/$version/+download/$rname-$version.tar.gz)
+
+build() {
+
+  cd $rname-$version
+  sed -i -e 's/ -Werror//' src/Makefile.am
+  NOCONFIGURE=1 ./autogen.sh
+  export CSC=/usr/bin/mcs
+  export CXXFLAGS="$CXXFLAGS -std=c++11"
+  ./configure \
+    --prefix=/usr \
+    --sysconfdir=/etc \
+    --localstatedir=/var \
+    --disable-{gtk-doc-html,mono-test,static,tests} \
+    --with-gtk=2
+
+  make
+  make DESTDIR=$PKG install
+
+  rm -r $PKG/usr/share/gtk-doc
+
+}
