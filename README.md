@@ -71,7 +71,7 @@ You can find other packages not Xfce related in this repo, here's a list.
 | Font Undefined Medium | 1.0 | |
 | Granite | 5.2.4 | |
 | Image Burner | 0.1.0 | |
-| Indicators | Gtk2 versions | As dependencies for Obinslab Starter taken from TimB87 |
+| Indicators | Gtk2 and Gtk3 versions | Dependencies for the Obinslab Starter |
 | Libetpan | 1.9.3 | From [TimB87](https://github.com/TimB87/crux-ports) REPO to supply claws-mail-gtk3 dependency |
 | Libgee | 0.20.1 | |
 | Mbpfan | 2.1.1 | |
