@@ -68,10 +68,10 @@ You can find other packages not Xfce related in this repo, here's a list.
 | B43-fwcutter | 019 | |
 | Broadcom-driver | 6.30.163.46 | |
 | Claws-Mail GTK3 | GIT | The Git version with Gtk3 support |
+| Colord | 1.3.5 | Added for Xfce4-settings color management support |
 | Font Undefined Medium | 1.0 | |
 | Granite | 5.2.4 | |
 | Image Burner | 0.1.0 | |
-| Indicators | Gtk2 and Gtk3 versions | Dependencies for the Obinslab Starter (only the gtk2 versions) |
 | Libetpan | 1.9.3 | From [TimB87](https://github.com/TimB87/crux-ports) REPO to supply claws-mail-gtk3 dependency |
 | Libgee | 0.20.1 | |
 | Mbpfan | 2.1.1 | |
@@ -79,4 +79,5 @@ You can find other packages not Xfce related in this repo, here's a list.
 | ObinslabStarter | 1.0.11 | Software for controlling the Anne Pro 2 Mechanical Keyboard. Right now it seems there's a segmentation fault error when you exit the program and the tray icon is still visible in the tray area, if you click it the segmentation fault occurs |
 | Oneko | 1.2.sakura.5 | |
 | Qogir Gtk theme | 2019-05-03 | Fantastic Flat Theme |
+| Xiccd | 0.3.0 | Added for Xfce4-settings color management support |
  
