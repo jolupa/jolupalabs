@@ -27,8 +27,6 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	mv $PKG/etc/xdg $PKG/usr/
-
 	rm -r $PKG/usr/share/doc
 	rm -r $PKG/usr/lib/systemd
 	#rm -r $PKG/usr/share/locale
