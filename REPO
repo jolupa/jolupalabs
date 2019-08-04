@@ -19,6 +19,7 @@ d:xfce4-xkb-plugin
 d:xfce4-settings
 d:xfdesktop
 d:xfwm4
+d:colord
 d:elementary-xfce
 d:xfce
 d:parole
@@ -51,10 +52,11 @@ d:xfce4-alsa-plugin
 d:garcon
 d:granite
 d:font-undefined-medium
+d:xiccd
 f:6bcdf9f21265f03ae3c3fb5bc67d953f:libgee/.footprint
 f:757192c1b4de114458176e0309894e58:libgee/Pkgfile
 f:026a029baede49ef5c33d335b976756d:libgee/.signature
-f:2b4651633d70ee5a8b963bf964d0b9c8:obinslab-starter/post-install
+f:7fe9f84c902565fb42b33469a6b64223:obinslab-starter/post-install
 f:74e806ca2dcd771f7027b8b343dbd0e3:obinslab-starter/.footprint
 f:b048d9cc06ae3414714028e84ef54e0c:obinslab-starter/Pkgfile
 f:f8d00b0c571badf9f0fab72fcb6336c6:obinslab-starter/.signature
@@ -70,8 +72,8 @@ f:e7eb2d273ae374305db5f8d663c40489:xfce4-terminal/Pkgfile
 f:6697295030de04bfd17bc9d364054624:xfce4-terminal/.signature
 f:c9a7e071049a0cd462c79fd25243994c:thunar/post-install
 f:1290e54130b12a2d5b4b7a2a5ca41e32:thunar/.footprint
-f:952d1f563d8348e2a1450a563a01d23c:thunar/Pkgfile
-f:3ad4d2c18d43e1291cb81933d6e5e8ba:thunar/.signature
+f:c1664832e58b42ee0ed128b6162eec3c:thunar/Pkgfile
+f:e2ab6bdab6274ce59d8cf460eb3147b4:thunar/.signature
 f:0b2eb977d6f266b8362cf09161467e36:mbpfan/mbpfan
 f:5997001e54b8e1a45c753693e0809652:mbpfan/readme
 f:4db96fb8e405ec298771d166a609b5d8:mbpfan/.footprint
@@ -115,9 +117,9 @@ f:ec1afb59e7d306a50bc0e424c9108e53:xfce4-xkb-plugin/.footprint
 f:a2e1c02ef01dc48f9d5cd6e375e0c83d:xfce4-xkb-plugin/Pkgfile
 f:528e3916ed4392afa783b4383cdd07d1:xfce4-xkb-plugin/.signature
 f:bf20a7b7432571e4a3433b7b7cbe8f9a:xfce4-settings/post-install
-f:fbdacb66706e1a1cfd79fa7461d145b3:xfce4-settings/.footprint
-f:862e11128dcbb01dc84a1005a75c7d81:xfce4-settings/Pkgfile
-f:5b4102ceb508cb59c66f75ffe8f2f0e8:xfce4-settings/.signature
+f:9f6f1478df02bd39dfdf10ef5967516b:xfce4-settings/.footprint
+f:618967df6a6b9b790ae6198f6795015e:xfce4-settings/Pkgfile
+f:33b39fac2c9db4411975e3bb04bc30db:xfce4-settings/.signature
 f:89cd45035eeea8e8938338a22d769421:xfdesktop/post-install
 f:552d65d930e0707017bc2e14db7e2bd4:xfdesktop/.footprint
 f:bab447c2313641d2cac95b369b9691a9:xfdesktop/Pkgfile
@@ -126,6 +128,10 @@ f:89241096299ccb829933dfa257c4dddc:xfwm4/post-install
 f:8ff18f252fd9bbcda11e34ccdec39997:xfwm4/.footprint
 f:b58147364e171095645fc6fffa58afe3:xfwm4/Pkgfile
 f:f5880509d1aad3deca969da5ea155ac1:xfwm4/.signature
+f:0c370469dc481292287bc21689d1d810:colord/.footprint
+f:c61cf01066aba6ede1a426ef3ceb43a3:colord/pre-install
+f:c70a406aa2f1223f94efa8e39884b030:colord/Pkgfile
+f:50ca01a165601376e61a9105f52446fb:colord/.signature
 f:d32da0466f4fd368b618467678d3b611:elementary-xfce/post-install
 f:5acd601cbf64faf12c4fe2ea99b98e74:elementary-xfce/.footprint
 f:b2bdd0fe19e871ab15513400143fbf50:elementary-xfce/Pkgfile
@@ -175,7 +181,7 @@ f:0c6b4a418e290fe604bb080567c21f41:thunar-volman/.signature
 f:d0cd155245ecac7ec8755befccf7ec24:claws-mail-gtk3/post-install
 f:605f55b38321660c6e75213089cab49a:claws-mail-gtk3/.footprint
 f:d439780b049e07139be176022f27b59e:claws-mail-gtk3/Pkgfile
-f:d9e4a13e3fbcdcec4902e7653d280772:claws-mail-gtk3/.signature
+f:b7bf2c274a4c9716c2fbf01c442754b4:claws-mail-gtk3/.signature
 f:33373a9a0e6ba6552548521ee7821208:libetpan/.footprint
 f:ddb7a3789e36ff70d6db9480b0b71ab4:libetpan/Pkgfile
 f:22180fdec81fbfa031a879b759f6bf18:libetpan/.signature
@@ -239,3 +245,6 @@ f:8b133fe080cca70ee99fd8a2eb15e7a9:font-undefined-medium/post-install
 f:483f9dfefb4947bb7e2d82a27c6e5f44:font-undefined-medium/.footprint
 f:02a951d9a45c30d691d8e82397d45f73:font-undefined-medium/Pkgfile
 f:06dde45b87df16240a7761eec51e4015:font-undefined-medium/.signature
+f:eb694254504a56ef8484b3b663b1f6cc:xiccd/.footprint
+f:8c5de54a46c963e72614f04b5e8d6f61:xiccd/Pkgfile
+f:7a5af4813376b52f6b9c487eba9f0dbe:xiccd/.signature
