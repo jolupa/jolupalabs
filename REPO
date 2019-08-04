@@ -130,8 +130,8 @@ f:b58147364e171095645fc6fffa58afe3:xfwm4/Pkgfile
 f:f5880509d1aad3deca969da5ea155ac1:xfwm4/.signature
 f:0c370469dc481292287bc21689d1d810:colord/.footprint
 f:c61cf01066aba6ede1a426ef3ceb43a3:colord/pre-install
-f:c70a406aa2f1223f94efa8e39884b030:colord/Pkgfile
-f:50ca01a165601376e61a9105f52446fb:colord/.signature
+f:74e2702a64bf5c2c72d940f5ed7abe38:colord/Pkgfile
+f:0aabf77d4c96c9d0c7d6329ea431ad03:colord/.signature
 f:d32da0466f4fd368b618467678d3b611:elementary-xfce/post-install
 f:5acd601cbf64faf12c4fe2ea99b98e74:elementary-xfce/.footprint
 f:b2bdd0fe19e871ab15513400143fbf50:elementary-xfce/Pkgfile
@@ -246,5 +246,5 @@ f:483f9dfefb4947bb7e2d82a27c6e5f44:font-undefined-medium/.footprint
 f:02a951d9a45c30d691d8e82397d45f73:font-undefined-medium/Pkgfile
 f:06dde45b87df16240a7761eec51e4015:font-undefined-medium/.signature
 f:eb694254504a56ef8484b3b663b1f6cc:xiccd/.footprint
-f:8c5de54a46c963e72614f04b5e8d6f61:xiccd/Pkgfile
-f:7a5af4813376b52f6b9c487eba9f0dbe:xiccd/.signature
+f:396498db682d6a3672c140ca0e2f3dde:xiccd/Pkgfile
+f:68af3e37719f2f865722e922ce6b4349:xiccd/.signature
