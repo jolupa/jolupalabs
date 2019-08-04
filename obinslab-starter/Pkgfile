@@ -7,16 +7,15 @@ name=obinslab-starter
 _name=ObinsKit
 _name_install=obinskit
 version=1.0.11
-release=1
-source=(http://releases.obins.net/occ/linux/deb/ObinslabStarter_"$version"_x64.deb 10-annepro.rules)
+release=2
+source=(http://releases.obins.net/occ/linux/deb/ObinslabStarter_"$version"_x64.deb)
 
 build() {
   
   ar xf ObinslabStarter_"$version"_x64.deb
   tar xf data.tar.xz -C "$PKG"
-  
-  install -d $PKG/etc/udev/rules.d
-  cp 10-annepro.rules $PKG/etc/udev/rules.d/
+
+  cp $SRC/install.sh $PKG/opt/"Obinslab Starter"/
   
   rm -r $PKG/usr/share/doc
   rm  $PKG/opt/Obinslab\ Starter/{LICENSE.electron.txt,LICENSES.chromium.html}

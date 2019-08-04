@@ -1,13 +1,10 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/udev/
-drwxr-xr-x	root/root	etc/udev/rules.d/
--rw-r--r--	root/root	etc/udev/rules.d/10-annepro.rules
 drwxr-xr-x	root/root	opt/
 drwxrwxr-x	root/root	opt/Obinslab Starter/
 -rw-rw-r--	root/root	opt/Obinslab Starter/blink_image_resources_200_percent.pak
 -rw-rw-r--	root/root	opt/Obinslab Starter/content_resources_200_percent.pak
 -rw-rw-r--	root/root	opt/Obinslab Starter/content_shell.pak
 -rw-rw-r--	root/root	opt/Obinslab Starter/icudtl.dat
+-rwxr-xr-x	root/root	opt/Obinslab Starter/install.sh
 -rwxr-xr-x	root/root	opt/Obinslab Starter/libffmpeg.so
 -rwxr-xr-x	root/root	opt/Obinslab Starter/libnode.so
 drwxrwxr-x	root/root	opt/Obinslab Starter/locales/
