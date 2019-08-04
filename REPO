@@ -132,8 +132,8 @@ f:b2bdd0fe19e871ab15513400143fbf50:elementary-xfce/Pkgfile
 f:416bad0a506019026d0a119040762af5:elementary-xfce/.signature
 f:89400639d1b18d11c83729e682f4d8b4:xfce/post-install
 f:3ba05737a74069414ff2d04ae34acf6e:xfce/.footprint
-f:3547fd3205f0fb3e765ab458f9a4cf1a:xfce/Pkgfile
-f:4ea580db44801af7d49f9a48d59541bd:xfce/.signature
+f:e3a7d92e2cc3c7f4911a5c8db91182d8:xfce/Pkgfile
+f:a60e3d7a09f355faad800967ea7e56f7:xfce/.signature
 f:7bf3c669d729f4f67c1a1024a91abe04:parole/.footprint
 f:d5fe2d1a0534c3b080fe7de5147b5d54:parole/Pkgfile
 f:d959c846f2a058e6fd04f42962cfd15e:parole/.signature
