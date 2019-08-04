@@ -11,6 +11,8 @@ source=(https://www.freedesktop.org/software/$name/releases/$name-$version.tar.x
 build() {
   cd $name-$version
 
+  export COLORD_LIBS=/usr/lib/colord
+
   ./configure \
     --prefix=/usr \
     --libexecdir=/usr/lib/$name \
