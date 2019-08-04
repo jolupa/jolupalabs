@@ -1,7 +1,7 @@
 # Description: A small little library that was created by pulling out some comon code out of indicator-applet
 # URL: https://launchpad.net/libdbusmenu
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: gtk3 gnome-common gobject-introspection vala valgrind
+# Depends on: gtk3 gnome-common gobject-introspection vala
 
 name=dbusmenu-gtk3
 rname=libdbusmenu
@@ -18,6 +18,7 @@ build() {
 
   ./configure \
     --prefix=/usr \
+    --libexecdir=/usr/lib/$rname \
     --sysconfdir=/etc \
     --disable-dumper \
     --disable-static \
@@ -25,7 +26,12 @@ build() {
     --with-gtk=3
 
   make
-  make DESTDIR=$PKG install
+  make -j1 -C libdbusmenu-glib DESTDIR=$PKG install
+  make -j1 -C tools DESTDIR=$PKG install
+  make -j1 -C tests DESTDIR=$PKG install
+  make -j1 -C docs/libdbusmenu-glib DESTDIR=$PKG install
+  make -j1 -C po DESTDIR=$PKG install
+  make -j1 -C libdbusmenu-gtk DESTDIR=$PKG install
 
   rm -r $PKG/usr/share/{gtk-doc,doc}
 
