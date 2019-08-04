@@ -1,0 +1,40 @@
+# Description:
+# URL: https://www.freedesktop.org/software/colord/intro.html
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: dbus polkit sqlite3 gobject-introspection
+
+name=colord
+version=1.3.5
+release=1
+source=(https://www.freedesktop.org/software/$name/releases/$name-$version.tar.xz)
+
+build() {
+  cd $name-$version
+
+  ./configure \
+    --prefix=/usr \
+    --libexecdir=/usr/lib/$name \
+    --sysconfdir=/etc \
+    --sbindir=/sbin \
+    --datarootdir=/usr/share \
+    --disable-static \
+    --disable-schemas-compile \
+    --disable-gtk-doc-html \
+    --disable-gusb \
+    --disable-bash-completion \
+    --disable-systemd-login \
+    --disable-examples \
+    --disable-argyllcms-sensor \
+    --disable-reverse \
+    --disable-vala \
+    --disable-session-example \
+    --with-tmpfilesdir=/tmp \
+    --with-udevrulesdir=/etc/udev/rules.d \
+    --with-daemon-user=colord
+
+  make
+  make DESTDIR=$PKG install
+
+  chown -R colord:colord $PKG/usr/var/lib/colord
+
+}
