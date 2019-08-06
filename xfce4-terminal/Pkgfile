@@ -5,16 +5,16 @@
 
 name=xfce4-terminal
 version=0.8.8
-release=1
-source=(https://archive.xfce.org/src/apps/$name/0.8/$name-$version.tar.bz2)
+release=2
+source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz patch1.patch)
 
 build() {
 
 	cd $name-$version
 
-  patch -p1 -i $SRC/drop-unicode-encodings.patch
+  patch -p1 -i $SRC/patch1.patch
   
-	./configure \
+	./autogen.sh \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
 	  --disable-debug \
