@@ -5,8 +5,8 @@
 
 name=xfce4-taskmanager
 version=1.2.2
-release=2
-source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz)
+release=3
+source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz patch1.patch)
 
 build() {
 
