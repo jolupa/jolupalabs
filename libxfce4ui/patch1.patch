@@ -1,0 +1,27 @@
+From 96ddca5dafb9ac336a76bedb1403d97840900872 Mon Sep 17 00:00:00 2001
+From: Andre Miranda <andreldm@xfce.org>
+Date: Sun, 4 Aug 2019 13:32:22 -0300
+Subject: Include string.h
+
+---
+ libxfce4ui/xfce-gtk-extensions.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/libxfce4ui/xfce-gtk-extensions.c b/libxfce4ui/xfce-gtk-extensions.c
+index 3748aeb..daec0cb 100644
+--- a/libxfce4ui/xfce-gtk-extensions.c
++++ b/libxfce4ui/xfce-gtk-extensions.c
+@@ -31,6 +31,10 @@
+ #include <config.h>
+ #endif
+ 
++#ifdef HAVE_STRING_H
++#include <string.h>
++#endif
++
+ #include <gtk/gtk.h>
+ #include <pango/pango.h>
+ 
+-- 
+cgit v1.2.1
+
