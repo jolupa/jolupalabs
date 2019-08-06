@@ -61,6 +61,7 @@ f:e9f3fdcaa476fce931e1a7b46df37066:greybird-xfce/.footprint
 f:e749c282294ee19664e28708d72cb162:greybird-xfce/Pkgfile
 f:5af564e6defcbcc9faabf1fd0b753382:greybird-xfce/.signature
 f:c9f1fc8ac2ec6611d72f3c49edd499e6:xfce4-terminal/.footprint
+f:f51b4f60abab0c4bdd4e91425781f1d6:xfce4-terminal/patch1.patch
 f:e7eb2d273ae374305db5f8d663c40489:xfce4-terminal/Pkgfile
 f:6697295030de04bfd17bc9d364054624:xfce4-terminal/.signature
 f:c9a7e071049a0cd462c79fd25243994c:thunar/post-install
@@ -192,8 +193,9 @@ f:d5999d796f7ecc326de080ffe3c73efc:sound-theme-smooth/.signature
 f:76801baf45606317fea3a05f86ac477d:sound-theme-smooth/README
 f:feabb7500e1a111b11b0360c7d68ed98:xfce4-power-manager/post-install
 f:94f14d4a7ee5de34d48be53540675220:xfce4-power-manager/.footprint
-f:1e4b7ba27f50ba441718ec897a59bfff:xfce4-power-manager/Pkgfile
-f:418d1ef38f7b71ea258e7da112d678a1:xfce4-power-manager/.signature
+f:31492c7b3aa19c4a41ce0fa378709f7f:xfce4-power-manager/patch1.patch
+f:e4cc101e0bfe3103d8c2ca7ed69accfc:xfce4-power-manager/Pkgfile
+f:329e6d20d9c27d55b4ba0aad9a0fe6db:xfce4-power-manager/.signature
 f:e64ce3eefd001e8b0a18315dd2a31aad:b43-fwcutter/.footprint
 f:aaf4ea503ddf92a7b6583a5700ee2644:b43-fwcutter/Pkgfile
 f:8a78611ea3065ee8a0965aedca8b3f2f:b43-fwcutter/.signature
