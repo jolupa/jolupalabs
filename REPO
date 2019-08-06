@@ -33,7 +33,6 @@ d:thunar-volman
 d:claws-mail-gtk3
 d:libetpan
 d:image-burner
-d:pywal
 d:xfce4-screensaver
 d:libxfce4util
 d:qogir-theme
@@ -176,9 +175,6 @@ f:f3e038b7d1210c05416968b02ad6061c:image-burner/.footprint
 f:73e21067600c3aba3426db7ad22559c1:image-burner/image-burner.desktop
 f:b2bf6fe7b8db99105d6247541ced44ae:image-burner/Pkgfile
 f:23f0ac7c2a697b40d0686cf0030a5ae1:image-burner/.signature
-f:cb4e6b2a114bfdccb282970b6b0412a7:pywal/.footprint
-f:60b2c108eb1f251f3b6e9d8b1eff8e3a:pywal/Pkgfile
-f:de16914533e613af87c59250b53d6365:pywal/.signature
 f:de1345235613eba15ff09aab3666c643:xfce4-screensaver/common_auth.patch
 f:64ea4526171c2d9922c2a0e18ab82dc9:xfce4-screensaver/.footprint
 f:e5b3ad514ef5f13f3fca4d4de319ba1b:xfce4-screensaver/Pkgfile
