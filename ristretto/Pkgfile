@@ -1,0 +1,24 @@
+# Description: Xfce Image Viewer
+# URL: https://git.xfce.org/apps/ristretto/
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: libexif gtk3 glib libxfce4util libxfce4ui xfconf cairo
+
+name=ristretto
+version=0.10.0
+release=1
+source=(http://archive.xfce.org/src/apps/$name/0.10/$name-$version.tar.bz2)
+
+build() {
+
+  cd $name-$version
+
+  ./configure \
+    --prefix=/usr \
+    --libexecdir=/usr/lib/$name \
+    --disable-maintainer-mode \
+    --with-x
+
+  make
+  make DESTDIR=$PKG install
+
+}

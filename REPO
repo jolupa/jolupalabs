@@ -40,6 +40,7 @@ d:sound-theme-smooth
 d:xfce4-power-manager
 d:b43-fwcutter
 d:mousepad
+d:ristretto
 d:xdg-user-dirs
 d:xfce4-alsa-plugin
 d:garcon
@@ -206,6 +207,10 @@ f:8f62809f276e448852035e65321b795b:mousepad/.footprint
 f:f5517e2fb781306905c595de4745a491:mousepad/patch1.patch
 f:d32f21e3330c40911c79e23bcfa601d0:mousepad/Pkgfile
 f:afe4e0e0e701ec9356b28e8f66686dc2:mousepad/.signature
+f:c25fe7746a14bfbbb02d514b732f9abc:ristretto/post-install
+f:1cdfda85660079b2b6164d977f14f8cf:ristretto/.footprint
+f:f937ff8e737f8bfd0fd8de66a57afee0:ristretto/Pkgfile
+f:7d0a52af04935a320e427f4bd887410c:ristretto/.signature
 f:1a24dfb9cebbb583914b1b7b2742ad87:xdg-user-dirs/.footprint
 f:30129ec55cc7985d8c59e45d4a523f29:xdg-user-dirs/Pkgfile
 f:61dcfce039601e8b75842de7492fab96:xdg-user-dirs/.signature
