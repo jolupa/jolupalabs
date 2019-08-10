@@ -4,8 +4,8 @@
 # Depends on: gtk3 glib libcanberra dbus gnupg gpgme gnutls webkitgtk libnotify libetpan ido libindicator-gtk3
 
 name=claws-mail-gtk3
-version=git
-release=3
+version=git+1e1dd7d
+release=1
 source=()
 
 build() {
