@@ -5,18 +5,16 @@
 
 name=ristretto
 version=0.10.0
-release=1
-source=(http://archive.xfce.org/src/apps/$name/0.10/$name-$version.tar.bz2)
+release=2
+source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz)
 
 build() {
 
   cd $name-$version
 
-  ./configure \
+  ./autogen.sh \
     --prefix=/usr \
-    --libexecdir=/usr/lib/$name \
-    --disable-maintainer-mode \
-    --with-x
+    --libexecdir=/usr/lib/$name
 
   make
   make DESTDIR=$PKG install
