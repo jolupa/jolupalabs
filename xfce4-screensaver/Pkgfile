@@ -1,10 +1,10 @@
 # Description: Screensaver for Xfce
 # URL: https://git.xfce.org/apps/xfce4-screensaver/
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: xfce4-dev-tools xorg-libxscrnsaver xfconf libxfce4ui libxfce4util garcon gtk3 libxklavier exo
+# Depends on: xfce4-dev-tools xorg-libxscrnsaver xfconf libxfce4ui libxfce4util garcon gtk3 libxklavier exo libwnck-gtk3
 
 name=xfce4-screensaver
-version=0.1.7
+version=0.1.8
 release=1
 source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz common_auth.patch) 
 
