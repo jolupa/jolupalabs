@@ -4,8 +4,8 @@
 # Depends on: libxfce4ui exo xfconf glib libwnck-gtk3 xorg-libxi xorg-libxrandr xorg-libxcursor libnotify libxklavier xiccd
 
 name=xfce4-settings
-version=4.13.8
-release=4
+version=4.14.0
+release=1
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
