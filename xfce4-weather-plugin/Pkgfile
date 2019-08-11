@@ -1,0 +1,27 @@
+# Description: A weather plugin for the Xfce desktop environment
+# URL: http://goodies.xfce.org/projects/panel-plugins/xfce4-weather-plugin
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: gtk3 glib libxfce4util libxfce4ui xfce4-panel libsoup upower
+
+name=xfce4-weather-plugin
+version=0.10.0
+release=1
+source=(https://git.xfce.org/panel-plugins/$name/snapshot/$name-$version.tar.gz)
+
+build() {
+
+  cd $name-$version
+
+  ./autogen.sh \
+    --prefix=/usr \
+    --libexecdir=/usr/lib/$name \
+    --disable-debug \
+    --enable-upower \
+    GEONAMES_USERNAME=cruxfce
+
+  make
+  make DESTDIR=$PKG install
+
+  #rm -r $PKG/usr/share/locales
+
+}
