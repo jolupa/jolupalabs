@@ -4,15 +4,13 @@
 # Depends on: xfce4-dev-tools libxfce4util libxfce4ui gtk3 p5-uri
 
 name=exo
-version=0.12.7
-release=2
-source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz patch1.patch)
+version=0.12.8
+release=1
+source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
 	
 	cd $name-$version
-
-  patch -p1 -i $SRC/patch1.patch
 
 	./autogen.sh \
 	  --prefix=/usr \
