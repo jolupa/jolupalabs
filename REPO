@@ -137,8 +137,8 @@ f:3ba05737a74069414ff2d04ae34acf6e:xfce/.footprint
 f:e3a7d92e2cc3c7f4911a5c8db91182d8:xfce/Pkgfile
 f:a60e3d7a09f355faad800967ea7e56f7:xfce/.signature
 f:7bf3c669d729f4f67c1a1024a91abe04:parole/.footprint
-f:d5fe2d1a0534c3b080fe7de5147b5d54:parole/Pkgfile
-f:d959c846f2a058e6fd04f42962cfd15e:parole/.signature
+f:0c80825aaee6ff0d5e8c112808495830:parole/Pkgfile
+f:5475e50011d3c5dcb876de6f82928d31:parole/.signature
 f:84bd098dca060e166e0db57c0f7b9e0a:xfce4-taskmanager/post-install
 f:fd346d4f2065c42bb34fa71e523138ed:xfce4-taskmanager/.footprint
 f:e5221729218781b32ab934a5c876f0ca:xfce4-taskmanager/patch1.patch
@@ -181,8 +181,8 @@ f:b2bf6fe7b8db99105d6247541ced44ae:image-burner/Pkgfile
 f:23f0ac7c2a697b40d0686cf0030a5ae1:image-burner/.signature
 f:de1345235613eba15ff09aab3666c643:xfce4-screensaver/common_auth.patch
 f:64ea4526171c2d9922c2a0e18ab82dc9:xfce4-screensaver/.footprint
-f:e5b3ad514ef5f13f3fca4d4de319ba1b:xfce4-screensaver/Pkgfile
-f:3d1b837a471dc058fd290fec87d0196d:xfce4-screensaver/.signature
+f:ac0f30e4757b78a127d19b5e28fa8d10:xfce4-screensaver/Pkgfile
+f:f04efd9880468fe81f67eb006ee49186:xfce4-screensaver/.signature
 f:927283b639e5d18073a061370a32c27e:libxfce4util/.footprint
 f:055f63b2d340e7085550a70200fe6cef:libxfce4util/Pkgfile
 f:2572bd9347e8ce82d0ac52b54310b3de:libxfce4util/.signature
