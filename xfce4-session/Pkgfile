@@ -4,7 +4,7 @@
 # Depends on: libxfce4ui p5-xml-parser libwnck-gtk3 glib xorg-iceauth
 
 name=xfce4-session
-version=4.13.4
+version=4.14.0
 release=1
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
