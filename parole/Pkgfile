@@ -4,7 +4,7 @@
 # Depends on: gtk3 glib libxfce4ui libxfce4util xfconf libnotify dbus gstreamer gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly
 
 name=parole
-version=1.0.3
+version=1.0.4
 release=1
 source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz)
 build() {
