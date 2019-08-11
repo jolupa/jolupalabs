@@ -4,16 +4,14 @@
 # Depends on: xfce4-dev-tools libxfce4util gtk3 xfconf startup-notification glade gtk-doc
 
 name=libxfce4ui
-version=4.13.6
-release=2
-source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz patch1.patch)
+version=4.14.1
+release=1
+source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
 
   cd $name-$version
 
-  patch -p1 -i $SRC/patch1.patch
-	
 	./autogen.sh \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
