@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWRdPtfuMX7+XAYjT9mHAbMUbCberSXrBG8DfX+qPa89fsLOXeauBc6BeuONnk48c9wkkVgPpB72Bc4e5x4a2J8ngd0ICCv4GQo=
-SHA256 (Pkgfile) = 5786418f0a6eed4534a72cce0b1738cceeaeb2a0fc1447a5765f3d5bf688a478
+RWRdPtfuMX7+XOyRm+OVaU4nQRB+lt0UVKgqPtIWQ+R4YgxknMxdw10rQaVu/RMo4TzkJEUT7kgL7aH0L39z8KzYHD1WnNKV7Ak=
+SHA256 (Pkgfile) = 033daf92a3f21963ecd2ba573a87ad971f509e9b00d2493a0bd1259a4a437f27
 SHA256 (.footprint) = c97f8be30dbb7bb35193bf40d461a0b67c1d59b537cee81560367b187698c7ac
-SHA256 (xfdesktop-4.13.5.tar.gz) = 6ebb39b278028430892b92ba3080ec2bcf228cae8bb8260a38872f986c9d2874
+SHA256 (xfdesktop-4.14.0.tar.gz) = bf33b992bb7082b8127db4b3d0d34ac165f3b759daa3dd34e802c63115923c62
