@@ -4,8 +4,8 @@
 # Depends on: xfce4-dev-tools glib gdk-pixbuf freetype libjpeg-turbo 
 
 name=tumbler
-version=0.2.5
-release=3
+version=0.2.7
+release=1
 source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
 
 build() {
