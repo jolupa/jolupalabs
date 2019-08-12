@@ -121,9 +121,9 @@ f:9f6f1478df02bd39dfdf10ef5967516b:xfce4-settings/.footprint
 f:634fdddea2f5f3c1ec096515e3bc4616:xfce4-settings/Pkgfile
 f:367d6319a9ad54c20b4ae020c5f97089:xfce4-settings/.signature
 f:89cd45035eeea8e8938338a22d769421:xfdesktop/post-install
-f:552d65d930e0707017bc2e14db7e2bd4:xfdesktop/.footprint
-f:066c340e526886bba18f0870389701d2:xfdesktop/Pkgfile
-f:1bbc34df643543d29b321467acfea993:xfdesktop/.signature
+f:bd80c716c9693cf68c15ec312a804311:xfdesktop/.footprint
+f:236fb647ec257d0b7dbae0f990e5e933:xfdesktop/Pkgfile
+f:ef7961c716a10382ac00734556f819d1:xfdesktop/.signature
 f:89241096299ccb829933dfa257c4dddc:xfwm4/post-install
 f:8ff18f252fd9bbcda11e34ccdec39997:xfwm4/.footprint
 f:78ac17341609195d09137daf25689374:xfwm4/Pkgfile
