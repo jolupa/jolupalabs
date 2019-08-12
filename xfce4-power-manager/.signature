@@ -1,6 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWRdPtfuMX7+XJrWqvdO7Lcc/91A2Y1JNk5c89yQr/a/J6XstcOh2556EbC7h9OSHVGY/fp8NP43gzcMTC0cKULqv4s2xbvE5QA=
-SHA256 (Pkgfile) = 0ef019961053e5a1622268a1c453efe3aa18744539d7b9dfbf6091b989df87bd
+RWRdPtfuMX7+XIM5bA3opmUvYh1Iu03sCyGQyZfP8atV57yneKjZlqLcezhnXRXeekJkxZQb7zrPGn3eLR+o5ZeNL1PVPTPnIAU=
+SHA256 (Pkgfile) = ede8a26b7c863a0ca0be022df7a2071c1e7e7dea0ece900058de4f47dbf1b0b4
 SHA256 (.footprint) = b4b6abd487f51c36d7c404d51632148ee1da8923b049f9ae71ff3929ef8625f2
-SHA256 (xfce4-power-manager-1.6.4.tar.gz) = a31354fb6400ef87521d7c44aa634eaea08f553a399e15bd5775ed13e54d5449
-SHA256 (patch1.patch) = 738ddf5331f3e3a13e91a2c02aa9c303f6574e73c5d7301d71bfa61207b01012
+SHA256 (xfce4-power-manager-1.6.5.tar.gz) = 404fc337df45a5fd1d328d0081f9fab285f3bdb70adbc1a632f6bd1a78a1bd75
