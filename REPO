@@ -48,6 +48,7 @@ d:garcon
 d:granite
 d:font-undefined-medium
 d:xiccd
+d:lshw
 f:6bcdf9f21265f03ae3c3fb5bc67d953f:libgee/.footprint
 f:7747d274598f017f9f15d1aa49667abc:libgee/Pkgfile
 f:11fb2987523feb9bac7d9f1f6ad679bc:libgee/.signature
@@ -233,3 +234,6 @@ f:06dde45b87df16240a7761eec51e4015:font-undefined-medium/.signature
 f:eb694254504a56ef8484b3b663b1f6cc:xiccd/.footprint
 f:396498db682d6a3672c140ca0e2f3dde:xiccd/Pkgfile
 f:68af3e37719f2f865722e922ce6b4349:xiccd/.signature
+f:de07ac2e9e25840d88d2c61be3bf7c92:lshw/.footprint
+f:bc19fb25ad7987bb383fa96239659555:lshw/Pkgfile
+f:22464c84a53e4d64d09e2d9b0a8fc37f:lshw/.signature
