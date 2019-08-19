@@ -1,0 +1,22 @@
+# Description: Dark Gtk3.20+ theme created using the awesome Nord color pallete
+# URL: https://github.com/EliverLara/Nordic
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: gtk3
+
+name=nordic-theme
+_name=Nordic
+version=1.6.5
+release=1
+source=(https://github.com/EliverLara/$_name/archive/v$version.tar.gz)
+
+build() {
+  cd $_name-$version
+
+  rm -r {Art,src}
+  rm {*.js,*json,*md,LICENSE}
+
+  mkdir -p $PKG/usr/share/themes/nordic
+
+ cp -r * $PKG/usr/share/themes/nordic
+
+}
