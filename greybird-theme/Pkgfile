@@ -3,7 +3,7 @@
 # Maintainer: jolupa, jolupameister at gmail dot com
 # Depends on: optipng gtk3 sassc
 
-name=greybird-xfce
+name=greybird-theme
 version=3.22.10
 release=1
 source=(https://github.com/shimmerproject/Greybird/archive/v$version.tar.gz)
