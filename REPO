@@ -1,6 +1,5 @@
 d:libgee
 d:obinslab-starter
-d:oneko
 d:xfce4-weather-plugin
 d:greybird-xfce
 d:xfce4-terminal
@@ -56,10 +55,6 @@ f:7fe9f84c902565fb42b33469a6b64223:obinslab-starter/post-install
 f:74e806ca2dcd771f7027b8b343dbd0e3:obinslab-starter/.footprint
 f:b048d9cc06ae3414714028e84ef54e0c:obinslab-starter/Pkgfile
 f:f8d00b0c571badf9f0fab72fcb6336c6:obinslab-starter/.signature
-f:b65a62fedc94bcfbf54ea07d31e2f2c4:oneko/oneko.desktop
-f:b080fe99658bf8e57723df8d71ba28e7:oneko/.footprint
-f:2fe72fac639b3697ef6ec03ebb8cfe1a:oneko/Pkgfile
-f:0325f0bb09e9a84ac0d3a4fc447dff52:oneko/.signature
 f:82ce21b5132a6a573b2ecdb7f42364c8:xfce4-weather-plugin/post-install
 f:95c9007b6082fb3a4a9eadb87547dbd6:xfce4-weather-plugin/.footprint
 f:1f0b0fa19e394cf13c610ccbae289904:xfce4-weather-plugin/Pkgfile
