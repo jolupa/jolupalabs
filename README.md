@@ -78,7 +78,6 @@ You can find other packages not Xfce related in this repo, here's a list.
 | Mbpfan | 2.1.1 | |
 | Neofetch | 6.0.0 | |
 | ObinslabStarter | 1.0.11 | Software for controlling the Anne Pro 2 Mechanical Keyboard. Right now it seems there's a segmentation fault error when you exit the program and the tray icon is still visible in the tray area, if you click it the segmentation fault occurs |
-| Oneko | 1.2.sakura.5 | |
 | Qogir Gtk theme | 2019-05-03 | Fantastic Flat Theme |
 | Xiccd | 0.3.0 | Added for Xfce4-settings color management support |
  
