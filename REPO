@@ -38,6 +38,7 @@ d:libxfce4util
 d:qogir-theme
 d:sound-theme-smooth
 d:xfce4-power-manager
+d:nordic-theme
 d:b43-fwcutter
 d:mousepad
 d:ristretto
@@ -197,6 +198,9 @@ f:feabb7500e1a111b11b0360c7d68ed98:xfce4-power-manager/post-install
 f:94f14d4a7ee5de34d48be53540675220:xfce4-power-manager/.footprint
 f:f8f22f780ad6c7056fe5ec08d11851ed:xfce4-power-manager/Pkgfile
 f:b7b7a3d85dc20030cdcf421d97710653:xfce4-power-manager/.signature
+f:ae8b5f7aadf0842ca98e98835c9af5cd:nordic-theme/.footprint
+f:07e4762443e957d31483acaba0734929:nordic-theme/Pkgfile
+f:e921322e57653a339eadcf41467823ad:nordic-theme/.signature
 f:e64ce3eefd001e8b0a18315dd2a31aad:b43-fwcutter/.footprint
 f:aaf4ea503ddf92a7b6583a5700ee2644:b43-fwcutter/Pkgfile
 f:8a78611ea3065ee8a0965aedca8b3f2f:b43-fwcutter/.signature
