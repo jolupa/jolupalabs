@@ -4,20 +4,21 @@
 # Maintainer: jolupa, jlpavon at me dot com
 # Depends on: optipng gtk3
 
-name=elementary-xfce
+name=elementary-icon-theme
+_name=elementary-xfce
 version=0.13.1
 release=1
-source=(https://github.com/shimmerproject/elementary-xfce/archive/v$version.tar.gz)
+source=(https://github.com/shimmerproject/$_name/archive/v$version.tar.gz)
 
 build() {
-	cd $name-$version
+	cd $_name-$version
 
 	./configure \
 		--prefix=/usr
 	
 	make
 	make DESTDIR=$PKG install
-	
-	rm $PKG/usr/share/icons/elementary-{xfce,xfce-dark,xfce-darker,xfce-darkest}/{AUTHORS,LICENSE,CONTRIBUTORS}
+
+  rm $PKG/usr/share/icons/elementary-{xfce,xfce-dark,xfce-darker,xfce-darkest}/{AUTHORS,LICENSE,CONTRIBUTORS}
 	
 }
