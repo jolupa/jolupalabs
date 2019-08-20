@@ -6,7 +6,7 @@
 name=nordic-theme
 _name=Nordic
 version=1.6.5
-release=1
+release=2
 source=(https://github.com/EliverLara/$_name/archive/v$version.tar.gz)
 
 build() {
@@ -15,8 +15,11 @@ build() {
   rm -r {Art,src}
   rm {*.js,*json,*md,LICENSE}
 
-  mkdir -p $PKG/usr/share/themes/nordic
+  find $SRC -type f -name "*.scss" -exec rm -f {} \;
+  find $SRC -type d -empty -delete
 
- cp -r * $PKG/usr/share/themes/nordic
+  mkdir -p $PKG/usr/share/themes/Nordic
+
+  cp -r * $PKG/usr/share/themes/Nordic
 
 }
