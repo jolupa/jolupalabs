@@ -6,7 +6,7 @@
 
 name=elementary-icon-theme
 _name=elementary-xfce
-version=0.13.1
+version=0.14
 release=1
 source=(https://github.com/shimmerproject/$_name/archive/v$version.tar.gz)
 
@@ -19,6 +19,6 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-  rm $PKG/usr/share/icons/elementary-{xfce,xfce-dark,xfce-darker,xfce-darkest}/{AUTHORS,LICENSE,CONTRIBUTORS}
+  rm $PKG/usr/share/icons/elementary-{xfce,xfce-dark,xfce-darker,xfce-darkest}/{AUTHORS,README.md,CONTRIBUTORS}
 	
 }
