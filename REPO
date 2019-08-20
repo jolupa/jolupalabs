@@ -176,9 +176,9 @@ f:73e21067600c3aba3426db7ad22559c1:image-burner/image-burner.desktop
 f:b2bf6fe7b8db99105d6247541ced44ae:image-burner/Pkgfile
 f:23f0ac7c2a697b40d0686cf0030a5ae1:image-burner/.signature
 f:d32da0466f4fd368b618467678d3b611:elementary-icon-theme/post-install
-f:5acd601cbf64faf12c4fe2ea99b98e74:elementary-icon-theme/.footprint
-f:6c49b58dfdf18b772bdc9fd62cb8fe77:elementary-icon-theme/Pkgfile
-f:99daac571dd771b81b23d45b44f5d72b:elementary-icon-theme/.signature
+f:d1b034f3d8427de1daaf5dfead66e9f7:elementary-icon-theme/.footprint
+f:d974b1c33aa17541b3927d5a67c1beef:elementary-icon-theme/Pkgfile
+f:02e992d2a3f2270763664846e2210c5b:elementary-icon-theme/.signature
 f:de1345235613eba15ff09aab3666c643:xfce4-screensaver/common_auth.patch
 f:64ea4526171c2d9922c2a0e18ab82dc9:xfce4-screensaver/.footprint
 f:ac0f30e4757b78a127d19b5e28fa8d10:xfce4-screensaver/Pkgfile
