@@ -4,10 +4,8 @@
 # Depends on: gtk xorg-libxscrnsaver xorg-libxtst libxkbcommon nss libappindicator-gtk2
 
 name=obinslab-starter
-_name=ObinsKit
-_name_install=obinskit
 version=1.0.11
-release=2
+release=3
 source=(http://releases.obins.net/occ/linux/deb/ObinslabStarter_"$version"_x64.deb)
 
 build() {
@@ -15,9 +13,9 @@ build() {
   ar xf ObinslabStarter_"$version"_x64.deb
   tar xf data.tar.xz -C "$PKG"
 
-  cp $SRC/install.sh $PKG/opt/"Obinslab Starter"/
-  
   rm -r $PKG/usr/share/doc
-  rm  $PKG/opt/Obinslab\ Starter/{LICENSE.electron.txt,LICENSES.chromium.html}
+  find "$PKG" -type f -name "LICENSE*" -exec rm -f {} \;
+  find "$PKG" -type f -name "*.pdf" -exec rm -f {} \;
+  find "$PKG" -type d -empty -delete
   
 }
