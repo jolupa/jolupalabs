@@ -53,9 +53,9 @@ f:6bcdf9f21265f03ae3c3fb5bc67d953f:libgee/.footprint
 f:7747d274598f017f9f15d1aa49667abc:libgee/Pkgfile
 f:11fb2987523feb9bac7d9f1f6ad679bc:libgee/.signature
 f:7fe9f84c902565fb42b33469a6b64223:obinslab-starter/post-install
-f:74e806ca2dcd771f7027b8b343dbd0e3:obinslab-starter/.footprint
-f:b048d9cc06ae3414714028e84ef54e0c:obinslab-starter/Pkgfile
-f:f8d00b0c571badf9f0fab72fcb6336c6:obinslab-starter/.signature
+f:4778af4570292d6a22ae34b339722582:obinslab-starter/.footprint
+f:3efc22cead444ed5cd190265fab13d20:obinslab-starter/Pkgfile
+f:4fd5c7b9f330de72ec7d5ed0465504b8:obinslab-starter/.signature
 f:82ce21b5132a6a573b2ecdb7f42364c8:xfce4-weather-plugin/post-install
 f:95c9007b6082fb3a4a9eadb87547dbd6:xfce4-weather-plugin/.footprint
 f:1f0b0fa19e394cf13c610ccbae289904:xfce4-weather-plugin/Pkgfile
