@@ -19,7 +19,6 @@ d:xfce4-settings
 d:xfdesktop
 d:xfwm4
 d:colord
-d:elementary-xfce
 d:xfce
 d:greybird-theme
 d:parole
@@ -33,6 +32,7 @@ d:thunar-volman
 d:claws-mail-gtk3
 d:libetpan
 d:image-burner
+d:elementary-icon-theme
 d:xfce4-screensaver
 d:libxfce4util
 d:qogir-theme
@@ -126,10 +126,6 @@ f:0c370469dc481292287bc21689d1d810:colord/.footprint
 f:c61cf01066aba6ede1a426ef3ceb43a3:colord/pre-install
 f:74e2702a64bf5c2c72d940f5ed7abe38:colord/Pkgfile
 f:0aabf77d4c96c9d0c7d6329ea431ad03:colord/.signature
-f:d32da0466f4fd368b618467678d3b611:elementary-xfce/post-install
-f:5acd601cbf64faf12c4fe2ea99b98e74:elementary-xfce/.footprint
-f:b2bdd0fe19e871ab15513400143fbf50:elementary-xfce/Pkgfile
-f:416bad0a506019026d0a119040762af5:elementary-xfce/.signature
 f:89400639d1b18d11c83729e682f4d8b4:xfce/post-install
 f:3ba05737a74069414ff2d04ae34acf6e:xfce/.footprint
 f:652ccfa30a7378aab12b9d76a0661017:xfce/Pkgfile
@@ -179,6 +175,10 @@ f:f3e038b7d1210c05416968b02ad6061c:image-burner/.footprint
 f:73e21067600c3aba3426db7ad22559c1:image-burner/image-burner.desktop
 f:b2bf6fe7b8db99105d6247541ced44ae:image-burner/Pkgfile
 f:23f0ac7c2a697b40d0686cf0030a5ae1:image-burner/.signature
+f:d32da0466f4fd368b618467678d3b611:elementary-icon-theme/post-install
+f:5acd601cbf64faf12c4fe2ea99b98e74:elementary-icon-theme/.footprint
+f:6c49b58dfdf18b772bdc9fd62cb8fe77:elementary-icon-theme/Pkgfile
+f:99daac571dd771b81b23d45b44f5d72b:elementary-icon-theme/.signature
 f:de1345235613eba15ff09aab3666c643:xfce4-screensaver/common_auth.patch
 f:64ea4526171c2d9922c2a0e18ab82dc9:xfce4-screensaver/.footprint
 f:ac0f30e4757b78a127d19b5e28fa8d10:xfce4-screensaver/Pkgfile
