@@ -1,7 +1,6 @@
 d:libgee
 d:obinslab-starter
 d:xfce4-weather-plugin
-d:greybird-xfce
 d:xfce4-terminal
 d:thunar
 d:mbpfan
@@ -22,6 +21,7 @@ d:xfwm4
 d:colord
 d:elementary-xfce
 d:xfce
+d:greybird-theme
 d:parole
 d:xfce4-taskmanager
 d:xfce4-screenshooter
@@ -60,9 +60,6 @@ f:82ce21b5132a6a573b2ecdb7f42364c8:xfce4-weather-plugin/post-install
 f:95c9007b6082fb3a4a9eadb87547dbd6:xfce4-weather-plugin/.footprint
 f:1f0b0fa19e394cf13c610ccbae289904:xfce4-weather-plugin/Pkgfile
 f:10c8cdc966f95d99e557deba7f25c544:xfce4-weather-plugin/.signature
-f:e9f3fdcaa476fce931e1a7b46df37066:greybird-xfce/.footprint
-f:e749c282294ee19664e28708d72cb162:greybird-xfce/Pkgfile
-f:5af564e6defcbcc9faabf1fd0b753382:greybird-xfce/.signature
 f:29323b6ee9c2cda3afc4a5b8b605a53a:xfce4-terminal/.footprint
 f:f51b4f60abab0c4bdd4e91425781f1d6:xfce4-terminal/patch1.patch
 f:dcd20f260db26d9d24a0fb6475d8afa6:xfce4-terminal/Pkgfile
@@ -137,6 +134,9 @@ f:89400639d1b18d11c83729e682f4d8b4:xfce/post-install
 f:3ba05737a74069414ff2d04ae34acf6e:xfce/.footprint
 f:652ccfa30a7378aab12b9d76a0661017:xfce/Pkgfile
 f:18cf9953717ce44568b2a0744948fcea:xfce/.signature
+f:e9f3fdcaa476fce931e1a7b46df37066:greybird-theme/.footprint
+f:6510addc8d3f58b035dd7b2cf8cfe3cc:greybird-theme/Pkgfile
+f:7ee6ef344b50502421f566d67521f8dc:greybird-theme/.signature
 f:7bf3c669d729f4f67c1a1024a91abe04:parole/.footprint
 f:0c80825aaee6ff0d5e8c112808495830:parole/Pkgfile
 f:5475e50011d3c5dcb876de6f82928d31:parole/.signature
@@ -198,9 +198,9 @@ f:feabb7500e1a111b11b0360c7d68ed98:xfce4-power-manager/post-install
 f:94f14d4a7ee5de34d48be53540675220:xfce4-power-manager/.footprint
 f:f8f22f780ad6c7056fe5ec08d11851ed:xfce4-power-manager/Pkgfile
 f:b7b7a3d85dc20030cdcf421d97710653:xfce4-power-manager/.signature
-f:ae8b5f7aadf0842ca98e98835c9af5cd:nordic-theme/.footprint
-f:07e4762443e957d31483acaba0734929:nordic-theme/Pkgfile
-f:e921322e57653a339eadcf41467823ad:nordic-theme/.signature
+f:d41b8e5c958bdc8b612501a11ee833a7:nordic-theme/.footprint
+f:f66ea10aa5be2f52082893086263997e:nordic-theme/Pkgfile
+f:3554892463f49e78a2553208bb5ae328:nordic-theme/.signature
 f:e64ce3eefd001e8b0a18315dd2a31aad:b43-fwcutter/.footprint
 f:aaf4ea503ddf92a7b6583a5700ee2644:b43-fwcutter/Pkgfile
 f:8a78611ea3065ee8a0965aedca8b3f2f:b43-fwcutter/.signature
