@@ -20,6 +20,7 @@ d:xfce4-settings
 d:xfdesktop
 d:xfwm4
 d:colord
+d:font-noto-jp
 d:xfce
 d:greybird-theme
 d:parole
@@ -131,6 +132,10 @@ f:0c370469dc481292287bc21689d1d810:colord/.footprint
 f:c61cf01066aba6ede1a426ef3ceb43a3:colord/pre-install
 f:74e2702a64bf5c2c72d940f5ed7abe38:colord/Pkgfile
 f:0aabf77d4c96c9d0c7d6329ea431ad03:colord/.signature
+f:8b133fe080cca70ee99fd8a2eb15e7a9:font-noto-jp/post-install
+f:ba4cc31fff03d3e15213973fa159d70f:font-noto-jp/.footprint
+f:16818e05f263c431f73cb82997e0c579:font-noto-jp/Pkgfile
+f:f2e8674a756cbb002a43cc473459688a:font-noto-jp/.signature
 f:89400639d1b18d11c83729e682f4d8b4:xfce/post-install
 f:3ba05737a74069414ff2d04ae34acf6e:xfce/.footprint
 f:652ccfa30a7378aab12b9d76a0661017:xfce/Pkgfile
