@@ -68,7 +68,8 @@ You can find other packages not Xfce related in this repo, here's a list.
 | B43-fwcutter | 019 | |
 | Broadcom-driver | 6.30.163.46 | |
 | Claws-Mail GTK3 | GIT | The Git version with Gtk3 support |
-| Colord | 1.3.5 | Added for Xfce4-settings color management support |
+| Curl-gnutls | 7.65.3 | Added as Spotify dependency |
+| Colord | 1.3.5 | Added as Xfce4-Settings dependency |
 | Font Undefined Medium | 1.0 | |
 | Granite | 5.2.4 | |
 | Image Burner | 0.1.0 | |
@@ -80,5 +81,6 @@ You can find other packages not Xfce related in this repo, here's a list.
 | Nordic | 1.6.5 | A beatiful Gtk3 theme based in nordic color scheme |
 | ObinslabStarter | 1.0.11 | Software for controlling the Anne Pro 2 Mechanical Keyboard. Right now it seems there's a segmentation fault error when you exit the program and the tray icon is still visible in the tray area, if you click it the segmentation fault occurs |
 | Qogir Gtk theme | 2019-05-03 | Fantastic Flat Theme |
-| Xiccd | 0.3.0 | Added for Xfce4-settings color management support |
+| Spotify | 1.1.10.546.ge08ef575-19 | |
+| Xiccd | 0.3.0 | Added as Xfce4-Settings dependency |
  

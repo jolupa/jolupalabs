@@ -12,6 +12,7 @@ d:tumbler
 d:xfconf
 d:exo
 d:xfce4-notifyd
+d:curl-gnutls
 d:libxpresent
 d:xfce4-session
 d:xfce4-xkb-plugin
@@ -27,6 +28,7 @@ d:xfce4-screenshooter
 d:libxfce4ui
 d:broadcom-driver
 d:neofetch
+d:spotify
 d:xfce4-panel
 d:thunar-volman
 d:claws-mail-gtk3
@@ -100,6 +102,9 @@ f:d786651b6d14a5c35ec0943e4335e688:xfce4-notifyd/post-install
 f:b9a26ecf8aebe78344d9481de8fc52fa:xfce4-notifyd/.footprint
 f:6f1d8c1ae50c0be46c8581b439b7d15f:xfce4-notifyd/Pkgfile
 f:7e5a3007e1b9d1a2248a81e45f72ddf9:xfce4-notifyd/.signature
+f:6a2e2c28001c2f7adc6c105ce97b6658:curl-gnutls/.footprint
+f:b3d53eed468d71dc0b4d97530b2c2171:curl-gnutls/Pkgfile
+f:b69472cff577d66719537ebe82f97a12:curl-gnutls/.signature
 f:026cb056ad77d2497e963ca840508ad4:libxpresent/.footprint
 f:00809b315dc843558b5ea9087f30ca34:libxpresent/Pkgfile
 f:e537409fd646420d01e66e0de9cfc1f5:libxpresent/.signature
@@ -155,6 +160,9 @@ f:bd804cd221f2168a05cac733b8ee8c7f:broadcom-driver/.signature
 f:7115e706eca005970f078ca22e563960:neofetch/.footprint
 f:4279a495cf719453e8b06aa1d543bcea:neofetch/Pkgfile
 f:bdae8dc5ea9de1551821175defec7bf8:neofetch/.signature
+f:26a3d9068aad91611322cbebc578f4fd:spotify/.footprint
+f:474eb49c6d9fbcebbdb231a32667a143:spotify/Pkgfile
+f:c8e34a8508263e3a695f2e01315464b9:spotify/.signature
 f:553e068666f56f75029a376c1dfcb0de:xfce4-panel/post-install
 f:3ce350944ccebc6d648158c46dd7353e:xfce4-panel/.footprint
 f:8eed8e99253ab3c99b5684e40e3b3cb7:xfce4-panel/Pkgfile
