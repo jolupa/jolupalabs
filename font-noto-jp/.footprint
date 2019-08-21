@@ -1,0 +1,13 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/fonts/
+drwxr-xr-x	root/root	usr/share/fonts/OTF/
+-rw-r--r--	root/root	usr/share/fonts/OTF/NotoSansCJKjp-Black.otf
+-rw-r--r--	root/root	usr/share/fonts/OTF/NotoSansCJKjp-Bold.otf
+-rw-r--r--	root/root	usr/share/fonts/OTF/NotoSansCJKjp-DemiLight.otf
+-rw-r--r--	root/root	usr/share/fonts/OTF/NotoSansCJKjp-Light.otf
+-rw-r--r--	root/root	usr/share/fonts/OTF/NotoSansCJKjp-Medium.otf
+-rw-r--r--	root/root	usr/share/fonts/OTF/NotoSansCJKjp-Regular.otf
+-rw-r--r--	root/root	usr/share/fonts/OTF/NotoSansCJKjp-Thin.otf
+-rw-r--r--	root/root	usr/share/fonts/OTF/NotoSansMonoCJKjp-Bold.otf
+-rw-r--r--	root/root	usr/share/fonts/OTF/NotoSansMonoCJKjp-Regular.otf
