@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/jolupalabs.pub
+RWRdPtfuMX7+XG+nSmeRWkVQkbdbD8uJoFjn1ZF/FQun4+4SuDHGo9ebWxlmKPamVSBUI1aeH+9JAltTD6frLf3QYcfcnIimHAE=
+SHA256 (Pkgfile) = 53bb07ceba5eb9cff564d2d7551a5ba15f44a6bc68ab648ecedd92da5050bbc1
+SHA256 (.footprint) = 76a0f5584a6f638907804248a4b875154ecbef39b6a44139ad69ba467f431af9
+SHA256 (spotify-client_1.1.10.546.ge08ef575-19_amd64.deb) = da49fd4d222ff7d719345fba6298f38a6422ef293bb43ada13cf857a694a12e6
