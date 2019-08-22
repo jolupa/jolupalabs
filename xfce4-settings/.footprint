@@ -94,6 +94,9 @@ drwxr-xr-x	root/root	usr/share/locale/el/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/en_AU/
 drwxr-xr-x	root/root	usr/share/locale/en_AU/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/en_AU/LC_MESSAGES/xfce4-settings.mo
+drwxr-xr-x	root/root	usr/share/locale/en_CA/
+drwxr-xr-x	root/root	usr/share/locale/en_CA/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/en_CA/LC_MESSAGES/xfce4-settings.mo
 drwxr-xr-x	root/root	usr/share/locale/en_GB/
 drwxr-xr-x	root/root	usr/share/locale/en_GB/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/en_GB/LC_MESSAGES/xfce4-settings.mo
