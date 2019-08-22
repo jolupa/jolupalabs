@@ -1,0 +1,18 @@
+# Description: a free and open-source monospace typeface with 400+ characters
+# URL: https://undefined-medium.com/
+# Packager: jolupa, jlpavon at me dot com
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: fontconfig
+
+name=font-noto-emoji
+_name=NotoEmoji
+version=1.0
+release=1
+source=(https://noto-website-2.storage.googleapis.com/pkgs/NotoEmoji-unhinted.zip)
+
+build() {
+  
+  install -d $PKG/usr/share/fonts/TTF
+  install -m644 $SRC/*.ttf $PKG/usr/share/fonts/TTF
+
+}
