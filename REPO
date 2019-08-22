@@ -10,6 +10,7 @@ d:xfce-polkit
 d:xfce4-dev-tools
 d:tumbler
 d:xfconf
+d:font-noto-emoji
 d:exo
 d:xfce4-notifyd
 d:curl-gnutls
@@ -95,6 +96,10 @@ f:d67af936036cd42ebd4d92e87fd24d9e:tumbler/.signature
 f:8db2fb51d02156cea0a028059530a235:xfconf/.footprint
 f:118b5a5d60b4de012427b9b06eba22c8:xfconf/Pkgfile
 f:016d8ff1bc47a8a1df5c48d84018db89:xfconf/.signature
+f:8b133fe080cca70ee99fd8a2eb15e7a9:font-noto-emoji/post-install
+f:59e2103f294258d01d57731282ee5445:font-noto-emoji/.footprint
+f:a9f481a917b32e8275545858efde4dfa:font-noto-emoji/Pkgfile
+f:f231ec9134eb0e8e2c2232e7748b27b6:font-noto-emoji/.signature
 f:a21ba3587412df0dbd761075ab026d4a:exo/post-install
 f:0c146bb9e3d4f50f45195510c38b2bf9:exo/.footprint
 f:0f61eafd3a6401c5eba619ccb498f4d6:exo/Pkgfile
