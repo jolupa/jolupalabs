@@ -122,9 +122,9 @@ f:ec1afb59e7d306a50bc0e424c9108e53:xfce4-xkb-plugin/.footprint
 f:a2e1c02ef01dc48f9d5cd6e375e0c83d:xfce4-xkb-plugin/Pkgfile
 f:528e3916ed4392afa783b4383cdd07d1:xfce4-xkb-plugin/.signature
 f:bf20a7b7432571e4a3433b7b7cbe8f9a:xfce4-settings/post-install
-f:9f6f1478df02bd39dfdf10ef5967516b:xfce4-settings/.footprint
-f:634fdddea2f5f3c1ec096515e3bc4616:xfce4-settings/Pkgfile
-f:367d6319a9ad54c20b4ae020c5f97089:xfce4-settings/.signature
+f:f61f8f3ebc0d9123e804d4e89f7f58a3:xfce4-settings/.footprint
+f:1b05dc8388d0a80ca511e859d6c43433:xfce4-settings/Pkgfile
+f:6457068647c7575f63d64105e468b6fa:xfce4-settings/.signature
 f:89cd45035eeea8e8938338a22d769421:xfdesktop/post-install
 f:bd80c716c9693cf68c15ec312a804311:xfdesktop/.footprint
 f:236fb647ec257d0b7dbae0f990e5e933:xfdesktop/Pkgfile
