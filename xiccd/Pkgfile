@@ -5,7 +5,7 @@
 
 name=xiccd
 version=0.3.0
-release=2
+release=3
 source=(https://github.com/agalakhov/$name/archive/v$version.tar.gz)
 
 build() {
@@ -28,5 +28,10 @@ build() {
 
   make
   make DESTDIR=$PKG install
+
+  mkdir -p $PKG/usr/etc
+  mv $PKG/etc/xdg $PKG/usr/etc
+
+  rm -r $PKG/etc
 
 }
