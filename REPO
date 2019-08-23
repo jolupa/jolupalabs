@@ -1,5 +1,4 @@
 d:libgee
-d:obinslab-starter
 d:xfce4-weather-plugin
 d:xfce4-terminal
 d:thunar
@@ -35,6 +34,7 @@ d:claws-mail-gtk3
 d:libetpan
 d:image-burner
 d:elementary-icon-theme
+d:obinskit
 d:xfce4-screensaver
 d:libxfce4util
 d:qogir-theme
@@ -54,10 +54,6 @@ d:lshw
 f:6bcdf9f21265f03ae3c3fb5bc67d953f:libgee/.footprint
 f:7747d274598f017f9f15d1aa49667abc:libgee/Pkgfile
 f:11fb2987523feb9bac7d9f1f6ad679bc:libgee/.signature
-f:7fe9f84c902565fb42b33469a6b64223:obinslab-starter/post-install
-f:4778af4570292d6a22ae34b339722582:obinslab-starter/.footprint
-f:3efc22cead444ed5cd190265fab13d20:obinslab-starter/Pkgfile
-f:4fd5c7b9f330de72ec7d5ed0465504b8:obinslab-starter/.signature
 f:82ce21b5132a6a573b2ecdb7f42364c8:xfce4-weather-plugin/post-install
 f:95c9007b6082fb3a4a9eadb87547dbd6:xfce4-weather-plugin/.footprint
 f:1f0b0fa19e394cf13c610ccbae289904:xfce4-weather-plugin/Pkgfile
@@ -189,6 +185,12 @@ f:d256fae2287ff50efc08913b0edc83db:elementary-icon-theme/post-install
 f:d1b034f3d8427de1daaf5dfead66e9f7:elementary-icon-theme/.footprint
 f:d974b1c33aa17541b3927d5a67c1beef:elementary-icon-theme/Pkgfile
 f:02e992d2a3f2270763664846e2210c5b:elementary-icon-theme/.signature
+f:961d458622c7172f10cf379e28f841c2:obinskit/icons.tar.gz
+f:a63b75af9a6db1e408e7bc7f64d7fee1:obinskit/post-install
+f:092b5b5f9cd4aa11957a8296343702ba:obinskit/.footprint
+f:979e5eba58d15a1d1056ae9956bffbcb:obinskit/obinskit.desktop
+f:91760c8c3fcec91bf6273765a4b45a6d:obinskit/Pkgfile
+f:2aab0f5ba6ac77ed8f6b045eb2e50803:obinskit/.signature
 f:de1345235613eba15ff09aab3666c643:xfce4-screensaver/common_auth.patch
 f:64ea4526171c2d9922c2a0e18ab82dc9:xfce4-screensaver/.footprint
 f:ac0f30e4757b78a127d19b5e28fa8d10:xfce4-screensaver/Pkgfile
