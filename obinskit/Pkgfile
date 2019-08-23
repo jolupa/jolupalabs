@@ -1,0 +1,32 @@
+# Description: Control your AnnePro Keyboad
+# URL: http://en.obins.net/obinslab-starter/
+# Maintainer: jolupa, jolupameister at gmail dot com
+# Depends on: gtk xorg-libxscrnsaver xorg-libxtst libxkbcommon nss libappindicator-gtk2 krb5 avahi
+
+name=obinskit
+_name=ObinsKit
+version=1.1.1
+release=1
+source=(http://releases.obins.net/occ/linux/tar/"$_name"_"$version"_x64.tar.gz obinskit.desktop icons.tar.gz)
+
+build() {
+  
+  install -d $PKG/usr/share/"$_name"
+  cp -a $SRC/"$_name"_"$version"_x64/. $PKG/usr/share/"$_name"
+
+  install -d $PKG/usr/bin
+  ln -s /usr/share/"$_name"/obinskit $PKG/usr/bin/obinskit
+
+  install -d $PKG/usr/share/applications
+  cp $SRC/obinskit.desktop $PKG/usr/share/applications/
+
+  install -d $PKG/usr/share/icons
+  cp -a $SRC/icons/* $PKG/usr/share/icons/
+
+  find $PKG -type f -name "LICENSE*" -o -name "*.pdf" -exec rm -f {} \;
+  find $PKG -type d -empty -delete
+  rm $PKG/usr/share/"$_name"/install.sh
+  
+  #rm $PKG/opt/"$_name"/{LICENSE.electron.txt,LICENSES.chromium.html}
+  
+}
