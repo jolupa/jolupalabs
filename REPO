@@ -148,9 +148,9 @@ f:e5221729218781b32ab934a5c876f0ca:xfce4-taskmanager/patch1.patch
 f:fd5734e1b2c9582981477deba55a6443:xfce4-taskmanager/Pkgfile
 f:f0ab08c1db63bce3e457f95be7fc8dc8:xfce4-taskmanager/.signature
 f:d2c71d4bbc381d6733f64f11b6970a2f:xfce4-screenshooter/post-install
-f:6454480f0f8bb90bb1d7ee59602e0761:xfce4-screenshooter/.footprint
-f:f0302b18ac417d8024ea001c97215bcb:xfce4-screenshooter/Pkgfile
-f:f03ad76389f5011271005f619fae7fe7:xfce4-screenshooter/.signature
+f:4448c7202cf7c2b0b426a24c6a740d51:xfce4-screenshooter/.footprint
+f:f7865a6a6ec0b6c6ef908d9171df771f:xfce4-screenshooter/Pkgfile
+f:cfb706354fccc9d78c48f852ea89c066:xfce4-screenshooter/.signature
 f:308e989c47131c69bf1cbc1f8a283eef:libxfce4ui/post-install
 f:af5ef4947f504dcdf5013f3eab30371b:libxfce4ui/.footprint
 f:1197929668acbf0b4944d08440acd277:libxfce4ui/Pkgfile
