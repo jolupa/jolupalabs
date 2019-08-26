@@ -4,8 +4,8 @@
 # Depends on: xfce4-dev-tools xfce4-panel libxfce4util libxfce4ui libsoup
 
 name=xfce4-screenshooter
-version=1.9.5
-release=3
+version=1.9.6
+release=1
 source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz)
 
 build() {

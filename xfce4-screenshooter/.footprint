@@ -8,8 +8,6 @@ drwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/
 -rwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/libscreenshooterplugin.la
 -rwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/libscreenshooterplugin.so
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/appdata/
--rw-r--r--	root/root	usr/share/appdata/xfce4-screenshooter.appdata.xml
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/xfce4-screenshooter.desktop
 drwxr-xr-x	root/root	usr/share/icons/
@@ -81,9 +79,15 @@ drwxr-xr-x	root/root	usr/share/locale/hr/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/hu/
 drwxr-xr-x	root/root	usr/share/locale/hu/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/hu/LC_MESSAGES/xfce4-screenshooter.mo
+drwxr-xr-x	root/root	usr/share/locale/hy_AM/
+drwxr-xr-x	root/root	usr/share/locale/hy_AM/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/hy_AM/LC_MESSAGES/xfce4-screenshooter.mo
 drwxr-xr-x	root/root	usr/share/locale/id/
 drwxr-xr-x	root/root	usr/share/locale/id/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/id/LC_MESSAGES/xfce4-screenshooter.mo
+drwxr-xr-x	root/root	usr/share/locale/ie/
+drwxr-xr-x	root/root	usr/share/locale/ie/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ie/LC_MESSAGES/xfce4-screenshooter.mo
 drwxr-xr-x	root/root	usr/share/locale/is/
 drwxr-xr-x	root/root	usr/share/locale/is/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/is/LC_MESSAGES/xfce4-screenshooter.mo
@@ -189,6 +193,8 @@ drwxr-xr-x	root/root	usr/share/locale/zh_TW/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/xfce4-screenshooter.1.gz
+drwxr-xr-x	root/root	usr/share/metainfo/
+-rw-r--r--	root/root	usr/share/metainfo/xfce4-screenshooter.appdata.xml
 drwxr-xr-x	root/root	usr/share/xfce4/
 drwxr-xr-x	root/root	usr/share/xfce4/panel/
 drwxr-xr-x	root/root	usr/share/xfce4/panel/plugins/
