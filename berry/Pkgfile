@@ -5,8 +5,8 @@
 # Depends on: xorg-libx11 xorg-libxft xorg-libxinerama freetype sxhkd
 
 name=berry
-version=0.1.0
-release=2
+version=0.1.1
+release=1
 source=(https://github.com/JLErvin/$name/archive/$version.tar.gz berry.desktop)
 
 build() {
