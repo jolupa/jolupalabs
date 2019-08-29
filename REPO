@@ -170,9 +170,9 @@ f:0a0df20c97bf8a275dc6c256c0e22059:thunar-volman/.footprint
 f:cd35110c3e7e55cd66d5b7b70af7532f:thunar-volman/Pkgfile
 f:5b8d3ccfb71b43760ac481e60705b317:thunar-volman/.signature
 f:d0cd155245ecac7ec8755befccf7ec24:claws-mail-gtk3/post-install
-f:605f55b38321660c6e75213089cab49a:claws-mail-gtk3/.footprint
-f:73ad3c066589fa07bfb6cf235ed37a9c:claws-mail-gtk3/Pkgfile
-f:7d37fad8863d4526b5343298fa45746b:claws-mail-gtk3/.signature
+f:46679bb28a592bd6ca2a3906985c0979:claws-mail-gtk3/.footprint
+f:8ccd4232979f61bf21506bf663bb6e96:claws-mail-gtk3/Pkgfile
+f:040988370e7452a1a7be881e5f2638b7:claws-mail-gtk3/.signature
 f:33373a9a0e6ba6552548521ee7821208:libetpan/.footprint
 f:ddb7a3789e36ff70d6db9480b0b71ab4:libetpan/Pkgfile
 f:22180fdec81fbfa031a879b759f6bf18:libetpan/.signature
