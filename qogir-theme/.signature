@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWRdPtfuMX7+XCy/tfPyPyNAz5MX2wJwqOHT/ZI8GAMw8GsYccPfegF31Fzoscm5FdYFOKLkS8aURm4iSZWK/Aekyhe9i/d+igA=
-SHA256 (Pkgfile) = 43905090906e8bbc8419b21cf5cecf0a0d54b40b466c54597d9b9dd18caf42b5
-SHA256 (.footprint) = 67a924313864b09eed536e0c849cadded97f60b4f84b9a63c10e45b9fe5dad34
-SHA256 (2019-05-03.tar.gz) = f21a5d8c02eafa5c897e972fdcc816ab61fa505ae30d90e20389f7f0d3c4c63b
+RWRdPtfuMX7+XNOKzoDem3/YMiF85rmQ8uHjB2oG33IfN2qCoakViA+gDtuZpKNWseAX21wgU/biUXQr5G0D3AOOXPv7yVbQggo=
+SHA256 (Pkgfile) = 210f1db9c7e110ead05dd8fd9c8310c482115a6ad1fa81438b350c8bc570c25f
+SHA256 (.footprint) = ff8a840bb7291145ce2c79bf3821d241665a604aa788ba94dd4d4fa2d2605de6
+SHA256 (2019-08-31.tar.gz) = e2c26c29d8a72bc67bcd13934cc1ef95587295a5dbc50dd61f047891a75e3b4d
