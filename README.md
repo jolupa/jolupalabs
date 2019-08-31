@@ -80,6 +80,6 @@ You can find other packages not Xfce related in this repo, here's a list.
 | Mbpfan | 2.1.1 | |
 | Neofetch | 6.0.0 | |
 | Nordic | 1.6.5 | A beatiful Gtk3 theme based in nordic color scheme |
-| ObinslabStarter | 1.1.1 | Software for controlling the Anne Pro 2 Mechanical Keyboard. |
-| Qogir Gtk theme | 2019-05-03 | Fantastic Flat Theme |
+| ObinsKit | 1.1.1 | Software for controlling the Anne Pro 2 Mechanical Keyboard. |
+| Qogir Gtk theme | 2019-08-31 | Fantastic Flat Theme |
 | Xiccd | 0.3.0 | Added as Xfce4-Settings dependency | 
