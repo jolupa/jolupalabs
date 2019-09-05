@@ -1,0 +1,31 @@
+From afeb187c6cc92701c01dbd583bd78b6435d27cfa Mon Sep 17 00:00:00 2001
+From: Igor <f2404@yandex.ru>
+Date: Tue, 3 Sep 2019 10:35:54 -0400
+Subject: Fix 'Status bar appears upon leaving fullscreen'
+
+Regardless of the "Show Status Bar" setting.
+
+Fixes bug #15921
+---
+ src/main_window.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/src/main_window.c b/src/main_window.c
+index d76c69d..4cef356 100644
+--- a/src/main_window.c
++++ b/src/main_window.c
+@@ -2511,7 +2511,10 @@ G_GNUC_END_IGNORE_DEPRECATIONS
+             }
+ 
+             gtk_widget_show (window->priv->menubar);
+-            gtk_widget_show (window->priv->statusbar);
++            if (rstto_settings_get_boolean_property (RSTTO_SETTINGS (window->priv->settings_manager), "show-statusbar"))
++            {
++                gtk_widget_show (window->priv->statusbar);
++            }
+ 
+             if (rstto_settings_get_boolean_property (window->priv->settings_manager, "show-thumbnailbar"))
+             {
+-- 
+cgit v1.2.1
+
