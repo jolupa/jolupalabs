@@ -5,12 +5,14 @@
 
 name=xfce4-appfinder
 version=4.14.0
-release=1
-source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
+release=2
+source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz patch_1.patch)
 
 build() {
 
 	cd $name-$version
+
+  patch -p1 -i $SRC/patch_1.patch
 	
 	./autogen.sh \
 	  --prefix=/usr \
