@@ -76,8 +76,9 @@ f:972ee85f358ecff4c05f9cba85ea2a5f:berry/.footprint
 f:4ff1f932c3384595f9911ffcfc9e61e3:berry/Pkgfile
 f:a6bb6adf1f5ed6198ce49628fd8b9bc3:berry/.signature
 f:72397cab6ba8ce4a92ddfb65dc0b768b:xfce4-appfinder/.footprint
-f:71c51a7cc594ead0af7909275e736e33:xfce4-appfinder/Pkgfile
-f:bdedb009a514844a0fd3bac337eba3eb:xfce4-appfinder/.signature
+f:b505a6c9a024dbfc28d6e92599facf62:xfce4-appfinder/Pkgfile
+f:4a0e226d7341fe0078b9bbe9488d4854:xfce4-appfinder/patch_1.patch
+f:e4603d63859f7bd404beddb4e279dc53:xfce4-appfinder/.signature
 f:d44f5844926692eb8307f1e86068a025:xfce-polkit/.footprint
 f:f3b988ded3d5454416a281276cc2b523:xfce-polkit/Pkgfile
 f:2cd4eb2cd3b5d3985a1147e176c82a8e:xfce-polkit/.signature
@@ -85,8 +86,9 @@ f:ff3aeed0a7ab0d52b5af9ce34fd34cb7:xfce4-dev-tools/.footprint
 f:788bbcfe83808df7e998b83fcf5b45a0:xfce4-dev-tools/Pkgfile
 f:baa54e78223b0c102b6ca0f8bc3404ed:xfce4-dev-tools/.signature
 f:d29327dcff602f129a26b2957da67de4:tumbler/.footprint
-f:83f213a1a2ded7bddec044bf339e9a9e:tumbler/Pkgfile
-f:d67af936036cd42ebd4d92e87fd24d9e:tumbler/.signature
+f:1d77961241d13f0eb9a94edc13383ab4:tumbler/Pkgfile
+f:d5cb4c30e46e92ff4d9518a9c2c0d327:tumbler/patch_1.patch
+f:6dad9808f64957f1faedc32f89cae62a:tumbler/.signature
 f:8db2fb51d02156cea0a028059530a235:xfconf/.footprint
 f:118b5a5d60b4de012427b9b06eba22c8:xfconf/Pkgfile
 f:016d8ff1bc47a8a1df5c48d84018db89:xfconf/.signature
@@ -118,8 +120,9 @@ f:1b05dc8388d0a80ca511e859d6c43433:xfce4-settings/Pkgfile
 f:6457068647c7575f63d64105e468b6fa:xfce4-settings/.signature
 f:89cd45035eeea8e8938338a22d769421:xfdesktop/post-install
 f:bd80c716c9693cf68c15ec312a804311:xfdesktop/.footprint
-f:236fb647ec257d0b7dbae0f990e5e933:xfdesktop/Pkgfile
-f:ef7961c716a10382ac00734556f819d1:xfdesktop/.signature
+f:70ead8f5210f620b23d6b76a9c408d39:xfdesktop/Pkgfile
+f:4d215d9d0594d91187002df24ef69279:xfdesktop/patch_1.patch
+f:0deeaa791ff34fc53e489f17e1daae83:xfdesktop/.signature
 f:89241096299ccb829933dfa257c4dddc:xfwm4/post-install
 f:8ff18f252fd9bbcda11e34ccdec39997:xfwm4/.footprint
 f:78ac17341609195d09137daf25689374:xfwm4/Pkgfile
@@ -223,8 +226,9 @@ f:d32f21e3330c40911c79e23bcfa601d0:mousepad/Pkgfile
 f:afe4e0e0e701ec9356b28e8f66686dc2:mousepad/.signature
 f:c25fe7746a14bfbbb02d514b732f9abc:ristretto/post-install
 f:1cdfda85660079b2b6164d977f14f8cf:ristretto/.footprint
-f:a4b3db2ab5b796c09fe20f0a0c519932:ristretto/Pkgfile
-f:3e6ecda2e3e95a7dfbbe607e4d0de548:ristretto/.signature
+f:c78e65c0f355775b2a4a87e10f1653f4:ristretto/Pkgfile
+f:45e0f9dabf60b70af642efb8078e527e:ristretto/patch_1.patch
+f:8848dc86cff48bceca7702db398c6282:ristretto/.signature
 f:1a24dfb9cebbb583914b1b7b2742ad87:xdg-user-dirs/.footprint
 f:30129ec55cc7985d8c59e45d4a523f29:xdg-user-dirs/Pkgfile
 f:61dcfce039601e8b75842de7492fab96:xdg-user-dirs/.signature
