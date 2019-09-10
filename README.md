@@ -78,7 +78,7 @@ You can find other packages not Xfce related in this repo, here's a list.
 | Libetpan | 1.9.3 | From [TimB87](https://github.com/TimB87/crux-ports) REPO to supply claws-mail-gtk3 dependency |
 | Libgee | 0.20.1 | |
 | Mbpfan | 2.1.1 | |
-| Neofetch | 6.0.0 | |
+| Neofetch | 6.1.0 | |
 | Nordic | 1.6.5 | A beatiful Gtk3 theme based in nordic color scheme |
 | ObinsKit | 1.1.1 | Software for controlling the Anne Pro 2 Mechanical Keyboard. |
 | Qogir Gtk theme | 2019-08-31 | Fantastic Flat Theme |

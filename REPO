@@ -162,8 +162,8 @@ f:6cd905fd71b99ff58b707cd122975bde:broadcom-driver/.footprint
 f:b62817a5cb632617fdf338577ce233e7:broadcom-driver/Pkgfile
 f:bd804cd221f2168a05cac733b8ee8c7f:broadcom-driver/.signature
 f:7115e706eca005970f078ca22e563960:neofetch/.footprint
-f:4279a495cf719453e8b06aa1d543bcea:neofetch/Pkgfile
-f:bdae8dc5ea9de1551821175defec7bf8:neofetch/.signature
+f:567e8c2565ae11b4932437b494d01366:neofetch/Pkgfile
+f:751124cbdf2b88b748bf11f453cba973:neofetch/.signature
 f:553e068666f56f75029a376c1dfcb0de:xfce4-panel/post-install
 f:3ce350944ccebc6d648158c46dd7353e:xfce4-panel/.footprint
 f:8eed8e99253ab3c99b5684e40e3b3cb7:xfce4-panel/Pkgfile
