@@ -4,7 +4,7 @@
 # Depends on: 
 
 name=neofetch
-version=6.0.0
+version=6.1.0
 release=1
 source=(https://github.com/dylanaraps/$name/archive/$version.tar.gz)
 
