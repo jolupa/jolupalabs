@@ -239,9 +239,9 @@ f:33da30314652d59f0b26611e7f7036f8:garcon/.footprint
 f:9d74a9e2a86c492c4effd0235db89503:garcon/Pkgfile
 f:da00d04f3319ea4b0327a5832a17e348:garcon/.signature
 f:5056ff22ef45a9b61005fb0bfe765a9f:granite/post-install
-f:df04f2c62f718668db5a745e875276b7:granite/.footprint
-f:b3dd81429bd8c1b8457a9a9b250a1e15:granite/Pkgfile
-f:eeab90a4fed8c4fc768a9f4386b09f48:granite/.signature
+f:384bbb1d4f4082eb6827cd3aad5c9452:granite/.footprint
+f:c81a393c555af610b6dc091ee8d59532:granite/Pkgfile
+f:298024c6f6e79a68329326e0177aec1c:granite/.signature
 f:8b133fe080cca70ee99fd8a2eb15e7a9:font-undefined-medium/post-install
 f:483f9dfefb4947bb7e2d82a27c6e5f44:font-undefined-medium/.footprint
 f:02a951d9a45c30d691d8e82397d45f73:font-undefined-medium/Pkgfile
