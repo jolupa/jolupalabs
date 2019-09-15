@@ -64,7 +64,7 @@ You can find other packages not Xfce related in this repo, here's a list.
 
 | PACKAGE NAME | VERSION | NOTES |
 |---|:---:|---|
-| Berry | 0.1.1 | |
+| Berry | 0.1.2 | |
 | B43-fwcutter | 019 | |
 | Broadcom-driver | 6.30.163.46 | |
 | Claws-Mail GTK3 | GIT | The Git version with Gtk3 support |
