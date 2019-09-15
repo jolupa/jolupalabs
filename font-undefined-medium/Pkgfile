@@ -7,7 +7,7 @@
 name=font-undefined-medium
 _name=undefined-medium
 version=1.0
-release=1
+release=2
 source=(https://github.com/andirueckel/$_name/archive/v$version.tar.gz)
 
 build() {
