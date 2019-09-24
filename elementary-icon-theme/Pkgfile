@@ -14,11 +14,13 @@ build() {
 	cd $_name-$version
 
 	./configure \
-		--prefix=/usr
+    --prefix=/usr/
 	
-	make
+	make -j1
 	make DESTDIR=$PKG install
 
-  rm $PKG/usr/share/icons/elementary-{xfce,xfce-dark,xfce-darker,xfce-darkest}/{AUTHORS,README.md,CONTRIBUTORS}
+  find $PKG -name AUTHORS -o -name CONTRIBUTORS -o -name LICENSE -delete
+
+  #rm $PKG/usr/share/icons/elementary-{xfce,xfce-dark,xfce-darker,xfce-darkest}/{AUTHORS,README.md,CONTRIBUTORS}
 	
 }

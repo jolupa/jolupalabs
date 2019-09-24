@@ -2,6 +2,9 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce-dark/
+lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/AUTHORS -> ../AUTHORS
+lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/CONTRIBUTORS -> ../CONTRIBUTORS
+lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/README.md -> ../README.md
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce-dark/apps/
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce-dark/apps/128/
 lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/apps/128/xfce4-notes-plugin.png -> ../../../elementary-xfce/apps/128/xfce4-notes-plugin.png
@@ -537,6 +540,9 @@ lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/panel/48/xfpm-ups-100-
 lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/panel/48/xfpm-ups-100.png -> ../../../elementary-xfce/panel/48/gpm-ups-100.png
 lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/panel/48/xfpm-ups-missing.png -> ../../../elementary-xfce/panel/48/gpm-ups-missing.png
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce-darker/
+lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-darker/AUTHORS -> ../AUTHORS
+lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-darker/CONTRIBUTORS -> ../CONTRIBUTORS
+lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-darker/README.md -> ../README.md
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce-darker/actions/
 lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-darker/actions/128 -> ../../elementary-xfce/actions/128
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce-darker/actions/16/
@@ -1611,9 +1617,15 @@ lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-darker/actions/64 -> ../../
 lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-darker/actions/symbolic -> ../../elementary-xfce/actions/symbolic
 -rw-r--r--	root/root	usr/share/icons/elementary-xfce-darker/index.theme
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce-darkest/
+lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-darkest/AUTHORS -> ../AUTHORS
+lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-darkest/CONTRIBUTORS -> ../CONTRIBUTORS
+lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-darkest/README.md -> ../README.md
 lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-darkest/actions -> ../elementary-xfce-darker/actions
 -rw-r--r--	root/root	usr/share/icons/elementary-xfce-darkest/index.theme
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce/
+lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce/AUTHORS -> ../AUTHORS
+lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce/CONTRIBUTORS -> ../CONTRIBUTORS
+lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce/README.md -> ../README.md
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce/actions/
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce/actions/128/
 -rw-r--r--	root/root	usr/share/icons/elementary-xfce/actions/128/address-book-new.png
