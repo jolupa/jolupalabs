@@ -184,10 +184,10 @@ f:f3e038b7d1210c05416968b02ad6061c:image-burner/.footprint
 f:73e21067600c3aba3426db7ad22559c1:image-burner/image-burner.desktop
 f:b2bf6fe7b8db99105d6247541ced44ae:image-burner/Pkgfile
 f:23f0ac7c2a697b40d0686cf0030a5ae1:image-burner/.signature
-f:d256fae2287ff50efc08913b0edc83db:elementary-icon-theme/post-install
-f:d1b034f3d8427de1daaf5dfead66e9f7:elementary-icon-theme/.footprint
-f:d974b1c33aa17541b3927d5a67c1beef:elementary-icon-theme/Pkgfile
-f:02e992d2a3f2270763664846e2210c5b:elementary-icon-theme/.signature
+f:8a158dd64dd291b5174fd0c777b51d89:elementary-icon-theme/post-install
+f:f927ea4753f197555d09e664c7d21f94:elementary-icon-theme/.footprint
+f:fb6c7781ce7f388325dd2d13a0b16c11:elementary-icon-theme/Pkgfile
+f:114f22ae22afe6edf2773b3e78e676c6:elementary-icon-theme/.signature
 f:961d458622c7172f10cf379e28f841c2:obinskit/icons.tar.gz
 f:a63b75af9a6db1e408e7bc7f64d7fee1:obinskit/post-install
 f:092b5b5f9cd4aa11957a8296343702ba:obinskit/.footprint
