@@ -1,3 +1,0 @@
-After installation please add the script /etc/rc.d/mbpfan to your /etc/rc.conf to ensure that the daemon is launched at startup and works perfectly to control the computer fans.
-
-Also if you try to run the tests from the program is know that in some cases it didn't work, is fine the program just run as spected.
