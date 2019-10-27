@@ -34,14 +34,8 @@ If you have any question, doubt or problem regarding the ports, please feel free
 
 XFCE INSTALLATION
 =====
-I provide two methods for installing the **Desktop Environment** Xfce.
-1. Just make a depinst install of the meta package:
-
-   ```bash
-   sudo prt-get depinst xfce
-   ```
-
-2. Install the packages in this **same order**:
+I don't know why the two ways to install Xfce the first one, the meta package, was installing the packages in the wrong way; so now I recommend this way.
+1. Install the packages in this **same order**:
 
    ```bash
    sudo prt-get depinst xfce4-dev-tools libxfce4util xfconf libxfce4ui garcon exo xfce4-panel thunar thunar-volman xfce4-settings xfce4-session xfwm4 xfdesktop xfce4-appfinder tumbler xfce4-terminal xfce4-power-manager xfce4-notifyd xfce4-screenshooter mousepad xdg-user-dirs greybird-xfce elementary-xfce font-noto font-undefined-medium
@@ -65,8 +59,6 @@ You can find other packages not Xfce related in this repo, here's a list.
 | PACKAGE NAME | VERSION | NOTES |
 |---|:---:|---|
 | Berry | 0.1.3 | |
-| B43-fwcutter | 019 | |
-| Broadcom-driver | 6.30.163.46 | |
 | Claws-Mail GTK3 | GIT | The Git version with Gtk3 support |
 | Colord | 1.3.5 | Added as Xfce4-Settings dependency |
 | Font Undefined Medium | 1.0 | |
@@ -77,9 +69,8 @@ You can find other packages not Xfce related in this repo, here's a list.
 | Lshw | B0.2.18 | List Computer Hardware |
 | Libetpan | 1.9.3 | From [TimB87](https://github.com/TimB87/crux-ports) REPO to supply claws-mail-gtk3 dependency |
 | Libgee | 0.20.1 | |
-| Mbpfan | 2.1.1 | |
 | Neofetch | 6.1.0 | |
 | Nordic | 1.6.5 | A beatiful Gtk3 theme based in nordic color scheme |
 | ObinsKit | 1.1.1 | Software for controlling the Anne Pro 2 Mechanical Keyboard. |
-| Qogir Gtk theme | 2019-08-31 | Fantastic Flat Theme |
+| Qogir Gtk theme | 2019-10-25 | Fantastic Flat Theme |
 | Xiccd | 0.3.0 | Added as Xfce4-Settings dependency | 
