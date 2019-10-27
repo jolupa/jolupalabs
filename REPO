@@ -92,9 +92,9 @@ f:2b41eefdf26f22d2591bf33cc15c56d8:xfce4-session/post-install
 f:f0939cb47c43fe665e8264ff8173a8db:xfce4-session/Pkgfile
 f:413bb61dfe327313e4287cd3b386d6c1:xfce4-session/.footprint
 f:0b963a7628e7f638c0af5e7549586596:xfce4-session/.signature
-f:d780ed5d65875dd63ff12e0eb6a7c141:qogir-theme/Pkgfile
-f:984565d915d7e8370902dcf2c53f630b:qogir-theme/.footprint
-f:50c0167c27dcdde8e2e18588c05187d3:qogir-theme/.signature
+f:0adaa44275f9b4ccb3046aff8fb69fcf:qogir-theme/Pkgfile
+f:4c3068acad657e4fad3647ad0ba1c2de:qogir-theme/.footprint
+f:05d257d2c058ef50d5bc42cfcd28b1e8:qogir-theme/.signature
 f:30129ec55cc7985d8c59e45d4a523f29:xdg-user-dirs/Pkgfile
 f:1a24dfb9cebbb583914b1b7b2742ad87:xdg-user-dirs/.footprint
 f:6679554e98ab7fe337622c5047adbccb:xdg-user-dirs/.signature
