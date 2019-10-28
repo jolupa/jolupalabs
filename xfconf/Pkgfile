@@ -17,7 +17,7 @@ build() {
 	  --libexecdir=/usr/lib/$name \
 	  --disable-debug \
           --disable-vala \
-          --disable-gtk-doc
+          --disable-gtk-docs
 	
 	make
 	make DESTDIR=$PKG install
