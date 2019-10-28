@@ -19,7 +19,7 @@ build() {
 	  --disable-gtk2 \
 	  --enable-gtk3 \
 	  --enable-introspection=no \
-	  --disable-gtk-docs
+	  --enable-gtk-docs=no
 	
 	make
 	make DESTDIR=$PKG install
