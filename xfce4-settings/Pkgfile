@@ -1,28 +1,26 @@
 # Description: Xfce's configuration system
 # URL: https://www.xfce.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: libxfce4ui exo xfconf glib libwnck-gtk3 xorg-libxi xorg-libxrandr xorg-libxcursor libnotify libxklavier xiccd
+# Depends on: libxfce4ui exo xfconf glib xorg-libxi xorg-libxrandr xorg-libxcursor libnotify libcanberra libxklavier colord libinput
 
 name=xfce4-settings
-version=4.14.1
-release=1
-source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
+version=4.14.0
+release=2
+source=(http://archive.xfce.org/xfce/4.14/src/$name-$version.tar.bz2)
 
 build() {
 
 	cd $name-$version
 	
-	./autogen.sh \
+	./configure \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
 	  --disable-gtk-doc \
-	  --disable-gtk-doc-html \
-	  --disable-gtk-doc-pdf \
 	  --enable-upower-glib \
 	  --enable-libnotify \
 	  --enable-gio-unix \
 	  --enable-xcursor \
-		--enable-libxklavier \
+	  --enable-libxklavier \
 	  --enable-pluggable-dialogs \
 	  --enable-sound-settings \
     --enable-colord \
