@@ -15,6 +15,7 @@ build() {
 	./configure \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
+          --sysconfdir=/etc \
 	  --disable-gtk-doc \
 	  --enable-upower-glib \
 	  --enable-libnotify \
