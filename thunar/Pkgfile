@@ -1,34 +1,29 @@
 # Description: Modern, fast and easy-to-use file manager for Xfce
 # URL: https://www.xfce.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: xfce4-dev-tools libxfce4ui exo libpng gtk3 glib libexif libnotify startup-notification freetype libjpeg-turbo xfce4-panel xfconf
+# Depends on: libxfce4ui exo libpng gtk3 glib libgudev libnotify xfce4-panel gvfs libexif
 
 name=thunar
 version=1.8.9
 release=1
-source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
+source=(http://archive.xfce.org/xfce/4.14/src/Thunar-$version.tar.bz2)
 
 build() {
 
 	cd $name-$version
 	
-	./autogen.sh \
+	./configure \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
-	  --enable-gio-unix \
-	  --enable-gudev \
-	  --disable-gtk-doc \
-	  --disable-gtk-doc-html \
-	  --disable-gtk-doc-pdf \
+	  --sysconfdir=/etc \
 	  --disable-gtk2 \
 	  --enable-gtk3 \
+          --disable-gtk-doc \
 	  --enable-instrospection=no
 
 	make
 	make DESTDIR=$PKG install
 
-	rm -r $PKG/usr/share/doc
-	rm -r $PKG/usr/lib/systemd
 	#rm -r $PKG/usr/share/locale
 	
 }
