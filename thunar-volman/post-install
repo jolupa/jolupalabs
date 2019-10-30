@@ -1,6 +1,0 @@
-# !/bin/sh
-# Post install file for thunar-volman
-
-gtk-update-icon-cache /usr/share/icons/hicolor
-
-# End post install file
