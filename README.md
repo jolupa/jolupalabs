@@ -49,7 +49,16 @@ I don't know why the two ways to install Xfce the first one, the meta package, w
    exec ck-launch-session startxfce4
    ```
 
-5. Enjoy this beatifull Desktop Manager!
+5. Enjoy this beatifull Desktop Environment!
+
+XFCE DEPENDENCIES IN THIS REPOSITORY
+=====
+
+This are the dependencies you can find in this repository that are not avalaible in the oficila Crux repos.
+| PACKAGE | DEPENDENCY |
+| Thunar | Gvfs |
+| Thunar-Volman | Gvfs |
+| Xfce4-Settings | Colord |
 
 OTHER PACKAGES IN THIS REPO
 =====
@@ -60,7 +69,6 @@ You can find other packages not Xfce related in this repo, here's a list.
 |---|:---:|---|
 | Berry | 0.1.3 | |
 | Claws-Mail GTK3 | GIT | The Git version with Gtk3 support |
-| Colord | 1.3.5 | Added as Xfce4-Settings dependency |
 | Font Undefined Medium | 1.0 | |
 | Font Noto Japan | 1.0 | |
 | Font Noto Emoji | 1.0 | |
@@ -73,4 +81,3 @@ You can find other packages not Xfce related in this repo, here's a list.
 | Nordic | 1.6.5 | A beatiful Gtk3 theme based in nordic color scheme |
 | ObinsKit | 1.1.1 | Software for controlling the Anne Pro 2 Mechanical Keyboard. |
 | Qogir Gtk theme | 2019-10-25 | Fantastic Flat Theme |
-| Xiccd | 0.3.0 | Added as Xfce4-Settings dependency | 
