@@ -115,10 +115,9 @@ f:0ac3ff05143075b4af07c69c9b03621a:xfce4-screensaver/.signature
 f:a61d7509bc8ad84129103b03044952e3:ndctl/Pkgfile
 f:d77c3fe71f77e8c3ff3e626a160567b8:ndctl/.footprint
 f:76eb5c34e5f0a60655f9f49b235a6245:ndctl/.signature
-f:f6f599f405eecaaa0a734fe071b4a759:thunar-volman/post-install
-f:cd35110c3e7e55cd66d5b7b70af7532f:thunar-volman/Pkgfile
+f:4b14623b9a6832fb6d92ed3f838280ab:thunar-volman/Pkgfile
 f:0a0df20c97bf8a275dc6c256c0e22059:thunar-volman/.footprint
-f:29c69caa544c9538410e58c69e5f9226:thunar-volman/.signature
+f:19ae7ba369f82ca35aafcb2f0cfcabf9:thunar-volman/.signature
 f:281e14a83e2ed5ee28945714e20e4654:berry/berry.desktop
 f:5d19950dc0b9e724efc3758556e05fad:berry/Pkgfile
 f:972ee85f358ecff4c05f9cba85ea2a5f:berry/.footprint
