@@ -55,6 +55,7 @@ XFCE DEPENDENCIES IN THIS REPOSITORY
 =====
 
 This are the dependencies you can find in this repository that are not avalaible in the oficila Crux repos.
+
 | PACKAGE | DEPENDENCY |
 |---|---|
 | Thunar | Gvfs |
