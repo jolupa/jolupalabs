@@ -17,11 +17,12 @@ build() {
 	  --libexecdir=/usr/lib/$name \
 	  --enable-introspection=no \
           --enable-vala=no \
-          --enable-gtk-docs=no
+          --disable-gtk-docs
 	
 	make
 	make DESTDIR=$PKG install
 	
 	#rm -r $PKG/usr/share/locale
+        rm -r $PKG/usr/share/gtk-doc
 	
 }

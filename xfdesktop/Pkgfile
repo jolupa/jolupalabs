@@ -5,25 +5,22 @@
 
 name=xfdesktop
 version=4.14.1
-release=2
-source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz patch_1.patch)
+release=3
+source=(http://archive.xfce.org/xfce/4.14/src/$name-$version.tar.bz2)
 
 build() {
 
-	cd $name-$version
+  cd $name-$version
 
-  patch -p1 -i $SRC/patch_1.patch
-
-	./autogen.sh \
-	  --prefix=/usr \
-	  --libexecdir=/usr/lib/$name \
-	  --disable-debug \
-	  --enable-thunarx \
-	  --with-x
+    ./configure \
+      --prefix=/usr \
+      --libexecdir=/usr/lib/$name \
+      --disable-debug \
+      --enable-thunarx
 	
-	make
-	make DESTDIR=$PKG install
+    make
+    make DESTDIR=$PKG install
 	
-	#rm -r $PKG/usr/share/locale
+    #rm -r $PKG/usr/share/locale
 	
 }

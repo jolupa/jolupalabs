@@ -1,7 +1,7 @@
 # Description: D-Bus based configuration storage system
 # URL: https://www.xfce.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: libxfce4util
+# Depends on: libxfce4util glib
 
 name=xfconf
 version=4.14.1
@@ -23,4 +23,5 @@ build() {
 	make DESTDIR=$PKG install
 
 	#rm -r $PKG/usr/share/locale
+        rm -r $PKG/usr/share/gtk-doc
 }

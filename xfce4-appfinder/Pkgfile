@@ -1,31 +1,27 @@
 # Description: Xfce's application launcher and finder
 # URL: https://www.xfce.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: xfce4-dev-tools libxfce4util xfconf libwnck-gtk3 exo thunar garcon libnotify
+# Depends on: libxfce4ui garcon glib
 
 name=xfce4-appfinder
 version=4.14.0
-release=2
-source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz patch_1.patch)
+release=3
+source=(http://archive.xfce.org/xfce/4.14/src/$name-$version.tar.bz2)
 
 build() {
 
-	cd $name-$version
+  cd $name-$version
 
-  patch -p1 -i $SRC/patch_1.patch
+    ./configure \
+      --prefix=/usr \
+      --libexecdir=/usr/lib/$name \
+      --disable-gtk-doc \
+      --disable-gtk2 \
+      --enable-gtk3 \
+      --enable-notification
 	
-	./autogen.sh \
-	  --prefix=/usr \
-	  --libexecdir=/usr/lib/$name \
-	  --disable-gtk-doc \
-	  --disable-gtk-doc-html \
-	  --disable-gtk-doc-pdf \
-	  --disable-gtk2 \
-	  --enable-gtk3 \
-	  --enable-notification
+    make
+    make DESTDIR=$PKG install
 	
-	make
-	make DESTDIR=$PKG install
-	
-	#rm -r $PKG/usr/share/locale
+    #rm -r $PKG/usr/share/locale
 }

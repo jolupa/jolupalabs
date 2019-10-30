@@ -2,6 +2,8 @@
 # Thunar post instalation file
 #
 
-gtk-update-icon-cache /usr/share/icons/hicolor 
+/usr/bin/libtool --finish /usr/lib
+/usr/bin/libtool --finish /usr/lib/thunarx-3
+/usr/bin/libtool --finish /usr/lib/xfce4/panel/plugins
 
 # End post instalation file

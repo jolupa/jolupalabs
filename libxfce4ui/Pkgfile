@@ -1,7 +1,7 @@
 # Description: Graphic widgets helpers for Xfce
 # URL: https://www.xfce.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: libxfce4util gtk3 xfconf startup-notification
+# Depends on: libxfce4util gtk3 xfconf startup-notification glade
 
 name=libxfce4ui
 version=4.14.1
@@ -25,5 +25,6 @@ build() {
 	make DESTDIR=$PKG install
 	
 	#rm -r $PKG/usr/share/locale
+        rm -r $PKG/usr/share/gtk-doc
 	
 }

@@ -1,31 +1,26 @@
 # Description: A modern terminal emulator
 # URL: https://www.xfce.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: vte3
+# Depends on: libxfce4ui vte3
 
 name=xfce4-terminal
 version=0.8.8
-release=2
-source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz patch1.patch)
+release=3
+source=(http://archive.xfce.org/src/apps/xfce4-terminal/0.8/$name-$version.tar.bz2)
 
 build() {
 
-	cd $name-$version
+  cd $name-$version
 
-  patch -p1 -i $SRC/patch1.patch
-  
-	./autogen.sh \
-	  --prefix=/usr \
-	  --libexecdir=/usr/lib/$name \
-	  --disable-debug \
-	  --disable-gtk-doc \
-	  --disable-gtk-doc-html \
-	  --disable-gtk-doc-pdf
+    ./configure \
+      --prefix=/usr \
+      --libexecdir=/usr/lib/$name \
+      --disable-debug \
+      --disable-gtk-doc
 	
-	make
-
-	make DESTDIR=$PKG install
+  make
+  make DESTDIR=$PKG install
 	
-	#rm -r $PKG/usr/share/locale
+  #rm -r $PKG/usr/share/locale
 	
 }

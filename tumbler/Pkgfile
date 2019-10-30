@@ -1,32 +1,30 @@
 # Description: Thumbnail service implementing the thumbnail management D-Bus specification
 # URL: https://www.xfce.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: xfce4-dev-tools glib gdk-pixbuf freetype libjpeg-turbo 
+# Depends on: dbus-glib glib gdk-pixbuf freetype libjpeg-turbo gst-plugins-base poppler-glib libpng 
 
 name=tumbler
 version=0.2.7
-release=2
-source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz patch_1.patch)
+release=3
+source=(http://archive.xfce.org/xfce/4.14/src/$name-$version.tar.bz2)
 
 build() {
 
-	cd $name-$version
+  cd $name-$version
 
-  patch -p1 -i $SRC/patch_1.patch
+    ./configure \
+      --prefix=/usr \
+      --libexecdir=/usr/lib/$name \
+      --sysconfdir=/etc \
+      --disable-static \
+      --disable-gtk-doc \
+      --disable-gtk2 \
+      --enable-gtk3
 
-	./autogen.sh \
-	  --prefix=/usr \
-	  --libexecdir=/usr/lib/$name \
-	  --disable-static \
-	  --disable-gtk-doc \
-	  --disable-gtk-doc-html \
-	  --disable-gtk-doc-pdf \
-	  --disable-gtk2 \
-	  --enable-gtk3
-	
-	make
-	make DESTDIR=$PKG install
+  make
+  make DESTDIR=$PKG install
 
-	#rm -r $PKG/usr/share/locale
+  #rm -r $PKG/usr/share/locale
+  rm -r $PKG/usr/share/gtk-doc
 	
 }

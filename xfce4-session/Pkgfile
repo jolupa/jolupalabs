@@ -1,31 +1,29 @@
 # Description: Xfce's session manager
 # URL: https://www.xfce.org
 # Maintainer:	 jolupa, jlpavon at me dot com
-# Depends on: libxfce4ui p5-xml-parser libwnck-gtk3 glib xorg-iceauth
+# Depends on: libxfce4ui p5-xml-parser libwnck-gtk3 glib xorg-iceauth xorg-luit xorg-mkfontscale xorg-sessreg xorg-setxkbmap xorg-x11perf xorg-xauth xorg-xbacklight xorg-xcursorgen xorg-xdpyinfo xorg-xdriinfo xorg-xev xorg-xgamma xorg-xhost xorg-xinput xorg-xkbcomp xorg-xkill xmessage xorg-xmodmap xorg-xprop xorg-xrandr xorg-xrdb xorg-xset xorg-xsetroot xorg-xvinfo xorg-xwininfo
 
 name=xfce4-session
 version=4.14.0
-release=1
-source=(https://git.xfce.org/xfce/$name/snapshot/$name-$version.tar.gz)
+release=2
+source=(http://archive.xfce.org/xfce/4.14/src/$name-$version.tar.bz2)
 
 build() {
 
   cd $name-$version
   	
-	./autogen.sh \
-	  --prefix=/usr \
-	  --libexecdir=/usr/lib/$name \
-	  --enable-polkit \
-	  --disable-debug \
-	  --disable-gtk-doc \
-	  --disable-gtk-doc-html \
-	  --disable-gtk-doc-pdf \
-	  --disable-legacy-sm \
-	  --with-x
+    ./configure \
+      --prefix=/usr \
+      --libexecdir=/usr/lib/$name \
+      --sysconfdir=/etc \
+      --enable-polkit \
+      --disable-debug \
+      --disable-gtk-doc \
+      --disable-legacy-sm
 
-	make
-	make DESTDIR=$PKG install
+    make
+    make DESTDIR=$PKG install
 	
-	#rm -r $PKG/usr/share/locale
+    #rm -r $PKG/usr/share/locale
 	
 }
