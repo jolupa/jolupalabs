@@ -1,34 +1,27 @@
 # Description: Easily themable notification daemon with transparency effect
 # URL: https://www.xfce.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: xfce4-dev-tools gtk3 glib libxfce4util libxfce4ui xfconf libnotify xfce4-panel
+# Depends on: libnotify libxfce4ui xfce4-panel
 
 name=xfce4-notifyd
 version=0.4.4
-release=5
-source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz)
+release=6
+source=(http://archive.xfce.org/src/apps/xfce4-notifyd/0.4/$name-$version.tar.bz2)
 
 build() {
 
   cd $name-$version
-
-	./autogen.sh \
-	  --prefix=/usr \
-	  --libexecdir=/usr/lib/$name \
-	  --disable-static \
-	  --disable-gtk-doc \
-	  --disable-gtk-doc-html \
-	  --disable-gtk-doc-pdf \
-	  --disable-gtk2 \
-	  --enable-gtk3
+    ./configure \
+      --prefix=/usr \
+      --libexecdir=/usr/lib/$name \
+      --disable-static \
+      --disable-gtk-doc \
+      --disable-gtk2 \
+      --enable-gtk3
 	
-	make
+  make
+  make DESTDIR=$PKG install
 
-	make DESTDIR=$PKG install
-
-	#install -d $PKG/etc
-	#mv $PKG/usr/share/dbus-1 $PKG/etc
-	rm -r $PKG/usr/lib/systemd	
-	#rm -r $PKG/usr/share/locale
+  #rm -r $PKG/usr/share/locale
 	
 }

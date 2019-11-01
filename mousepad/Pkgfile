@@ -1,33 +1,28 @@
 # Description: A simple text editor for Xfce
 # URL: https://www.xfce.org
 # Maintainer: jolupa, jolupameister at gmail dot com
-# Depends on: xfce4-dev-tools gtk3 glib libxfce4util gtksourceview
+# Depends on: libxfce4util gtk3 dbus-glib gtksourceview
 
 name=mousepad
 version=0.4.1
-release=6
-source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz patch1.patch)
+release=7
+source=(http://archive.xfce.org/src/apps/mousepad/0.4/$name-$version.tar.bz2)
 
 build() {
 
-	cd $name-$version
+  cd $name-$version
+    ./configure \
+      --prefix=/usr \
+      --libexecdir=/usr/lib/$name \
+      --disable-static \
+      --disable-gtk-doc \
+      --enable-gtk3 \
+      --enable-dbus \
+      --enable-keyfile-settings
 
-  patch -p1 -i $SRC/patch1.patch
+  make
+  make DESTDIR=$PKG install
 	
-	./autogen.sh \
-	  --prefix=/usr \
-	  --libexecdir=/usr/lib/$name \
-	  --disable-static \
-	  --disable-gtk-doc \
-	  --disable-gtk-doc-html \
-	  --disable-gtk-doc-pdf \
-	  --enable-gtk3 \
-	  --enable-dbus \
-	  --enable-keyfile-settings
-
-	make
-	make DESTDIR=$PKG install
-	
-	#rm -r $PKG/usr/share/locale
+  #rm -r $PKG/usr/share/locale
 	
 }

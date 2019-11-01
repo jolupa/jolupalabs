@@ -1,36 +1,37 @@
 # Description: Screensaver for Xfce
 # URL: https://git.xfce.org/apps/xfce4-screensaver/
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: xfce4-dev-tools xorg-libxscrnsaver xfconf libxfce4ui libxfce4util garcon gtk3 libxklavier exo libwnck-gtk3
+# Depends on: liibxfce4util libxfce4ui xfconf exo garcon xorg-libxscrnsaver gtk3 libxklavier libwnck-gtk3
 
 name=xfce4-screensaver
 version=0.1.8
-release=1
-source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz common_auth.patch) 
+release=2
+source=(http://archive.xfce.org/src/apps/xfce4-screensaver/0.1/$name-$version.tar.bz2 common_auth.patch) 
 
 build() {
 
   cd $name-$version
-  
-	patch -p1 -i $SRC/common_auth.patch
 
-  ./autogen.sh \
+  patch -p1 -i $SRC/common_auth.patch
+
+  ./configure \
     --prefix=/usr \
     --libexecdir=/usr/lib/$name \
-		--enable-pam \
-		--enable-authentication-scheme=pam \
-		--with-pam-prefix=/etc \
-		--with-pam-auth-type=common \
+    --sysconfdir=/etc \
+    --enable-pam \
+    --enable-authentication-scheme=pam \
+    --with-pam-prefix=/etc \
+    --with-pam-auth-type=common \
     --disable-static \
     --with-mit-ext \
     --with-console-kit \
     --without-systemd \
-		--without-elogind \
+    --without-elogind \
     --with-libgl
-  
+
   make
   make DESTDIR=$PKG install
 
-	#rm -r $PKG/usr/share/locale
+  #rm -r $PKG/usr/share/locale
  
 }
