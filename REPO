@@ -76,10 +76,10 @@ f:dfb5956bd48d06ffe6cfe743ebe7fd5b:font-noto-emoji/.signature
 f:702fcf89a753386655de831679439648:xfce4-terminal/Pkgfile
 f:29323b6ee9c2cda3afc4a5b8b605a53a:xfce4-terminal/.footprint
 f:c155454d88dd3452f9b3a8846e628140:xfce4-terminal/.signature
-f:d2c71d4bbc381d6733f64f11b6970a2f:xfce4-screenshooter/post-install
-f:f7865a6a6ec0b6c6ef908d9171df771f:xfce4-screenshooter/Pkgfile
+f:997c25b87f0f83f8297ddc012cfb76d0:xfce4-screenshooter/post-install
+f:614258a71932e27125de72e1e04ba97e:xfce4-screenshooter/Pkgfile
 f:4448c7202cf7c2b0b426a24c6a740d51:xfce4-screenshooter/.footprint
-f:8f61f689a0b61f8d832101e169bb6049:xfce4-screenshooter/.signature
+f:a1def19d9789e1695c33bdd0b8bc4177:xfce4-screenshooter/.signature
 f:83b01b4be7425465d59b518edda30eb1:tumbler/post-install
 f:43c7d2145588d8bd57c6972ce09d2e40:tumbler/Pkgfile
 f:15ac24efb5f25b694636d15fc29769c6:tumbler/.footprint
