@@ -1,6 +1,7 @@
-# !/bin/sh
-# Post install file for Xfce screenshooter
+#!/bin/sh
+#Post Install File
 
-gtk-update-icon-cache /usr/share/icons/hicolor
+/usr/bin/libtool --finish /usr/lib/xfce4/panel/plugins
+/usr/bin/gtk-update-icon-cache -f -t /usr/share/icons/hicolor
 
-# End post install file
+#Finish Install File

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWSXS6u+dmakZBCSPqi/PNmwaOdCxUi8f8Cizj2hc0F6sdfEgxL7zQW6Sc9fIvuLlBCuwEllrsZKxaYzhxTgWWKbRy0m/Ig3XAs=
-SHA256 (Pkgfile) = f8791cbdfdfcb12e491c0ccb3367e74920aaf22940a6fb814a41c2210b20bcc0
+RWSXS6u+dmakZDukpsJCzN4Z3OFAO0D4ZjHeiZuEPFy2vf5kJKkWqP3Zxi0yIZTcKVqPsNjtqtKFAVS2vvRuNXFpAFRZIIxmZQ8=
+SHA256 (Pkgfile) = 360a5f1d50e2278af089f9c90abde042857fb6d32892845153a0e029bc09d851
 SHA256 (.footprint) = dc4128d7d412a6bbc3fd141453acfc8cd2c32eb1a5d90edd8a448d3d717e321c
-SHA256 (xfce4-screenshooter-1.9.6.tar.gz) = 3e1c167b118a18b75c62892003aecf77c70d85aa941fba00b7298248a0562133
+SHA256 (xfce4-screenshooter-1.9.6.tar.bz2) = 88c174ce687d1f7ba5470d6ab5784d33dc215f8f220211e892e268189dbea658
