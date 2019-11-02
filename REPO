@@ -10,7 +10,6 @@ d:tumbler
 d:xfce4-session
 d:qogir-theme
 d:xdg-user-dirs
-d:xfce
 d:lshw
 d:libatasmart
 d:xiccd
@@ -94,10 +93,6 @@ f:05d257d2c058ef50d5bc42cfcd28b1e8:qogir-theme/.signature
 f:30129ec55cc7985d8c59e45d4a523f29:xdg-user-dirs/Pkgfile
 f:1a24dfb9cebbb583914b1b7b2742ad87:xdg-user-dirs/.footprint
 f:6679554e98ab7fe337622c5047adbccb:xdg-user-dirs/.signature
-f:89400639d1b18d11c83729e682f4d8b4:xfce/post-install
-f:652ccfa30a7378aab12b9d76a0661017:xfce/Pkgfile
-f:3ba05737a74069414ff2d04ae34acf6e:xfce/.footprint
-f:b2d6021ae5fa197f0b536d156d8f8206:xfce/.signature
 f:bc19fb25ad7987bb383fa96239659555:lshw/Pkgfile
 f:de07ac2e9e25840d88d2c61be3bf7c92:lshw/.footprint
 f:c110581be77ed5fcc2db17831dcb3e58:lshw/.signature
