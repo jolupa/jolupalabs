@@ -27,13 +27,11 @@ d:xfce4-alsa-plugin
 d:xfce-polkit
 d:font-noto-jp
 d:xfce4-taskmanager
-d:claws-mail-gtk3
 d:xfwm4
 d:xfce4-xkb-plugin
 d:libxfce4ui
 d:libxfce4util
 d:xfce4-panel
-d:libetpan
 d:font-undefined-medium
 d:image-burner
 d:obinskit
@@ -152,10 +150,6 @@ f:fd5734e1b2c9582981477deba55a6443:xfce4-taskmanager/Pkgfile
 f:e5221729218781b32ab934a5c876f0ca:xfce4-taskmanager/patch1.patch
 f:fd346d4f2065c42bb34fa71e523138ed:xfce4-taskmanager/.footprint
 f:66d0f0dbe4ecdcc50e44afd968bbd3fd:xfce4-taskmanager/.signature
-f:d0cd155245ecac7ec8755befccf7ec24:claws-mail-gtk3/post-install
-f:8ccd4232979f61bf21506bf663bb6e96:claws-mail-gtk3/Pkgfile
-f:46679bb28a592bd6ca2a3906985c0979:claws-mail-gtk3/.footprint
-f:e7e82df9340760349b5ac32378de54b6:claws-mail-gtk3/.signature
 f:b411b83111ca58d9260787921dabc17c:xfwm4/Pkgfile
 f:8ff18f252fd9bbcda11e34ccdec39997:xfwm4/.footprint
 f:7e0738a64f14126455bdc3261698134e:xfwm4/.signature
@@ -171,9 +165,6 @@ f:435c27b77ca5b8982bf1bdb05d9bc21d:libxfce4util/.signature
 f:1ffb251b2ea4e02d4392608141cb55f3:xfce4-panel/Pkgfile
 f:26f3ce8fe657e3d6c66a6a4edda7476c:xfce4-panel/.footprint
 f:a093c890ba5520e2708d0a5232623ecd:xfce4-panel/.signature
-f:ddb7a3789e36ff70d6db9480b0b71ab4:libetpan/Pkgfile
-f:33373a9a0e6ba6552548521ee7821208:libetpan/.footprint
-f:ecef922fec38e87ad54b0b4a26221abd:libetpan/.signature
 f:8b133fe080cca70ee99fd8a2eb15e7a9:font-undefined-medium/post-install
 f:e7d74a955252220dcb5fa03dc86138a2:font-undefined-medium/Pkgfile
 f:483f9dfefb4947bb7e2d82a27c6e5f44:font-undefined-medium/.footprint
