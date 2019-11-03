@@ -4,8 +4,8 @@
 # Depends on: libxfce4util libxfce4ui libsoup libxml2 exo xorg-libxext xorg-libxfixes
 
 name=xfce4-screenshooter
-version=1.9.6
-release=2
+version=1.9.7
+release=1
 source=(http://archive.xfce.org/src/apps/xfce4-screenshooter/1.9/$name-$version.tar.bz2)
 
 build() {
@@ -16,6 +16,8 @@ build() {
       --libexecdir=/usr/lib/$name \
       --disable-static \
       --disable-gtk-doc \
+      --enable-xfixes \
+      --disable-debug \
       --disable-gtk2 \
       --enable-gtk3
 	
