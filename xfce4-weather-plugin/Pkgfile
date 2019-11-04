@@ -5,14 +5,14 @@
 
 name=xfce4-weather-plugin
 version=0.10.0
-release=1
-source=(https://git.xfce.org/panel-plugins/$name/snapshot/$name-$version.tar.gz)
+release=2
+source=(http://archive.xfce.org/src/panel-plugins/xfce4-weather-plugin/${version:0:4}/$name-$version.tar.bz2)
 
 build() {
 
   cd $name-$version
 
-  ./autogen.sh \
+  ./configure \
     --prefix=/usr \
     --libexecdir=/usr/lib/$name \
     --disable-debug \
