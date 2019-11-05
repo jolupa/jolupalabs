@@ -1,0 +1,24 @@
+# Description: Alternate Application launcher for Xfce
+# URL: https://goodies.xfce.org/projects/panel-plugins/xfce4-whiskermenu-plugin
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: garcon xfce4-panel gtk3 cmake
+
+name=xfce4-whiskermenu-plugin
+version=2.3.4
+release=1
+source=(http://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$version.tar.bz2)
+
+build() {
+
+  cd $name-$version
+
+  cmake \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_BUILD_TYPE=Release
+
+  make
+  make DESTDIR=$PKG install
+
+  #rm -r $PKG/usr/share/locales
+
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/jolupalabs.pub
+RWSXS6u+dmakZCLxsz7uTHxPGndx4kML4P38sRadllOVI1xgVRXKw3g7apedayLf7BU9F401yM81i0VDebaIsmrl3MbMWfrRDgk=
+SHA256 (Pkgfile) = 0e17f3044f3417836f7440a8f73c1f050d71274e71b03ad9921c1c40e68a925b
+SHA256 (.footprint) = 21bbe99fdcd93da4265402a57a9ea53400a52e12a8b16faf4bd8bae6354c34fb
+SHA256 (xfce4-whiskermenu-plugin-2.3.4.tar.bz2) = 84d3de35695a023aab181f7a9b75f59029eb3b07c3e47a5e11e8bd79db62570e
