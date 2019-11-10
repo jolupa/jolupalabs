@@ -7,15 +7,19 @@
 name=font-noto
 _name=Noto-unhinted
 version=1.0
-release=1
+release=2
 source=(https://noto-website-2.storage.googleapis.com/pkgs/$_name.zip)
 
 build() {
 
-  install -d $PKG/usr/share/fonts/TTF
+  install -d $PKG/usr/share/fonts/{TTF,OTF}
 
   for i in *.ttf;
     do install -m644 $i $PKG/usr/share/fonts/TTF
+  done
+
+  for i in *.otf;
+    do install -m644 $i $PKG/usr/share/fonts/OTF
   done
 
 }
