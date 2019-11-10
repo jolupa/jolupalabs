@@ -3,7 +3,6 @@ d:mousepad
 d:colord
 d:xfdesktop
 d:xfce4-appfinder
-d:font-noto-emoji
 d:xfce4-whiskermenu-plugin
 d:xfce4-terminal
 d:xfce4-screenshooter
@@ -26,7 +25,6 @@ d:xfconf
 d:libxpresent
 d:xfce4-alsa-plugin
 d:xfce-polkit
-d:font-noto-jp
 d:xfce4-taskmanager
 d:xfwm4
 d:xfce4-xkb-plugin
@@ -67,10 +65,6 @@ f:59163d64a32c054164b8497bc012791e:xfdesktop/.signature
 f:1e7bfbd385f0d9d7d797bffb94c67323:xfce4-appfinder/Pkgfile
 f:72397cab6ba8ce4a92ddfb65dc0b768b:xfce4-appfinder/.footprint
 f:28db9b9f47ed7e64beebce8aeeb1d4af:xfce4-appfinder/.signature
-f:8b133fe080cca70ee99fd8a2eb15e7a9:font-noto-emoji/post-install
-f:a9f481a917b32e8275545858efde4dfa:font-noto-emoji/Pkgfile
-f:59e2103f294258d01d57731282ee5445:font-noto-emoji/.footprint
-f:dfb5956bd48d06ffe6cfe743ebe7fd5b:font-noto-emoji/.signature
 f:82ce21b5132a6a573b2ecdb7f42364c8:xfce4-whiskermenu-plugin/post-install
 f:65a32ddf3b8be36b95131a8183e88f41:xfce4-whiskermenu-plugin/Pkgfile
 f:776d687872f539fd3f955558112949c8:xfce4-whiskermenu-plugin/.footprint
@@ -146,10 +140,6 @@ f:b3d9006391238926a50d6bcc06e8f731:xfce4-alsa-plugin/.signature
 f:f3b988ded3d5454416a281276cc2b523:xfce-polkit/Pkgfile
 f:d44f5844926692eb8307f1e86068a025:xfce-polkit/.footprint
 f:b1d84ce0b510eee592e12f0e8d5eac39:xfce-polkit/.signature
-f:8b133fe080cca70ee99fd8a2eb15e7a9:font-noto-jp/post-install
-f:16818e05f263c431f73cb82997e0c579:font-noto-jp/Pkgfile
-f:ba4cc31fff03d3e15213973fa159d70f:font-noto-jp/.footprint
-f:6160f959cdf156cd3302ed73297d55a7:font-noto-jp/.signature
 f:84bd098dca060e166e0db57c0f7b9e0a:xfce4-taskmanager/post-install
 f:fd5734e1b2c9582981477deba55a6443:xfce4-taskmanager/Pkgfile
 f:e5221729218781b32ab934a5c876f0ca:xfce4-taskmanager/patch1.patch

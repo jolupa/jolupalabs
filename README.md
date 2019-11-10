@@ -71,8 +71,7 @@ You can find other packages not Xfce related in this repo, here's a list.
 |---|:---:|---|
 | Berry | 0.1.3 | |
 | Font Undefined Medium | 1.0 | |
-| Font Noto Japan | 1.0 | |
-| Font Noto Emoji | 1.0 | |
+| Font Noto | 1.0 | All the Noto Fonts in one package |
 | Granite | 5.2.5 | |
 | Image Burner | 0.1.0 | |
 | Lshw | B0.2.18 | List Computer Hardware |
