@@ -82,8 +82,9 @@ f:43c7d2145588d8bd57c6972ce09d2e40:tumbler/Pkgfile
 f:15ac24efb5f25b694636d15fc29769c6:tumbler/.footprint
 f:96b2504f2bde3a758b2090e83b3caf50:tumbler/.signature
 f:8b133fe080cca70ee99fd8a2eb15e7a9:font-noto/post-install
-f:5987913f47a6f1e32f312a86f24cc698:font-noto/Pkgfile
-f:64374bbf7cbe83c6e02b0edcd5691e83:font-noto/.signature
+f:01de15c1968226c03a3092393620d350:font-noto/Pkgfile
+f:654a7d6327e718b4e0b809c7bb50a9bf:font-noto/.footprint
+f:6c89e74b8714154ec8eb93ae4a9f4d2f:font-noto/.signature
 f:5d4bd45ce49ac03ef8464178ef0e3d28:xfce4-session/post-install
 f:589fe16a82721aad72ee780a3cdd7253:xfce4-session/Pkgfile
 f:dec1b90d51805d3a657aed32de36aa1d:xfce4-session/.footprint
