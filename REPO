@@ -7,6 +7,7 @@ d:xfce4-whiskermenu-plugin
 d:xfce4-terminal
 d:xfce4-screenshooter
 d:tumbler
+d:font-noto
 d:xfce4-session
 d:qogir-theme
 d:xdg-user-dirs
@@ -80,6 +81,9 @@ f:83b01b4be7425465d59b518edda30eb1:tumbler/post-install
 f:43c7d2145588d8bd57c6972ce09d2e40:tumbler/Pkgfile
 f:15ac24efb5f25b694636d15fc29769c6:tumbler/.footprint
 f:96b2504f2bde3a758b2090e83b3caf50:tumbler/.signature
+f:8b133fe080cca70ee99fd8a2eb15e7a9:font-noto/post-install
+f:5987913f47a6f1e32f312a86f24cc698:font-noto/Pkgfile
+f:64374bbf7cbe83c6e02b0edcd5691e83:font-noto/.signature
 f:5d4bd45ce49ac03ef8464178ef0e3d28:xfce4-session/post-install
 f:589fe16a82721aad72ee780a3cdd7253:xfce4-session/Pkgfile
 f:dec1b90d51805d3a657aed32de36aa1d:xfce4-session/.footprint
