@@ -82,8 +82,9 @@ f:43c7d2145588d8bd57c6972ce09d2e40:tumbler/Pkgfile
 f:15ac24efb5f25b694636d15fc29769c6:tumbler/.footprint
 f:96b2504f2bde3a758b2090e83b3caf50:tumbler/.signature
 f:8b133fe080cca70ee99fd8a2eb15e7a9:font-noto/post-install
-f:5987913f47a6f1e32f312a86f24cc698:font-noto/Pkgfile
-f:64374bbf7cbe83c6e02b0edcd5691e83:font-noto/.signature
+f:01de15c1968226c03a3092393620d350:font-noto/Pkgfile
+f:654a7d6327e718b4e0b809c7bb50a9bf:font-noto/.footprint
+f:6c89e74b8714154ec8eb93ae4a9f4d2f:font-noto/.signature
 f:5d4bd45ce49ac03ef8464178ef0e3d28:xfce4-session/post-install
 f:589fe16a82721aad72ee780a3cdd7253:xfce4-session/Pkgfile
 f:dec1b90d51805d3a657aed32de36aa1d:xfce4-session/.footprint
@@ -129,9 +130,9 @@ f:45e0f9dabf60b70af642efb8078e527e:ristretto/patch_1.patch
 f:c78e65c0f355775b2a4a87e10f1653f4:ristretto/Pkgfile
 f:1cdfda85660079b2b6164d977f14f8cf:ristretto/.footprint
 f:693f51708361ce22ef20130c4a36f39e:ristretto/.signature
-f:0c80825aaee6ff0d5e8c112808495830:parole/Pkgfile
+f:bbf473caae3c0779c39fcdb237fe6f86:parole/Pkgfile
 f:7bf3c669d729f4f67c1a1024a91abe04:parole/.footprint
-f:f8cfc9bd6a0b3b5ff5b9659cad6d0c67:parole/.signature
+f:5a37fa8b1df82e21977ccf2838d3b38a:parole/.signature
 f:f13664a4be4442e36bfec1010f346a53:xfconf/Pkgfile
 f:8db2fb51d02156cea0a028059530a235:xfconf/.footprint
 f:39025b4d69a22cdbb0342c763f60700d:xfconf/.signature
@@ -194,9 +195,9 @@ f:7244c2e15e606674bd20327706b0eb1c:xfce4-settings/.signature
 f:567e8c2565ae11b4932437b494d01366:neofetch/Pkgfile
 f:7115e706eca005970f078ca22e563960:neofetch/.footprint
 f:b20ebdb03537e76230a4f9afebd2b32e:neofetch/.signature
-f:6dee540fb3837f5d7e5302334e2cf30c:exo/Pkgfile
+f:a40872aacb032e7ce8055ad80be4ac8f:exo/Pkgfile
 f:0eee6e7c4f20cb257faf908c859c9ff7:exo/.footprint
-f:6881974ebf56bb42cab2d12db4b9dfdd:exo/.signature
+f:1dd63d8348721a752c7a52666e922e5f:exo/.signature
 f:76801baf45606317fea3a05f86ac477d:sound-theme-smooth/README
 f:102a102c8d7672f3e928281363dcdc67:sound-theme-smooth/Pkgfile
 f:32d2cdd06b1b4e479cf4299380e5cc6f:sound-theme-smooth/Smooth.tar.gz
