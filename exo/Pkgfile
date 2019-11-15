@@ -4,9 +4,9 @@
 # Depends on: libxfce4util gtk3 p5-uri libxfce4ui
 
 name=exo
-version=0.12.8
-release=2
-source=(http://archive.xfce.org/xfce/4.14/src/$name-$version.tar.bz2)
+version=0.12.9
+release=1
+source=(https://archive.xfce.org/src/xfce/exo/${version:0:4}/$name-$version.tar.bz2)
 
 build() {
 	
