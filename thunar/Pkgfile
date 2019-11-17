@@ -4,7 +4,7 @@
 # Depends on: libxfce4ui exo libpng gtk3 glib libgudev libnotify xfce4-panel gvfs libexif freetype libjpeg-turbo xfconf
 
 name=thunar
-version=1.8.10
+version=1.8.11
 release=1
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:3}/$name-$version.tar.bz2)
 
