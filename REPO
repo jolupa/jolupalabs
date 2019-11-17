@@ -45,7 +45,6 @@ d:sound-theme-smooth
 d:nordic-theme
 d:granite
 d:volume_key
-d:xfce4-dev-tools
 d:xfce4-power-manager
 d:elementary-icon-theme
 d:xfce4-weather-plugin
@@ -213,9 +212,6 @@ f:2edd5a16d21fc1b024943803d8113a5b:granite/.signature
 f:72d22d583ede870f5b55cc020fda7b3f:volume_key/Pkgfile
 f:db87de63d9026a982b36debf318dad93:volume_key/.footprint
 f:90a89c8ece49f9d6491258a46431dca2:volume_key/.signature
-f:788bbcfe83808df7e998b83fcf5b45a0:xfce4-dev-tools/Pkgfile
-f:ff3aeed0a7ab0d52b5af9ce34fd34cb7:xfce4-dev-tools/.footprint
-f:79d2c76cff2b7775a53db05834e49ca9:xfce4-dev-tools/.signature
 f:feabb7500e1a111b11b0360c7d68ed98:xfce4-power-manager/post-install
 f:f8f22f780ad6c7056fe5ec08d11851ed:xfce4-power-manager/Pkgfile
 f:94f14d4a7ee5de34d48be53540675220:xfce4-power-manager/.footprint
