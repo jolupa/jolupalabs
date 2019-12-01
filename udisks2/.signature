@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/mate.pub
+RWTDGCtBFHpiOeUsFSddqAPDufDuMk5COG/kkVRTZF2NvC5nUY2oql6XEsAI97yUK1zE44GjBXHrNjqJMzAYMfYquBg+5fNgMAQ=
+SHA256 (Pkgfile) = 70f0202fa4c95260a0e173479ba24739d4c1c8d59df8f6d21a4cb60aea5860b0
+SHA256 (.footprint) = 01474a172de78ffdb508802cda0c9c547d83becab8da30c2080193511c40757d
+SHA256 (udisks-2.8.3.tar.bz2) = 7b80a9a2a37caf3183dad7c5247740abd8b41cbd60c59f0853d8cbf3552cc6a0
