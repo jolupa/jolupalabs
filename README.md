@@ -61,6 +61,11 @@ This are the dependencies you can find in this repository that are not avalaible
 | Thunar | Gvfs |
 | Thunar-Volman | Gvfs |
 | Xfce4-Settings | Colord |
+| Gvfs | udisks2 | 
+| | Libatasmart |
+| | Libblockdev |
+| Libatasmart | Libbytesize |
+| | Ndctl |
 
 OTHER PACKAGES IN THIS REPO
 =====
@@ -80,3 +85,4 @@ You can find other packages not Xfce related in this repo, here's a list.
 | Nordic | 1.6.5 | A beatiful Gtk3 theme based in nordic color scheme |
 | ObinsKit | 1.1.1 | Software for controlling the Anne Pro 2 Mechanical Keyboard. |
 | Qogir Gtk theme | 2019-10-25 | Fantastic Flat Theme |
+| Vala | 0.46.5 | Needed for Granite compilation |
