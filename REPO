@@ -33,6 +33,7 @@ d:libxfce4ui
 d:libxfce4util
 d:xfce4-panel
 d:font-undefined-medium
+d:udisks2
 d:image-burner
 d:obinskit
 d:xfce4-notifyd
@@ -40,6 +41,7 @@ d:libgee
 d:garcon
 d:xfce4-settings
 d:neofetch
+d:libblockdev
 d:exo
 d:sound-theme-smooth
 d:nordic-theme
@@ -48,9 +50,10 @@ d:volume_key
 d:xfce4-power-manager
 d:elementary-icon-theme
 d:xfce4-weather-plugin
+d:vala
 f:264a2c0093c443092c56e51a296d84c3:gvfs/Pkgfile
-f:47e83f834f88ce8d4736530e705f8893:gvfs/.footprint
-f:54acd38c3acdd7eac86efee42e586407:gvfs/.signature
+f:1e5ccb70b473a44de3e539ed3f81e4ff:gvfs/.footprint
+f:337838c2cae8c14eb10cf52fc17612c1:gvfs/.signature
 f:97f3307ae444efaa04ddff9d7440d0cc:mousepad/post-install
 f:92a11490e94081451fa3d2c7ff802312:mousepad/Pkgfile
 f:8f62809f276e448852035e65321b795b:mousepad/.footprint
@@ -168,11 +171,14 @@ f:8b133fe080cca70ee99fd8a2eb15e7a9:font-undefined-medium/post-install
 f:e7d74a955252220dcb5fa03dc86138a2:font-undefined-medium/Pkgfile
 f:483f9dfefb4947bb7e2d82a27c6e5f44:font-undefined-medium/.footprint
 f:9a506726d7f6a82079fafcd53b6b0c01:font-undefined-medium/.signature
+f:b3fab63139c68773744122a4bd858123:udisks2/Pkgfile
+f:99d3c33a943ea1aad09a88d9d97ddcd2:udisks2/.footprint
+f:e3cbf863b1f19cea2ecb10606283fdd0:udisks2/.signature
 f:f04eaddcd4e3fcb9c16c358ea85b5dc3:image-burner/post-install
-f:b2bf6fe7b8db99105d6247541ced44ae:image-burner/Pkgfile
+f:af498bae95459079775890d96fefb3ab:image-burner/Pkgfile
 f:73e21067600c3aba3426db7ad22559c1:image-burner/image-burner.desktop
 f:f3e038b7d1210c05416968b02ad6061c:image-burner/.footprint
-f:cb3dda630caf63991d125e8127d38d3c:image-burner/.signature
+f:75c40736dafadbd968ad1ab9cdb9b94b:image-burner/.signature
 f:a63b75af9a6db1e408e7bc7f64d7fee1:obinskit/post-install
 f:961d458622c7172f10cf379e28f841c2:obinskit/icons.tar.gz
 f:91760c8c3fcec91bf6273765a4b45a6d:obinskit/Pkgfile
@@ -194,6 +200,9 @@ f:7244c2e15e606674bd20327706b0eb1c:xfce4-settings/.signature
 f:567e8c2565ae11b4932437b494d01366:neofetch/Pkgfile
 f:7115e706eca005970f078ca22e563960:neofetch/.footprint
 f:b20ebdb03537e76230a4f9afebd2b32e:neofetch/.signature
+f:51b2252383c76ccb56f6fe9bfeead472:libblockdev/Pkgfile
+f:c7960410726f92f17cc8be22ca58b621:libblockdev/.footprint
+f:fbbaae4bfa5a5165c417cddfa63b6e6b:libblockdev/.signature
 f:1b236905fdc3680521e0cf3174bd96d8:exo/Pkgfile
 f:0eee6e7c4f20cb257faf908c859c9ff7:exo/.footprint
 f:52af46ca5bd8a6564832dca419da4097:exo/.signature
@@ -224,3 +233,6 @@ f:82ce21b5132a6a573b2ecdb7f42364c8:xfce4-weather-plugin/post-install
 f:76e95f32ba3ee3d98477c533bd0959a0:xfce4-weather-plugin/Pkgfile
 f:95c9007b6082fb3a4a9eadb87547dbd6:xfce4-weather-plugin/.footprint
 f:2deb8286c3d5b681468da69815559ff8:xfce4-weather-plugin/.signature
+f:9f4d5c8b0afc45c31d0f38b72f126b70:vala/Pkgfile
+f:dc4a5e79bbe46425981ad8183c98f908:vala/.footprint
+f:9f3d943420857a861b1ca74c1b9dfdcd:vala/.signature
