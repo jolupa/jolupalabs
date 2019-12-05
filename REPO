@@ -168,9 +168,9 @@ f:8cea4206a4be051b6dc4b18719bdf6c9:libxfce4ui/.signature
 f:eb7bdc393faa96eedcb897f406e84ffd:libxfce4util/Pkgfile
 f:927283b639e5d18073a061370a32c27e:libxfce4util/.footprint
 f:435c27b77ca5b8982bf1bdb05d9bc21d:libxfce4util/.signature
-f:1ffb251b2ea4e02d4392608141cb55f3:xfce4-panel/Pkgfile
-f:26f3ce8fe657e3d6c66a6a4edda7476c:xfce4-panel/.footprint
-f:a093c890ba5520e2708d0a5232623ecd:xfce4-panel/.signature
+f:2776c699a967f29cc5509a28cdfc4c1b:xfce4-panel/Pkgfile
+f:4b8960cd31d6ff13a35e0bd2a11da5e7:xfce4-panel/.footprint
+f:7a2eb84b4f7afde522fd484495ec4853:xfce4-panel/.signature
 f:8b133fe080cca70ee99fd8a2eb15e7a9:font-undefined-medium/post-install
 f:e7d74a955252220dcb5fa03dc86138a2:font-undefined-medium/Pkgfile
 f:483f9dfefb4947bb7e2d82a27c6e5f44:font-undefined-medium/.footprint
