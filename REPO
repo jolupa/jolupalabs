@@ -2,6 +2,7 @@ d:gvfs
 d:mousepad
 d:colord
 d:xfdesktop
+d:libgtop
 d:xfce4-appfinder
 d:xfce4-whiskermenu-plugin
 d:xfce4-terminal
@@ -65,6 +66,9 @@ f:c61cf01066aba6ede1a426ef3ceb43a3:colord/pre-install
 f:a1a6cd2c39f7f1c0d52a55d70c30eadc:xfdesktop/Pkgfile
 f:bd80c716c9693cf68c15ec312a804311:xfdesktop/.footprint
 f:59163d64a32c054164b8497bc012791e:xfdesktop/.signature
+f:db9671fabb2a31fb5e03f0688fded28d:libgtop/Pkgfile
+f:d484061e70c8843c75143ffac5797f73:libgtop/.footprint
+f:8cb61fd6f3dc7ccf228f9d4c6fc71304:libgtop/.signature
 f:1e7bfbd385f0d9d7d797bffb94c67323:xfce4-appfinder/Pkgfile
 f:72397cab6ba8ce4a92ddfb65dc0b768b:xfce4-appfinder/.footprint
 f:28db9b9f47ed7e64beebce8aeeb1d4af:xfce4-appfinder/.signature
@@ -158,9 +162,9 @@ f:7e0738a64f14126455bdc3261698134e:xfwm4/.signature
 f:a2e1c02ef01dc48f9d5cd6e375e0c83d:xfce4-xkb-plugin/Pkgfile
 f:ec1afb59e7d306a50bc0e424c9108e53:xfce4-xkb-plugin/.footprint
 f:b46030efde73a8488bd8c4a93ddc1aca:xfce4-xkb-plugin/.signature
-f:6c68ea876baade6f9719f57467d013ab:libxfce4ui/Pkgfile
-f:fe96e447b7524fd48bf74c5fcbf23e2c:libxfce4ui/.footprint
-f:37aa806cf5a45c78e4d212aa7d7116af:libxfce4ui/.signature
+f:e393be2d2132a9ae947ba7ef5f8f8992:libxfce4ui/Pkgfile
+f:15978dbfc8e020ebf9980aa7368bf4f1:libxfce4ui/.footprint
+f:8cea4206a4be051b6dc4b18719bdf6c9:libxfce4ui/.signature
 f:eb7bdc393faa96eedcb897f406e84ffd:libxfce4util/Pkgfile
 f:927283b639e5d18073a061370a32c27e:libxfce4util/.footprint
 f:435c27b77ca5b8982bf1bdb05d9bc21d:libxfce4util/.signature

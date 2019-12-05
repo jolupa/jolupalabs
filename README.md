@@ -58,10 +58,11 @@ This are the dependencies you can find in this repository that are not avalaible
 
 | PACKAGE | DEPENDENCY |
 |---|---|
+| LibXfce4Ui | Libgtop |
 | Thunar | Gvfs |
 | Thunar-Volman | Gvfs |
 | Xfce4-Settings | Colord |
-| Gvfs | udisks2 | 
+| Gvfs | Udisks2 | 
 | | Libatasmart |
 | | Libblockdev |
 | Libatasmart | Libbytesize |
