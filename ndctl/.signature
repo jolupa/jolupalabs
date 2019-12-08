@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWSXS6u+dmakZLiMwDLjaZNGk0WHmpHZL6xwI3ISF3mxWrCKFpC4MOlL+l6m9suj/Yom4mZ9Wo3Sbshl/aCbqKQ530xWGZafvgU=
-SHA256 (Pkgfile) = 49d22ffc05626b00c4cdde65642dbd6d191c9ee4962a84bfbeb0e734be64f92e
-SHA256 (ndctl-v60.3.tar.gz) = 5a97672e90eb9916fbde05e4246754a9290d780200e140be68fd4babc0cfe775
+RWSXS6u+dmakZM3xJTD8kmXNVidHDjtP1DZrw18sFh+DefvNWGmbSy6tBGXSnTxJpN1+r1tkyBhMe1Npq9Vc8/vOrOWDKtVdKA0=
+SHA256 (Pkgfile) = 20b0b1b20cafb1480ad8dea6e1fe7cbfe9f7a1df4a9f927f989060ca539d531f
+SHA256 (.footprint) = 1a2aa7b54b34d782d24cfdad79462be448e456878f03fdfb09ed62e13704a955
+SHA256 (v67.tar.gz) = 32b498e333570c34040418478619316c1e2a51339dde5fc00a3864453b6e2d82

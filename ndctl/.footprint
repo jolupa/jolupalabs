@@ -2,6 +2,11 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/daxctl
 -rwxr-xr-x	root/root	usr/bin/ndctl
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/modprobe.d/
+-rw-r--r--	root/root	usr/etc/modprobe.d/nvdimm-security.conf
+drwxr-xr-x	root/root	usr/etc/ndctl/
+-rw-r--r--	root/root	usr/etc/ndctl/monitor.conf
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/daxctl/
 -rw-r--r--	root/root	usr/include/daxctl/libdaxctl.h
@@ -11,17 +16,16 @@ drwxr-xr-x	root/root	usr/include/ndctl/
 -rw-r--r--	root/root	usr/include/ndctl/ndctl.h
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libdaxctl.la
-lrwxrwxrwx	root/root	usr/lib/libdaxctl.so -> libdaxctl.so.1.2.0
-lrwxrwxrwx	root/root	usr/lib/libdaxctl.so.1 -> libdaxctl.so.1.2.0
--rwxr-xr-x	root/root	usr/lib/libdaxctl.so.1.2.0
+lrwxrwxrwx	root/root	usr/lib/libdaxctl.so -> libdaxctl.so.1.4.0
+lrwxrwxrwx	root/root	usr/lib/libdaxctl.so.1 -> libdaxctl.so.1.4.0
+-rwxr-xr-x	root/root	usr/lib/libdaxctl.so.1.4.0
 -rwxr-xr-x	root/root	usr/lib/libndctl.la
-lrwxrwxrwx	root/root	usr/lib/libndctl.so -> libndctl.so.6.10.0
-lrwxrwxrwx	root/root	usr/lib/libndctl.so.6 -> libndctl.so.6.10.0
--rwxr-xr-x	root/root	usr/lib/libndctl.so.6.10.0
+lrwxrwxrwx	root/root	usr/lib/libndctl.so -> libndctl.so.6.16.0
+lrwxrwxrwx	root/root	usr/lib/libndctl.so.6 -> libndctl.so.6.16.0
+-rwxr-xr-x	root/root	usr/lib/libndctl.so.6.16.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libdaxctl.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libndctl.pc
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/bash-completion/
-drwxr-xr-x	root/root	usr/share/bash-completion/completions/
--rw-r--r--	root/root	usr/share/bash-completion/completions/ndctl
+drwxr-xr-x	root/root	usr/share/daxctl/
+-rw-r--r--	root/root	usr/share/daxctl/daxctl.conf
