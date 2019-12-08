@@ -5,7 +5,7 @@
 
 name=xiccd
 version=0.3.0
-release=3
+release=4
 source=(https://github.com/agalakhov/$name/archive/v$version.tar.gz)
 
 build() {
@@ -23,15 +23,10 @@ build() {
     --prefix=/usr \
     --sbindir=/sbin \
     --sysconfdir=/etc \
-    --libexecdir=/usr/lib/xiccd \
+    --libexecdir=/usr/lib/$name \
     --disable-dependency-tracking
 
   make
   make DESTDIR=$PKG install
-
-  mkdir -p $PKG/usr/etc
-  mv $PKG/etc/xdg $PKG/usr/etc
-
-  rm -r $PKG/etc
 
 }
