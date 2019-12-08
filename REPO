@@ -107,9 +107,9 @@ f:c110581be77ed5fcc2db17831dcb3e58:lshw/.signature
 f:f5c42a551f587048c2e205827b72d5b0:libatasmart/Pkgfile
 f:076c350230a7e161f1feab580ecbcb42:libatasmart/.footprint
 f:aa145d03983bc15a6d17310b5c9627fb:libatasmart/.signature
-f:05c4036e89919dfb90617c55180ab6ac:xiccd/Pkgfile
-f:6c1f427eb396d3803fe89fb2f9477187:xiccd/.footprint
-f:055c983f91137ae888b1047627d3eb41:xiccd/.signature
+f:7b1d2d7a5af9b74749d29bcaab4afe7f:xiccd/Pkgfile
+f:eb694254504a56ef8484b3b663b1f6cc:xiccd/.footprint
+f:fa6a5dd5e0f1b540d2a232cdbd1e1556:xiccd/.signature
 f:b3cbf543e1dcd76d586e7e1436faddc1:xfce4-screensaver/Pkgfile
 f:18323b326bead6a557968d154a03b9d8:xfce4-screensaver/.footprint
 f:de1345235613eba15ff09aab3666c643:xfce4-screensaver/common_auth.patch
