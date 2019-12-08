@@ -114,9 +114,9 @@ f:b3cbf543e1dcd76d586e7e1436faddc1:xfce4-screensaver/Pkgfile
 f:18323b326bead6a557968d154a03b9d8:xfce4-screensaver/.footprint
 f:de1345235613eba15ff09aab3666c643:xfce4-screensaver/common_auth.patch
 f:25a3a581601af2e2fe29e86bce89d88f:xfce4-screensaver/.signature
-f:a61d7509bc8ad84129103b03044952e3:ndctl/Pkgfile
-f:d77c3fe71f77e8c3ff3e626a160567b8:ndctl/.footprint
-f:76eb5c34e5f0a60655f9f49b235a6245:ndctl/.signature
+f:e206cfe2b6cf366eaf0bbb0e523858b1:ndctl/Pkgfile
+f:56536a815af3233054a4c61efb636643:ndctl/.footprint
+f:4e9968021e5ea8bed18dc7aca7946579:ndctl/.signature
 f:4b14623b9a6832fb6d92ed3f838280ab:thunar-volman/Pkgfile
 f:0a0df20c97bf8a275dc6c256c0e22059:thunar-volman/.footprint
 f:19ae7ba369f82ca35aafcb2f0cfcabf9:thunar-volman/.signature
@@ -175,9 +175,9 @@ f:8b133fe080cca70ee99fd8a2eb15e7a9:font-undefined-medium/post-install
 f:e7d74a955252220dcb5fa03dc86138a2:font-undefined-medium/Pkgfile
 f:483f9dfefb4947bb7e2d82a27c6e5f44:font-undefined-medium/.footprint
 f:9a506726d7f6a82079fafcd53b6b0c01:font-undefined-medium/.signature
-f:b3fab63139c68773744122a4bd858123:udisks2/Pkgfile
+f:d66d24499e3816e44c4020e592e94fba:udisks2/Pkgfile
 f:99d3c33a943ea1aad09a88d9d97ddcd2:udisks2/.footprint
-f:e3cbf863b1f19cea2ecb10606283fdd0:udisks2/.signature
+f:465ab23a92df5383d39d456226b24547:udisks2/.signature
 f:f04eaddcd4e3fcb9c16c358ea85b5dc3:image-burner/post-install
 f:af498bae95459079775890d96fefb3ab:image-burner/Pkgfile
 f:73e21067600c3aba3426db7ad22559c1:image-burner/image-burner.desktop
@@ -222,9 +222,9 @@ f:5056ff22ef45a9b61005fb0bfe765a9f:granite/post-install
 f:c81a393c555af610b6dc091ee8d59532:granite/Pkgfile
 f:384bbb1d4f4082eb6827cd3aad5c9452:granite/.footprint
 f:2edd5a16d21fc1b024943803d8113a5b:granite/.signature
-f:72d22d583ede870f5b55cc020fda7b3f:volume_key/Pkgfile
-f:db87de63d9026a982b36debf318dad93:volume_key/.footprint
-f:90a89c8ece49f9d6491258a46431dca2:volume_key/.signature
+f:7e02b4ca2c2070592120e31501c3cb39:volume_key/Pkgfile
+f:27c5d75e9362508c3436b3c1da8288e6:volume_key/.footprint
+f:246a45c86b82f0d59c4f67eb7844b0f1:volume_key/.signature
 f:feabb7500e1a111b11b0360c7d68ed98:xfce4-power-manager/post-install
 f:f8f22f780ad6c7056fe5ec08d11851ed:xfce4-power-manager/Pkgfile
 f:94f14d4a7ee5de34d48be53540675220:xfce4-power-manager/.footprint
