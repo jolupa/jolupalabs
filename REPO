@@ -18,7 +18,6 @@ d:xiccd
 d:xfce4-screensaver
 d:ndctl
 d:thunar-volman
-d:berry
 d:thunar
 d:greybird-theme
 d:ristretto
@@ -120,10 +119,6 @@ f:4e9968021e5ea8bed18dc7aca7946579:ndctl/.signature
 f:4b14623b9a6832fb6d92ed3f838280ab:thunar-volman/Pkgfile
 f:0a0df20c97bf8a275dc6c256c0e22059:thunar-volman/.footprint
 f:19ae7ba369f82ca35aafcb2f0cfcabf9:thunar-volman/.signature
-f:281e14a83e2ed5ee28945714e20e4654:berry/berry.desktop
-f:5d19950dc0b9e724efc3758556e05fad:berry/Pkgfile
-f:972ee85f358ecff4c05f9cba85ea2a5f:berry/.footprint
-f:4de032acb59f8aab37a2485ed23632e2:berry/.signature
 f:d41a919ef58c2fccd4d3570e184ce9de:thunar/post-install
 f:cfe855d7143b3dc95a2848c86db5d351:thunar/Pkgfile
 f:f9bc57a60b48167494e95f9de0f7b77a:thunar/.footprint
@@ -207,9 +202,9 @@ f:b20ebdb03537e76230a4f9afebd2b32e:neofetch/.signature
 f:51b2252383c76ccb56f6fe9bfeead472:libblockdev/Pkgfile
 f:c7960410726f92f17cc8be22ca58b621:libblockdev/.footprint
 f:fbbaae4bfa5a5165c417cddfa63b6e6b:libblockdev/.signature
-f:1b236905fdc3680521e0cf3174bd96d8:exo/Pkgfile
+f:e18f3ff1335a5aeaee270c037eab81e4:exo/Pkgfile
 f:0eee6e7c4f20cb257faf908c859c9ff7:exo/.footprint
-f:52af46ca5bd8a6564832dca419da4097:exo/.signature
+f:fd6f39e50bdcfca99f88451f4890a03d:exo/.signature
 f:76801baf45606317fea3a05f86ac477d:sound-theme-smooth/README
 f:102a102c8d7672f3e928281363dcdc67:sound-theme-smooth/Pkgfile
 f:32d2cdd06b1b4e479cf4299380e5cc6f:sound-theme-smooth/Smooth.tar.gz

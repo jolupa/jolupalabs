@@ -75,7 +75,6 @@ You can find other packages not Xfce related in this repo, here's a list.
 
 | PACKAGE NAME | VERSION | NOTES |
 |---|:---:|---|
-| Berry | 0.1.3 | |
 | Font Undefined Medium | 1.0 | |
 | Font Noto | 1.0 | All the Noto Fonts in one package |
 | Granite | 5.2.5 | |
