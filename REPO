@@ -83,9 +83,9 @@ f:7dc727fe4b6bff49286867ca7da8b240:xfce4-screenshooter/Pkgfile
 f:4448c7202cf7c2b0b426a24c6a740d51:xfce4-screenshooter/.footprint
 f:aca8482ec4eab16f5e4452955390a55e:xfce4-screenshooter/.signature
 f:83b01b4be7425465d59b518edda30eb1:tumbler/post-install
-f:43c7d2145588d8bd57c6972ce09d2e40:tumbler/Pkgfile
-f:15ac24efb5f25b694636d15fc29769c6:tumbler/.footprint
-f:96b2504f2bde3a758b2090e83b3caf50:tumbler/.signature
+f:61f121f9d83d8dc2b8365dc6e7b67ece:tumbler/Pkgfile
+f:4823765b4407a65d5e1c478b289d19f0:tumbler/.footprint
+f:836aac3b9ca01fcbaaa928fb7abeec57:tumbler/.signature
 f:8b133fe080cca70ee99fd8a2eb15e7a9:font-noto/post-install
 f:01de15c1968226c03a3092393620d350:font-noto/Pkgfile
 f:654a7d6327e718b4e0b809c7bb50a9bf:font-noto/.footprint
