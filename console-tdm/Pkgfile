@@ -1,0 +1,18 @@
+# Description: The Console Display Manager
+# URL: https://github.com/dopsi/console-tdm
+# Packager: jolupa, jlpavon at me dot com
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: dialog xorg-xinit
+
+name=console-tdm
+version=1.4.1
+release=1
+source=(https://github.com/dopsi/$name/archive/v$version.tar.gz)
+
+build() {
+
+	cd $name-$version
+
+  make PREFIX=/usr DESTDIR=$PKG install
+
+}
