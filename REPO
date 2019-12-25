@@ -37,6 +37,7 @@ d:udisks2
 d:image-burner
 d:obinskit
 d:xfce4-notifyd
+d:console-tdm
 d:libgee
 d:garcon
 d:xfce4-settings
@@ -187,6 +188,10 @@ f:979e5eba58d15a1d1056ae9956bffbcb:obinskit/obinskit.desktop
 f:6c7853f5486cd2ad92ecc66e569052ba:xfce4-notifyd/Pkgfile
 f:a2ff05c6cc6fdf9547926bb5dc35fd42:xfce4-notifyd/.footprint
 f:ebdc4542a4f7e921f53bbe5c1fe595af:xfce4-notifyd/.signature
+f:faad09f2c8002b777a008e5694479a47:console-tdm/README
+f:968d07d8a54fbe19e690ee8ce2cfa881:console-tdm/Pkgfile
+f:a10d06f88ee848d108df1b8ed11e197d:console-tdm/.footprint
+f:d0668d5d817cf39bb44d910ab6394490:console-tdm/.signature
 f:7747d274598f017f9f15d1aa49667abc:libgee/Pkgfile
 f:6bcdf9f21265f03ae3c3fb5bc67d953f:libgee/.footprint
 f:4dbe1bf78be51118f619115932462adc:libgee/.signature

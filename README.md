@@ -75,6 +75,7 @@ You can find other packages not Xfce related in this repo, here's a list.
 
 | PACKAGE NAME | VERSION | NOTES |
 |---|:---:|---|
+| Console Tdm | 1.4.1 | A Console Display Manager |
 | Font Undefined Medium | 1.0 | |
 | Font Noto | 1.0 | All the Noto Fonts in one package |
 | Granite | 5.2.5 | |
