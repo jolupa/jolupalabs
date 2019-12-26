@@ -5,18 +5,31 @@
 # Depends on: glib gcr samba libgcrypt polkit docbook-xsl libgphoto2 meson ninja libsoup
 
 name=gvfs
-version=1.36.0
+version=1.43.2
 release=1
 source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
 
 build() {
+
   cd $name-$version
-  sed -i -e '/gtkdocize/d' autogen.sh
-  NOCONFIGURE=1 ./autogen.sh
-  ./configure --prefix=/usr \
+
+  meson build \
+    --prefix=/usr \
     --libexecdir=/usr/lib/$name \
-    --enable-udisks2 \
-    --disable-nls
-  make
-  make DESTDIR=$PKG install
+    -Denable-udisks2=true \
+    -Dlogind=false \
+    -Dsystemduserunitdir=no \
+    -Dtmpfilesdir=no \
+    -Ddnssd=false \
+    -Dfuse=false \
+    -Dafc=false \
+    -Dgoa=false \
+    -Dbluray=false \
+    -Dcdda=false \
+    -Dgoogle=false \
+    -Dmtp=false \
+    -Dnfs=false
+
+  DESTDIR=$PKG ninja -C build install
+
 }
