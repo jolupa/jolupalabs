@@ -56,17 +56,16 @@ XFCE DEPENDENCIES IN THIS REPOSITORY
 
 This are the dependencies you can find in this repository that are not avalaible in the oficila Crux repos.
 
-| PACKAGE | DEPENDENCY |
-|---|---|
-| LibXfce4Ui | Libgtop |
-| Thunar | Gvfs |
-| Thunar-Volman | Gvfs |
-| Xfce4-Settings | Colord |
-| Gvfs | Udisks2 | 
-| | Libatasmart |
-| | Libblockdev |
-| Libatasmart | Libbytesize |
-| | Ndctl |
+| PACKAGE | DEPENDENCY | | |
+|---|---|---|---|
+| LibXfce4Ui | Libgtop | | |
+| Thunar/Thunar-Volman | Gvfs | | |
+| | | Udisks2 | |
+| | | Gsettings-Desktop-Schemas | |
+| | | Libatasmart | Libbytesize |
+| | | | Ndctl |
+| | | Libblockdev | |
+| Xfce4-Settings | Colord | |
 
 OTHER PACKAGES IN THIS REPO
 =====

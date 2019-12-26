@@ -30,6 +30,7 @@ d:xfce4-taskmanager
 d:xfwm4
 d:xfce4-xkb-plugin
 d:libxfce4ui
+d:gsettings-desktop-schemas
 d:libxfce4util
 d:xfce4-panel
 d:font-undefined-medium
@@ -52,9 +53,9 @@ d:xfce4-power-manager
 d:elementary-icon-theme
 d:xfce4-weather-plugin
 d:vala
-f:264a2c0093c443092c56e51a296d84c3:gvfs/Pkgfile
-f:1e5ccb70b473a44de3e539ed3f81e4ff:gvfs/.footprint
-f:337838c2cae8c14eb10cf52fc17612c1:gvfs/.signature
+f:5e8c1e62ce7be3a7eea07d25818d6cb2:gvfs/Pkgfile
+f:a456012933be7c703fe944de6e7d269c:gvfs/.footprint
+f:eecad611023ff5cc2049aa9b0e1c5898:gvfs/.signature
 f:97f3307ae444efaa04ddff9d7440d0cc:mousepad/post-install
 f:92a11490e94081451fa3d2c7ff802312:mousepad/Pkgfile
 f:8f62809f276e448852035e65321b795b:mousepad/.footprint
@@ -161,6 +162,10 @@ f:b46030efde73a8488bd8c4a93ddc1aca:xfce4-xkb-plugin/.signature
 f:e393be2d2132a9ae947ba7ef5f8f8992:libxfce4ui/Pkgfile
 f:15978dbfc8e020ebf9980aa7368bf4f1:libxfce4ui/.footprint
 f:8cea4206a4be051b6dc4b18719bdf6c9:libxfce4ui/.signature
+f:e5f74be27525658dae59401455944186:gsettings-desktop-schemas/post-install
+f:118818e154fd69290cc88fa3adaed6fd:gsettings-desktop-schemas/Pkgfile
+f:10c99be3c75c602561f25e2d34cdc9bc:gsettings-desktop-schemas/.footprint
+f:3ed5442a06c2430f45f7bc6ecec044f3:gsettings-desktop-schemas/.signature
 f:eb7bdc393faa96eedcb897f406e84ffd:libxfce4util/Pkgfile
 f:927283b639e5d18073a061370a32c27e:libxfce4util/.footprint
 f:435c27b77ca5b8982bf1bdb05d9bc21d:libxfce4util/.signature
