@@ -61,8 +61,7 @@ This are the dependencies you can find in this repository that are not avalaible
 | LibXfce4Ui | Libgtop | | |
 | Thunar/Thunar-Volman | Gvfs | Udisks2 | |
 | | | Gsettings-Desktop-Schemas | |
-| | | Libatasmart | Libbytesize |
-| | | | Ndctl |
+| | | Libatasmart | Ndctl |
 | | | Libblockdev | |
 | Xfce4-Settings | Colord | |
 
