@@ -4,9 +4,9 @@
 # Depends on: libxfce4ui vte3
 
 name=xfce4-terminal
-version=0.8.8
-release=3
-source=(http://archive.xfce.org/src/apps/xfce4-terminal/0.8/$name-$version.tar.bz2)
+version=0.8.9
+release=1
+source=(http://archive.xfce.org/src/apps/$name/${version:0:3}/$name-$version.tar.bz2)
 
 build() {
 

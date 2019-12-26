@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWSXS6u+dmakZKBxH/QgDzIN81j9d/0tGP43mRSG80cXN37OrIwJduURDCL/J3DXHgkIIXKwpJi3hg5tlJ+HK2AZDZgd/Riu5QE=
-SHA256 (Pkgfile) = f6bbe191e4727183ae7fe8c3deec4d0f1005411c87cfaf2d8fb373e977b93384
+RWSXS6u+dmakZIr5nDf7p0Kzkybv4APg30KwPpBOUAxmAmcUV+JL+rTslKGcisDRnVQGgWsoO/w2KO5y7VZ0XX5+pYTXPLilswM=
+SHA256 (Pkgfile) = 2d14da2fbc98fa0018f0e1dc631fed18782d6a734fba9b226f9450c972c122ff
 SHA256 (.footprint) = b66396fec2e2ec3ce6241f3149215a2b10f7069197b57f64605296305c31cf15
-SHA256 (xfce4-terminal-0.8.8.tar.bz2) = 8fba6a60d3a0fee07417ad7c36bf78cc45be1b27f0759e125051aa73f08487fd
+SHA256 (xfce4-terminal-0.8.9.tar.bz2) = 247683a51a964cfaa6b1e92030afe9f782efebfcb550a464170b53eb94216795
