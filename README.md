@@ -59,8 +59,7 @@ This are the dependencies you can find in this repository that are not avalaible
 | PACKAGE | DEPENDENCY | | |
 |---|---|---|---|
 | LibXfce4Ui | Libgtop | | |
-| Thunar/Thunar-Volman | Gvfs | | |
-| | | Udisks2 | |
+| Thunar/Thunar-Volman | Gvfs | Udisks2 | |
 | | | Gsettings-Desktop-Schemas | |
 | | | Libatasmart | Libbytesize |
 | | | | Ndctl |
