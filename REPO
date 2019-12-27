@@ -163,9 +163,9 @@ f:e393be2d2132a9ae947ba7ef5f8f8992:libxfce4ui/Pkgfile
 f:15978dbfc8e020ebf9980aa7368bf4f1:libxfce4ui/.footprint
 f:8cea4206a4be051b6dc4b18719bdf6c9:libxfce4ui/.signature
 f:e5f74be27525658dae59401455944186:gsettings-desktop-schemas/post-install
-f:118818e154fd69290cc88fa3adaed6fd:gsettings-desktop-schemas/Pkgfile
+f:83410c336e56901c4105131696b24d2d:gsettings-desktop-schemas/Pkgfile
 f:10c99be3c75c602561f25e2d34cdc9bc:gsettings-desktop-schemas/.footprint
-f:3ed5442a06c2430f45f7bc6ecec044f3:gsettings-desktop-schemas/.signature
+f:588a63500071b47d3cc469d741875518:gsettings-desktop-schemas/.signature
 f:eb7bdc393faa96eedcb897f406e84ffd:libxfce4util/Pkgfile
 f:927283b639e5d18073a061370a32c27e:libxfce4util/.footprint
 f:435c27b77ca5b8982bf1bdb05d9bc21d:libxfce4util/.signature
