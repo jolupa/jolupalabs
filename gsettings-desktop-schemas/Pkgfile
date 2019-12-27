@@ -10,6 +10,7 @@ release=1
 source=(https://ftp.gnome.org/pub/gnome/sources/$name/${version:0:4}/$name-$version.tar.xz)
 
 build() {
+
 	cd $name-$version
 
   meson build \
