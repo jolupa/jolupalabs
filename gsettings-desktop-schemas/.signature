@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWSXS6u+dmakZGRqozqtKtQOoUYjnzoO6cZMXx3jAhyKmwBsYV1kacOmiB5b89k2MyHSqTsEKdQs6izoRQYR7rYq3kloZSOgyQI=
-SHA256 (Pkgfile) = c2124e12152c21db6e2d2c1fdf3d90e73ea28168d2f2e9254b78d789b32be7e7
+RWSXS6u+dmakZF4brVHaDFTD3hjD/qoArbYZ/H7CN4DnuH19smO+PEp37+fa2wa4npC/jrSflARZDvMJMXHgwIihsPpKU7gQbwQ=
+SHA256 (Pkgfile) = b7aa224cb9c2ed830513190b19fc86e32374303fe08447b0f239fed3cf1f01ca
 SHA256 (.footprint) = b0249bef73c0945c9df41fb4b97653a93473a4b28cafd767f90a23eb578f26a3
-SHA256 (gsettings-desktop-schemas-3.33.92.tar.xz) = 8094f58ce74a1fae45271116a329690c9c1c996f692227448da743956ae309bf
+SHA256 (gsettings-desktop-schemas-3.34.0.tar.xz) = 288b04260f7040b0e004a8d59c773cfb4e32df4f1b4a0f9d705c51afccc95ead
