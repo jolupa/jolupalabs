@@ -4,20 +4,16 @@
 # Depends on: optipng gtk3 sassc
 
 name=greybird-theme
-version=3.22.10
-release=1
+version=3.22.11
+release=2
 source=(https://github.com/shimmerproject/Greybird/archive/v$version.tar.gz)
 
 build() {
 
 	cd Greybird-$version
 
-	./autogen.sh \
-		--prefix=/usr
-	
-	make
-	make DESTDIR=$PKG install
-	
-	rm $PKG/usr/share/themes/Greybird/gtk-3.0/README
+  meson --prefix=/usr build
+
+  DESTDIR=$PKG ninja -C build install
 	
 }
