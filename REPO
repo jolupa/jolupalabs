@@ -93,9 +93,9 @@ f:01de15c1968226c03a3092393620d350:font-noto/Pkgfile
 f:654a7d6327e718b4e0b809c7bb50a9bf:font-noto/.footprint
 f:6c89e74b8714154ec8eb93ae4a9f4d2f:font-noto/.signature
 f:5d4bd45ce49ac03ef8464178ef0e3d28:xfce4-session/post-install
-f:589fe16a82721aad72ee780a3cdd7253:xfce4-session/Pkgfile
+f:eec7eedd05c0f9d7564322d50bd6f459:xfce4-session/Pkgfile
 f:dec1b90d51805d3a657aed32de36aa1d:xfce4-session/.footprint
-f:2f2c6643edd06b81a3aaa357ff44e7a4:xfce4-session/.signature
+f:eaccd53a6a0e6ae9441ac56e29b987a5:xfce4-session/.signature
 f:0adaa44275f9b4ccb3046aff8fb69fcf:qogir-theme/Pkgfile
 f:4c3068acad657e4fad3647ad0ba1c2de:qogir-theme/.footprint
 f:05d257d2c058ef50d5bc42cfcd28b1e8:qogir-theme/.signature
@@ -203,9 +203,9 @@ f:4dbe1bf78be51118f619115932462adc:libgee/.signature
 f:c9eea9087bbb293798b6bfda2b24a36a:garcon/Pkgfile
 f:f6cc20f5bede5a226d33bf4c1d2dbf07:garcon/.footprint
 f:be1bce5273f74d939eabc11b78134640:garcon/.signature
-f:f31369f8f2258e5a0d7fa0eb61d19091:xfce4-settings/Pkgfile
-f:58532603fb1be74b8430bacff3405420:xfce4-settings/.footprint
-f:7244c2e15e606674bd20327706b0eb1c:xfce4-settings/.signature
+f:35445d7352f6733322e72a5b267b9d1f:xfce4-settings/Pkgfile
+f:2471a341d9baa2e01908ddd5a557ab95:xfce4-settings/.footprint
+f:e1db6ef53666f0ce6dc06f62961135c6:xfce4-settings/.signature
 f:567e8c2565ae11b4932437b494d01366:neofetch/Pkgfile
 f:7115e706eca005970f078ca22e563960:neofetch/.footprint
 f:b20ebdb03537e76230a4f9afebd2b32e:neofetch/.signature
