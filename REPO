@@ -125,9 +125,9 @@ f:d41a919ef58c2fccd4d3570e184ce9de:thunar/post-install
 f:cfe855d7143b3dc95a2848c86db5d351:thunar/Pkgfile
 f:f9bc57a60b48167494e95f9de0f7b77a:thunar/.footprint
 f:4059b44cddfd96e468a601cf92ff901e:thunar/.signature
-f:6510addc8d3f58b035dd7b2cf8cfe3cc:greybird-theme/Pkgfile
-f:e9f3fdcaa476fce931e1a7b46df37066:greybird-theme/.footprint
-f:c1dd77fcb52bc09dd42c5bc723345807:greybird-theme/.signature
+f:f343b8162c10714cd9e783828701952d:greybird-theme/Pkgfile
+f:6e80708645ec4ebf6edc2ac55e2c4aae:greybird-theme/.footprint
+f:7dc90cdc18396ed007ca07329fcba308:greybird-theme/.signature
 f:c25fe7746a14bfbbb02d514b732f9abc:ristretto/post-install
 f:45e0f9dabf60b70af642efb8078e527e:ristretto/patch_1.patch
 f:c78e65c0f355775b2a4a87e10f1653f4:ristretto/Pkgfile
@@ -163,9 +163,9 @@ f:e393be2d2132a9ae947ba7ef5f8f8992:libxfce4ui/Pkgfile
 f:15978dbfc8e020ebf9980aa7368bf4f1:libxfce4ui/.footprint
 f:8cea4206a4be051b6dc4b18719bdf6c9:libxfce4ui/.signature
 f:e5f74be27525658dae59401455944186:gsettings-desktop-schemas/post-install
-f:83410c336e56901c4105131696b24d2d:gsettings-desktop-schemas/Pkgfile
+f:e4f084d281e9dbc4fffb21127a372ff9:gsettings-desktop-schemas/Pkgfile
 f:10c99be3c75c602561f25e2d34cdc9bc:gsettings-desktop-schemas/.footprint
-f:588a63500071b47d3cc469d741875518:gsettings-desktop-schemas/.signature
+f:3b4df74a28e973ad9640500162298215:gsettings-desktop-schemas/.signature
 f:eb7bdc393faa96eedcb897f406e84ffd:libxfce4util/Pkgfile
 f:927283b639e5d18073a061370a32c27e:libxfce4util/.footprint
 f:435c27b77ca5b8982bf1bdb05d9bc21d:libxfce4util/.signature
@@ -242,6 +242,6 @@ f:82ce21b5132a6a573b2ecdb7f42364c8:xfce4-weather-plugin/post-install
 f:76e95f32ba3ee3d98477c533bd0959a0:xfce4-weather-plugin/Pkgfile
 f:95c9007b6082fb3a4a9eadb87547dbd6:xfce4-weather-plugin/.footprint
 f:2deb8286c3d5b681468da69815559ff8:xfce4-weather-plugin/.signature
-f:9f4d5c8b0afc45c31d0f38b72f126b70:vala/Pkgfile
-f:dc4a5e79bbe46425981ad8183c98f908:vala/.footprint
-f:9f3d943420857a861b1ca74c1b9dfdcd:vala/.signature
+f:793c44ce6c6285bc1d7dfbc6a821b625:vala/Pkgfile
+f:26d1357b40c3bfd3a452d72b6367f6ee:vala/.footprint
+f:90b812e12d836b8a771279fcfb2de7f5:vala/.signature
