@@ -64,9 +64,9 @@ f:74e2702a64bf5c2c72d940f5ed7abe38:colord/Pkgfile
 f:0c370469dc481292287bc21689d1d810:colord/.footprint
 f:e246d25058b1db0b5b8e68538dfcbc48:colord/.signature
 f:c61cf01066aba6ede1a426ef3ceb43a3:colord/pre-install
-f:a1a6cd2c39f7f1c0d52a55d70c30eadc:xfdesktop/Pkgfile
-f:bd80c716c9693cf68c15ec312a804311:xfdesktop/.footprint
-f:59163d64a32c054164b8497bc012791e:xfdesktop/.signature
+f:5a841366bc9baa1c5f1474a1316afba5:xfdesktop/Pkgfile
+f:09f6e0ca5c0356347aeab6a7daf6d59d:xfdesktop/.footprint
+f:0d3607c254c432db7a631e352f03f248:xfdesktop/.signature
 f:db9671fabb2a31fb5e03f0688fded28d:libgtop/Pkgfile
 f:d484061e70c8843c75143ffac5797f73:libgtop/.footprint
 f:8cb61fd6f3dc7ccf228f9d4c6fc71304:libgtop/.signature
