@@ -4,7 +4,7 @@
 # Depends on: libxfce4ui exo xfconf glib xorg-libxi xorg-libxrandr xorg-libxcursor libnotify libcanberra libxklavier colord libinput
 
 name=xfce4-settings
-version=4.14.2
+version=4.15.0
 release=1
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
@@ -25,9 +25,7 @@ build() {
       --enable-sound-settings \
       --enable-colord \
       --disable-static \
-      --x-libraries=/usr/share/X11 \
-      --disable-gtk2 \
-      --enable-gtk3
+      --x-libraries=/usr/share/X11
 
     make
     make DESTDIR=$PKG install
