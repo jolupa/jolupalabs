@@ -89,6 +89,9 @@ drwxr-xr-x	root/root	usr/share/locale/gl/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/he/
 drwxr-xr-x	root/root	usr/share/locale/he/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/he/LC_MESSAGES/libxfce4util.mo
+drwxr-xr-x	root/root	usr/share/locale/hi/
+drwxr-xr-x	root/root	usr/share/locale/hi/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/hi/LC_MESSAGES/libxfce4util.mo
 drwxr-xr-x	root/root	usr/share/locale/hr/
 drwxr-xr-x	root/root	usr/share/locale/hr/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/hr/LC_MESSAGES/libxfce4util.mo
@@ -167,6 +170,9 @@ drwxr-xr-x	root/root	usr/share/locale/si/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/sk/
 drwxr-xr-x	root/root	usr/share/locale/sk/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/sk/LC_MESSAGES/libxfce4util.mo
+drwxr-xr-x	root/root	usr/share/locale/sl/
+drwxr-xr-x	root/root	usr/share/locale/sl/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/sl/LC_MESSAGES/libxfce4util.mo
 drwxr-xr-x	root/root	usr/share/locale/sq/
 drwxr-xr-x	root/root	usr/share/locale/sq/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/sq/LC_MESSAGES/libxfce4util.mo

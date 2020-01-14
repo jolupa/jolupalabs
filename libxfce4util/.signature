@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWSXS6u+dmakZBfDP1RenMtm4iknjqj9w4BYa+AgjnN2eVWNGtDoJ92kuEt/tfyo2BS0Ww57ImMJbZDRUdEjJ0xFYphLuvgHFQE=
-SHA256 (Pkgfile) = 0e365a02337391da5e442d55a3809da4d9f88856e2326f11ddb2453fb864899a
+RWSXS6u+dmakZCAig2RcAuJ96P+mP1vvlxjdc9GfbnoUXCPNhT0/wmtBzCl4TcRHeGebVm8jQAsEB2i0Gj8e2yOG8rVNLjI09AM=
+SHA256 (Pkgfile) = 7ff84b10b366a1b9d98082767322eb3223b57fd64a634850d0ee1b002e57f597
 SHA256 (.footprint) = 8f3e2e646143215774ba0043ba38f2627b4e0914179aa7a31bb88c33bd06baa6
-SHA256 (libxfce4util-4.14.0.tar.bz2) = 32ad79b7992ec3fd863e8ff2f03eebda8740363ef9d7d910a35963ac1c1a6324
+SHA256 (libxfce4util-4.15.0.tar.bz2) = bba82a497d434f9dd44fe13eea94bd5b960ea2c5ac75d5848b24b226c18809d3
