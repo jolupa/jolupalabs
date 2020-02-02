@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWSXS6u+dmakZEYTgQuxqKmZzDLRrHmb5/U3twcpnKkd/OxeGRKd8DvkKVYqKTPUv6VUHpopvbirqe+toisuNAhTN8Yqu/Q19QY=
-SHA256 (Pkgfile) = ccb80b4a78c4a51f4595a89d2b0c5107fff055fff9acf1751da8a8ffde54dfce
+RWSXS6u+dmakZEZJXXIh+3v392x6C7vdwW+5FCxolq1lMHTd1mwjlZHTs0tZsShGMhq8ht2Tczrm5fJmJw1l5DKTo4cZX+VW5gw=
+SHA256 (Pkgfile) = 05a20fc3e976ed8e7d4551be1062c2f134c2f4afe4caf0dad357d33d6dd593b3
 SHA256 (.footprint) = e1adbbd4755aaa4e8a42fdf7147b5e885c0e2594c72a87c133ea1172a408dccf
-SHA256 (thunar-1.8.11.tar.bz2) = 18de4db3a40e8e75377fcb5f7d78efdae8659f6a454f1b9cf77bb5f083e1b238
+SHA256 (thunar-1.8.12.tar.bz2) = 29295bee0b1f5bfd525e37405e5d32b497ae539b15183dd14e6ca49e252225f8
