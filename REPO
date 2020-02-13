@@ -53,9 +53,9 @@ d:xfce4-power-manager
 d:elementary-icon-theme
 d:xfce4-weather-plugin
 d:vala
-f:5e8c1e62ce7be3a7eea07d25818d6cb2:gvfs/Pkgfile
-f:a456012933be7c703fe944de6e7d269c:gvfs/.footprint
-f:eecad611023ff5cc2049aa9b0e1c5898:gvfs/.signature
+f:91c9ac47df2c1a3bf9dec2b32f245724:gvfs/Pkgfile
+f:e91f9bd778089fba3e3876dacd9120e9:gvfs/.footprint
+f:08037a5f07fbca58fb0730d28891a97b:gvfs/.signature
 f:97f3307ae444efaa04ddff9d7440d0cc:mousepad/post-install
 f:92a11490e94081451fa3d2c7ff802312:mousepad/Pkgfile
 f:8f62809f276e448852035e65321b795b:mousepad/.footprint
@@ -74,9 +74,9 @@ f:1e7bfbd385f0d9d7d797bffb94c67323:xfce4-appfinder/Pkgfile
 f:72397cab6ba8ce4a92ddfb65dc0b768b:xfce4-appfinder/.footprint
 f:28db9b9f47ed7e64beebce8aeeb1d4af:xfce4-appfinder/.signature
 f:82ce21b5132a6a573b2ecdb7f42364c8:xfce4-whiskermenu-plugin/post-install
-f:65a32ddf3b8be36b95131a8183e88f41:xfce4-whiskermenu-plugin/Pkgfile
-f:776d687872f539fd3f955558112949c8:xfce4-whiskermenu-plugin/.footprint
-f:58a2dc547b5e42eaeeece658848edcbe:xfce4-whiskermenu-plugin/.signature
+f:5e78ac4720b437fc3682860585a4c429:xfce4-whiskermenu-plugin/Pkgfile
+f:0fc3b7dbfff9dc548fa2bd4eec8c3440:xfce4-whiskermenu-plugin/.footprint
+f:3d1487b724656a614c27772ce4ea25df:xfce4-whiskermenu-plugin/.signature
 f:44fe29bf4c9b27dcb2bdf7ab402b01e1:xfce4-terminal/Pkgfile
 f:c9f1fc8ac2ec6611d72f3c49edd499e6:xfce4-terminal/.footprint
 f:c6ae92bd8d71c99a7edb54160a2d9c91:xfce4-terminal/.signature
@@ -197,9 +197,9 @@ f:faad09f2c8002b777a008e5694479a47:console-tdm/README
 f:968d07d8a54fbe19e690ee8ce2cfa881:console-tdm/Pkgfile
 f:a10d06f88ee848d108df1b8ed11e197d:console-tdm/.footprint
 f:d0668d5d817cf39bb44d910ab6394490:console-tdm/.signature
-f:7747d274598f017f9f15d1aa49667abc:libgee/Pkgfile
+f:623d13a88938ee8ea8d1706725cba643:libgee/Pkgfile
 f:6bcdf9f21265f03ae3c3fb5bc67d953f:libgee/.footprint
-f:4dbe1bf78be51118f619115932462adc:libgee/.signature
+f:c550a271211200f87963ce81fd31108d:libgee/.signature
 f:c9eea9087bbb293798b6bfda2b24a36a:garcon/Pkgfile
 f:f6cc20f5bede5a226d33bf4c1d2dbf07:garcon/.footprint
 f:be1bce5273f74d939eabc11b78134640:garcon/.signature
@@ -242,6 +242,6 @@ f:82ce21b5132a6a573b2ecdb7f42364c8:xfce4-weather-plugin/post-install
 f:76e95f32ba3ee3d98477c533bd0959a0:xfce4-weather-plugin/Pkgfile
 f:95c9007b6082fb3a4a9eadb87547dbd6:xfce4-weather-plugin/.footprint
 f:2deb8286c3d5b681468da69815559ff8:xfce4-weather-plugin/.signature
-f:ae61941fe6c66f3b4d48214a2b1af92e:vala/Pkgfile
+f:be6008271653ea8493b3bb5948c57a19:vala/Pkgfile
 f:26d1357b40c3bfd3a452d72b6367f6ee:vala/.footprint
-f:2fff51e1e6dcca68d66411d38498d48d:vala/.signature
+f:a51c83e0b83dc02ffd26a8b5c0082ac6:vala/.signature
