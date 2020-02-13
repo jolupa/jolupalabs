@@ -210,6 +210,9 @@ drwxr-xr-x	root/root	usr/share/locale/ml/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/mr/
 drwxr-xr-x	root/root	usr/share/locale/mr/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/mr/LC_MESSAGES/gvfs.mo
+drwxr-xr-x	root/root	usr/share/locale/ms/
+drwxr-xr-x	root/root	usr/share/locale/ms/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ms/LC_MESSAGES/gvfs.mo
 drwxr-xr-x	root/root	usr/share/locale/nb/
 drwxr-xr-x	root/root	usr/share/locale/nb/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/nb/LC_MESSAGES/gvfs.mo
