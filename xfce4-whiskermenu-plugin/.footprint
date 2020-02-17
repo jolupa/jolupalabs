@@ -1,11 +1,11 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/xfce4-popup-whiskermenu
-drwxr-xr-x	root/root	usr/lib64/
-drwxr-xr-x	root/root	usr/lib64/xfce4/
-drwxr-xr-x	root/root	usr/lib64/xfce4/panel/
-drwxr-xr-x	root/root	usr/lib64/xfce4/panel/plugins/
--rwxr-xr-x	root/root	usr/lib64/xfce4/panel/plugins/libwhiskermenu.so
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/xfce4/
+drwxr-xr-x	root/root	usr/lib/xfce4/panel/
+drwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/
+-rwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/libwhiskermenu.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
