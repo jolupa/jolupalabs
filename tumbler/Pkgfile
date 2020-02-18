@@ -4,7 +4,7 @@
 # Depends on: dbus-glib glib gdk-pixbuf freetype libjpeg-turbo gst-plugins-base poppler-glib libpng 
 
 name=tumbler
-version=0.2.8
+version=0.2.7
 release=1
 source=(http://archive.xfce.org/src/xfce/$name/${version:0:3}/$name-$version.tar.bz2)
 

@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWSXS6u+dmakZHjfMk4PSBdl+5Pw86wmwU7wj4+7W54oARBQecGngoAk16kSQTreDeFVoaMbmEeqLSJ+A4A3yQ6IpacoEpZjowc=
+RWSXS6u+dmakZGws8tfGIj/tS/GBpJlhTvuaRgJ8Ei4rC3HhfJJyxu2+GFbCWZu/qBuuDKxUdAgJCN9mQEQQ9puUUgfOxLaR/QM=
 SHA256 (Pkgfile) = 09c4e523d2c4a6d67286f0dd50ef2832b942b3934ba6eae3efcd0944ead4f1d5
+SHA256 (.footprint) = ba7a47c097590b2255e9e72cef422c4e5a4180e34eb0b99f6f8323de4a949502
 SHA256 (libatasmart-0.19.tar.xz) = 61f0ea345f63d28ab2ff0dc352c22271661b66bf09642db3a4049ac9dbdb0f8d

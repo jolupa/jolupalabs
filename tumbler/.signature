@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWSXS6u+dmakZN3Dh2abG5cNE2Y3iDx/8btS7bM0EaJ+5fZV7Hg+A5ZXxyWCUatJgHtshi6/AfCNS7WiHrpnHTLB+XiF5LU40gs=
-SHA256 (Pkgfile) = ced08fe9ca4d50a33837d7f9a5ba47465861801735c2b8c8568cbfa48a9b710b
+RWSXS6u+dmakZFNADSigrdNZlnThXx7+Gx2kJbDHBMSPzSe0BiKjsLnyO9pDmv+/2mBbyS0XCwEDTQd0lf1MuMg3Soj5GE/26AQ=
+SHA256 (Pkgfile) = a75375395a96d30ee3cf0684b8e158b3b02d016ce36bedb7e53eca0aabd711d1
 SHA256 (.footprint) = 1f2037cfa8ffd5f2b3533e71c915c89f0ad2a1d57e7bbc871e0ee2e77db80916
-SHA256 (tumbler-0.2.8.tar.bz2) = 0999b9a3deb57010956db6630ae7205813999147043171049a7b6c333be93e96
+SHA256 (tumbler-0.2.7.tar.bz2) = f704c35f16716cbee3c94883cee2a8d865e9cf2535d0e84f57e1c8cce00314e4
