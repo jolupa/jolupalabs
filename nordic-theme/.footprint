@@ -468,6 +468,46 @@ drwxr-xr-x	root/root	usr/share/themes/Nordic/gtk-3.0/
 -rwxr-xr-x	root/root	usr/share/themes/Nordic/gtk-3.0/gtk-dark.css
 -rwxr-xr-x	root/root	usr/share/themes/Nordic/gtk-3.0/gtk.css
 -rwxr-xr-x	root/root	usr/share/themes/Nordic/index.theme
+drwxr-xr-x	root/root	usr/share/themes/Nordic/kde/
+drwxr-xr-x	root/root	usr/share/themes/Nordic/kde/aurorae/
+drwxr-xr-x	root/root	usr/share/themes/Nordic/kde/aurorae/Nordic/
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/aurorae/Nordic/.directory
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/aurorae/Nordic/Nordicrc
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/aurorae/Nordic/alldesktops.svg
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/aurorae/Nordic/close.svg
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/aurorae/Nordic/decoration.svg
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/aurorae/Nordic/keepabove.svg
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/aurorae/Nordic/keepbelow.svg
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/aurorae/Nordic/maximize.svg
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/aurorae/Nordic/metadata.desktop
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/aurorae/Nordic/minimize.svg
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/aurorae/Nordic/restore.svg
+drwxr-xr-x	root/root	usr/share/themes/Nordic/kde/colorschemes/
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/colorschemes/Nordic.colors
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/colorschemes/NordicDarker.colors
+drwxr-xr-x	root/root	usr/share/themes/Nordic/kde/konsole/
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/konsole/Nordic.colorscheme
+drwxr-xr-x	root/root	usr/share/themes/Nordic/kde/kvantum/
+drwxr-xr-x	root/root	usr/share/themes/Nordic/kde/kvantum/Nordic-Darker/
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/kvantum/Nordic-Darker/Nordic-Darker.kvconfig
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/kvantum/Nordic-Darker/Nordic-Darker.svg
+drwxr-xr-x	root/root	usr/share/themes/Nordic/kde/kvantum/Nordic/
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/kvantum/Nordic/Nordic.kvconfig
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/kvantum/Nordic/Nordic.svg
+drwxr-xr-x	root/root	usr/share/themes/Nordic/kde/look-and-feel/
+drwxr-xr-x	root/root	usr/share/themes/Nordic/kde/look-and-feel/contents/
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/look-and-feel/contents/defaults
+drwxr-xr-x	root/root	usr/share/themes/Nordic/kde/look-and-feel/contents/previews/
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/look-and-feel/contents/previews/fullscreenpreview.jpg
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/look-and-feel/contents/previews/preview.png
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/look-and-feel/contents/previews/splash.png
+drwxr-xr-x	root/root	usr/share/themes/Nordic/kde/look-and-feel/contents/splash/
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/look-and-feel/contents/splash/Splash.qml
+drwxr-xr-x	root/root	usr/share/themes/Nordic/kde/look-and-feel/contents/splash/images/
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/look-and-feel/contents/splash/images/Nordic.png
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/look-and-feel/contents/splash/images/busy.svg
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/look-and-feel/contents/splash/images/logo.png
+-rw-r--r--	root/root	usr/share/themes/Nordic/kde/look-and-feel/metadata.desktop
 drwxr-xr-x	root/root	usr/share/themes/Nordic/metacity-1/
 -rw-r--r--	root/root	usr/share/themes/Nordic/metacity-1/close.png
 -rw-r--r--	root/root	usr/share/themes/Nordic/metacity-1/close_focused.png
@@ -495,7 +535,7 @@ drwxr-xr-x	root/root	usr/share/themes/Nordic/metacity-1/
 -rw-r--r--	root/root	usr/share/themes/Nordic/metacity-1/menu_unfocused_pressed.png
 lrwxrwxrwx	root/root	usr/share/themes/Nordic/metacity-1/metacity-theme-1.xml -> metacity-theme.xml
 lrwxrwxrwx	root/root	usr/share/themes/Nordic/metacity-1/metacity-theme-2.xml -> metacity-theme.xml
-lrwxrwxrwx	root/root	usr/share/themes/Nordic/metacity-1/metacity-theme-3.xml -> metacity-theme.xml
+-rwxr-xr-x	root/root	usr/share/themes/Nordic/metacity-1/metacity-theme-3.xml
 -rwxr-xr-x	root/root	usr/share/themes/Nordic/metacity-1/metacity-theme.xml
 -rw-r--r--	root/root	usr/share/themes/Nordic/metacity-1/minimize.png
 -rw-r--r--	root/root	usr/share/themes/Nordic/metacity-1/minimize_focused.png
@@ -532,6 +572,9 @@ lrwxrwxrwx	root/root	usr/share/themes/Nordic/metacity-1/metacity-theme-3.xml -> 
 -rw-r--r--	root/root	usr/share/themes/Nordic/metacity-1/unshade_unfocused_pressed.png
 drwxr-xr-x	root/root	usr/share/themes/Nordic/xfwm4/
 drwxr-xr-x	root/root	usr/share/themes/Nordic/xfwm4/assets/
+-rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/assets/bottom-active.svg
+-rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/assets/bottom-left-active.svg
+-rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/assets/bottom-right-inactive.svg
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/assets/close-active.svg
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/assets/close-inactive.svg
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/assets/close-prelight.svg
@@ -545,6 +588,7 @@ drwxr-xr-x	root/root	usr/share/themes/Nordic/xfwm4/assets/
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/assets/maximize-prelight.svg
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/assets/maximize-pressed.svg
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/assets/menu-active.svg
+-rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/assets/right-active.svg
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/assets/shade-active.svg
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/assets/shade-inactive.svg
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/assets/shade-prelight.svg
@@ -570,6 +614,12 @@ drwxr-xr-x	root/root	usr/share/themes/Nordic/xfwm4/assets/
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/assets/top-right-active-shaded.svg
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/assets/top-right-active.svg
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/assets/top-right-inactive.svg
+-rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/bottom-active.png
+lrwxrwxrwx	root/root	usr/share/themes/Nordic/xfwm4/bottom-inactive.png -> bottom-active.png
+-rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/bottom-left-active.png
+lrwxrwxrwx	root/root	usr/share/themes/Nordic/xfwm4/bottom-left-inactive.png -> bottom-left-active.png
+lrwxrwxrwx	root/root	usr/share/themes/Nordic/xfwm4/bottom-right-active.png -> bottom-right-inactive.png
+-rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/bottom-right-inactive.png
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/close-active.png
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/close-inactive.png
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/close-prelight.png
@@ -578,6 +628,8 @@ drwxr-xr-x	root/root	usr/share/themes/Nordic/xfwm4/assets/
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/hide-inactive.png
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/hide-prelight.png
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/hide-pressed.png
+lrwxrwxrwx	root/root	usr/share/themes/Nordic/xfwm4/left-active.png -> right-active.png
+lrwxrwxrwx	root/root	usr/share/themes/Nordic/xfwm4/left-inactive.png -> right-active.png
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/maximize-active.png
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/maximize-inactive.png
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/maximize-prelight.png
@@ -587,6 +639,8 @@ lrwxrwxrwx	root/root	usr/share/themes/Nordic/xfwm4/menu-inactive.png -> menu-act
 lrwxrwxrwx	root/root	usr/share/themes/Nordic/xfwm4/menu-prelight.png -> menu-active.png
 lrwxrwxrwx	root/root	usr/share/themes/Nordic/xfwm4/menu-pressed.png -> menu-active.png
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/render_assets.fish
+-rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/right-active.png
+lrwxrwxrwx	root/root	usr/share/themes/Nordic/xfwm4/right-inactive.png -> right-active.png
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/shade-active.png
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/shade-inactive.png
 -rw-r--r--	root/root	usr/share/themes/Nordic/xfwm4/shade-prelight.png

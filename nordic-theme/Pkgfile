@@ -5,9 +5,9 @@
 
 name=nordic-theme
 _name=Nordic
-version=1.6.5
-release=2
-source=(https://github.com/EliverLara/$_name/archive/v$version.tar.gz)
+version=1.8.1
+release=1
+source=(https://github.com/EliverLara/$_name/archive/V$version.tar.gz)
 
 build() {
   cd $_name-$version
