@@ -11,6 +11,20 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/xfce4-popup-windowmenu
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/xfce4/
+drwxr-xr-x	root/root	usr/include/xfce4/libxfce4panel-1.0/
+drwxr-xr-x	root/root	usr/include/xfce4/libxfce4panel-1.0/libxfce4panel/
+-rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-1.0/libxfce4panel/libxfce4panel-config.h
+-rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-1.0/libxfce4panel/libxfce4panel-enum-types.h
+-rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-1.0/libxfce4panel/libxfce4panel-enums.h
+-rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-1.0/libxfce4panel/libxfce4panel.h
+-rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-1.0/libxfce4panel/xfce-arrow-button.h
+-rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-1.0/libxfce4panel/xfce-hvbox.h
+-rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-1.0/libxfce4panel/xfce-panel-convenience.h
+-rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-1.0/libxfce4panel/xfce-panel-image.h
+-rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-1.0/libxfce4panel/xfce-panel-macros-46.h
+-rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-1.0/libxfce4panel/xfce-panel-macros.h
+-rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-1.0/libxfce4panel/xfce-panel-plugin-provider.h
+-rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-1.0/libxfce4panel/xfce-panel-plugin.h
 drwxr-xr-x	root/root	usr/include/xfce4/libxfce4panel-2.0/
 drwxr-xr-x	root/root	usr/include/xfce4/libxfce4panel-2.0/libxfce4panel/
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-2.0/libxfce4panel/libxfce4panel-config.h
@@ -20,15 +34,21 @@ drwxr-xr-x	root/root	usr/include/xfce4/libxfce4panel-2.0/libxfce4panel/
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-arrow-button.h
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-panel-convenience.h
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-panel-image.h
+-rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-panel-macros-46.h
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-panel-macros.h
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-panel-plugin-provider.h
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-panel-plugin.h
 drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libxfce4panel-1.0.la
+lrwxrwxrwx	root/root	usr/lib/libxfce4panel-1.0.so -> libxfce4panel-1.0.so.4.0.0
+lrwxrwxrwx	root/root	usr/lib/libxfce4panel-1.0.so.4 -> libxfce4panel-1.0.so.4.0.0
+-rwxr-xr-x	root/root	usr/lib/libxfce4panel-1.0.so.4.0.0
 -rwxr-xr-x	root/root	usr/lib/libxfce4panel-2.0.la
 lrwxrwxrwx	root/root	usr/lib/libxfce4panel-2.0.so -> libxfce4panel-2.0.so.4.0.0
 lrwxrwxrwx	root/root	usr/lib/libxfce4panel-2.0.so.4 -> libxfce4panel-2.0.so.4.0.0
 -rwxr-xr-x	root/root	usr/lib/libxfce4panel-2.0.so.4.0.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libxfce4panel-1.0.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libxfce4panel-2.0.pc
 drwxr-xr-x	root/root	usr/lib/xfce4/
 drwxr-xr-x	root/root	usr/lib/xfce4/panel/
@@ -56,6 +76,7 @@ drwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/
 -rwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/libtasklist.so
 -rwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/libwindowmenu.la
 -rwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/libwindowmenu.so
+-rwxr-xr-x	root/root	usr/lib/xfce4/panel/wrapper-1.0
 -rwxr-xr-x	root/root	usr/lib/xfce4/panel/wrapper-2.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
@@ -174,9 +195,6 @@ drwxr-xr-x	root/root	usr/share/locale/it/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/ja/
 drwxr-xr-x	root/root	usr/share/locale/ja/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/ja/LC_MESSAGES/xfce4-panel.mo
-drwxr-xr-x	root/root	usr/share/locale/ka/
-drwxr-xr-x	root/root	usr/share/locale/ka/LC_MESSAGES/
--rw-r--r--	root/root	usr/share/locale/ka/LC_MESSAGES/xfce4-panel.mo
 drwxr-xr-x	root/root	usr/share/locale/kk/
 drwxr-xr-x	root/root	usr/share/locale/kk/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/kk/LC_MESSAGES/xfce4-panel.mo

@@ -6,11 +6,11 @@
 name=thunar
 version=1.8.9
 release=1
-source=(https://archive.xfce.org/src/xfce/$name/${version:0:3}/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/xfce/4.14/src/Thunar-$version.tar.bz2)
 
 build() {
 
-	cd $name-$version
+	cd Thunar-$version
 	
 	./configure \
 	  --prefix=/usr \
