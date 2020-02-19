@@ -220,9 +220,9 @@ f:102a102c8d7672f3e928281363dcdc67:sound-theme-smooth/Pkgfile
 f:32d2cdd06b1b4e479cf4299380e5cc6f:sound-theme-smooth/Smooth.tar.gz
 f:7cbb7c4d3d04e3c76b96961b16434c8f:sound-theme-smooth/.footprint
 f:78b5feed3b61b4be65920bb9f2de493e:sound-theme-smooth/.signature
-f:f66ea10aa5be2f52082893086263997e:nordic-theme/Pkgfile
-f:d41b8e5c958bdc8b612501a11ee833a7:nordic-theme/.footprint
-f:b70743b80b429a47f596fb5b2aaecab5:nordic-theme/.signature
+f:aad0691d3dab63073c16b5dceb4482ad:nordic-theme/Pkgfile
+f:aa2b86b5da87efd44dab5b92887cfba8:nordic-theme/.footprint
+f:d09a1205a8402c98715460e9bd2aa838:nordic-theme/.signature
 f:5056ff22ef45a9b61005fb0bfe765a9f:granite/post-install
 f:c7ce8c676fb0402c7a9358da92fd3f13:granite/Pkgfile
 f:427b92cb8830833da00627126803bc6e:granite/.footprint
