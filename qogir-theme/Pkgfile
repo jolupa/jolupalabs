@@ -4,7 +4,7 @@
 # Depends on: gtk3 libsass
 
 name=qogir-theme
-version=2019-10-25
+version=2020-02-20
 release=1
 source=(https://github.com/vinceliuice/Qogir-theme/archive/$version.tar.gz)
 
