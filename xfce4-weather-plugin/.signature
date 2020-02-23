@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWSXS6u+dmakZDdloq2QT4FeU9pDaZ8mUTNlKaQiZHR4T811QEhd6l9PLjqXJp7vVIuogC3w59J64dvdL+UdN7RXN56VEyhpTw8=
-SHA256 (Pkgfile) = 48655e732070359b938fca681bef26ffee4c4663bbe9cf8068bb45cb83ec8648
+RWSXS6u+dmakZNIAwRmNId8OBObEv6VVlGE0DBluCHd+7Vl3mEnST6uSRxX0dgUdpL9Eh7pslfUL7b8DP4SLr82CXQN/IPTbeQA=
+SHA256 (Pkgfile) = 7f1295fd3353743d16edccd411bf858d9583bc7f73af3341fe0f61967017fcf9
 SHA256 (.footprint) = c79ea53a3f684e6c09222ac7ce626ac3bd543189a6f0eff34009f58c2d884de5
-SHA256 (xfce4-weather-plugin-0.10.0.tar.bz2) = 4423a0c27830fd1f08e063aaefbf70f31d89235d75549ca841d677ab2e409572
+SHA256 (xfce4-weather-plugin-0.10.1.tar.bz2) = afb2af5f3effc2ea6181636ed0e82e6dafd556ec1b8478100802f85a5d167a89
