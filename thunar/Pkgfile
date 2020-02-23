@@ -4,13 +4,13 @@
 # Depends on: libxfce4ui exo libpng gtk3 glib libgudev libnotify xfce4-panel gvfs libexif freetype libjpeg-turbo xfconf
 
 name=thunar
-version=1.8.9
+version=1.8.12
 release=1
-source=(https://archive.xfce.org/xfce/4.14/src/Thunar-$version.tar.bz2)
+source=(https://archive.xfce.org/src/xfce/$name/${version:0:3}/$name-$version.tar.bz2)
 
 build() {
 
-	cd Thunar-$version
+	cd $name-$version
 	
 	./configure \
 	  --prefix=/usr \
@@ -18,7 +18,7 @@ build() {
 	  --sysconfdir=/etc \
 	  --disable-gtk2 \
 	  --enable-gtk3 \
-          --disable-gtk-doc \
+    --disable-gtk-doc \
 	  --enable-instrospection=no
 
 	make
