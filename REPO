@@ -96,9 +96,9 @@ f:5d4bd45ce49ac03ef8464178ef0e3d28:xfce4-session/post-install
 f:eec7eedd05c0f9d7564322d50bd6f459:xfce4-session/Pkgfile
 f:dec1b90d51805d3a657aed32de36aa1d:xfce4-session/.footprint
 f:eaccd53a6a0e6ae9441ac56e29b987a5:xfce4-session/.signature
-f:47639edace595d4679b325c1ca228ed0:qogir-theme/Pkgfile
+f:e799f483e0ccfb421d01df72130308c7:qogir-theme/Pkgfile
 f:6ea3f426614dd403d4a74097e5786a8e:qogir-theme/.footprint
-f:236dc8976f76101a2de34fc86d68c8a7:qogir-theme/.signature
+f:6806e2d2f0c7239115f8484f866e5185:qogir-theme/.signature
 f:30129ec55cc7985d8c59e45d4a523f29:xdg-user-dirs/Pkgfile
 f:1a24dfb9cebbb583914b1b7b2742ad87:xdg-user-dirs/.footprint
 f:6679554e98ab7fe337622c5047adbccb:xdg-user-dirs/.signature
@@ -212,9 +212,9 @@ f:b20ebdb03537e76230a4f9afebd2b32e:neofetch/.signature
 f:51b2252383c76ccb56f6fe9bfeead472:libblockdev/Pkgfile
 f:c7960410726f92f17cc8be22ca58b621:libblockdev/.footprint
 f:fbbaae4bfa5a5165c417cddfa63b6e6b:libblockdev/.signature
-f:879344c980d4e6d38cc71a95059f4b75:exo/Pkgfile
+f:e18f3ff1335a5aeaee270c037eab81e4:exo/Pkgfile
 f:0eee6e7c4f20cb257faf908c859c9ff7:exo/.footprint
-f:f1ecb8fa6f55afb005c4e90eef1ff69d:exo/.signature
+f:fd6f39e50bdcfca99f88451f4890a03d:exo/.signature
 f:76801baf45606317fea3a05f86ac477d:sound-theme-smooth/README
 f:102a102c8d7672f3e928281363dcdc67:sound-theme-smooth/Pkgfile
 f:32d2cdd06b1b4e479cf4299380e5cc6f:sound-theme-smooth/Smooth.tar.gz
