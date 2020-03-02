@@ -1,0 +1,24 @@
+# Description: Xfce's Clipboard manager
+# URL: https://docs.xfce.org/panel-plugins/xfce4-clipman-plugin
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: xfce4-panel
+
+name=xfce4-clipman-plugin
+version=1.4.4
+release=1
+source=(https://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$version.tar.bz2)
+
+build() {
+
+  cd $name-$version
+
+    ./configure \
+      --prefix=/usr \
+      --libexecdir=/usr/lib/$name \
+      --sysconfdir=/etc
+	
+    make
+    make DESTDIR=$PKG install
+	
+    #rm -r $PKG/usr/share/locale
+}
