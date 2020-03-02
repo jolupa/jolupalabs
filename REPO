@@ -18,6 +18,7 @@ d:xiccd
 d:xfce4-screensaver
 d:ndctl
 d:thunar-volman
+d:xfce4-clipman-plugin
 d:thunar
 d:greybird-theme
 d:ristretto
@@ -121,6 +122,9 @@ f:3a1a6691de01e6df9b2e4bd3dd85c2bc:ndctl/.signature
 f:4b14623b9a6832fb6d92ed3f838280ab:thunar-volman/Pkgfile
 f:0a0df20c97bf8a275dc6c256c0e22059:thunar-volman/.footprint
 f:19ae7ba369f82ca35aafcb2f0cfcabf9:thunar-volman/.signature
+f:dfaf101d37eb286f8a5e0f2e0c80d46b:xfce4-clipman-plugin/Pkgfile
+f:fd560aee5a40fb5a9a01702b3695b0e5:xfce4-clipman-plugin/.footprint
+f:af3de5f776669fa14f176fe612ee344e:xfce4-clipman-plugin/.signature
 f:d41a919ef58c2fccd4d3570e184ce9de:thunar/post-install
 f:6f0b8fb49ce283ae6c5688e37b1d552e:thunar/Pkgfile
 f:1ec6f5de1ef1d40cdfef4ae55ceec521:thunar/.footprint
