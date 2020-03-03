@@ -4,14 +4,14 @@
 # Depends on:  glib graphviz
 
 name=vala
-version=0.47.4
+version=0.48.0
 release=1
 source=(http://download.gnome.org/sources/vala/${version%.*}/vala-$version.tar.xz)
 
 build() {
   cd $name-$version
   ./configure --prefix=/usr \
-              --mandir=/usr/man 
+              --mandir=/usr/man
   make CFLAGS="$CFLAGS -Wno-deprecated-declarations"
   make install DESTDIR=$PKG
   rm -r $PKG/usr/share/devhelp

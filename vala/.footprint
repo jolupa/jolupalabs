@@ -63,6 +63,7 @@ drwxr-xr-x	root/root	usr/share/vala-0.48/
 drwxr-xr-x	root/root	usr/share/vala-0.48/vapi/
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/alsa.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/alsa.vapi
+-rw-r--r--	root/root	usr/share/vala-0.48/vapi/atk.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/atk.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/atspi-2.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/atspi-2.vapi
@@ -117,12 +118,14 @@ drwxr-xr-x	root/root	usr/share/vala-0.48/vapi/
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gedit-2.20.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/geocode-glib-1.0.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/geocode-glib-1.0.vapi
+-rw-r--r--	root/root	usr/share/vala-0.48/vapi/gio-2.0.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gio-2.0.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gio-unix-2.0.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gio-unix-2.0.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gio-windows-2.0.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gio-windows-2.0.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/glib-2.0.vapi
+-rw-r--r--	root/root	usr/share/vala-0.48/vapi/gmodule-2.0.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gmodule-2.0.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gnet-2.0.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gnet-2.0.vapi
@@ -132,7 +135,9 @@ drwxr-xr-x	root/root	usr/share/vala-0.48/vapi/
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gnome-desktop-3.0.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gnome-vfs-2.0.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gnutls.vapi
+-rw-r--r--	root/root	usr/share/vala-0.48/vapi/gobject-2.0.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gobject-2.0.vapi
+-rw-r--r--	root/root	usr/share/vala-0.48/vapi/gobject-introspection-1.0.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gobject-introspection-1.0.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/goocanvas-2.0.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/goocanvas-2.0.vapi
@@ -145,6 +150,7 @@ drwxr-xr-x	root/root	usr/share/vala-0.48/vapi/
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gsl.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gst-editing-services-1.0.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gst-editing-services-1.0.vapi
+-rw-r--r--	root/root	usr/share/vala-0.48/vapi/gstreamer-1.0.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gstreamer-1.0.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gstreamer-allocators-1.0.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gstreamer-allocators-1.0.vapi
@@ -204,6 +210,8 @@ drwxr-xr-x	root/root	usr/share/vala-0.48/vapi/
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/gudev-1.0.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/hal.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/hal.vapi
+-rw-r--r--	root/root	usr/share/vala-0.48/vapi/harfbuzz-gobject.deps
+-rw-r--r--	root/root	usr/share/vala-0.48/vapi/harfbuzz-gobject.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/hildon-1.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/hildon-1.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/hildon-fm-2.deps
