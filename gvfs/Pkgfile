@@ -5,7 +5,7 @@
 # Depends on: glib gcr samba libgcrypt polkit docbook-xsl libgphoto2 meson ninja libsoup
 
 name=gvfs
-version=1.43.90
+version=1.43.92
 release=1
 source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
 
