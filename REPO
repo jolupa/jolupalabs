@@ -190,9 +190,9 @@ f:f3e038b7d1210c05416968b02ad6061c:image-burner/.footprint
 f:75c40736dafadbd968ad1ab9cdb9b94b:image-burner/.signature
 f:a63b75af9a6db1e408e7bc7f64d7fee1:obinskit/post-install
 f:961d458622c7172f10cf379e28f841c2:obinskit/icons.tar.gz
-f:91760c8c3fcec91bf6273765a4b45a6d:obinskit/Pkgfile
-f:092b5b5f9cd4aa11957a8296343702ba:obinskit/.footprint
-f:03c7491bf6c90269c08c4885df33af19:obinskit/.signature
+f:6b33c93a43a1aa881e44db4e7b7d5242:obinskit/Pkgfile
+f:f618a7904449c563d82a0e6c0db87b3d:obinskit/.footprint
+f:61ef2cd22e8e49168043ccb5258e4d7d:obinskit/.signature
 f:979e5eba58d15a1d1056ae9956bffbcb:obinskit/obinskit.desktop
 f:6c7853f5486cd2ad92ecc66e569052ba:xfce4-notifyd/Pkgfile
 f:a2ff05c6cc6fdf9547926bb5dc35fd42:xfce4-notifyd/.footprint
