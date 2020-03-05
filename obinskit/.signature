@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWSXS6u+dmakZJlv48fHpNaOzkseeN0aYRom+lyTqvlq7cfyNFYv7MnABvnY7dBDWOMatiqR9qDJmWjMcjTEgJ2PAuD75DkT1Qo=
-SHA256 (Pkgfile) = 347e63ce7e9773b27707c6b849d5382f0f34a1db6ae45e64b5535f21f7291152
-SHA256 (.footprint) = 6d73c4a5aa224a364e9d0fc8a83a1b65b8e54ea7e75ac7cd33deb17f4a609038
-SHA256 (ObinsKit_1.1.1_x64.tar.gz) = 100988b25457113e06a91676e754b00297cfc6487497385e9a8451ad2ba9a200
+RWSXS6u+dmakZCgcIMZ7oIj5IxvkMw0YM3kR3glvJ2kIVTgJzWLY9hAXNbDJjpQQ/A63nxl+moFVq0SMxbuucOlB+CR64DjhHg4=
+SHA256 (Pkgfile) = 0edc83958622e09b3fbcbee4e743ebecbafcd59b61cf2e3bcac1acfc8f521993
+SHA256 (.footprint) = d9d950442ad2acc490685e002d0c9deccfe51dcf05295a7d91c88a058ebe382b
+SHA256 (ObinsKit_1.1.3_x64.tar.gz) = 532c71c46ef395c474a6ca4b4b30a95a6561d527cd36ae73d7872b8499db0b57
 SHA256 (obinskit.desktop) = 7adc46ef596b511b32ced93bdbd011c4e62d4c12f5f233ba292d6c3007e8873d
 SHA256 (icons.tar.gz) = 66cc2dc96cfb3df5cd992951ea03c30d21508bc6cd48dcda0ff0b84311c58e17

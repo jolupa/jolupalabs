@@ -73,6 +73,7 @@ drwxrwxrwx	root/root	usr/share/ObinsKit/resources/
 -rwxrwxrwx	root/root	usr/share/ObinsKit/resources/electron.asar
 -rwxrwxrwx	root/root	usr/share/ObinsKit/resources/example.db
 drwxrwxrwx	root/root	usr/share/ObinsKit/resources/icons/
+-rwxrwxrwx	root/root	usr/share/ObinsKit/resources/icons/check.png
 -rwxrwxrwx	root/root	usr/share/ObinsKit/resources/icons/tray-darwin.png
 -rwxrwxrwx	root/root	usr/share/ObinsKit/resources/icons/tray-darwin@2x.png
 -rwxrwxrwx	root/root	usr/share/ObinsKit/resources/icons/tray.png
