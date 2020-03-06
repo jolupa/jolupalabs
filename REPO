@@ -235,9 +235,9 @@ f:7e02b4ca2c2070592120e31501c3cb39:volume_key/Pkgfile
 f:27c5d75e9362508c3436b3c1da8288e6:volume_key/.footprint
 f:246a45c86b82f0d59c4f67eb7844b0f1:volume_key/.signature
 f:feabb7500e1a111b11b0360c7d68ed98:xfce4-power-manager/post-install
-f:deece4a3e3beef3b37f22baf4ef7bdbd:xfce4-power-manager/Pkgfile
+f:36f67b2b5776c3371a3a058f73695820:xfce4-power-manager/Pkgfile
 f:94f14d4a7ee5de34d48be53540675220:xfce4-power-manager/.footprint
-f:579c96a8dec41dae07e496d7cda99579:xfce4-power-manager/.signature
+f:ee9cd783d4edccade4299125c37c291a:xfce4-power-manager/.signature
 f:8a158dd64dd291b5174fd0c777b51d89:elementary-icon-theme/post-install
 f:fb6c7781ce7f388325dd2d13a0b16c11:elementary-icon-theme/Pkgfile
 f:f927ea4753f197555d09e664c7d21f94:elementary-icon-theme/.footprint
