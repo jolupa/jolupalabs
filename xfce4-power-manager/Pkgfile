@@ -4,8 +4,8 @@
 # Depends on: gtk3 glib dbus libxfce4ui libxfce4util libnotify xfconf xfce4-panel xorg-xrandr upower polkit consolekit pm-utils
 
 name=xfce4-power-manager
-version=1.6.5
-release=2
+version=1.7.0
+release=1
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:3}/$name-$version.tar.bz2)
 
 build() {
@@ -22,10 +22,10 @@ build() {
 	  --disable-gtk-doc \
 	  --disable-gtk-doc-html \
 	  --disable-gtk-doc-pdf
-	
+
 	make
 	make DESTDIR=$PKG install
-	
+
 	#rm -r $PKG/usr/share/locale
-	
+
 }
