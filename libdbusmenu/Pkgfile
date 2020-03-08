@@ -1,0 +1,32 @@
+# Description: A small little library that was created by pulling out some comon code out of indicator-applet
+# URL: https://launchpad.net/libdbusmenu
+# Packager: jolupa, jlpavon at me dot com
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: gtk3 json-glib
+
+name=libdbusmenu
+version=16.04.0
+release=1
+source=(https://launchpad.net/$name/${version:0:5}/$version/+download/$name-$version.tar.gz)
+
+build() {
+
+	cd $name-$version
+
+  export CFLAGS+=" -O2 -Wno-error"
+  export HAVE_VALGRIND_TRUE='#'
+  export HAVE_VALGRIND_FALSE=''
+
+  ./configure \
+    --prefix=/usr \
+    --sysconfdir=/etc \
+    --localstatedir=/var \
+    --disable-dumper \
+    --disable-tests \
+    --disable-valgrind \
+    --disable-static
+
+  make DESTDIR=$PKG install
+
+  rm -r $PKG/usr/share/gtk-doc
+}
