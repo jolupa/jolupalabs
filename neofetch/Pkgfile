@@ -1,10 +1,10 @@
 # Description: A command line system information tool
 # URL: https://github.com/dylanaraps/neofetch
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: 
+# Depends on:
 
 name=neofetch
-version=6.1.0
+version=7.0.0
 release=1
 source=(https://github.com/dylanaraps/$name/archive/$version.tar.gz)
 
