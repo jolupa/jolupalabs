@@ -6,7 +6,9 @@ d:libgtop
 d:xfce4-appfinder
 d:xfce4-whiskermenu-plugin
 d:xfce4-terminal
+d:xfce4-statusnotifier-plugin
 d:xfce4-screenshooter
+d:libdbusmenu
 d:tumbler
 d:font-noto
 d:xfce4-session
@@ -81,10 +83,16 @@ f:f5619199c9a42e2cb333c17f9003de9a:xfce4-whiskermenu-plugin/.signature
 f:44fe29bf4c9b27dcb2bdf7ab402b01e1:xfce4-terminal/Pkgfile
 f:c9f1fc8ac2ec6611d72f3c49edd499e6:xfce4-terminal/.footprint
 f:c6ae92bd8d71c99a7edb54160a2d9c91:xfce4-terminal/.signature
+f:e58583210749f9b06f3da4c1c06ca861:xfce4-statusnotifier-plugin/Pkgfile
+f:9349a648fe786686f924448da2d1bda2:xfce4-statusnotifier-plugin/.footprint
+f:8c9c71d6d7e6c42ceabfa1e362155ef0:xfce4-statusnotifier-plugin/.signature
 f:997c25b87f0f83f8297ddc012cfb76d0:xfce4-screenshooter/post-install
 f:7dc727fe4b6bff49286867ca7da8b240:xfce4-screenshooter/Pkgfile
 f:4448c7202cf7c2b0b426a24c6a740d51:xfce4-screenshooter/.footprint
 f:aca8482ec4eab16f5e4452955390a55e:xfce4-screenshooter/.signature
+f:ca14a53cc49b4815bdbb877b48a3b617:libdbusmenu/Pkgfile
+f:c9ab178d40481a19ee8c4e043cdaee86:libdbusmenu/.footprint
+f:4d376001044d45dbf016795df19183cd:libdbusmenu/.signature
 f:83b01b4be7425465d59b518edda30eb1:tumbler/post-install
 f:61f121f9d83d8dc2b8365dc6e7b67ece:tumbler/Pkgfile
 f:75e2aaae6ab3311a6ac1074470ec6078:tumbler/.footprint
