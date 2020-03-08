@@ -1,0 +1,22 @@
+# Description: A panel plugin which provides an area for status notifier items
+# URL: https://docs.xfce.org/panel-plugins/xfce4-statusnotifier-plugin
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: glib libxfce4ui libxfce4util xfce4-panel libdbusmenu-gtk3
+
+name=xfce4-statusnotifier-plugin
+version=0.2.2
+release=1
+source=(http://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$version.tar.bz2)
+
+build() {
+
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib/$name
+
+	make
+	make DESTDIR=$PKG install
+
+}
