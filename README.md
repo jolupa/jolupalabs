@@ -72,15 +72,14 @@ You can find other packages not Xfce related in this repo, here's a list.
 
 | PACKAGE NAME | VERSION | NOTES |
 |---|:---:|---|
-| Console Tdm | 1.4.1 | A Console Display Manager |
-| Font Undefined Medium | 1.0 | |
-| Font Noto | 1.0 | All the Noto Fonts in one package |
-| Granite | 5.2.5 | |
-| Image Burner | 0.1.0 | |
-| Lshw | B0.2.18 | List Computer Hardware |
-| Libgee | 0.20.1 | |
-| Neofetch | 6.1.0 | |
-| Nordic | 1.6.5 | A beatiful Gtk3 theme based in nordic color scheme |
-| ObinsKit | 1.1.1 | Software for controlling the Anne Pro 2 Mechanical Keyboard. |
-| Qogir Gtk theme | 2019-10-25 | Fantastic Flat Theme |
-| Vala | 0.46.5 | Needed for Granite compilation |
+| Console Tdm | A Console Display Manager |
+| Font Undefined Medium | |
+| Font Noto | All the Noto Fonts in one package |
+| Granite | |
+| Image Burner | |
+| Lshw | List Computer Hardware |
+| Libgee | |
+| Nordic | A beatiful Gtk3 theme based in nordic color scheme |
+| ObinsKit | Software for controlling the Anne Pro 2 Mechanical Keyboard. |
+| Qogir Gtk theme | Fantastic Flat Theme |
+| Vala | Needed for Granite compilation |
