@@ -70,8 +70,8 @@ OTHER PACKAGES IN THIS REPO
 
 You can find other packages not Xfce related in this repo, here's a list.
 
-| PACKAGE NAME | VERSION | NOTES |
-|---|:---:|---|
+| PACKAGE NAME | NOTES |
+|---|:---:|
 | Console Tdm | A Console Display Manager |
 | Font Undefined Medium | |
 | Font Noto | All the Noto Fonts in one package |
