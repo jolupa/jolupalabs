@@ -45,7 +45,6 @@ d:console-tdm
 d:libgee
 d:garcon
 d:xfce4-settings
-d:neofetch
 d:libblockdev
 d:exo
 d:sound-theme-smooth
@@ -218,9 +217,6 @@ f:be1bce5273f74d939eabc11b78134640:garcon/.signature
 f:015ab85b6fa29dfc05700074e60da34e:xfce4-settings/Pkgfile
 f:2471a341d9baa2e01908ddd5a557ab95:xfce4-settings/.footprint
 f:e0a82777e2a58bdb57a8f8c126b6128c:xfce4-settings/.signature
-f:98580832cba58a46962b9c80ce0ced12:neofetch/Pkgfile
-f:7115e706eca005970f078ca22e563960:neofetch/.footprint
-f:850f6834a8213faeb1936c5fdbfba2b7:neofetch/.signature
 f:51b2252383c76ccb56f6fe9bfeead472:libblockdev/Pkgfile
 f:c7960410726f92f17cc8be22ca58b621:libblockdev/.footprint
 f:fbbaae4bfa5a5165c417cddfa63b6e6b:libblockdev/.signature
