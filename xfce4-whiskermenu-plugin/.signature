@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWSXS6u+dmakZExJsj6V91Crws0yC+RGMEmUyg86yY5sjbj2F9K+y8E49nxdpZJSZfHPiD4MWGce1oLYz9lVoOYCW7sA0fz2bAw=
-SHA256 (Pkgfile) = 7f9a3f065921d74ce9bfe02cc025e09000bea3c05f2bc151a2b8c4874fdb900d
+RWSXS6u+dmakZEE2SZ//S2cgu/yWOZQ8YW85bb1fdyQRAw4/UHOBUM0cioiEMMjgtSqSG7I6n9IAfgujcqR9qkIMnXdcus0A7w8=
+SHA256 (Pkgfile) = f14d81c05dcc7e3a40a2475bb0c8c0fc30307faf889ce134d938a771a82a607a
 SHA256 (.footprint) = 5c6d366b2f707d3c7f97f789941d5baed605e5389e7085e71a9a97c6f825cf0b
-SHA256 (xfce4-whiskermenu-plugin-2.4.2.tar.bz2) = fb2e1d44744d851c5339900e7af9068397028efa9ee5235a66ab273e95740dee
+SHA256 (xfce4-whiskermenu-plugin-2.4.3.tar.bz2) = 39faeee91ceb3cb727f9de09dbf20a8c73e524851a2c3b76a4b19a0732de5ff0
