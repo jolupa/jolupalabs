@@ -72,6 +72,7 @@ You can find other packages not Xfce related in this repo, here's a list.
 
 | PACKAGE NAME | NOTES |
 |---|:---:|
+| Berry | A byte sized Window Manager |
 | Console Tdm | A Console Display Manager |
 | Font Undefined Medium | |
 | Font Noto | All the Noto Fonts in one package |
