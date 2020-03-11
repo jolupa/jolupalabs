@@ -21,6 +21,7 @@ d:xfce4-screensaver
 d:ndctl
 d:thunar-volman
 d:xfce4-clipman-plugin
+d:berry
 d:thunar
 d:greybird-theme
 d:ristretto
@@ -132,6 +133,10 @@ f:19ae7ba369f82ca35aafcb2f0cfcabf9:thunar-volman/.signature
 f:dfaf101d37eb286f8a5e0f2e0c80d46b:xfce4-clipman-plugin/Pkgfile
 f:fd560aee5a40fb5a9a01702b3695b0e5:xfce4-clipman-plugin/.footprint
 f:af3de5f776669fa14f176fe612ee344e:xfce4-clipman-plugin/.signature
+f:eaa025e70eba0be9357c5e4ff49fc67b:berry/berry.desktop
+f:01470db1118ad17375ed99d8da9d953e:berry/Pkgfile
+f:4799daa016b7229cd7022c78df1d441f:berry/.footprint
+f:c18835274a9a11e50d5dba672b4726f8:berry/.signature
 f:d41a919ef58c2fccd4d3570e184ce9de:thunar/post-install
 f:6f0b8fb49ce283ae6c5688e37b1d552e:thunar/Pkgfile
 f:1ec6f5de1ef1d40cdfef4ae55ceec521:thunar/.footprint
