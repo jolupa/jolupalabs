@@ -42,6 +42,7 @@ d:udisks2
 d:image-burner
 d:obinskit
 d:xfce4-notifyd
+d:gigolo
 d:console-tdm
 d:libgee
 d:garcon
@@ -209,6 +210,9 @@ f:979e5eba58d15a1d1056ae9956bffbcb:obinskit/obinskit.desktop
 f:6c7853f5486cd2ad92ecc66e569052ba:xfce4-notifyd/Pkgfile
 f:a2ff05c6cc6fdf9547926bb5dc35fd42:xfce4-notifyd/.footprint
 f:ebdc4542a4f7e921f53bbe5c1fe595af:xfce4-notifyd/.signature
+f:a99dc6d0c7c2a8ab2ad5ca420fff3a0f:gigolo/Pkgfile
+f:6eed3d193570dd166d2fff4f6f5a02f9:gigolo/.footprint
+f:b8251c05782a1a8b51e4a0bd0d32d3ec:gigolo/.signature
 f:faad09f2c8002b777a008e5694479a47:console-tdm/README
 f:968d07d8a54fbe19e690ee8ce2cfa881:console-tdm/Pkgfile
 f:a10d06f88ee848d108df1b8ed11e197d:console-tdm/.footprint
