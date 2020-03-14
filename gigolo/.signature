@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/jolupalabs.pub
+RWSXS6u+dmakZC9hmTygVdoxggBGgvruA1Df4NWeSchHsuBDknCwjdzKQ/T0p1HwJh6dA4d2wmb0c/OKvzUxkItiZjBZItUAYQI=
+SHA256 (Pkgfile) = 5571f84eefc383e38b3f7629dee7ebe93e5ca29eef082eadb9f42bde917cdf15
+SHA256 (.footprint) = 4135073982dfefad2ccdef53c68d7e8bc1561a2969231d7a2970d39dfa2349ed
+SHA256 (gigolo-0.5.1.tar.bz2) = ca87badb5871e4844579704704ea9e5ede444f710a3b264c12b60b2a0e48e14e
