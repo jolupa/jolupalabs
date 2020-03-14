@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWSXS6u+dmakZNtIoRoyU9svjzJTk/XzUxtyGVJk43kmV6w7RRoTepjsL1WF+fti2M8Xd3UUdBLqqhKyCiltvNHFxsxVkCpLTgY=
-SHA256 (Pkgfile) = cc35fba6fe0f9fe6d291c61425d7d4d11b415781b31e6659c913b5ed475e8c63
+RWSXS6u+dmakZPIJNz+L+v9qVJEae4HhI+0tClctSXipSBfK36uTnXqlvrpLTEEVOR/f9fxwVWUwsJSl8tDmZ20Lpdw2+IWNRQ8=
+SHA256 (Pkgfile) = ff51e80cfbdfdef67cea62a3298231d755c6e72daef82a5341ab1606334ca4a6
 SHA256 (.footprint) = 5c5cd17f1a5ed06bd87e096942f86993e3b9af0d6ce550068ea2951923776fcd
-SHA256 (gvfs-1.43.92.tar.xz) = 18fc490d6331b14a4d332c8403ed9b39fcf590e9de28540530e415d0528dd3dd
+SHA256 (gvfs-1.44.0.tar.xz) = bca460aee65c4b8de164fb1320467282940cf684b54b9d97518cacb30352ae98
