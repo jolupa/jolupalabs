@@ -57,9 +57,9 @@ d:xfce4-power-manager
 d:elementary-icon-theme
 d:xfce4-weather-plugin
 d:vala
-f:d9758f1fb5faf999743c7dcb99b587b9:gvfs/Pkgfile
+f:827a2bfde0b45c850966f773145f28b2:gvfs/Pkgfile
 f:e91f9bd778089fba3e3876dacd9120e9:gvfs/.footprint
-f:8b2a2ab9fc49ea355d4b9e81748ab13a:gvfs/.signature
+f:deb512ce1cdf75596748755d462ecb3f:gvfs/.signature
 f:97f3307ae444efaa04ddff9d7440d0cc:mousepad/post-install
 f:c831baed49165679f4b014be7e5be21e:mousepad/Pkgfile
 f:95314133d1e83bcc147bd0738a45dc90:mousepad/.footprint
@@ -220,7 +220,7 @@ f:d0668d5d817cf39bb44d910ab6394490:console-tdm/.signature
 f:623d13a88938ee8ea8d1706725cba643:libgee/Pkgfile
 f:6bcdf9f21265f03ae3c3fb5bc67d953f:libgee/.footprint
 f:c550a271211200f87963ce81fd31108d:libgee/.signature
-f:c9eea9087bbb293798b6bfda2b24a36a:garcon/Pkgfile
+f:ad620a5fac09c8310c05a1a58a0e4539:garcon/Pkgfile
 f:f6cc20f5bede5a226d33bf4c1d2dbf07:garcon/.footprint
 f:be1bce5273f74d939eabc11b78134640:garcon/.signature
 f:015ab85b6fa29dfc05700074e60da34e:xfce4-settings/Pkgfile
