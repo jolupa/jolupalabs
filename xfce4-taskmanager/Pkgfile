@@ -5,20 +5,19 @@
 
 name=xfce4-taskmanager
 version=1.2.2
-release=3
-source=(https://git.xfce.org/apps/$name/snapshot/$name-$version.tar.gz patch1.patch)
+release=4
+source=(https://archive.xfce.org/src/apps/$name/${version:0:3}/$name-$version.tar.bz2)
 
 build() {
 
 	cd $name-$version
 
-	./autogen.sh \
+	./configure \
 		--prefix=/usr \
 		--libexecdir=/usr/lib/$name \
 		--disable-gtk2 \
 		--enable-gksu \
-		--enable-wnck3 \
-		--with-x
+		--enable-wnck3
 
 	make
 	make DESTDIR=$PKG install
