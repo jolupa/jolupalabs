@@ -5,7 +5,7 @@
 
 name=xfce4-power-manager
 version=1.7.0
-release=1
+release=2
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:3}/$name-$version.tar.bz2)
 
 build() {
@@ -15,6 +15,7 @@ build() {
 	./configure \
 	  --prefix=/usr \
 	  --libexecdir=/usr/lib/$name \
+		--sysconfdir=/etc \
 	  --disable-network-manager \
 	  --disable-systemd	\
 	  --enable-xfce4panel \
