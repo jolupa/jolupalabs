@@ -122,10 +122,10 @@ f:313ba10df953edc64cc4cc7bdc4443bb:libatasmart/.signature
 f:7b1d2d7a5af9b74749d29bcaab4afe7f:xiccd/Pkgfile
 f:eb694254504a56ef8484b3b663b1f6cc:xiccd/.footprint
 f:fa6a5dd5e0f1b540d2a232cdbd1e1556:xiccd/.signature
-f:b3cbf543e1dcd76d586e7e1436faddc1:xfce4-screensaver/Pkgfile
+f:0ba7e35fc59769fd89e5aa521baccb4f:xfce4-screensaver/Pkgfile
 f:18323b326bead6a557968d154a03b9d8:xfce4-screensaver/.footprint
 f:de1345235613eba15ff09aab3666c643:xfce4-screensaver/common_auth.patch
-f:25a3a581601af2e2fe29e86bce89d88f:xfce4-screensaver/.signature
+f:cd698fa9ef4cc53d94a0dc3aac56a78a:xfce4-screensaver/.signature
 f:e206cfe2b6cf366eaf0bbb0e523858b1:ndctl/Pkgfile
 f:56536a815af3233054a4c61efb636643:ndctl/.footprint
 f:3a1a6691de01e6df9b2e4bd3dd85c2bc:ndctl/.signature
@@ -136,9 +136,9 @@ f:dfaf101d37eb286f8a5e0f2e0c80d46b:xfce4-clipman-plugin/Pkgfile
 f:fd560aee5a40fb5a9a01702b3695b0e5:xfce4-clipman-plugin/.footprint
 f:af3de5f776669fa14f176fe612ee344e:xfce4-clipman-plugin/.signature
 f:eaa025e70eba0be9357c5e4ff49fc67b:berry/berry.desktop
-f:01470db1118ad17375ed99d8da9d953e:berry/Pkgfile
+f:c01df56d4241de95a14685e9e22fc788:berry/Pkgfile
 f:4799daa016b7229cd7022c78df1d441f:berry/.footprint
-f:c18835274a9a11e50d5dba672b4726f8:berry/.signature
+f:12736b976a15816c950f773745a0b391:berry/.signature
 f:d41a919ef58c2fccd4d3570e184ce9de:thunar/post-install
 f:6f0b8fb49ce283ae6c5688e37b1d552e:thunar/Pkgfile
 f:1ec6f5de1ef1d40cdfef4ae55ceec521:thunar/.footprint
@@ -252,9 +252,9 @@ f:5cbc6c0ee49dde5b23c15a127836e58f:xfce4-power-manager/Pkgfile
 f:3560a41a8791d22ab12dadf7b2f8c9f7:xfce4-power-manager/.footprint
 f:ff5fc16bb27e2ba4f725dd0b46fd7251:xfce4-power-manager/.signature
 f:8a158dd64dd291b5174fd0c777b51d89:elementary-icon-theme/post-install
-f:fb6c7781ce7f388325dd2d13a0b16c11:elementary-icon-theme/Pkgfile
-f:f927ea4753f197555d09e664c7d21f94:elementary-icon-theme/.footprint
-f:c097a498dea418cfe9f84e50b9eac6fd:elementary-icon-theme/.signature
+f:0fa9388488cc080225ce3395bb13e599:elementary-icon-theme/Pkgfile
+f:bcaa0bbd9f75154d8947051dd2b8c324:elementary-icon-theme/.footprint
+f:73002e4d56d0cf2ce791882a00f267d3:elementary-icon-theme/.signature
 f:82ce21b5132a6a573b2ecdb7f42364c8:xfce4-weather-plugin/post-install
 f:6cc43087b134fe51239e738efaafd0a4:xfce4-weather-plugin/Pkgfile
 f:95c9007b6082fb3a4a9eadb87547dbd6:xfce4-weather-plugin/.footprint
