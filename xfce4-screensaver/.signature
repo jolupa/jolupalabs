@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWSXS6u+dmakZEcRBtegmmUMk+Nk16MWI6z7aHwiI+2s7HymVrPN733eEnvVmwv79mX2/fz0hoY8RkJs5dZfSjv/ZyYWZEOrMgI=
-SHA256 (Pkgfile) = 1b5cc45049eab595bd25225aa7da4af711a6c8571887d218ab6c21aacf8d8430
+RWSXS6u+dmakZBYMMUD2E6LfoRnQUMG6ulu8vwsuF76S1aDT1UeYEInGpdOuEXHpt9VPeE+6+n5FnHsMBqiWdntzmoXlyMpDcgw=
+SHA256 (Pkgfile) = fc496931ea2c1a8c98616a5b3804c9a5f7a9df1d729fb4912adaf691e22bc496
 SHA256 (.footprint) = 1583deeb301524d181b4286835c08f3ea0b5f28f36fdd3c0a0fff2a02308036f
 SHA256 (xfce4-screensaver-0.1.8.tar.bz2) = 4056045ea5fd3eccfe328b86ae245ee4949b9e3044e42ca29c492c0f4ac860d7
 SHA256 (common_auth.patch) = 57e328612bd789307640d3aba1266caced93fd67cf7829118be90eb0331845a7
