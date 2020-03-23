@@ -122,10 +122,10 @@ f:313ba10df953edc64cc4cc7bdc4443bb:libatasmart/.signature
 f:7b1d2d7a5af9b74749d29bcaab4afe7f:xiccd/Pkgfile
 f:eb694254504a56ef8484b3b663b1f6cc:xiccd/.footprint
 f:fa6a5dd5e0f1b540d2a232cdbd1e1556:xiccd/.signature
-f:0ba7e35fc59769fd89e5aa521baccb4f:xfce4-screensaver/Pkgfile
-f:18323b326bead6a557968d154a03b9d8:xfce4-screensaver/.footprint
+f:ee87c41c1aac5a119a60b4fdd430ab7a:xfce4-screensaver/Pkgfile
+f:0e8410346e6d7b1be6c370b983cbb397:xfce4-screensaver/.footprint
 f:de1345235613eba15ff09aab3666c643:xfce4-screensaver/common_auth.patch
-f:cd698fa9ef4cc53d94a0dc3aac56a78a:xfce4-screensaver/.signature
+f:faef3a42818d0c73855ca0ab4a33d24e:xfce4-screensaver/.signature
 f:e206cfe2b6cf366eaf0bbb0e523858b1:ndctl/Pkgfile
 f:56536a815af3233054a4c61efb636643:ndctl/.footprint
 f:3a1a6691de01e6df9b2e4bd3dd85c2bc:ndctl/.signature
