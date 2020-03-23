@@ -4,9 +4,9 @@
 # Depends on: liibxfce4util libxfce4ui xfconf exo garcon xorg-libxscrnsaver gtk3 libxklavier libwnck-gtk3
 
 name=xfce4-screensaver
-version=0.1.8
-release=2
-source=(http://archive.xfce.org/src/apps/xfce4-screensaver/${version0:3}/$name-$version.tar.bz2 common_auth.patch)
+version=0.1.9
+release=1
+source=(http://archive.xfce.org/src/apps/$name/${version:0:3}/$name-$version.tar.bz2 common_auth.patch)
 
 build() {
 
