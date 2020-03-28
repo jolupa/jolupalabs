@@ -71,6 +71,8 @@ drwxr-xr-x	root/root	usr/share/vala-0.48/vapi/
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/avahi-gobject.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/avahi-gobject.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/bzlib.vapi
+-rw-r--r--	root/root	usr/share/vala-0.48/vapi/cairo-gobject.deps
+-rw-r--r--	root/root	usr/share/vala-0.48/vapi/cairo-gobject.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/cairo-xcb.deps
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/cairo-xcb.vapi
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/cairo.vapi
