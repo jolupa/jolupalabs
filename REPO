@@ -58,9 +58,9 @@ d:xfce4-power-manager
 d:elementary-icon-theme
 d:xfce4-weather-plugin
 d:vala
-f:827a2bfde0b45c850966f773145f28b2:gvfs/Pkgfile
+f:2f66daae49e40fee19296e549c482373:gvfs/Pkgfile
 f:e91f9bd778089fba3e3876dacd9120e9:gvfs/.footprint
-f:deb512ce1cdf75596748755d462ecb3f:gvfs/.signature
+f:7dd2169d4f549471978b73750b37b3ee:gvfs/.signature
 f:97f3307ae444efaa04ddff9d7440d0cc:mousepad/post-install
 f:c831baed49165679f4b014be7e5be21e:mousepad/Pkgfile
 f:95314133d1e83bcc147bd0738a45dc90:mousepad/.footprint
@@ -180,9 +180,9 @@ f:6fa58eaf1edcd7eb3d691355ab7ac09e:libxfce4ui/Pkgfile
 f:15978dbfc8e020ebf9980aa7368bf4f1:libxfce4ui/.footprint
 f:93af5715452db6867f8705de462a2ac2:libxfce4ui/.signature
 f:e5f74be27525658dae59401455944186:gsettings-desktop-schemas/post-install
-f:b24d5f616a0b31e433138f95af88a0fe:gsettings-desktop-schemas/Pkgfile
+f:0a6fd786712023974e2a015e7929d290:gsettings-desktop-schemas/Pkgfile
 f:2ae876a4d6d1fe256aa479ea570cf647:gsettings-desktop-schemas/.footprint
-f:bb07174c93e01580b78bc94933f0ba43:gsettings-desktop-schemas/.signature
+f:1c6dc2bf8c86646646c04df704082fed:gsettings-desktop-schemas/.signature
 f:a05006ab3bf3837384ff88c82b9b4e38:libxfce4util/Pkgfile
 f:db8bc0ec77be9c47ba72963780846c4a:libxfce4util/.footprint
 f:6ca82d636609a59f7d40d4803b6c1401:libxfce4util/.signature
@@ -259,6 +259,6 @@ f:82ce21b5132a6a573b2ecdb7f42364c8:xfce4-weather-plugin/post-install
 f:6cc43087b134fe51239e738efaafd0a4:xfce4-weather-plugin/Pkgfile
 f:95c9007b6082fb3a4a9eadb87547dbd6:xfce4-weather-plugin/.footprint
 f:e538ba5c27553faee2d417daf07442c7:xfce4-weather-plugin/.signature
-f:494ece79b7a63c821d9368d5e5813269:vala/Pkgfile
-f:d919cff70d3da3fa40f21672f8009059:vala/.footprint
-f:faedddabde24df72a63a68f244f4b079:vala/.signature
+f:ae518794842e8a565d8640473158cf0c:vala/Pkgfile
+f:28a1ca8538917d77fc04fe914fb5aa05:vala/.footprint
+f:0c2ed1d2d67edf55d0ee5a07c64b8b06:vala/.signature
