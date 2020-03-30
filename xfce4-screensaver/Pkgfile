@@ -5,14 +5,14 @@
 
 name=xfce4-screensaver
 version=0.1.10
-release=1
+release=2
 source=(http://archive.xfce.org/src/apps/$name/${version:0:3}/$name-$version.tar.bz2 common_auth.patch)
 
 build() {
 
   cd $name-$version
 
-  #patch -p1 -i $SRC/common_auth.patch
+  patch -p1 -i $SRC/common_auth.patch
 
   ./configure \
     --prefix=/usr \
