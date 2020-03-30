@@ -4,7 +4,7 @@
 # Depends on: xfce4-panel
 
 name=xfce4-clipman-plugin
-version=1.4.4
+version=1.6.0
 release=1
 source=(https://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$version.tar.bz2)
 
@@ -16,9 +16,9 @@ build() {
       --prefix=/usr \
       --libexecdir=/usr/lib/$name \
       --sysconfdir=/etc
-	
+
     make
     make DESTDIR=$PKG install
-	
+
     #rm -r $PKG/usr/share/locale
 }
