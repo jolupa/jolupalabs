@@ -4,7 +4,7 @@
 # Depends on: libxfce4ui vte3
 
 name=xfce4-terminal
-version=0.8.9.1
+version=0.8.9.2
 release=1
 source=(http://archive.xfce.org/src/apps/$name/${version:0:3}/$name-$version.tar.bz2)
 
@@ -17,10 +17,10 @@ build() {
       --libexecdir=/usr/lib/$name \
       --disable-debug \
       --disable-gtk-doc
-	
+
   make
   make DESTDIR=$PKG install
-	
+
   #rm -r $PKG/usr/share/locale
-	
+
 }
