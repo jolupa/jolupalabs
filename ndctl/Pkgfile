@@ -5,7 +5,7 @@
 # Depends on: json-c
 
 name=ndctl
-version=67
+version=68
 release=1
 source=(https://github.com/pmem/$name/archive/v$version.tar.gz)
 
