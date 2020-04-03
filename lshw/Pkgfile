@@ -4,7 +4,7 @@
 # Depends on:
 
 name=lshw
-version=B.02.18
+version=B.02.19
 release=1
 source=(https://github.com/lyonel/$name/archive/$version.tar.gz)
 
