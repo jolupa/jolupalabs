@@ -4,7 +4,7 @@
 # Depends on: meson gobject-introspection libgee gtk3 vala
 
 name=granite
-version=5.3.0
+version=5.3.1
 release=1
 source=(https://github.com/elementary/$name/archive/$version.tar.gz)
 
