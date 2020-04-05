@@ -132,9 +132,9 @@ f:1be171cde956b976965023612805f4fc:ndctl/.signature
 f:4b14623b9a6832fb6d92ed3f838280ab:thunar-volman/Pkgfile
 f:0a0df20c97bf8a275dc6c256c0e22059:thunar-volman/.footprint
 f:19ae7ba369f82ca35aafcb2f0cfcabf9:thunar-volman/.signature
-f:320ff0627a59fa2704b321cac68e9572:xfce4-clipman-plugin/Pkgfile
+f:1002fd4038251a0db9939c57d1b7bb0d:xfce4-clipman-plugin/Pkgfile
 f:a76d8bcc091c6ebb3218f4361eb3fb45:xfce4-clipman-plugin/.footprint
-f:3f19eb52e600a37f9bb76876f0960cb6:xfce4-clipman-plugin/.signature
+f:55af325f68c05505014ccc2a866ac28a:xfce4-clipman-plugin/.signature
 f:eaa025e70eba0be9357c5e4ff49fc67b:berry/berry.desktop
 f:c01df56d4241de95a14685e9e22fc788:berry/Pkgfile
 f:4799daa016b7229cd7022c78df1d441f:berry/.footprint
@@ -176,9 +176,9 @@ f:7e0738a64f14126455bdc3261698134e:xfwm4/.signature
 f:cb2c28bdc4760c3b0fad313f07a69013:xfce4-xkb-plugin/Pkgfile
 f:ec1afb59e7d306a50bc0e424c9108e53:xfce4-xkb-plugin/.footprint
 f:d6488066b6f2a466646b52fab4be40d4:xfce4-xkb-plugin/.signature
-f:6fa58eaf1edcd7eb3d691355ab7ac09e:libxfce4ui/Pkgfile
-f:15978dbfc8e020ebf9980aa7368bf4f1:libxfce4ui/.footprint
-f:93af5715452db6867f8705de462a2ac2:libxfce4ui/.signature
+f:567558836045cb8c8f6e4cc3bc39aa8e:libxfce4ui/Pkgfile
+f:3ae44fb94f64acc9ffe268a3be76cb16:libxfce4ui/.footprint
+f:ee736496207927c43c00fd9c30ab4ca6:libxfce4ui/.signature
 f:e5f74be27525658dae59401455944186:gsettings-desktop-schemas/post-install
 f:0a6fd786712023974e2a015e7929d290:gsettings-desktop-schemas/Pkgfile
 f:2ae876a4d6d1fe256aa479ea570cf647:gsettings-desktop-schemas/.footprint
@@ -220,9 +220,9 @@ f:d0668d5d817cf39bb44d910ab6394490:console-tdm/.signature
 f:623d13a88938ee8ea8d1706725cba643:libgee/Pkgfile
 f:6bcdf9f21265f03ae3c3fb5bc67d953f:libgee/.footprint
 f:c550a271211200f87963ce81fd31108d:libgee/.signature
-f:ad620a5fac09c8310c05a1a58a0e4539:garcon/Pkgfile
-f:f6cc20f5bede5a226d33bf4c1d2dbf07:garcon/.footprint
-f:be1bce5273f74d939eabc11b78134640:garcon/.signature
+f:2023410ab075a3af06556c5da9fa9628:garcon/Pkgfile
+f:74f84e67358bd2d4cd093315ffcaee49:garcon/.footprint
+f:7363d29ca44cc01f547451275a4e192a:garcon/.signature
 f:015ab85b6fa29dfc05700074e60da34e:xfce4-settings/Pkgfile
 f:2471a341d9baa2e01908ddd5a557ab95:xfce4-settings/.footprint
 f:e0a82777e2a58bdb57a8f8c126b6128c:xfce4-settings/.signature
