@@ -4,7 +4,7 @@
 # Depends on: libxfce4util gtk3 xfconf startup-notification glade libgtop
 
 name=libxfce4ui
-version=4.15.1
+version=4.15.2
 release=1
 source=(http://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
@@ -19,11 +19,11 @@ build() {
 	  --enable-glibtop \
 	  --enable-introspection=no \
 	  --enable-gtk-docs=no
-	
+
 	make
 	make DESTDIR=$PKG install
-	
+
 	#rm -r $PKG/usr/share/locale
   rm -r $PKG/usr/share/gtk-doc
-	
+
 }

@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/libxfce4ui-enum-types.h
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/libxfce4ui.h
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/xfce-dialogs.h
+-rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/xfce-filename-input.h
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/xfce-gdk-extensions.h
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/xfce-gtk-extensions.h
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/xfce-sm-client.h
@@ -150,6 +151,9 @@ drwxr-xr-x	root/root	usr/share/locale/it/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/ja/
 drwxr-xr-x	root/root	usr/share/locale/ja/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/ja/LC_MESSAGES/libxfce4ui.mo
+drwxr-xr-x	root/root	usr/share/locale/ka/
+drwxr-xr-x	root/root	usr/share/locale/ka/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ka/LC_MESSAGES/libxfce4ui.mo
 drwxr-xr-x	root/root	usr/share/locale/kk/
 drwxr-xr-x	root/root	usr/share/locale/kk/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/kk/LC_MESSAGES/libxfce4ui.mo
