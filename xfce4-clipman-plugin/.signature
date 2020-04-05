@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWSXS6u+dmakZFyhl78THcDhegdmP8gGrBYpI3BOq4Xs9zp+Ig2+6g2gUbA9ZhRyRyoj0Uz/0rrr/l2cIu2sU97+TgJk8kE59g4=
-SHA256 (Pkgfile) = d101779feadb77e98afbf030a6c143c016c0fa8ff1901d91fde86eebdb08a18b
+RWSXS6u+dmakZEw/jtyGMyYju8cfvRawdcHUZ3H+0Jc28cwNzfllQNJC5DjpklddBwi4evwyZMHmqVmSRj1JxqKOol8TRfVvcws=
+SHA256 (Pkgfile) = 5621229518ad58892773cea6a5dc2430f9f38bf97b90dbe30a9af74211ea2343
 SHA256 (.footprint) = 8402bad1b901eff109e431a18a4e5eb3bfa0d4c5b4e2953e1631aa32a6862a8f
-SHA256 (xfce4-clipman-plugin-1.6.0.tar.bz2) = 0295da92ade7d6e1d8b15a525e73ddcfba1986142d34c6143955164a13552ed7
+SHA256 (xfce4-clipman-plugin-1.6.1.tar.bz2) = b3e8317796289196fa78c4526626fe061fd35d11e848cf300ca1ace47febceb4
