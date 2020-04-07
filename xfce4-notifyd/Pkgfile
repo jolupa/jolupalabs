@@ -18,10 +18,10 @@ build() {
       --disable-gtk-doc \
       --disable-gtk2 \
       --enable-gtk3
-	
+
   make
   make DESTDIR=$PKG install
 
   #rm -r $PKG/usr/share/locale
-	
+
 }

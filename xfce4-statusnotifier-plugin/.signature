@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWS01t+diH9wh1kJeTV6cQSIqw0WYrVcvs581KpOkoBGEoV5NtmSfzzo2y8jf6zrRVnnu+Q2uNtSNngbykJLm1DdgDmyIZeA6QE=
+RWS01t+diH9wh7WtGKH0q0E9fQDrjBsE9zoACNXd69ws/cbiNklpMRUy2V5BRwpnk2TjBz3WgVmMOb7+/61chGLY6n1plJkF0Q4=
 SHA256 (Pkgfile) = eeaaefac6c2c67f3c84175b86e22af659030c4cb5d292373b07b574d54b42c87
+SHA256 (.footprint) = 8f07fdd2d9e6e9fa2401d1f9fe825f842f016199117a1b34387201827dce5277
 SHA256 (xfce4-statusnotifier-plugin-0.2.2.tar.bz2) = 4c905944d510a7a460246660c6c7a648a3a5fa0d638276b9bf2380d3654a2cfa
