@@ -2,11 +2,11 @@
 # URL: https://www.xfce.org
 # Packager: jolupa, jlpavon at me dot com
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: glib libxfce4util
+# Depends on: libxfce4util
 
 name=garcon
 version=0.7.0
-release=1
+release=2
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:3}/$name-$version.tar.bz2)
 
 build() {
@@ -14,12 +14,12 @@ build() {
 	cd $name-$version
 
 	./configure \
-	  --prefix=/usr \
-	  --libexecdir=/usr/lib/$name \
-    --sysconfdir=/etc \
-	  --disable-gtk2 \
-	  --enable-gtk3 \
-	  --disable-gtk-doc
+		--prefix=/usr \
+		--libexecdir=/usr/lib/$name \
+		--sysconfdir=/etc \
+		--disable-gtk2 \
+		--enable-gtk3 \
+		--disable-gtk-doc
 
 	make
 	make DESTDIR=$PKG install
