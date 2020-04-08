@@ -1,11 +1,11 @@
 # Description: Modern, fast and easy-to-use file manager for Xfce
 # URL: https://www.xfce.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: libxfce4ui exo libpng gtk3 glib libgudev libnotify xfce4-panel gvfs libexif freetype libjpeg-turbo xfconf
+# Depends on: libxfce4ui exo xfce4-panel tumbler libgudev libnotify gvfs libexif
 
 name=thunar
 version=1.8.14
-release=1
+release=2
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:3}/$name-$version.tar.bz2)
 
 build() {
