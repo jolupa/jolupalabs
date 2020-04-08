@@ -2,7 +2,7 @@
 # URL: http://www.uvena.de/gigolo
 # Packager: jolupa, jlpavon at me dot com
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: glib gvfs gtk2
+# Depends on: gtk2
 
 name=gigolo
 version=0.5.1
@@ -14,9 +14,9 @@ build() {
 	cd $name-$version
 
 	./configure \
-	  --prefix=/usr \
-	  --libexecdir=/usr/lib/$name \
-    --sysconfdir=/etc
+		--prefix=/usr \
+		--libexecdir=/usr/lib/$name \
+		--sysconfdir=/etc
 
 	make
 	make DESTDIR=$PKG install
