@@ -2,6 +2,7 @@ d:libxfce4ui
 d:qogir-theme
 d:mousepad
 d:xfce4-session
+d:graphviz
 d:udisks2
 d:elementary-icon-theme
 d:console-tdm
@@ -72,6 +73,9 @@ f:ce29609cdf40ac977a1147b23d72fc57:xfce4-session/.signature
 f:37a64031ef1703ac4305e9352aa10e11:xfce4-session/.footprint
 f:67e14ec2333d44f12bedf9562545f65f:xfce4-session/Pkgfile
 f:5d4bd45ce49ac03ef8464178ef0e3d28:xfce4-session/post-install
+f:1138808364b59ba48326b8416aad78d9:graphviz/.signature
+f:e72cfa4c824a62a8cfb0fac20f4d5636:graphviz/.footprint
+f:b33512e66bce713487a0c9ecbcef8db6:graphviz/Pkgfile
 f:103ba8a1e03ac7de4e676cbdebe374ff:udisks2/.signature
 f:99d3c33a943ea1aad09a88d9d97ddcd2:udisks2/.footprint
 f:d66d24499e3816e44c4020e592e94fba:udisks2/Pkgfile
@@ -230,9 +234,9 @@ f:4fcfc3dfc16d31336cdd357298ac2631:font-undefined-medium/.signature
 f:483f9dfefb4947bb7e2d82a27c6e5f44:font-undefined-medium/.footprint
 f:e7d74a955252220dcb5fa03dc86138a2:font-undefined-medium/Pkgfile
 f:8b133fe080cca70ee99fd8a2eb15e7a9:font-undefined-medium/post-install
-f:4505b4a0d56e3238ea8fd8c067c926ba:vala/.signature
-f:28a1ca8538917d77fc04fe914fb5aa05:vala/.footprint
-f:ae518794842e8a565d8640473158cf0c:vala/Pkgfile
+f:147ca37fe40d1bb38eb488b9b6664396:vala/.signature
+f:18f9fa0aef16c57f7817f4b9f31dcf77:vala/.footprint
+f:5ae46c6c3baef46108420606cb6404fe:vala/Pkgfile
 f:3a6563b58b1488c87ce432eb40099bf1:xfce4-taskmanager/.signature
 f:fd346d4f2065c42bb34fa71e523138ed:xfce4-taskmanager/.footprint
 f:90be760e91ce23a61717c6ff1e1e202b:xfce4-taskmanager/Pkgfile
