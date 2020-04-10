@@ -45,20 +45,20 @@ drwxr-xr-x	root/root	usr/lib/valadoc-0.48/doclets/gtkdoc/
 drwxr-xr-x	root/root	usr/lib/valadoc-0.48/doclets/html/
 -rwxr-xr-x	root/root	usr/lib/valadoc-0.48/doclets/html/libdoclet.la
 -rwxr-xr-x	root/root	usr/lib/valadoc-0.48/doclets/html/libdoclet.so
-drwxr-xr-x	root/root	usr/man/
-drwxr-xr-x	root/root	usr/man/man1/
--rw-r--r--	root/root	usr/man/man1/vala-gen-introspect-0.48.1.gz
-lrwxrwxrwx	root/root	usr/man/man1/vala-gen-introspect.1.gz -> vala-gen-introspect-0.48.1.gz
--rw-r--r--	root/root	usr/man/man1/valac-0.48.1.gz
-lrwxrwxrwx	root/root	usr/man/man1/valac.1.gz -> valac-0.48.1.gz
--rw-r--r--	root/root	usr/man/man1/valadoc-0.48.1.gz
-lrwxrwxrwx	root/root	usr/man/man1/valadoc.1.gz -> valadoc-0.48.1.gz
--rw-r--r--	root/root	usr/man/man1/vapigen-0.48.1.gz
-lrwxrwxrwx	root/root	usr/man/man1/vapigen.1.gz -> vapigen-0.48.1.gz
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/aclocal/
 -rw-r--r--	root/root	usr/share/aclocal/vala.m4
 -rw-r--r--	root/root	usr/share/aclocal/vapigen.m4
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/vala-gen-introspect-0.48.1.gz
+lrwxrwxrwx	root/root	usr/share/man/man1/vala-gen-introspect.1.gz -> vala-gen-introspect-0.48.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/valac-0.48.1.gz
+lrwxrwxrwx	root/root	usr/share/man/man1/valac.1.gz -> valac-0.48.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/valadoc-0.48.1.gz
+lrwxrwxrwx	root/root	usr/share/man/man1/valadoc.1.gz -> valadoc-0.48.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/vapigen-0.48.1.gz
+lrwxrwxrwx	root/root	usr/share/man/man1/vapigen.1.gz -> vapigen-0.48.1.gz
 drwxr-xr-x	root/root	usr/share/vala-0.48/
 drwxr-xr-x	root/root	usr/share/vala-0.48/vapi/
 -rw-r--r--	root/root	usr/share/vala-0.48/vapi/alsa.deps
