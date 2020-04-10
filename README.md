@@ -64,6 +64,7 @@ This are the dependencies you can find in this repository that are not avalaible
 | | | Libatasmart | Ndctl |
 | | | Libblockdev | |
 | Xfce4-Settings | Colord | |
+| Image-burner | Vala | Graphviz |
 
 OTHER PACKAGES IN THIS REPO
 =====
