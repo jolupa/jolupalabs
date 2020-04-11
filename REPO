@@ -237,9 +237,9 @@ f:8b133fe080cca70ee99fd8a2eb15e7a9:font-undefined-medium/post-install
 f:147ca37fe40d1bb38eb488b9b6664396:vala/.signature
 f:18f9fa0aef16c57f7817f4b9f31dcf77:vala/.footprint
 f:5ae46c6c3baef46108420606cb6404fe:vala/Pkgfile
-f:3a6563b58b1488c87ce432eb40099bf1:xfce4-taskmanager/.signature
-f:fd346d4f2065c42bb34fa71e523138ed:xfce4-taskmanager/.footprint
-f:90be760e91ce23a61717c6ff1e1e202b:xfce4-taskmanager/Pkgfile
+f:25f0e476dd0f17acd6c2db6e55cdc084:xfce4-taskmanager/.signature
+f:ed62f39c10e3ec2bb18ac2cd2a944a25:xfce4-taskmanager/.footprint
+f:094e3fe3378932187ef7a1da32da86f0:xfce4-taskmanager/Pkgfile
 f:84bd098dca060e166e0db57c0f7b9e0a:xfce4-taskmanager/post-install
 f:bc5e251231f1b56c6b8e84f2ae7fe50a:xfce4-screensaver/.signature
 f:0e8410346e6d7b1be6c370b983cbb397:xfce4-screensaver/.footprint
