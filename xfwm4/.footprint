@@ -61,6 +61,9 @@ drwxr-xr-x	root/root	usr/share/locale/ast/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/be/
 drwxr-xr-x	root/root	usr/share/locale/be/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/be/LC_MESSAGES/xfwm4.mo
+drwxr-xr-x	root/root	usr/share/locale/be@tarask/
+drwxr-xr-x	root/root	usr/share/locale/be@tarask/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/be@tarask/LC_MESSAGES/xfwm4.mo
 drwxr-xr-x	root/root	usr/share/locale/bg/
 drwxr-xr-x	root/root	usr/share/locale/bg/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/xfwm4.mo
@@ -103,6 +106,9 @@ drwxr-xr-x	root/root	usr/share/locale/et/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/eu/
 drwxr-xr-x	root/root	usr/share/locale/eu/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/eu/LC_MESSAGES/xfwm4.mo
+drwxr-xr-x	root/root	usr/share/locale/fa_IR/
+drwxr-xr-x	root/root	usr/share/locale/fa_IR/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/fa_IR/LC_MESSAGES/xfwm4.mo
 drwxr-xr-x	root/root	usr/share/locale/fi/
 drwxr-xr-x	root/root	usr/share/locale/fi/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/fi/LC_MESSAGES/xfwm4.mo
@@ -139,6 +145,9 @@ drwxr-xr-x	root/root	usr/share/locale/it/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/ja/
 drwxr-xr-x	root/root	usr/share/locale/ja/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/ja/LC_MESSAGES/xfwm4.mo
+drwxr-xr-x	root/root	usr/share/locale/ka/
+drwxr-xr-x	root/root	usr/share/locale/ka/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ka/LC_MESSAGES/xfwm4.mo
 drwxr-xr-x	root/root	usr/share/locale/kk/
 drwxr-xr-x	root/root	usr/share/locale/kk/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/kk/LC_MESSAGES/xfwm4.mo

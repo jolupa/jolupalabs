@@ -4,14 +4,14 @@
 # Depends on: libxfce4util libxfce4ui xfconf glib libwnck-gtk3 startup-notification
 
 name=xfwm4
-version=4.14.0
-release=2
-source=(http://archive.xfce.org/xfce/4.14/src/$name-$version.tar.bz2)
+version=4.14.1
+release=1
+source=(https://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
 build() {
 
   cd $name-$version
-	
+
     ./configure \
       --prefix=/usr \
       --libexecdir=/usr/lib/$name \
@@ -26,7 +26,7 @@ build() {
 
     make
     make DESTDIR=$PKG install
-  
+
     #rm -r $PKG/usr/share/locale
     rm $PKG/usr/share/themes/{Daloa,Default-hdpi,Default-xhdpi,Kokodi,Moheli}/xfwm4/README
 }
