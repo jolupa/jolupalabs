@@ -122,9 +122,9 @@ f:ca14a53cc49b4815bdbb877b48a3b617:libdbusmenu/Pkgfile
 f:cd289963f07f3129188f6a723bfe7660:garcon/.signature
 f:74f84e67358bd2d4cd093315ffcaee49:garcon/.footprint
 f:f23443965320b64806ba0a770e7f9373:garcon/Pkgfile
-f:ba3208a1a2f23a6ea01a8cc6c475e184:xfce4-whiskermenu-plugin/.signature
+f:bb843800a62492adfbb4bf0bc0d1a4da:xfce4-whiskermenu-plugin/.signature
 f:ec6713fbe4897eb21834237ecfde368e:xfce4-whiskermenu-plugin/.footprint
-f:91084f605655dc5dc17522a5f29f8695:xfce4-whiskermenu-plugin/Pkgfile
+f:df1b6abc4792dfe2fed05d3a13615a67:xfce4-whiskermenu-plugin/Pkgfile
 f:82ce21b5132a6a573b2ecdb7f42364c8:xfce4-whiskermenu-plugin/post-install
 f:856e32110b0e43adb5d559157bfc9442:xfwm4/.signature
 f:88d5aad55de40189d398840c3de80fe5:xfwm4/.footprint
