@@ -4,7 +4,7 @@
 # Depends on: garcon xfce4-panel gtk3 cmake
 
 name=xfce4-whiskermenu-plugin
-version=2.4.3
+version=2.4.4
 release=1
 source=(http://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$version.tar.bz2)
 
