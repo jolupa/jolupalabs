@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWS01t+diH9wh3z7ihl32qsUGZhTYM678PonMXucQWjvbdmVc/lp1LZ9f2L1AccRVAXwcIo7svyl8IXvWSqAf+SDvLWECTVnNgU=
-SHA256 (Pkgfile) = 442176a98adde353591db108f4156a7ae38b774f67b70b7456b9c000036ea4c1
+RWS01t+diH9wh8EfcnejEr11TPj4PTNOLsYdEURB2DwCaJ0P+pb5JbLGfw7doovt4IUDAT7l4wCtbSPt9MV30mNAaDL2ZT6Ztww=
+SHA256 (Pkgfile) = 65ebaf967b087e7c16773d20ea0b081f12e1ba6180fe5c1b6362a0de5d1ee3dd
 SHA256 (.footprint) = b502a0d5b0f61fac417a22cd19cda430395abf4648712a6eac093aaf50ef68de
-SHA256 (vala-0.48.3.tar.xz) = 0169d5308823691582490bde23a61dd0e19cbea90aa326e747870dd0e0b9fdc2
+SHA256 (vala-0.48.5.tar.xz) = a3d4c0e0dadd4c64962205d2f448af72d6bd8c67919d984012b8a41b843ec757

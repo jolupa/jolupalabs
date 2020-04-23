@@ -4,7 +4,7 @@
 # Depends on:  glib graphviz
 
 name=vala
-version=0.48.3
+version=0.48.5
 release=1
 source=(http://download.gnome.org/sources/$name/${version%.*}/vala-$version.tar.xz)
 
