@@ -65,7 +65,6 @@ This are the dependencies you can find in this repository that are not avalaible
 | | | Libatasmart | Ndctl |
 | | | Libblockdev | |
 | Xfce4-Settings | Colord | |
-| Image-burner | Vala | Graphviz |
 
 OTHER PACKAGES IN THIS REPO
 =====
@@ -78,6 +77,7 @@ You can find other packages not Xfce related in this repo, here's a list.
 | Console Tdm | A Console Display Manager |
 | Font Undefined Medium | |
 | Font Noto | All the Noto Fonts in one package |
+| Graphviz | Needed for Vala |
 | Granite | |
 | Image Burner | |
 | Lshw | List Computer Hardware |
@@ -85,4 +85,4 @@ You can find other packages not Xfce related in this repo, here's a list.
 | Nordic | A beatiful Gtk3 theme based in nordic color scheme |
 | ObinsKit | Software for controlling the Anne Pro 2 Mechanical Keyboard. |
 | Qogir Gtk theme | Fantastic Flat Theme |
-| Vala | Needed for Granite compilation |
+| Vala | Needed for Granite and Image Burner |
