@@ -48,8 +48,9 @@ I don't know why the two ways to install Xfce the first one, the meta package, w
    #!/bin/sh
    exec ck-launch-session startxfce4
    ```
+5. If you have any problem launching XFCE and you have a an Intel graphic card, please try to use the mesa drivers in this repo.
 
-5. Enjoy this beatifull Desktop Environment!
+6. Enjoy this beatifull Desktop Environment!
 
 XFCE DEPENDENCIES IN THIS REPOSITORY
 =====

@@ -24,6 +24,7 @@ d:xfdesktop
 d:libgee
 d:image-burner
 d:berry
+d:mesa3d
 d:libxpresent
 d:parole
 d:thunar-volman
@@ -148,6 +149,9 @@ f:8d73fb2d70a9ec4e20f502c5f45c258e:berry/.signature
 f:4799daa016b7229cd7022c78df1d441f:berry/.footprint
 f:eaa025e70eba0be9357c5e4ff49fc67b:berry/berry.desktop
 f:c01df56d4241de95a14685e9e22fc788:berry/Pkgfile
+f:3b11596fb90f6e104cbd42da9b39bf25:mesa3d/.signature
+f:287e906aa70d75230337036387e56ee9:mesa3d/.footprint
+f:9a7a02e17396f3de3feb76dcbc6395d0:mesa3d/Pkgfile
 f:fc11a8c9092adfe586da85aba3ad63ac:libxpresent/.signature
 f:026cb056ad77d2497e963ca840508ad4:libxpresent/.footprint
 f:00809b315dc843558b5ea9087f30ca34:libxpresent/Pkgfile
