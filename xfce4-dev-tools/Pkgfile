@@ -1,0 +1,26 @@
+# Description: Autoconf macros and scripts to augment app build systems
+# URL: https://www.xfce.org
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends on: exo garcon libwnck-gtk3 libxfce4ui
+
+name=xfce4-dev-tools
+version=4.15.0
+release=1
+source=(https://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
+
+build() {
+
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--libexecdir=/usr/lib
+
+	make
+	make DESTDIR=$PKG install
+
+	#rm -r $PKG/usr/share/locale
+
+}

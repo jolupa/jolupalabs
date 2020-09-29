@@ -1,6 +1,5 @@
 # Description: The Console Display Manager
 # URL: https://github.com/dopsi/console-tdm
-# Packager: jolupa, jlpavon at me dot com
 # Maintainer: jolupa, jlpavon at me dot com
 # Depends on: dialog xorg-xinit
 

@@ -1,5 +1,6 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWS01t+diH9wh644NnS5IrTIV4VnfyAveZIoy0he1pXpjwQswDO/D7aPuDp43EprUYxjE2k7jeOWY7Sz2lhyeY0ZSVfiYDif5AY=
-SHA256 (Pkgfile) = 7fb844b9ee942bdcbed4603dd128f103ae256e2560e4bc6a47c131ccce4186d1
-SHA256 (.footprint) = 0f75ea16a6b309c27150e699197d5891f179dedd7aac8783dd4f7b64d3da6204
-SHA256 (xfconf-4.14.1.tar.bz2) = b893e0a329aee00902fec2f0509f56916c9dcc7844e1b1f9e3c7399458290d59
+RWS2lVAQeIsO08bDHvCtFXG7KDbbm/Gko6DvBQN17ivvpVR08fR3at0ikxaQmvYMASzNQB8ruRPDuGKbMGMWB0mDoQcjGNv5TQY=
+SHA256 (Pkgfile) = cdff367602f7c1f666f4fee7b496a56f109f56c8e2407c6158a01c7ee5d20e02
+SHA256 (.footprint) = 8d6b3fc006a3b0809f00f8ca8261d38147892458ac89e8495f4469350a7c1971
+SHA256 (xfconf-4.15.0.tar.bz2) = af8997964a054fb2c8bfa20a7dbdc22ec007a65004d8a75160464bf431bf0faf
+SHA256 (configure) = e5dc01ea2efd3d0b3db279dae52ed77b2a38db0c9c96059f96dd0b0a4ea2cd3f

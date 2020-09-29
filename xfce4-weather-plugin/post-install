@@ -1,9 +1,0 @@
-#
-#!/bin/sh
-#
-#Post install file for weather plugin
-
-gtk-update-icon-cache /usr/share/icons/hicolor
-
-#End of file
-

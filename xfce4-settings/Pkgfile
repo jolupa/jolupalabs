@@ -1,17 +1,17 @@
 # Description: Xfce's configuration system
 # URL: https://www.xfce.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: libxfce4ui exo xfconf glib xorg-libxi xorg-libxrandr xorg-libxcursor libnotify libcanberra libxklavier colord libinput
+# Depends on: exo garcon libxfce4ui gnome-icon-theme libcanberra libnotify libxklavier libinput colord xiccd
 
 name=xfce4-settings
-version=4.15.0
+version=4.15.2
 release=1
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
 build() {
 
   cd $name-$version
-	
+
     ./configure \
       --prefix=/usr \
       --libexecdir=/usr/lib/$name \
@@ -24,12 +24,13 @@ build() {
       --enable-pluggable-dialogs \
       --enable-sound-settings \
       --enable-colord \
-      --disable-static \
+      --enable-xrandr \
+      --enable-gio-unix \
       --x-libraries=/usr/share/X11
 
     make
     make DESTDIR=$PKG install
 
     #rm -r $PKG/usr/share/locale
-	
+
 }

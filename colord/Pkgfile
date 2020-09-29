@@ -1,42 +1,32 @@
-# Description:
-# URL: https://www.freedesktop.org/software/colord/intro.html
+# Description: System daemon for managing color devices
+# URL: https://www.freedesktop.org/software/colord
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: dbus polkit sqlite3 libgudev
+# Depends on: argyllcms dbus lcms2 libgudev libgusb polkit sane
 
 name=colord
-version=1.3.5
+version=1.4.4
 release=1
-source=(https://www.freedesktop.org/software/$name/releases/$name-$version.tar.xz)
+source=(https://github.com/hughsie/colord/archive/$version/$name-$version.tar.gz 0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch)
 
 build() {
   cd $name-$version
-
-  export COLORD_LIBS=/usr/lib/colord
-
-  ./configure \
+  patch -Np1 -i $SRC/0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch
+  meson . build \
     --prefix=/usr \
     --libexecdir=/usr/lib/$name \
-    --sysconfdir=/etc \
-    --sbindir=/sbin \
-    --datarootdir=/usr/share \
-    --disable-static \
-    --disable-schemas-compile \
-    --disable-gtk-doc-html \
-    --disable-gusb \
-    --disable-bash-completion \
-    --disable-systemd-login \
-    --disable-examples \
-    --disable-argyllcms-sensor \
-    --disable-reverse \
-    --disable-vala \
-    --disable-session-example \
-    --with-tmpfilesdir=/tmp \
-    --with-udevrulesdir=/etc/udev/rules.d \
-    --with-daemon-user=colord
-
-  make
-  make DESTDIR=$PKG install
-
-  chown -R colord:colord $PKG/usr/var/lib/colord
-
+    -D udev_rules=true \
+    -D systemd=false \
+    -D bash_completion=false \
+    -D libcolordcompat=true \
+    -D sane=true \
+    -D vapi=false \
+    -D print_profiles=true \
+    -D daemon_user=colord \
+    -D docs=false \
+    -D man=false \
+    -D tests=false
+  ninja -C build
+  DESTDIR=$PKG meson install -C build
+  rm -r $PKG/usr/share/locale
 }

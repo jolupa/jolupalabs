@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/jolupalabs.pub
+RWS2lVAQeIsO0zypYYE7aPEunm2nPBpnuUUFx4MgMNG7IOTiwco/eELfuzfK6hWWIos+asQApDXYmtJ0vwb+SfICvhjhK9v5wgE=
+SHA256 (Pkgfile) = 132bc514961fde648efb483a96bae78682215dbabfd67773fafe25753cd37bde
+SHA256 (.footprint) = 8ef411f0940c300aa9933790865a222d62b841bd53e934533145202ac12168de
+SHA256 (balsa-2.6.1.tar.bz2) = 6441772cb5e1870f10c358c21f7e709da8cc0bfa6cc005ec744b9f1b00ea7df6

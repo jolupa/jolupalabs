@@ -1,7 +1,0 @@
-# !/bin/sh
-# Post install file for font-undefined-medium
-#
-
-fc-cache -f -v
-
-#

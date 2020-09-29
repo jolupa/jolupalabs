@@ -1,7 +1,0 @@
-#!/bin/sh
-#Post Install File
-
-/usr/bin/libtool --finish /usr/lib/xfce4/panel/plugins
-/usr/bin/gtk-update-icon-cache -f -t /usr/share/icons/hicolor
-
-#Finish Install File

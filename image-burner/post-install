@@ -1,8 +1,0 @@
-#
-# /bin/sh
-# Post install for image-burner
-#
-
-gtk-update-icon-cache /usr/share/icons/hicolor
-
-# End post install file

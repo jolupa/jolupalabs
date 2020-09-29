@@ -3,11 +3,9 @@
 *~
 .git
 .gitignore
-xarchiver
 jolupalabs.sec
 jolupalabs.httpup
 jolupalabs.pub
 *.swp
 *.swo
 pru-*
-atom/
