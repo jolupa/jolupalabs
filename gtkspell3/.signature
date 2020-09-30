@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWS2lVAQeIsO00oa0vx2VwZR4JgCuUNI/g5wwNrQo9SzyiVowhAZQdhpyKzDu1P42ZX4voHjgJWU7/FRIlwEpYHmMiSI6lXVagc=
-SHA256 (Pkgfile) = 4fe2bb7205c8a650f031a41fb92a9520ffe6551ac0ef6613b02700f13883945c
-SHA256 (.footprint) = 90857bacf245f245c1b6151165e37a0a9c361dbee006dbed2661eabea2fdde7d
+untrusted comment: verify with ../jolupalabs.pub
+RWS2lVAQeIsO08SSMs5Y4XKX68RHB3tDXoAnXShnqJyJIM00HzTc4fn6B2BNZQLhwgvz1TF1v5bB8br7VwyMFne7QQecpjhnrAw=
+SHA256 (Pkgfile) = 5c214726f42e8a8fb1dd669edc073b3c7e0c6c7711bb2843d7e1371034341ff7
+SHA256 (.footprint) = b452ef1b7cd012bd5eddd70ce5c2658b8614f28bd9e9e62882d526ec48b07570
 SHA256 (gtkspell3-3.0.10.tar.xz) = b040f63836b347eb344f5542443dc254621805072f7141d49c067ecb5a375732
