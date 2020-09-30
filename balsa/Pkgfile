@@ -5,7 +5,7 @@
 
 name=balsa
 version=2.6.1
-release=1
+release=2
 source=(https://pawsa.fedorapeople.org/$name/$name-$version.tar.bz2)
 
 build() {
@@ -29,4 +29,6 @@ build() {
 
   make
   make DESTDIR=$PKG install
+
+  rm -r $PKG/usr/share/locale
 }
