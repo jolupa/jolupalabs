@@ -11,3 +11,5 @@ jolupalabs.pub
 *.swo
 pru-*
 atom/
+google-chrome-stable/
+xorg-*/

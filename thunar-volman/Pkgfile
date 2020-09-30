@@ -4,9 +4,9 @@
 # Depends on: exo libgudev libxfce4ui libnotify startup-notification gvfs xfce-polkit
 
 name=thunar-volman
-version=0.9.5
-release=2
-source=(http://archive.xfce.org/src/xfce/thunar-volman/0.9/$name-$version.tar.bz2)
+version=4.15.0
+release=1
+source=(http://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
 build() {
 

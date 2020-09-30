@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWS01t+diH9wh2kTKBFJCTTOI1gjG4jwj4gLebGtQeg5SL3u7qWYEDRmJgs4xEKb3DPZddevduo8uAEoqSF1DlUTNa4x+CZ7wgs=
-SHA256 (Pkgfile) = cb745974b42ef3fc266f530c3a267efe67a34d8fff0ef53a94bf5a498d9241d8
-SHA256 (.footprint) = 1a69ae49069a7f371a487bfd8875054e27b9905bb8dee3709aae11e5c79ea5c4
-SHA256 (ristretto-0.10.0.tar.gz) = bb3e5fa4eb6701749b8c2930ad59f63c694fc08337afee470284de9cda334793
-SHA256 (patch_1.patch) = 5c6bab875ea23e5a310db542eceb40d8d86346c3045feef2d5cd1485cf55aa5f

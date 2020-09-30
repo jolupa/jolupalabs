@@ -1,10 +1,10 @@
 # Description: Xfce's session manager
 # URL: https://www.xfce.org
 # Maintainer:	 jolupa, jlpavon at me dot com
-# Depends on: libxfce4ui p5-xml-parser libwnck-gtk3 glib xorg-iceauth xorg-luit xorg-mkfontscale xorg-sessreg xorg-setxkbmap xorg-x11perf xorg-xauth xorg-xbacklight xorg-xcursorgen xorg-xdpyinfo xorg-xdriinfo xorg-xev xorg-xgamma xorg-xhost xorg-xinput xorg-xkbcomp xorg-xkill xmessage xorg-xmodmap xorg-xprop xorg-xrandr xorg-xrdb xorg-xset xorg-xsetroot xorg-xvinfo xorg-xwininfo
+# Depends on: libwnck-gtk3 libxfce4ui desktop-file-utils shared-mime-info xfce-polkit xfdesktop
 
 name=xfce4-session
-version=4.14.2
+version=4.15.0
 release=1
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 

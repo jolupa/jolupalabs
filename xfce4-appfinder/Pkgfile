@@ -1,12 +1,12 @@
 # Description: Xfce's application launcher and finder
 # URL: https://www.xfce.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: libxfce4ui garcon glib
+# Depends on: garcon libxfce4ui
 
 name=xfce4-appfinder
-version=4.14.0
-release=3
-source=(http://archive.xfce.org/xfce/4.14/src/$name-$version.tar.bz2)
+version=4.15.1
+release=1
+source=(http://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
 build() {
 

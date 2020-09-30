@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=ObinsKit
-Comment=Obinslab Start let you customize keyboard layout, light effects and macro for ANNE PRO2
-Exec="obinskit" %U
-Terminal=false
-Type=Application
-Icon=obinskit
-Categories=GNOME;GTK;Development;

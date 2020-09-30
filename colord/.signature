@@ -1,5 +1,6 @@
 untrusted comment: verify with /etc/ports/jolupalabs.pub
-RWS01t+diH9whwO/cNnYy1zHYXgN+77H3RR2jfIxUJOXuZX3+IOyBCQBd5LACE9P455SugFcG7tKGMc8AkWbPNUGkssomVEdSQo=
-SHA256 (Pkgfile) = 5cabc7fbc3246c8b5875947e790d5c45d59d36c49c4e010b0dc286852b498096
-SHA256 (.footprint) = 33fd298508db680ad9a31cbdc037d3e7cc416db0a4e26fba951ffdf538c17b0e
-SHA256 (colord-1.3.5.tar.xz) = 2daa8ffd2a532d7094927cd1a4af595b8310cea66f7707edcf6ab743460feed2
+RWS2lVAQeIsO024J93OJXbI4qY8CrYpLN+w7apwMFXi2jGHvu6d9muYOsBNeunIZCjq0HdbWfOSPEjC46SvSKzukzmDamToulgk=
+SHA256 (Pkgfile) = 1fcda268de7c647af7ac8cf78873f19edfcd0e817e52cf0842d65fd515a8a3d0
+SHA256 (.footprint) = 6d8cc50d0b50028e82e5a74f2929522b5be70231f2e90dae07986b231ad20442
+SHA256 (colord-1.4.4.tar.gz) = 26903ae44cb419390eb77aeb98ffad21bf1dbe2eb2e4c45e964414b0ad98d5ae
+SHA256 (0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch) = ca6249506c7375cbc9450819c97938c256c64396451c7823bd934038df78d086

@@ -1,7 +1,0 @@
-#
-#!/bin/sh
-# Post install file for xfce taskmanager
-
-gtk-update-icon-cache /usr/share/icons/hicolor
-
-

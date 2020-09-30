@@ -1,6 +1,0 @@
-# !/bin/sh
-# Post install file for mousepad
-
-/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas/
-
-# End file post install mousepad

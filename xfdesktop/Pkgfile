@@ -1,10 +1,10 @@
 # Description: Xfce's desktop manager
 # URL: https://www.xfce.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: libxfce4util xfconf libwnck-gtk3 exo thunar garcon libnotify
+# Depends on: exo libwnck-gtk3 libxfce4ui libnotify startup-notification thunar
 
 name=xfdesktop
-version=4.14.2
+version=4.15.0
 release=1
 source=(http://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 

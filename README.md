@@ -27,6 +27,7 @@ INSTRUCTIONS INSTALLING JOLUPALABS CRUX REPO
 NOTES
 =====
 1. All the builds have the locales installed, this is a **NOT** for the CRUX handbook. If you want to remove the locales just edit the *Pkgfile* and uncomment the *rm* line.
+2. Enable the contrib repo because some dependencies reside there.
 
 CONTACT
 =====
@@ -35,10 +36,11 @@ If you have any question, doubt or problem regarding the ports, please feel free
 XFCE INSTALLATION
 =====
 I don't know why the two ways to install Xfce the first one, the meta package, was installing the packages in the wrong way; so now I recommend this way.
+1. To ensure you have a sane X installation I decided to put all the X dependencies with the first package you install from XFCE on **libxfce4util**
 1. Install the packages in this **same order**:
 
    ```bash
-   sudo prt-get depinst libxfce4util xfconf libxfce4ui garcon exo xfce4-panel thunar thunar-volman xfce4-settings xfce4-session xfwm4 xfdesktop xfce4-appfinder tumbler xfce4-terminal xfce4-power-manager xfce4-notifyd xfce4-screenshooter mousepad xdg-user-dirs greybird-xfce elementary-xfce font-noto font-undefined-medium
+   sudo prt-get depinst libxfce4util xfconf libxfce4ui garcon exo xfce4-panel thunar thunar-volman xfce4-settings xfce4-session xfwm4 xfdesktop xfce4-appfinder tumbler xfce4-terminal xfce4-power-manager xfce4-notifyd xfce4-screenshooter mousepad xdg-user-dirs
    ```
 
 3. Take a big cup of coffe or just relax...
@@ -57,32 +59,8 @@ XFCE DEPENDENCIES IN THIS REPOSITORY
 
 This are the dependencies you can find in this repository that are not avalaible in the oficila Crux repos.
 
-| PACKAGE | DEPENDENCY | | |
-|---|---|---|---|
+| PACKAGE | DEPENDENCIES |
+|---|---|
 | LibXfce4Ui | Libgtop | | |
-| Thunar/Thunar-Volman | Gvfs | Udisks2 | |
-| | | Gsettings-Desktop-Schemas | |
-| | | Libatasmart | Ndctl |
-| | | Libblockdev | |
-| Xfce4-Settings | Colord | |
-
-OTHER PACKAGES IN THIS REPO
-=====
-
-You can find other packages not Xfce related in this repo, here's a list.
-
-| PACKAGE NAME | NOTES |
-|---|:---:|
-| Berry | A byte sized Window Manager |
-| Console Tdm | A Console Display Manager |
-| Font Undefined Medium | |
-| Font Noto | All the Noto Fonts in one package |
-| Graphviz | Needed for Vala |
-| Granite | |
-| Image Burner | |
-| Lshw | List Computer Hardware |
-| Libgee | |
-| Nordic | A beatiful Gtk3 theme based in nordic color scheme |
-| ObinsKit | Software for controlling the Anne Pro 2 Mechanical Keyboard. |
-| Qogir Gtk theme | Fantastic Flat Theme |
-| Vala | Needed for Granite and Image Burner |
+| Thunar/Thunar-Volman | Gvfs, Udisks2, Libatasmart |
+| Xfce4-Settings | Colord |
