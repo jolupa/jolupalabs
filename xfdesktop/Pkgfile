@@ -5,22 +5,22 @@
 
 name=xfdesktop
 version=4.15.0
-release=1
+release=2
 source=(http://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
 build() {
 
   cd $name-$version
 
-    ./configure \
-      --prefix=/usr \
-      --libexecdir=/usr/lib/$name \
-      --disable-debug \
-      --enable-thunarx
-	
-    make
-    make DESTDIR=$PKG install
-	
-    #rm -r $PKG/usr/share/locale
-	
+  ./configure \
+    --prefix=/usr \
+    --libexecdir=/usr/lib/$name \
+    --disable-debug \
+    --enable-thunarx
+
+  make
+  make DESTDIR=$PKG install
+
+  rm -r $PKG/usr/share/locale
+
 }
