@@ -64,9 +64,9 @@ f:68fd9a4b99da27b83799815630856213:xfce4-volumed-pulse/.footprint
 f:ea34f1d12da183225760363baec4c6df:gvfs/.signature
 f:f40338e757670c29caac28dc01be9a9e:gvfs/Pkgfile
 f:5ef9aa9d177ae4b60f153ec4d6739d13:gvfs/.footprint
-f:870915f9531f3d5cd9add09c072f615a:thunar-volman/.signature
-f:68c462d74d2172518dd481205e7259bc:thunar-volman/Pkgfile
-f:871adb53ea6a105fd94aa81f0d2e30d9:thunar-volman/.footprint
+f:16e83b8fb09712712a26e209b018c1f7:thunar-volman/.signature
+f:f8fdabc403aaf0ee75be5da2ce78aa0c:thunar-volman/Pkgfile
+f:7d223c8f40a40eed811a8cf6aa912afc:thunar-volman/.footprint
 f:1142bf7787cbf1c6f37f76a158c83efe:console-tdm/.signature
 f:bddcf42de8ae2fefe5c6f1362836b155:console-tdm/README
 f:fcd2ea99578d74bf32fd7643351edf42:console-tdm/Pkgfile
