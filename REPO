@@ -113,9 +113,9 @@ f:2b31223ed3385de53d634772a9fd2418:xfwm4/.footprint
 f:26f68147384d79103e0f310cfbfbac3d:libxfce4ui/.signature
 f:0dd0faaa93d87d9a0a7e628f6913d5b7:libxfce4ui/Pkgfile
 f:52151dcd9398e2f7e856e1c82dcb5b69:libxfce4ui/.footprint
-f:6df76be2b9bdff6e2e2ca4f73488d79b:tumbler/.signature
-f:93265833b447789a19201af101dd854d:tumbler/Pkgfile
-f:3be4eb2174b92f1ffdb2bf4afb472726:tumbler/.footprint
+f:d7311f6e21da0619b7d309d5808bcbd6:tumbler/.signature
+f:d8b800e12ce79a8a631e668eee865300:tumbler/Pkgfile
+f:b86fc3def6baa3525990f762ee529a26:tumbler/.footprint
 f:83b01b4be7425465d59b518edda30eb1:tumbler/post-install
 f:4137ac89f88edec4d101c2d2d6bc8d6b:udisks2/.signature
 f:d66d24499e3816e44c4020e592e94fba:udisks2/Pkgfile
