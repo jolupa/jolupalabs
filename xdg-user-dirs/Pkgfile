@@ -5,7 +5,7 @@
 
 name=xdg-user-dirs
 version=0.17
-release=3
+release=4
 source=(http://user-dirs.freedesktop.org/releases/$name-$version.tar.gz)
 
 build() {
@@ -19,9 +19,8 @@ build() {
 	  --disable-documentation
 
   make
+	make DESTDIR=$PKG install
 
-  make DESTDIR=$PKG install
-
-  #rm -r $PKG/usr/share/locale
+  rm -r $PKG/usr/share/locale
 
 }
