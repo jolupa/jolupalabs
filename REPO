@@ -26,7 +26,6 @@ d:xfwm4
 d:libxfce4ui
 d:tumbler
 d:udisks2
-d:xfce4-dev-tools
 d:balsa
 d:xfdesktop
 f:a1d75ae1bfe9316d6a3192f0035a77a3:xfconf/configure
@@ -121,9 +120,6 @@ f:83b01b4be7425465d59b518edda30eb1:tumbler/post-install
 f:4137ac89f88edec4d101c2d2d6bc8d6b:udisks2/.signature
 f:d66d24499e3816e44c4020e592e94fba:udisks2/Pkgfile
 f:99d3c33a943ea1aad09a88d9d97ddcd2:udisks2/.footprint
-f:2bde58139cb2bfde0985d50f85eb1033:xfce4-dev-tools/.signature
-f:741c4156aac67d5b7344d648b7f80f1b:xfce4-dev-tools/Pkgfile
-f:a87fe1711dc1fa425a6ce90e308f5a12:xfce4-dev-tools/.footprint
 f:e096c2c90b4e958f3f9db0c4c887fc79:balsa/.signature
 f:dafdcd459cee6a184185b195d8219031:balsa/Pkgfile
 f:f8624de73a693cf6228d7ef654852b20:balsa/.footprint
