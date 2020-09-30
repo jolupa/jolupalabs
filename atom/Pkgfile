@@ -1,0 +1,22 @@
+# Description: A hackable text editor for the 21st Century
+# URL: https://atom.io
+# Maintainer: jolupa, jlpavon at me dot com
+# Depends: git gconf gtk3 libgcrypt libnotify xorg-libxtst nss gvfs xdg-utils xorg-libxcb alsa-lib xorg-libxkbfile curl polkit libsecret gnome-keyring
+
+name=atom
+version=1.51.0
+release=4
+source=(https://github.com/atom/atom/releases/download/v$version/atom-amd64.deb)
+
+build(){
+  bsdtar -xf atom-amd64.deb
+  tar -xf data.tar.xz
+
+  cp -r usr/ $PKG
+
+  chmod 4755 $PKG/usr/share/atom/chrome-sandbox
+
+  rm -r $PKG/usr/share/doc
+
+  find $PKG -type f \( -name "README*.*"  -o -name LICENSE -o -name ChangeLog -o -name "*.md" -o -name "*.markdown" -o -name AUTHORS -o -name "README.*" -o -name README \) -exec rm '{}' \+
+}
