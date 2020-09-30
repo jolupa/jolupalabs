@@ -88,9 +88,9 @@ f:d484061e70c8843c75143ffac5797f73:libgtop/.footprint
 f:450c2009c327caa037934d42de45ae56:xfce4-settings/.signature
 f:6550e2e609d8c44effa1bff4eaa51a38:xfce4-settings/Pkgfile
 f:d1f8517aa1281142b45c70d8133747b7:xfce4-settings/.footprint
-f:79001919036e6bf64ee20cdd8e711290:libxfce4util/.signature
-f:a59b82be9fe8c80e7151e5ed2c83467e:libxfce4util/Pkgfile
-f:add4c852f20a24616465efe7290f3cc8:libxfce4util/.footprint
+f:a2942d4487a1a56819f2dae5ee6724c4:libxfce4util/.signature
+f:90b4edbb32914e936beb70398c510aac:libxfce4util/Pkgfile
+f:41df21c08d35804a6a6615063ecca799:libxfce4util/.footprint
 f:cd4ef9a19f7233377bb7aa6cd04b420d:atom/.signature
 f:ea4b4ab47876f4397eaa91f8c6aefb9f:atom/Pkgfile
 f:9c592c86c342617bc5d935893d46b529:atom/.footprint
