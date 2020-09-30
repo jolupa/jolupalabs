@@ -3,13 +3,15 @@
 *~
 .git
 .gitignore
-xarchiver
 jolupalabs.sec
 jolupalabs.httpup
 jolupalabs.pub
 *.swp
 *.swo
 pru-*
+<<<<<<< HEAD
 atom/
 google-chrome-stable/
 xorg-*/
+=======
+>>>>>>> b305febc375bf4a39df702d60fe8120e6fcc4ad9
