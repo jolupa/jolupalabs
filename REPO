@@ -51,9 +51,9 @@ f:8ba1073aad7ffaa934f841c4a4373d39:keybinder/.footprint
 f:0083be69f78fe352bc8c04a639d856fa:gtkspell3/.signature
 f:1e4f21b586fb53dbaa61cf1dd62caa9e:gtkspell3/Pkgfile
 f:7bcc7930337edbac2bb64e2e7a5944e7:gtkspell3/.footprint
-f:3df1b4fa0947a2061b0edfca8a5e5535:thunar/.signature
-f:c8d4d2acfe71dfdaf20972a580f6d0a8:thunar/Pkgfile
-f:73c624cca16f57e119eb78df1798012d:thunar/.footprint
+f:519983d6e1dc36d82228e8b1e3816eaf:thunar/.signature
+f:92011fbe0f202730c30715214cdb1347:thunar/Pkgfile
+f:fdc28c151b88be47a6c52035893bf50a:thunar/.footprint
 f:d41a919ef58c2fccd4d3570e184ce9de:thunar/post-install
 f:219c0e4a5bbf72e1a3a9ad57e048809d:argyllcms/.signature
 f:6a016a051efb0333b0f5a337578c3dad:argyllcms/Pkgfile
