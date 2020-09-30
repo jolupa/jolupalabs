@@ -32,9 +32,9 @@ f:a1d75ae1bfe9316d6a3192f0035a77a3:xfconf/configure
 f:5d095b8e05dd6d8b6a2720c090145daa:xfconf/.signature
 f:44d74414594528cb0e8eb2d55c17d9de:xfconf/Pkgfile
 f:f30ca12e170b9928752f4df59af3d667:xfconf/.footprint
-f:9e5fa448959ca23d3a0bdf41b492a541:xfce4-appfinder/.signature
-f:171a1895a72f7fda471a3d5727420976:xfce4-appfinder/Pkgfile
-f:40d0ecf2e83b705ad9a6b0c9e1a7693f:xfce4-appfinder/.footprint
+f:18e6e44b5047b4da59cbf1ab8b6741ea:xfce4-appfinder/.signature
+f:e5fc884464ac30b11ec7537451ff0cda:xfce4-appfinder/Pkgfile
+f:b307ccd642af375bb35848f325f4670d:xfce4-appfinder/.footprint
 f:5f9aa03a96d3c34ba484ba906ffea886:hunspell-ca/.signature
 f:71c0fc56b345f275730ed646ecdcc470:hunspell-ca/Pkgfile
 f:4ebc729b8047ec539a4a856658f97302:hunspell-ca/.footprint
