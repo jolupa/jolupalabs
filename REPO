@@ -94,9 +94,9 @@ f:41df21c08d35804a6a6615063ecca799:libxfce4util/.footprint
 f:cd4ef9a19f7233377bb7aa6cd04b420d:atom/.signature
 f:ea4b4ab47876f4397eaa91f8c6aefb9f:atom/Pkgfile
 f:9c592c86c342617bc5d935893d46b529:atom/.footprint
-f:6288a51672c05453c10ddb7da792e1ce:xfce4-session/.signature
-f:508f61c4f37830d6de2fe762f210e9d4:xfce4-session/Pkgfile
-f:006a68e177913af9ce9de4fb97d12168:xfce4-session/.footprint
+f:1002a18adfd7d311e128cb10bed7c38d:xfce4-session/.signature
+f:d093d77a18bbee2b5c308f3d775988fc:xfce4-session/Pkgfile
+f:ab4e9810796380a60612e11ef34cd98c:xfce4-session/.footprint
 f:5d4bd45ce49ac03ef8464178ef0e3d28:xfce4-session/post-install
 f:00635b176f4492450d50d788d7033c78:libatasmart/.signature
 f:ce67d4245028443a7a0b47f0194d38f7:libatasmart/Pkgfile
