@@ -41,9 +41,9 @@ f:4ebc729b8047ec539a4a856658f97302:hunspell-ca/.footprint
 f:e8aaa966a1021e2bd3f9a697b8473b68:xdg-user-dirs/.signature
 f:aca9500454982218a0d8e679b1b7773a:xdg-user-dirs/Pkgfile
 f:b1569c88467151b0d96ad272bf875dea:xdg-user-dirs/.footprint
-f:ac2fdce8a1e51dbc76ed0927971e387f:xfce4-power-manager/.signature
-f:5805fc72765ce11f9f6f139f8001ce6d:xfce4-power-manager/Pkgfile
-f:3560a41a8791d22ab12dadf7b2f8c9f7:xfce4-power-manager/.footprint
+f:b37be1c038a0fa7e56d40d5481661d59:xfce4-power-manager/.signature
+f:d0af3e905087d7c738fc65912914ce86:xfce4-power-manager/Pkgfile
+f:dfe0a970da8b0baacbb071e47bfd6b55:xfce4-power-manager/.footprint
 f:feabb7500e1a111b11b0360c7d68ed98:xfce4-power-manager/post-install
 f:3d0b7960f70461d248e2f6cc5c586078:keybinder/.signature
 f:ff0fc5451c7e77440934041afa44b76e:keybinder/Pkgfile
