@@ -124,9 +124,9 @@ f:99d3c33a943ea1aad09a88d9d97ddcd2:udisks2/.footprint
 f:2bde58139cb2bfde0985d50f85eb1033:xfce4-dev-tools/.signature
 f:741c4156aac67d5b7344d648b7f80f1b:xfce4-dev-tools/Pkgfile
 f:a87fe1711dc1fa425a6ce90e308f5a12:xfce4-dev-tools/.footprint
-f:eeda02752368c3b4b77840715d31d79b:balsa/.signature
-f:a3b85fd5f87db5e39a242ed5ab940e28:balsa/Pkgfile
-f:c270f36271947bc7ffb62f26ad333784:balsa/.footprint
+f:e096c2c90b4e958f3f9db0c4c887fc79:balsa/.signature
+f:dafdcd459cee6a184185b195d8219031:balsa/Pkgfile
+f:f8624de73a693cf6228d7ef654852b20:balsa/.footprint
 f:a2728e90f10d26052a1143a9e0fef919:xfdesktop/.signature
 f:a3099d8bb1d50ebedada2a7d2a197f74:xfdesktop/Pkgfile
 f:552ed02fd7194e1f53c4125f9e17dc85:xfdesktop/.footprint
