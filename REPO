@@ -111,9 +111,9 @@ f:0e402e9ee8e51a4b6d25b191a7753703:xfce4-panel/.footprint
 f:db08b4d82f1c158014380d3869ed1643:xfwm4/.signature
 f:22949d34c2b3cee479dc7060b5fd1abb:xfwm4/Pkgfile
 f:36f06532fb8ebdc198b3053d9575778a:xfwm4/.footprint
-f:07a0bae27591fd581cafe2bb7a8a96c6:libxfce4ui/.signature
-f:05ac8daf7cacbe7cd516f12f715fc4f3:libxfce4ui/Pkgfile
-f:df0fbc1f93e37a926a2a374057e41841:libxfce4ui/.footprint
+f:26f68147384d79103e0f310cfbfbac3d:libxfce4ui/.signature
+f:0dd0faaa93d87d9a0a7e628f6913d5b7:libxfce4ui/Pkgfile
+f:52151dcd9398e2f7e856e1c82dcb5b69:libxfce4ui/.footprint
 f:6df76be2b9bdff6e2e2ca4f73488d79b:tumbler/.signature
 f:93265833b447789a19201af101dd854d:tumbler/Pkgfile
 f:3be4eb2174b92f1ffdb2bf4afb472726:tumbler/.footprint
