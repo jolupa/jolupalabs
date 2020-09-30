@@ -26,8 +26,7 @@ INSTRUCTIONS INSTALLING JOLUPALABS CRUX REPO
 
 NOTES
 =====
-1. All the builds have the locales installed, this is a **NOT** for the CRUX handbook. If you want to remove the locales just edit the *Pkgfile* and uncomment the *rm* line.
-2. Enable the contrib repo because some dependencies reside there.
+1. Enable the contrib repo because some dependencies reside there.
 
 CONTACT
 =====
@@ -53,14 +52,3 @@ I don't know why the two ways to install Xfce the first one, the meta package, w
 5. If you have any problem launching XFCE and you have a an Intel graphic card, please try to use the mesa drivers in this repo.
 
 6. Enjoy this beatifull Desktop Environment!
-
-XFCE DEPENDENCIES IN THIS REPOSITORY
-=====
-
-This are the dependencies you can find in this repository that are not avalaible in the oficila Crux repos.
-
-| PACKAGE | DEPENDENCIES |
-|---|---|
-| LibXfce4Ui | Libgtop | | |
-| Thunar/Thunar-Volman | Gvfs, Udisks2, Libatasmart |
-| Xfce4-Settings | Colord |
