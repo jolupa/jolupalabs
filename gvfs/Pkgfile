@@ -6,7 +6,7 @@
 
 name=gvfs
 version=1.44.1
-release=1
+release=2
 source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
 
 build() {
@@ -31,5 +31,7 @@ build() {
     -Dnfs=false
 
   DESTDIR=$PKG ninja -C build install
+
+  rm -r $PKG/usr/share/locale
 
 }

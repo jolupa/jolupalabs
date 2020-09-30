@@ -62,9 +62,9 @@ f:2c002f298f96cc7f30d3ea8ff9319413:argyllcms/.footprint
 f:d326c029a6f49da99984f0c84f10c5f3:xfce4-volumed-pulse/.signature
 f:193755ade98f768dd223e7cc31859e9d:xfce4-volumed-pulse/Pkgfile
 f:68fd9a4b99da27b83799815630856213:xfce4-volumed-pulse/.footprint
-f:ce5f09fce700c4b6143104b2e62d1cf1:gvfs/.signature
-f:2234ad9352cf487e413b55c13c73b351:gvfs/Pkgfile
-f:e91f9bd778089fba3e3876dacd9120e9:gvfs/.footprint
+f:ea34f1d12da183225760363baec4c6df:gvfs/.signature
+f:f40338e757670c29caac28dc01be9a9e:gvfs/Pkgfile
+f:5ef9aa9d177ae4b60f153ec4d6739d13:gvfs/.footprint
 f:870915f9531f3d5cd9add09c072f615a:thunar-volman/.signature
 f:68c462d74d2172518dd481205e7259bc:thunar-volman/Pkgfile
 f:871adb53ea6a105fd94aa81f0d2e30d9:thunar-volman/.footprint
@@ -74,8 +74,8 @@ f:fcd2ea99578d74bf32fd7643351edf42:console-tdm/Pkgfile
 f:a10d06f88ee848d108df1b8ed11e197d:console-tdm/.footprint
 f:74fdaac009afbf8e8a3a6d1e1b946709:colord/pre-install
 f:0d14ca6b8b8561645e82948f452a73c8:colord/0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch
-f:7ae9af7a07f60192ad7249ca3b9dcf4c:colord/.signature
-f:2f6470413a2dedfb967ce17986e10afd:colord/Pkgfile
+f:4637717f230472cefc79220a2965da39:colord/.signature
+f:185223f9b68461950b2029fb7295cd6c:colord/Pkgfile
 f:12ef97905f60611111e471a9896195ee:colord/.footprint
 f:4282a931692fe92afbd772574e2350c2:exo/.signature
 f:01dae92621ec7e24d9e3d82e2f55767a:exo/Pkgfile
