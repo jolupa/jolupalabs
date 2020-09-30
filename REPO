@@ -99,8 +99,8 @@ f:6288a51672c05453c10ddb7da792e1ce:xfce4-session/.signature
 f:508f61c4f37830d6de2fe762f210e9d4:xfce4-session/Pkgfile
 f:006a68e177913af9ce9de4fb97d12168:xfce4-session/.footprint
 f:5d4bd45ce49ac03ef8464178ef0e3d28:xfce4-session/post-install
-f:fd89feaa1ad5e282818e904cfc2628c2:libatasmart/.signature
-f:9c95cbcffdac7b62c2a6020ee77bb2b6:libatasmart/Pkgfile
+f:00635b176f4492450d50d788d7033c78:libatasmart/.signature
+f:ce67d4245028443a7a0b47f0194d38f7:libatasmart/Pkgfile
 f:076c350230a7e161f1feab580ecbcb42:libatasmart/.footprint
 f:63c8d8af3bda52f0bdae8e4d2ee978c7:aspell-ca/.signature
 f:88992ebbd49a96df84e78820544d7a92:aspell-ca/Pkgfile
