@@ -29,9 +29,9 @@ d:udisks2
 d:balsa
 d:xfdesktop
 f:a1d75ae1bfe9316d6a3192f0035a77a3:xfconf/configure
-f:5d095b8e05dd6d8b6a2720c090145daa:xfconf/.signature
-f:44d74414594528cb0e8eb2d55c17d9de:xfconf/Pkgfile
-f:f30ca12e170b9928752f4df59af3d667:xfconf/.footprint
+f:5ae04e30d5eade5be18ccf7abd36e8c7:xfconf/.signature
+f:0b52e8f1688d3f4c2b4d797c84025039:xfconf/Pkgfile
+f:33cfdef9738b836bfef6d446c2aec290:xfconf/.footprint
 f:18e6e44b5047b4da59cbf1ab8b6741ea:xfce4-appfinder/.signature
 f:e5fc884464ac30b11ec7537451ff0cda:xfce4-appfinder/Pkgfile
 f:b307ccd642af375bb35848f325f4670d:xfce4-appfinder/.footprint
