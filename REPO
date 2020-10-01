@@ -17,7 +17,6 @@ d:xiccd
 d:libgtop
 d:xfce4-settings
 d:libxfce4util
-d:atom
 d:xfce4-session
 d:libatasmart
 d:aspell-ca
@@ -87,9 +86,6 @@ f:b9137d8af381b10fe191e3d566507ab3:xfce4-settings/.footprint
 f:a2942d4487a1a56819f2dae5ee6724c4:libxfce4util/.signature
 f:90b4edbb32914e936beb70398c510aac:libxfce4util/Pkgfile
 f:41df21c08d35804a6a6615063ecca799:libxfce4util/.footprint
-f:cd4ef9a19f7233377bb7aa6cd04b420d:atom/.signature
-f:ea4b4ab47876f4397eaa91f8c6aefb9f:atom/Pkgfile
-f:9c592c86c342617bc5d935893d46b529:atom/.footprint
 f:1002a18adfd7d311e128cb10bed7c38d:xfce4-session/.signature
 f:d093d77a18bbee2b5c308f3d775988fc:xfce4-session/Pkgfile
 f:ab4e9810796380a60612e11ef34cd98c:xfce4-session/.footprint
