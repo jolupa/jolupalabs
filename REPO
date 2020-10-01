@@ -4,7 +4,6 @@ d:hunspell-ca
 d:xdg-user-dirs
 d:xfce4-power-manager
 d:keybinder
-d:gtkspell3
 d:thunar
 d:argyllcms
 d:xfce4-volumed-pulse
@@ -27,7 +26,6 @@ d:xfwm4
 d:libxfce4ui
 d:tumbler
 d:udisks2
-d:balsa
 d:xfdesktop
 f:a1d75ae1bfe9316d6a3192f0035a77a3:xfconf/configure
 f:5ae04e30d5eade5be18ccf7abd36e8c7:xfconf/.signature
@@ -49,9 +47,6 @@ f:feabb7500e1a111b11b0360c7d68ed98:xfce4-power-manager/post-install
 f:3d0b7960f70461d248e2f6cc5c586078:keybinder/.signature
 f:ff0fc5451c7e77440934041afa44b76e:keybinder/Pkgfile
 f:8ba1073aad7ffaa934f841c4a4373d39:keybinder/.footprint
-f:0083be69f78fe352bc8c04a639d856fa:gtkspell3/.signature
-f:1e4f21b586fb53dbaa61cf1dd62caa9e:gtkspell3/Pkgfile
-f:7bcc7930337edbac2bb64e2e7a5944e7:gtkspell3/.footprint
 f:519983d6e1dc36d82228e8b1e3816eaf:thunar/.signature
 f:92011fbe0f202730c30715214cdb1347:thunar/Pkgfile
 f:fdc28c151b88be47a6c52035893bf50a:thunar/.footprint
@@ -121,9 +116,6 @@ f:83b01b4be7425465d59b518edda30eb1:tumbler/post-install
 f:4137ac89f88edec4d101c2d2d6bc8d6b:udisks2/.signature
 f:d66d24499e3816e44c4020e592e94fba:udisks2/Pkgfile
 f:99d3c33a943ea1aad09a88d9d97ddcd2:udisks2/.footprint
-f:e096c2c90b4e958f3f9db0c4c887fc79:balsa/.signature
-f:dafdcd459cee6a184185b195d8219031:balsa/Pkgfile
-f:f8624de73a693cf6228d7ef654852b20:balsa/.footprint
 f:0b2d91540faae4b931f22057def961b3:xfdesktop/.signature
 f:1b64c7790d8264caf5c05da9e8a0def9:xfdesktop/Pkgfile
 f:1b8b4bad20a996467ebefebb8daf9d22:xfdesktop/.footprint
