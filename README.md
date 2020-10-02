@@ -54,6 +54,8 @@ I don't know why the two ways to install Xfce the first one, the meta package, w
    #!/bin/sh
    exec ck-launch-session startxfce4
    ```
+   4.1 If you install tdm from this repo you can add this line inside ```bash .config/tdm/tdm/exit ``` following instructions from that REPO Readme.
+   
 5. If you have any problem launching XFCE and you have a an Intel graphic card, please try to use the mesa drivers in this repo.
 
 6. Enjoy this beatifull Desktop Environment!
