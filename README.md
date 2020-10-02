@@ -14,11 +14,16 @@ INSTRUCTIONS INSTALLING JOLUPALABS CRUX REPO
    sudo mv jolupalabs.{httpup,pub} /etc/ports/
    ```
 
-3. Add the ports line in yours */etc/prt-get.conf* to fetch the repo:
+ 4. Create the dir where the ports are contained:
+    ```bash
+    sudo mkdir /usr/ports/jolupalabs
+    ```
+
+4. Add the ports line in yours */etc/prt-get.conf* to fetch the repo:
 
    prtdir /usr/ports/jolupalabs
 
-4. Update the repo into your computer:
+5. Update the repo into your computer:
 
    ```bash
    sudo ports -u jolupalabs
