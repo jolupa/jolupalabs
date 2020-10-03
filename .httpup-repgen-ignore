@@ -8,4 +8,4 @@ jolupalabs.httpup
 jolupalabs.pub
 *.swp
 *.swo
-not-working/
+not-working/*
