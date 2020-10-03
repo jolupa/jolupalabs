@@ -12,6 +12,7 @@ d:not-working
 d:thunar-volman
 d:console-tdm
 d:colord
+d:xfce4-screenshooter
 d:exo
 d:xiccd
 d:libgtop
@@ -71,6 +72,9 @@ f:0d14ca6b8b8561645e82948f452a73c8:colord/0001-trivial-Fix-error-checking-for-sd
 f:4637717f230472cefc79220a2965da39:colord/.signature
 f:185223f9b68461950b2029fb7295cd6c:colord/Pkgfile
 f:12ef97905f60611111e471a9896195ee:colord/.footprint
+f:315b720d12fe8f6315e3c6bfdf806865:xfce4-screenshooter/.signature
+f:fcc24c3c47f3684ce01efc757a38be7b:xfce4-screenshooter/Pkgfile
+f:e666d37f5394f30f6755eae4432bbed6:xfce4-screenshooter/.footprint
 f:4282a931692fe92afbd772574e2350c2:exo/.signature
 f:01dae92621ec7e24d9e3d82e2f55767a:exo/Pkgfile
 f:8066f1a1f08588a0e04988d3162df6f1:exo/.footprint
